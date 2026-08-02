@@ -1,0 +1,4097 @@
+{
+  "meta": {
+    "siteTitle": "Helping Hearts | Charity & Community Support",
+    "siteDescription": "Helping Hearts is a compassionate charitable organization dedicated to education, healthcare, child welfare, women empowerment, and community development.",
+    "keywords": [
+      "charity NGO",
+      "nonprofit organization",
+      "donation website",
+      "community support",
+      "education support",
+      "healthcare charity",
+      "women empowerment",
+      "child welfare NGO",
+      "social impact",
+      "volunteer programs"
+    ]
+  },
+  "pages": {
+    "home": {
+      "slug": "/",
+      "title": "Helping Hearts | Empowering Communities",
+      "description": "Support community development, education, healthcare, and child welfare through meaningful donations and volunteer action.",
+      "keywords": [
+        "charity home",
+        "donate for education",
+        "support communities",
+        "NGO projects",
+        "healthcare assistance",
+        "child welfare support",
+        "women empowerment programs",
+        "volunteer with NGO"
+      ],
+      "components": [
+        "banner",
+        "mission",
+        "about",
+        "causes",
+        "howWeWork",
+        "events",
+        "blog",
+        "featuredProjects",
+        "partnersSponsors",
+        "testimonial",
+        "faq",
+        "taxBenefits"
+      ]
+    },
+    "about": {
+      "slug": "/about-us",
+      "title": "About Us | Helping Hearts",
+      "description": "Learn about our mission, values, and programs designed to uplift families and strengthen communities.",
+      "keywords": [
+        "about NGO",
+        "charity mission",
+        "community impact",
+        "nonprofit values",
+        "social welfare organization"
+      ]
+    },
+    "mission": {
+      "slug": "/mission",
+      "title": "Our Mission | Helping Hearts",
+      "description": "Explore our mission to build safer, healthier, and more resilient communities through compassionate action.",
+      "keywords": [
+        "mission of NGO",
+        "charity impact goals",
+        "community welfare",
+        "social responsibility"
+      ]
+    },
+    "service": {
+      "slug": "/service",
+      "title": "Our Programs | Helping Hearts",
+      "description": "Discover our education, health, child welfare, women empowerment, and environmental initiatives.",
+      "keywords": [
+        "NGO programs",
+        "education support",
+        "healthcare services",
+        "women empowerment",
+        "child welfare NGO"
+      ]
+    },
+    "gallery": {
+      "slug": "/gallery",
+      "title": "Gallery | Helping Hearts",
+      "description": "View stories, project moments, and community milestones from our work across the region.",
+      "keywords": [
+        "charity gallery",
+        "NGO impact photos",
+        "community stories",
+        "project updates"
+      ]
+    },
+    "blog": {
+      "slug": "/blog",
+      "title": "Blog & News | Helping Hearts",
+      "description": "Read updates, stories, and news about our outreach, projects, and community partnerships.",
+      "keywords": [
+        "NGO blog",
+        "charity news",
+        "community stories",
+        "social impact updates"
+      ]
+    },
+    "event": {
+      "slug": "/event",
+      "title": "Events | Helping Hearts",
+      "description": "Join upcoming NGO events, awareness drives, volunteering opportunities, and fundraising campaigns.",
+      "keywords": [
+        "charity events",
+        "NGO fundraising events",
+        "community volunteer events",
+        "social awareness drives"
+      ]
+    },
+    "contact": {
+      "slug": "/contact-us",
+      "title": "Contact Us | Helping Hearts",
+      "description": "Reach out to collaborate, volunteer, or support our work with a donation or partnership request.",
+      "keywords": [
+        "contact NGO",
+        "charity partner",
+        "volunteer contact",
+        "donation support"
+      ]
+    },
+    "faq": {
+      "slug": "/faq",
+      "title": "FAQs | Helping Hearts",
+      "description": "Get answers to common questions about donating, volunteering, and supporting our NGO programs.",
+      "keywords": [
+        "NGO FAQ",
+        "charity donation questions",
+        "volunteer FAQ",
+        "support help"
+      ]
+    }
+  },
+  "site": {
+    "siteName": "NGO",
+    "tagline": "Fundraise & Charity",
+    "logo": {
+      "light": "https://png.pngtree.com/png-clipart/20250103/original/pngtree-illustration-of-charity-logo-design-template-png-image_3997210.png"
+    },
+    "TopBar": {
+      "address": "14 Maple Grove Avenue, Nairobi",
+      "phone": "+1 800-224-3391",
+      "phoneHref": "tel:18002243391",
+      "socialLinks": [
+        {
+          "label": "facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "label": "twitter",
+          "href": "https://www.twitter.com/"
+        },
+        {
+          "label": "youtube",
+          "href": "https://www.youtube.com/"
+        },
+        {
+          "label": "instagram",
+          "href": "https://www.instagram.com/"
+        }
+      ]
+    },
+    "headerCta": {
+      "label": "Donate Now",
+      "href": "/donate"
+    },
+    "copyright": "© 2026 Helping Hearts. All rights reserved."
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "#",
+      "children": [
+        {
+          "label": "Overview",
+          "href": "/about-us"
+        },
+        {
+          "label": "Team",
+          "href": "/team"
+        },
+        {
+          "label": "Mission",
+          "href": "/mission"
+        },
+        {
+          "label": "Vision",
+          "href": "/vision"
+        },
+        {
+          "label": "Activity",
+          "href": "/service"
+        },
+        {
+          "label": "Stories",
+          "href": "/stories"
+        }
+      ]
+    },
+    {
+      "label": "Our Works",
+      "href": "#",
+      "children": [
+        {
+          "label": "Education",
+          "href": "/education"
+        },
+        {
+          "label": "HealthCare",
+          "href": "/health"
+        },
+        {
+          "label": "Women Empowerment",
+          "href": "/women-empowerment"
+        },
+        {
+          "label": "Environment",
+          "href": "/environment"
+        },
+        {
+          "label": "Child Welfare",
+          "href": "/child-welfare"
+        }
+      ]
+    },
+    {
+      "label": "Events",
+      "href": "/event"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Gallery",
+      "href": "#",
+      "children": [
+        {
+          "label": "Gallery",
+          "href": "/gallery"
+        },
+        {
+          "label": "Awards",
+          "href": "/award"
+        },
+        {
+          "label": "Media",
+          "href": "/media"
+        },
+        {
+          "label": "Brochure",
+          "href": "/brochure"
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "href": "#",
+      "children": [
+        {
+          "label": "Contact",
+          "href": "/contact-us"
+        },
+        {
+          "label": "Enquiery Now",
+          "href": "/enquiry-now"
+        },
+        {
+          "label": "Branches",
+          "href": "/branche"
+        },
+        {
+          "label": "Support",
+          "href": "/support"
+        }
+      ]
+    },
+    {
+      "label": "Career",
+      "href": "/career"
+    },
+    {
+      "label": "Faq",
+      "href": "/faq"
+    }
+  ],
+"banner": [
+    {
+      "pretitle": "TOGETHER, WE CAN",
+      "title": "Empower change, one act of kindness at a time.",
+      "desc": "Join us in creating brighter futures by providing hope, delivering help, and fostering lasting change for communities in need around the world.",
+      "buttons": [
+        {
+          "label": "Donate Now",
+          "href": "/donate",
+          "variant": "primary",
+          "icon": "heart"
+        },
+        {
+          "label": "Watch Our Story",
+          "href": "#story",
+          "variant": "secondary",
+          "icon": "play"
+        }
+      ],
+      "bgImageUrl": "/NGO_Images/children-speaking-holding-book.jpg"
+    },
+    {
+      "pretitle": "BE THE REASON SOMEONE SMILES",
+      "title": "Creating hope through compassion and action.",
+      "desc": "When people come together with a shared purpose, even the smallest acts of kindness can create meaningful and lasting change.",
+      "buttons": [
+        {
+          "label": "Donate Now",
+          "href": "/donate",
+          "variant": "primary",
+          "icon": "heart"
+        },
+        {
+          "label": "Watch Our Story",
+          "href": "#story",
+          "variant": "secondary",
+          "icon": "play"
+        }
+      ],
+      "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
+    }
+  ],
+  "featureCards": [
+    {
+      "icon": "graduation-cap",
+      "title": "Education & Skill Development",
+      "desc": "Empowering minds, building brighter futures."
+    },
+    {
+      "icon": "users",
+      "title": "Women & Youth Empowerment",
+      "desc": "Strong women, strong communities."
+    },
+    {
+      "icon": "heart-handshake",
+      "title": "Help Lorem Families",
+      "desc": "Your support brings hope and change."
+    },
+    {
+      "icon": "utensils",
+      "title": "Food & Shelter Support",
+      "desc": "Providing essentials, restoring dignity."
+    }
+  ],
+  "programPages": {
+    "childWelfare": {
+      "slug": "/programs/child-welfare",
+      "eyebrow": "Child Welfare",
+      "title": "Child Welfare",
+      "intro": "We stand beside vulnerable children through shelter, education support, counseling, and family reintegration services that help them grow with safety and hope.",
+      "bannerImage": "/NGO_Images/children-plant-plants-garden.jpg",
+      "sectionTitle": "A safe childhood matters",
+      "sectionText": "Our child welfare programs focus on immediate support and long-term resilience by connecting children with mentors, nutrition support, and trauma-informed care.",
+      "sectionImage": "/NGO_Images/children-speaking-holding-book.jpg",
+      "highlights": [
+        {
+          "title": "Safe shelter",
+          "description": "Temporary housing and family care for children facing crisis."
+        },
+        {
+          "title": "Learning support",
+          "description": "School supplies, tutoring, and scholarships for brighter futures."
+        },
+        {
+          "title": "Emotional care",
+          "description": "Counseling and care circles that help children heal and thrive."
+        }
+      ],
+      "stats": [
+        {
+          "value": "2,400",
+          "label": "Children supported"
+        },
+        {
+          "value": "96%",
+          "label": "School retention"
+        },
+        {
+          "value": "18",
+          "label": "Partner shelters"
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Sponsor a Child",
+          "href": "/contact-us"
+        },
+        {
+          "label": "View Details",
+          "href": "/programs/child-welfare"
+        }
+      ],
+      "details": {
+        "title": "Building safer futures for vulnerable children",
+        "description": "Every child deserves a safe place to grow, learn, and feel supported. Our child welfare initiatives work with families, schools, shelters, and community partners to provide practical support while creating pathways toward long-term stability.",
+        "mission": "To protect vulnerable children and create safe environments where they can learn, recover, develop confidence, and build hopeful futures.",
+        "approach": [
+          {
+            "title": "Protection first",
+            "description": "We connect children facing unsafe conditions with trusted protection networks, temporary shelter, and family support."
+          },
+          {
+            "title": "Education continuity",
+            "description": "We help children remain connected to school through learning materials, tutoring, scholarships, and mentorship."
+          },
+          {
+            "title": "Family reintegration",
+            "description": "Where appropriate and safe, we work with families and community partners to support stable reunification."
+          },
+          {
+            "title": "Long-term wellbeing",
+            "description": "Counseling, nutrition, mentoring, and community care help children develop resilience beyond immediate crisis."
+          }
+        ],
+        "activities": [
+          "Emergency shelter support",
+          "School supplies and scholarships",
+          "After-school tutoring",
+          "Child counseling and care circles",
+          "Nutrition assistance",
+          "Family reintegration support",
+          "Mentorship programs",
+          "Child protection awareness"
+        ],
+        "impact": {
+          "title": "Our impact",
+          "description": "Through coordinated child protection, education, and family support, we help vulnerable children move from crisis toward stability and opportunity.",
+          "points": [
+            "Improved access to education",
+            "Safer living environments",
+            "Stronger family support systems",
+            "Improved emotional wellbeing",
+            "Greater access to nutrition and basic care"
+          ]
+        }
+      },
+      "detailCta": {
+        "title": "Help create a safer childhood",
+        "description": "Your support can provide protection, education, counseling, and care to children who need it most.",
+        "buttonLabel": "Support Child Welfare",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg"
+      },
+      "cta": {
+        "title": "Join our child protection network",
+        "description": "Your support helps us expand counseling, schooling, and family reunification efforts.",
+        "buttonLabel": "Volunteer Today",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg"
+      }
+    },
+    "education": {
+      "slug": "/programs/education",
+      "eyebrow": "Education",
+      "title": "Education",
+      "intro": "We create vibrant learning spaces with scholarships, digital access, and teacher support so students can stay engaged and confident.",
+      "bannerImage": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+      "sectionTitle": "Learning that lasts beyond the classroom",
+      "sectionText": "From rural classrooms to community learning hubs, our education programs focus on literacy, digital skills, and mentorship.",
+      "sectionImage": "/NGO_Images/communication-feedback-chos-role.jpg",
+      "highlights": [
+        {
+          "title": "Scholarships",
+          "description": "Financial support for students who would otherwise lose access to school."
+        },
+        {
+          "title": "Teacher empowerment",
+          "description": "Training and teaching materials for stronger, more inclusive classrooms."
+        },
+        {
+          "title": "Digital learning",
+          "description": "Laptops, internet access, and skill-based programs for tomorrow’s workforce."
+        }
+      ],
+      "stats": [
+        {
+          "value": "8,500",
+          "label": "Students reached"
+        },
+        {
+          "value": "140",
+          "label": "Schools supported"
+        },
+        {
+          "value": "92%",
+          "label": "Attendance growth"
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Fund a Classroom",
+          "href": "/contact-us"
+        },
+        {
+          "label": "View Details",
+          "href": "/programs/education"
+        }
+      ],
+      "details": {
+        "title": "Creating opportunities through education",
+        "description": "Education can transform a child's future when students have access to safe classrooms, skilled teachers, learning materials, technology, and consistent mentorship.",
+        "mission": "To make quality learning more accessible to children and young adults regardless of their economic or geographic circumstances.",
+        "approach": [
+          {
+            "title": "Keep children learning",
+            "description": "Scholarships and essential learning materials help students stay in school and continue their education."
+          },
+          {
+            "title": "Strengthen teachers",
+            "description": "Teachers receive training, resources, and practical support to create more inclusive learning environments."
+          },
+          {
+            "title": "Expand digital access",
+            "description": "Students gain access to computers, internet resources, and practical digital skills."
+          },
+          {
+            "title": "Build confidence",
+            "description": "Mentorship and leadership activities help students develop communication, problem-solving, and personal skills."
+          }
+        ],
+        "activities": [
+          "Student scholarships",
+          "School supply distribution",
+          "Teacher training",
+          "Digital learning centers",
+          "Computer and internet access",
+          "After-school tutoring",
+          "Career guidance",
+          "Youth mentorship"
+        ],
+        "impact": {
+          "title": "Our education impact",
+          "description": "Our programs help remove financial, technological, and educational barriers that prevent students from reaching their potential.",
+          "points": [
+            "Improved school attendance",
+            "Greater access to learning materials",
+            "Stronger teacher capacity",
+            "Improved digital literacy",
+            "More opportunities for higher education"
+          ]
+        }
+      },
+      "detailCta": {
+        "title": "Help a student keep learning",
+        "description": "Your support can provide scholarships, books, technology, and mentorship to students who need additional opportunities.",
+        "buttonLabel": "Support Education",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/community-concept-with-nature-close-up.jpg"
+      },
+      "cta": {
+        "title": "Help us keep learning accessible",
+        "description": "Your gift helps provide books, teacher support, and student scholarships for the next generation.",
+        "buttonLabel": "Support Education",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/cropped-hands-women.jpg"
+      }
+    },
+    "health": {
+      "slug": "/programs/health",
+      "eyebrow": "Health",
+      "title": "Health",
+      "intro": "We invest in clinics, mobile health camps, maternal support, and wellness outreach so families can receive care close to home.",
+      "bannerImage": "/NGO_Images/cute-sisters-having-snacks-home.jpg",
+      "sectionTitle": "Better health starts with access",
+      "sectionText": "Our health initiatives focus on preventive medicine, nutrition, awareness, and partnerships with local clinics to meet real community needs.",
+      "sectionImage": "/NGO_Images/diverse-community-with-hands-circle.jpg",
+      "highlights": [
+        {
+          "title": "Mobile clinics",
+          "description": "Regular outreach to remote neighborhoods for checkups and wellness guidance."
+        },
+        {
+          "title": "Maternal care",
+          "description": "Support for mothers before, during, and after childbirth."
+        },
+        {
+          "title": "Nutrition programs",
+          "description": "Balanced meals and health education for children and families."
+        }
+      ],
+      "stats": [
+        {
+          "value": "13k",
+          "label": "Health consultations"
+        },
+        {
+          "value": "67",
+          "label": "Mobile outreach visits"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Community satisfaction"
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Support Health Care",
+          "href": "/contact-us"
+        },
+        {
+          "label": "View Details",
+          "href": "/programs/health"
+        }
+      ],
+      "details": {
+        "title": "Making essential healthcare easier to reach",
+        "description": "Many families face barriers to healthcare because of distance, cost, limited information, or lack of local services. Our programs bring preventive and supportive care closer to communities.",
+        "mission": "To improve access to essential healthcare, preventive services, maternal support, nutrition, and health education for underserved families.",
+        "approach": [
+          {
+            "title": "Community outreach",
+            "description": "Mobile health teams visit communities where regular healthcare services are difficult to access."
+          },
+          {
+            "title": "Preventive care",
+            "description": "Screenings, wellness education, and early intervention help families identify health concerns sooner."
+          },
+          {
+            "title": "Maternal wellbeing",
+            "description": "Mothers receive guidance, referrals, and practical support throughout pregnancy and early motherhood."
+          },
+          {
+            "title": "Nutrition awareness",
+            "description": "Families receive nutrition education and support designed around local needs and available resources."
+          }
+        ],
+        "activities": [
+          "Mobile health camps",
+          "Community health screenings",
+          "Maternal health support",
+          "Nutrition programs",
+          "Health awareness workshops",
+          "Medicine assistance",
+          "Wellness consultations",
+          "Local clinic partnerships"
+        ],
+        "impact": {
+          "title": "Healthier communities",
+          "description": "By combining direct healthcare access with education and prevention, we help families make informed decisions about their wellbeing.",
+          "points": [
+            "Greater access to basic healthcare",
+            "Earlier identification of health concerns",
+            "Improved maternal support",
+            "Better nutrition awareness",
+            "Stronger community health knowledge"
+          ]
+        }
+      },
+      "detailCta": {
+        "title": "Help bring care closer to families",
+        "description": "Your support helps fund screenings, outreach visits, medicines, maternal care, and community health education.",
+        "buttonLabel": "Support Healthcare",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg"
+      },
+      "cta": {
+        "title": "Help us expand compassionate healthcare",
+        "description": "Your partnership helps us reach more families with screenings, medicines, and life-saving care.",
+        "buttonLabel": "Donate for Health",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children (1).jpg"
+      }
+    },
+    "environment": {
+      "slug": "/programs/environment",
+      "eyebrow": "Environment",
+      "title": "Environment",
+      "intro": "We support reforestation, waste management, clean water projects, and environmental education to create healthier neighborhoods.",
+      "bannerImage": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children.jpg",
+      "sectionTitle": "Every green action creates lasting change",
+      "sectionText": "From tree planting to community cleanups, our environmental programs help protect soil, water, and shared public spaces.",
+      "sectionImage": "/NGO_Images/group-best-friends-making-toast.jpg",
+      "highlights": [
+        {
+          "title": "Tree planting",
+          "description": "Greening vulnerable neighborhoods and restoring habitats."
+        },
+        {
+          "title": "Clean water",
+          "description": "Installing safe water systems and sanitation facilities."
+        },
+        {
+          "title": "Community awareness",
+          "description": "Workshops that teach families how to care for their environment."
+        }
+      ],
+      "stats": [
+        {
+          "value": "45k",
+          "label": "Trees planted"
+        },
+        {
+          "value": "120",
+          "label": "Water projects"
+        },
+        {
+          "value": "3.2k",
+          "label": "Volunteers engaged"
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Join a Cleanup",
+          "href": "/contact-us"
+        },
+        {
+          "label": "View Details",
+          "href": "/programs/environment"
+        }
+      ],
+      "details": {
+        "title": "Protecting nature through community action",
+        "description": "Healthy communities depend on healthy ecosystems. Our environmental initiatives combine restoration, clean water, waste management, and practical education to create cleaner and more resilient neighborhoods.",
+        "mission": "To empower communities to protect natural resources, restore green spaces, improve access to clean water, and build sustainable habits.",
+        "approach": [
+          {
+            "title": "Restore green spaces",
+            "description": "Community tree planting and habitat restoration create healthier and more resilient local environments."
+          },
+          {
+            "title": "Improve water access",
+            "description": "Clean water and sanitation projects help reduce environmental and public health risks."
+          },
+          {
+            "title": "Reduce waste",
+            "description": "Community campaigns promote responsible waste management and cleaner public spaces."
+          },
+          {
+            "title": "Educate communities",
+            "description": "Environmental workshops give families and young people practical knowledge they can use every day."
+          }
+        ],
+        "activities": [
+          "Tree planting campaigns",
+          "Community cleanups",
+          "Water and sanitation projects",
+          "Waste management workshops",
+          "Environmental education",
+          "Habitat restoration",
+          "Youth green clubs",
+          "Community awareness campaigns"
+        ],
+        "impact": {
+          "title": "Creating greener communities",
+          "description": "Our environmental work helps communities take practical steps toward cleaner surroundings, healthier ecosystems, and more sustainable futures.",
+          "points": [
+            "More trees and restored green spaces",
+            "Improved access to clean water",
+            "Cleaner community areas",
+            "Greater environmental awareness",
+            "Stronger community participation"
+          ]
+        }
+      },
+      "detailCta": {
+        "title": "Be part of a greener future",
+        "description": "Your support helps communities plant trees, protect water sources, reduce waste, and restore shared environments.",
+        "buttonLabel": "Support Environment",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/group-children-with-their-hands-up-air.jpg"
+      },
+      "cta": {
+        "title": "Help us protect the planet together",
+        "description": "Your support keeps our green initiatives growing and brings cleaner, safer spaces to local communities.",
+        "buttonLabel": "Support Environment",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg"
+      }
+    },
+    "womenEmpowerment": {
+      "slug": "/programs/women-empowerment",
+      "eyebrow": "Women Empowerment",
+      "title": "Women Empowerment",
+      "intro": "We equip women with skills, small business support, leadership training, and safe spaces to build confidence and long-term independence.",
+      "bannerImage": "/NGO_Images/group-environmental-conservation-people-hands-planting-aerial-view.jpg",
+      "sectionTitle": "When women thrive, families rise",
+      "sectionText": "Our empowerment programs combine livelihood support, education, and mentorship to help women lead change in their homes and communities.",
+      "sectionImage": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
+      "highlights": [
+        {
+          "title": "Skill training",
+          "description": "Vocational programs that open earning opportunities."
+        },
+        {
+          "title": "Microbusiness support",
+          "description": "Seed funding and coaching for women-led enterprises."
+        },
+        {
+          "title": "Leadership circles",
+          "description": "Safe spaces for mentorship, advocacy, and confidence-building."
+        }
+      ],
+      "stats": [
+        {
+          "value": "6,200",
+          "label": "Women trained"
+        },
+        {
+          "value": "1,100",
+          "label": "Small businesses supported"
+        },
+        {
+          "value": "87%",
+          "label": "Income growth"
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Become a Mentor",
+          "href": "/contact-us"
+        },
+        {
+          "label": "View Details",
+          "href": "/programs/women-empowerment"
+        }
+      ],
+      "details": {
+        "title": "Creating pathways to independence",
+        "description": "Economic opportunity, confidence, and community support can help women build stronger futures for themselves and their families. Our programs combine practical skills with mentorship and livelihood support.",
+        "mission": "To expand economic opportunity, leadership, confidence, and community participation for women and girls.",
+        "approach": [
+          {
+            "title": "Build practical skills",
+            "description": "Vocational training helps women develop skills that can translate into employment or independent income."
+          },
+          {
+            "title": "Support small businesses",
+            "description": "Women entrepreneurs receive guidance, coaching, and support to develop sustainable income-generating activities."
+          },
+          {
+            "title": "Create mentorship networks",
+            "description": "Leadership circles connect women with mentors and peers who can share knowledge, encouragement, and opportunities."
+          },
+          {
+            "title": "Strengthen confidence",
+            "description": "Safe spaces and leadership activities help women develop confidence and participate more actively in their communities."
+          }
+        ],
+        "activities": [
+          "Vocational skills training",
+          "Entrepreneurship workshops",
+          "Small business coaching",
+          "Microenterprise support",
+          "Women mentorship circles",
+          "Leadership development",
+          "Financial literacy",
+          "Community advocacy"
+        ],
+        "impact": {
+          "title": "Supporting women to lead",
+          "description": "Our programs help women develop skills, strengthen livelihoods, and build networks that can support long-term independence.",
+          "points": [
+            "Greater access to vocational skills",
+            "More women-led businesses",
+            "Improved income opportunities",
+            "Stronger leadership confidence",
+            "Expanded mentorship networks"
+          ]
+        }
+      },
+      "detailCta": {
+        "title": "Stand with women building brighter futures",
+        "description": "Your contribution helps fund skills training, entrepreneurship support, mentorship, and women-led community initiatives.",
+        "buttonLabel": "Support Women",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/group-indian-children-running.jpg"
+      },
+      "cta": {
+        "title": "Stand with women building brighter futures",
+        "description": "Your contribution helps fund skills training, community support, and resilient women-led initiatives.",
+        "buttonLabel": "Support Women",
+        "buttonHref": "/contact-us",
+        "image": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg"
+      }
+    }
+  },
+  "missionPage": {
+    "slug": "/",
+    "eyebrow": "Our Goal",
+    "breadcrumbHome": "Home",
+    "title": "Our Goal",
+    "breadcrumbCurrent": "Mission",
+    "bannerImage": "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg",
+    "sectionTitle": "Turning our mission into meaningful action",
+    "sectionText": "We believe lasting change begins with dignity, compassion, and community participation. Our work focuses on creating practical opportunities while addressing the challenges that prevent individuals and families from building secure and hopeful futures.",
+    "sectionImage": "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg",
+    "highlights": [
+      {
+        "title": "Empowering communities",
+        "description": "We work alongside communities to strengthen their ability to identify challenges, develop solutions, and create lasting progress."
+      },
+      {
+        "title": "Protecting dignity",
+        "description": "Every person deserves safety, respect, opportunity, and the ability to participate meaningfully in their community."
+      },
+      {
+        "title": "Creating lasting change",
+        "description": "We focus on sustainable solutions that continue creating benefits beyond individual campaigns and short-term interventions."
+      }
+    ],
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Community partners"
+      },
+      {
+        "value": "15k",
+        "label": "Families supported"
+      },
+      {
+        "value": "5",
+        "label": "Core program areas"
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Join the Movement",
+        "href": "/contact-us"
+      },
+      {
+        "label": "View Our Mission",
+        "href": "/"
+      }
+    ],
+    "details": {
+      "title": "Our mission is to create opportunity where it is needed most",
+      "description": "We exist to support people and communities facing barriers to safety, education, healthcare, economic opportunity, and a healthy environment. By working with local communities and partners, we turn compassion into practical action and support people in building stronger futures.",
+      "mission": "Our mission is to empower individuals, strengthen families, and support communities through meaningful programs that improve access to education, healthcare, protection, economic opportunity, and environmental sustainability.",
+      "vision": "Our vision is a world where every person can live with dignity, access the opportunities they need to thrive, and participate in building a safer, healthier, more inclusive, and sustainable future.",
+      "values": [
+        {
+          "title": "Dignity",
+          "description": "We treat every individual with respect and recognize their right to safety, opportunity, and a meaningful voice."
+        },
+        {
+          "title": "Compassion",
+          "description": "We listen to people's experiences and respond with empathy, care, and practical support."
+        },
+        {
+          "title": "Inclusion",
+          "description": "We believe everyone should have the opportunity to participate, contribute, and benefit from a stronger community."
+        },
+        {
+          "title": "Integrity",
+          "description": "We are committed to responsible decisions, transparent communication, and accountable use of resources."
+        },
+        {
+          "title": "Sustainability",
+          "description": "We focus on solutions that create lasting benefits for people, communities, and the environment."
+        }
+      ],
+      "approach": [
+        {
+          "title": "Listen to communities",
+          "description": "We begin by understanding local needs, experiences, and priorities before developing programs and solutions."
+        },
+        {
+          "title": "Create practical opportunities",
+          "description": "We connect people with education, healthcare, skills, resources, and support that can improve their everyday lives."
+        },
+        {
+          "title": "Build local partnerships",
+          "description": "We collaborate with community organizations, volunteers, institutions, and local leaders to increase the reach and effectiveness of our work."
+        },
+        {
+          "title": "Measure meaningful impact",
+          "description": "We look beyond the number of people reached and focus on the positive changes our programs create in people's lives."
+        },
+        {
+          "title": "Build for the future",
+          "description": "We design initiatives with long-term sustainability in mind so communities can continue progressing beyond individual projects."
+        }
+      ],
+      "activities": [
+        "Child welfare and protection",
+        "Education and learning support",
+        "Healthcare and community wellness",
+        "Women empowerment and economic opportunity",
+        "Environmental protection and sustainability",
+        "Community development programs",
+        "Volunteer and mentorship initiatives",
+        "Awareness and advocacy campaigns",
+        "Local partnership development",
+        "Emergency and community support"
+      ],
+      "impact": {
+        "title": "The change we want to create",
+        "description": "Our long-term goal is to help communities become safer, healthier, more educated, economically stronger, and better equipped to create opportunities for future generations.",
+        "points": [
+          "Greater access to education and learning opportunities",
+          "Safer and more supportive environments for vulnerable people",
+          "Improved access to healthcare and essential services",
+          "Greater economic independence and opportunity",
+          "Stronger participation from women and young people",
+          "Healthier and more sustainable communities",
+          "Stronger local organizations and community networks",
+          "Greater confidence and leadership within communities"
+        ]
+      },
+      "goals": [
+        {
+          "title": "Expand access to opportunity",
+          "description": "Help more children, young people, women, and families access the resources and support they need to build better futures."
+        },
+        {
+          "title": "Strengthen community resilience",
+          "description": "Support communities in developing the knowledge, networks, and resources needed to respond to challenges and create sustainable solutions."
+        },
+        {
+          "title": "Protect vulnerable people",
+          "description": "Strengthen programs that provide safety, care, education, healthcare, and support to people facing difficult circumstances."
+        },
+        {
+          "title": "Promote equality and inclusion",
+          "description": "Create opportunities for people whose voices and needs are often overlooked, with particular attention to children, women, and underserved communities."
+        },
+        {
+          "title": "Build sustainable communities",
+          "description": "Support environmental responsibility, economic resilience, and community-led solutions that can create lasting positive change."
+        }
+      ]
+    },
+    "detailCta": {
+      "title": "Be part of the change we are building",
+      "description": "Your support helps us turn our mission into action by expanding programs that protect, empower, educate, and strengthen communities.",
+      "buttonLabel": "Get Involved",
+      "buttonHref": "/contact-us",
+      "image": "/NGO_Images/hands-children-many-friends-games-selective-focus.jpg"
+    },
+    "cta": {
+      "title": "Together, we can turn hope into action",
+      "description": "Whether you volunteer, donate, partner with us, or share our mission, your support can help create lasting opportunities for people and communities.",
+      "buttonLabel": "Join Our Mission",
+      "buttonHref": "/contact-us",
+      "image": "/NGO_Images/hands-holding-soil-with-plant-sprout.jpg"
+    }
+  },
+  "AboutPage": {
+    "sideImage": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
+    "pretitle": "Who we are",
+    "title": "A community-driven charity built on trust",
+    "philosophyDesc": "Helping Hearts partners with grassroots organizations, local volunteers, and generous donors to close the gap between hardship and hope.",
+    "desc": "What started as a small neighborhood relief effort has grown into a network spanning dozens of countries. We believe lasting change happens when communities lead their own recovery, and our role is to give them the tools, funding, and support to make that possible.",
+    "buttons": [
+      {
+        "label": "Start a Fundraiser",
+        "href": "/donate"
+      },
+      {
+        "label": "Read More",
+        "href": "/about-us"
+      }
+    ],
+    "cards": [
+      {
+        "id": 1,
+        "title": "Become a volunteer",
+        "desc": "Give your time and skills where they matter most — from local outreach to on-the-ground disaster response.",
+        "buttonLabel": "Join Now",
+        "href": "/donate"
+      },
+      {
+        "id": 2,
+        "title": "Make a donation",
+        "desc": "Your contribution goes directly toward food, shelter, medical care, and education for families in need.",
+        "buttonLabel": "Donate Now",
+        "href": "/donate"
+      },
+      {
+        "id": 3,
+        "title": "Spread the word",
+        "desc": "Share our campaigns with your network — awareness is often the first step toward real change.",
+        "buttonLabel": "Share Now",
+        "href": "/donate"
+      }
+    ],
+    "page": {
+      "banner": {
+        "title": "About Us",
+        "breadcrumbHome": "Home",
+        "breadcrumbCurrent": "About",
+        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg"
+      },
+      "mission": {
+        "pretitle": "Our Mission",
+        "title": "Creating Lasting Change Through Compassion",
+        "desc": "Helping Hearts exists to support vulnerable communities by providing food, clean water, healthcare, education, disaster relief, and long-term development programs. Every campaign we launch is designed to create measurable, sustainable impact that empowers people rather than creating dependency.",
+        "points": [
+          "Transparent use of every donation received",
+          "Community-led sustainable development",
+          "Rapid emergency disaster response",
+          "Long-term education and healthcare initiatives"
+        ]
+      },
+      "story": {
+        "pretitle": "Our Story",
+        "title": "From A Small Local Initiative To A Global Movement",
+        "desc": "Helping Hearts began as a small volunteer-led effort supporting families in local communities. Today, with the support of donors, volunteers, and nonprofit partners, we operate across multiple countries delivering humanitarian aid and creating opportunities for thousands of people every year.",
+        "image": "/images/about/story.jpg"
+      },
+      "dreamSection": {
+        "pretitle": "Our Impact",
+        "title": "Together We Create Hope",
+        "items": [
+          {
+            "id": 1,
+            "number": "01",
+            "title": "Providing emergency food assistance to vulnerable families",
+            "desc": "We partner with local organizations to distribute nutritious meals during emergencies and throughout the year.",
+            "badge": "Food Relief"
+          },
+          {
+            "id": 2,
+            "number": "02",
+            "title": "Supporting education for children in underserved communities",
+            "desc": "Scholarships, school supplies and learning programs help children build brighter futures.",
+            "badge": "Education"
+          },
+          {
+            "id": 3,
+            "number": "03",
+            "title": "Delivering healthcare and clean water solutions",
+            "desc": "From medical camps to water wells, we improve health outcomes for families worldwide.",
+            "badge": "Healthcare"
+          }
+        ]
+      },
+      "values": {
+        "pretitle": "Our Values",
+        "title": "What Guides Everything We Do",
+        "items": [
+          {
+            "number": "01",
+            "title": "Transparency",
+            "desc": "We openly report how donations are used and the impact they create.",
+            "icon": "FiEye"
+          },
+          {
+            "number": "02",
+            "title": "Compassion",
+            "desc": "People always come first in every decision we make.",
+            "icon": "FiHeart"
+          },
+          {
+            "number": "03",
+            "title": "Integrity",
+            "desc": "We operate honestly, ethically and responsibly.",
+            "icon": "FiShield"
+          }
+        ]
+      },
+      "cta": {
+        "title": "Become Part Of Something Bigger",
+        "desc": "Whether you donate, volunteer or share our mission, you help create lasting change for people who need it most.",
+        "button": {
+          "label": "Join Our Mission",
+          "href": "/contact-us"
+        }
+      }
+    }
+  },
+  "causes": {
+    "pretitle": "Active campaigns",
+    "title": "Choose a hearted cause",
+    "desc": "Each campaign below is run in partnership with local teams who know their communities best.",
+    "items": [
+      {
+        "id": 1,
+        "image": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
+        "category": "Medical",
+        "title": "Emergency medical care fund",
+        "desc": "Covering urgent treatment costs for families who can't afford basic healthcare.",
+        "label": "Donate Now",
+        "href": "/donate"
+      },
+      {
+        "id": 2,
+        "image": "/NGO_Images/happy-diverse-kinds-park.jpg",
+        "category": "Education",
+        "title": "School supplies for rural children",
+        "desc": "Books, uniforms, and tuition support so no child has to miss another school year.",
+        "label": "Donate Now",
+        "href": "/donate"
+      },
+      {
+        "id": 3,
+        "image": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
+        "category": "Family",
+        "title": "Family financial support program",
+        "desc": "Short-term grants for families facing job loss, illness, or unexpected hardship.",
+        "label": "Donate Now",
+        "href": "/donate"
+      },
+      {
+        "id": 4,
+        "image": "/NGO_Images/multiethnic-adventurer-girls-casual-clothes-crouching-wild-nature-looking-piece-acorn-environment-nature-lovers-concept.jpg",
+        "category": "Funding",
+        "title": "Small business microgrants",
+        "desc": "Helping parents rebuild income through small trade and craft businesses.",
+        "label": "Donate Now",
+        "href": "/donate"
+      },
+      {
+        "id": 5,
+        "image": "/NGO_Images/nature-friends-group-volunteers-with-boxes-help-goals-donation-charity-event-non-profit-food-drive-ngo-people-outdoor-field-community-service-project-collaboration.jpg",
+        "category": "Relief",
+        "title": "Hurricane recovery relief",
+        "desc": "Rebuilding homes and restoring clean water access after storm damage.",
+        "label": "Donate Now",
+        "href": "/donate"
+      },
+      {
+        "id": 6,
+        "image": "/NGO_Images/origami-chain-people-with-globe.jpg",
+        "category": "Drought",
+        "title": "Drought response & water access",
+        "desc": "Drilling wells and distributing clean water to villages facing severe drought.",
+        "label": "Donate Now",
+        "href": "/donate"
+      }
+    ]
+  },
+  "howWeWork": {
+    "pretitle": "Our Works",
+    "title": "How your donation turns into real impact",
+    "statstitle": "Our Impacts",
+    "stats": [
+      {
+        "id": 1,
+        "number": "2000+",
+        "title": "Lives Impacted",
+        "desc": "children and their families are impacted every year"
+      },
+      {
+        "id": 2,
+        "number": "20+",
+        "title": "Countries Reached",
+        "desc": "and slums are reached out to across the country"
+      },
+      {
+        "id": 3,
+        "number": "400+",
+        "title": "Active Volunteers",
+        "desc": "focused on education and women empowerment"
+      },
+      {
+        "id": 4,
+        "number": "27",
+        "title": "States Reached",
+        "desc": "are reached including the remotest areas"
+      }
+    ],
+    "steps": [
+      {
+        "id": 1,
+        "number": "01",
+        "title": "We identify communities in urgent need",
+        "desc": "Our field teams and local partners assess needs on the ground before any campaign launches."
+      },
+      {
+        "id": 2,
+        "number": "02",
+        "title": "We launch transparent, goal-based campaigns",
+        "desc": "Each cause has a clear funding target and public progress tracker so donors see exactly where things stand."
+      },
+      {
+        "id": 3,
+        "number": "03",
+        "title": "Funds are distributed through vetted local partners",
+        "desc": "We work with trusted community organizations to make sure aid reaches the right people quickly."
+      },
+      {
+        "id": 4,
+        "number": "04",
+        "title": "We report back with results and stories",
+        "desc": "Supporters receive updates, photos, and outcome reports showing the real change their gift made possible."
+      }
+    ],
+    "Gallery": [
+      {
+        "image": "/NGO_Images/people-hands-diversity-with-humanity-unity-inclusion-community-together-banner-closeup-group-social-gathering-with-teamwork-share-charity-poor-civilization-poverty.jpg",
+        "title": "Medical outreach",
+        "desc": "Mobile clinics bringing checkups and treatment to remote villages."
+      },
+      {
+        "image": "/NGO_Images/planet-earth-boy-s-hands-saves-protects-world-environmental-concept-earth-day.jpg",
+        "title": "Food & clean water",
+        "desc": "Distributing meals and safe drinking water to communities in need."
+      },
+      {
+        "image": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
+        "title": "Access to education",
+        "desc": "Supplying classrooms, books, and scholarships for underserved children."
+      },
+      {
+        "image": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
+        "title": "Medical outreach",
+        "desc": "Mobile clinics bringing checkups and treatment to remote villages."
+      },
+      {
+        "image": "/NGO_Images/professional-working-person.jpg",
+        "title": "Food & clean water",
+        "desc": "Distributing meals and safe drinking water to communities in need."
+      },
+      {
+        "image": "/NGO_Images/small-plant-symbolizing-importance-working-together-nurture-grow-something.jpg",
+        "title": "Access to education",
+        "desc": "Supplying classrooms, books, and scholarships for underserved children."
+      }
+    ]
+  },
+  "gallery": {
+    "banner": {
+      "title": "Photo Gallery",
+      "bgImageUrl": "/NGO_Images/smiley-young-african-boy-standing-field.jpg",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Gallery"
+    },
+    "pretitle": "Stories in Motion",
+    "title": "Moments of Our Global Work",
+    "desc": "A glimpse into the communities, volunteers, and projects that make our mission possible.",
+    "items": [
+      {
+        "id": 1,
+        "alt": "Medical Outreach in Rural Regions",
+        "category": "Medical",
+        "image": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg"
+      },
+      {
+        "id": 2,
+        "alt": "Community Infrastructure & Development",
+        "category": "Community",
+        "image": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg"
+      },
+      {
+        "id": 3,
+        "alt": "Youth Education & Empowerment Initiative",
+        "category": "Education",
+        "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg"
+      },
+      {
+        "id": 4,
+        "alt": "Emergency Response & Disaster Relief",
+        "category": "Relief",
+        "image": "/NGO_Images/woman-with-child-her-shoulder.jpg"
+      },
+      {
+        "id": 5,
+        "alt": "Local Community Workshops",
+        "category": "Community",
+        "image": "/NGO_Images/youth-cleaning-forest-from-trash.jpg"
+      },
+      {
+        "id": 6,
+        "alt": "Primary School Support Program",
+        "category": "Education",
+        "image": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg"
+      }
+    ]
+  },
+  "blog": {
+    "pretitle": "Blogs",
+    "title": "Updates From Our Community",
+    "banner": {
+      "breadcrumbCurrent": "blog",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
+    },
+    "desc": "Read the latest stories, campaign updates, and news from our teams working on the ground.",
+    "button": {
+      "label": "View More"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "date": "3 Feb, 2026",
+        "author": "Maria Chen",
+        "title": "How Your Donations Fed 3,000 Families Last Month",
+        "excerpt": "A behind-the-scenes look at our food distribution network and the volunteers who keep it running."
+      },
+      {
+        "id": 2,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "date": "9 Feb, 2026",
+        "author": "David Osei",
+        "title": "Planning Our First Regional Partner Summit",
+        "excerpt": "Local partner organizations from twelve countries will meet to coordinate next year's relief programs."
+      },
+      {
+        "id": 3,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "date": "15 Feb, 2026",
+        "author": "Priya Nair",
+        "title": "Meet The Volunteers Rebuilding Homes After The Storm",
+        "excerpt": "Six months after the flood, dozens of volunteers are still on-site helping families move back in."
+      },
+      {
+        "id": 4,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "date": "21 Feb, 2026",
+        "author": "Sarah Johnson",
+        "title": "Providing School Supplies To Rural Children",
+        "excerpt": "Our education initiative delivered books, uniforms, and learning materials to over 500 students."
+      },
+      {
+        "id": 5,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "date": "28 Feb, 2026",
+        "author": "James Wilson",
+        "title": "Medical Camp Brings Free Healthcare To Villages",
+        "excerpt": "Volunteer doctors and nurses provided health checkups, medicines, and awareness sessions for local families."
+      },
+      {
+        "id": 6,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "date": "5 Mar, 2026",
+        "author": "Aisha Khan",
+        "title": "Tree Plantation Drive Creates A Greener Future",
+        "excerpt": "Hundreds of volunteers joined hands to plant native trees and promote environmental sustainability."
+      }
+    ]
+  },
+  "Footer": {
+    "logoImage": "/logo.png",
+    "desc": "NGO connects generous donors with communities facing hardship, delivering food, shelter, medical care, and education where it's needed most.",
+    "newsletterTitle": "Stay Connected",
+    "newsletterDesc": "Join our newsletter to receive real-time updates on our projects and community impact.",
+    "socialsLinks": [
+      {
+        "label": "facebook",
+        "href": "https://www.facebook.com/"
+      },
+      {
+        "label": "twitter",
+        "href": "https://www.twitter.com/"
+      },
+      {
+        "label": "youtube",
+        "href": "https://www.youtube.com/"
+      },
+      {
+        "label": "instagram",
+        "href": "https://www.instagram.xcom/"
+      }
+    ],
+    "links": [
+      {
+        "label": "Upcoming Events",
+        "href": "/event"
+      },
+      {
+        "label": "Testimonial",
+        "href": "/testimonial"
+      },
+      {
+        "label": "Partners",
+        "href": "/partners"
+      },
+      {
+        "label": "CSR",
+        "href": "/csr"
+      },
+      {
+        "label": "Case Study",
+        "href": "/case-study"
+      }
+    ],
+    "footerContact": [
+      {
+        "location": "14 Maple Grove Avenue, Nairobi",
+        "phone": "+1 800-224-3391",
+        "phoneHref": "tel:18002243391",
+        "email": "info@helpinghearts.org"
+      },
+      {
+        "location": "27 Ribera Street, Madrid",
+        "phone": "+34 611-208-774",
+        "phoneHref": "tel:34611208774",
+        "email": "madrid@helpinghearts.org"
+      }
+    ],
+    "copyright": "© 2026 NGO. All rights reserved.",
+    "legalLinks": [
+      {
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "label": "Terms & Conditions",
+        "href": "/terms-conditions"
+      },
+      {
+        "label": "Refund Policy",
+        "href": "/refund-policy"
+      },
+      {
+        "label": "Cookie Policy",
+        "href": "/cookie"
+      },
+      {
+        "label": "Disclaimer",
+        "href": "/disclaimer"
+      },
+      {
+        "label": "Site Map",
+        "href": "/sitemap"
+      }
+    ]
+  },
+  "team": {
+    "pretitle": "Our Team",
+    "title": "The People Driving Our Mission Forward",
+    "members": [
+      {
+        "id": 1,
+        "name": "Sarah Whitfield",
+        "role": "Executive Director",
+        "image": "/NGO_Images/communication-feedback-chos-role.jpg",
+        "socialsLinks": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Daniel Reyes",
+        "role": "Field Operations Lead",
+        "image": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+        "socialLinks": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Amina Yusuf",
+        "role": "Community Partnerships Manager",
+        "image": "/NGO_Images/cropped-hands-women.jpg",
+        "socialLinks": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Tom Bennett",
+        "role": "Volunteer Coordinator",
+        "image": "/NGO_Images/cute-sisters-having-snacks-home.jpg",
+        "socialLinks": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      }
+    ]
+  },
+  "Testimonial": {
+    "pretitle": "Testimonials",
+    "banner": {
+      "bgImageUrl": "/NGO_Images/diverse-community-with-hands-circle.jpg",
+      "title": "Stories From Our Supporters",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Testimonial"
+    },
+    "title": "Stories From Our Supporters",
+    "testimonialItems": [
+      {
+        "id": 1,
+        "name": "Rachel Kim",
+        "role": "Monthly Donor",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "I've supported a lot of charities over the years, but Helping Hearts is the first one that actually shows me where my money goes, project by project."
+      },
+      {
+        "id": 2,
+        "name": "James Alder",
+        "role": "Corporate Partner",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Our company matched employee donations through Helping Hearts's platform and the reporting made it easy to show our team the real impact."
+      },
+      {
+        "id": 3,
+        "name": "Fatima Noor",
+        "role": "Volunteer",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Spending two weeks with the field team changed how I think about giving. Everything is organized, honest, and focused on the people being helped."
+      },
+      {
+        "id": 4,
+        "name": "Fatima Noor",
+        "role": "Volunteer",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "quote": "Spending two weeks with the field team changed how I think about giving. Everything is organized, honest, and focused on the people being helped."
+      }
+    ]
+  },
+  "contact": {
+    "banner": {
+      "title": "Contact Us",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Contact",
+      "bgImageUrl": "/NGO_Images/group-children-with-their-hands-up-air.jpg"
+    },
+    "heading": {
+      "pretitle": "Get In Touch",
+      "title": "Talk to our team",
+      "desc": "Whether you want to volunteer, collaborate on a local community initiative, or ask a question regarding your donation, we're always here to listen and help."
+    },
+    "officeInfo": [
+      {
+        "iconTitle": "Address",
+        "value": "3268 North Street, Virginia, USA, Main HQ - Floor 4"
+      },
+      {
+        "iconTitle": "Phone",
+        "value": "+1 (555) 234-5678, +1 (555) 876-5432"
+      },
+      {
+        "iconTitle": "Email",
+        "value": "hello@helpingheartscharity.org, support@helpingheartscharity.org"
+      }
+    ],
+    "formLabels": {
+      "namePlaceholder": "Your Name *",
+      "emailPlaceholder": "Email Address *",
+      "subjectPlaceholder": "Subject *",
+      "messagePlaceholder": "Message *",
+      "buttonText": "Send Message"
+    },
+    "successMessage": {
+      "title": "Message Sent"
+    },
+    "map": {
+      "title": "Find Us",
+      "address": "3268 North Street, Virginia, USA",
+      "embedUrl": "https://www.google.com/maps?q=3268+North+Street,+Virginia,+USA&output=embed"
+    }
+  },
+  "faq": {
+    "banner": {
+      "title": "FAQ",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "FAQ",
+      "bgImageUrl": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg"
+    },
+    "heading": {
+      "pretitle": "Find answers to common questions about our work, services, and how you can get involved with our mission.",
+      "title": "Frequently Asked Questions"
+    },
+    "sidebarCallout": {
+      "title": "Still have a question?",
+      "description": "We're here to help.\nReach out to our team anytime.",
+      "imageUrl": "/NGO_Images/group-environmental-conservation-people-hands-planting-aerial-view.jpg",
+      "imageTagText": "NGO"
+    },
+    "items": [
+      {
+        "question": "What is an NGO?",
+        "answer": "An NGO (Non-Governmental Organization) is a non-profit entity that works independently of government to address social, environmental, and community challenges and drive positive change."
+      },
+      {
+        "question": "How do you use donations?",
+        "answer": "Your donations directly fund our ground operations including food distribution, medical assistance, education, and community development projects. We maintain full transparency through regular financial audits."
+      },
+      {
+        "question": "Can I volunteer with your organization?",
+        "answer": "Yes! We welcome volunteers from all backgrounds for field distribution, educational drives, event management, and administrative support."
+      },
+      {
+        "question": "Are donations tax-deductible?",
+        "answer": "Yes, all donations made to our organization are tax-deductible under applicable tax regulations. Official tax receipts are issued for every contribution."
+      },
+      {
+        "question": "How do you select the communities you work with?",
+        "answer": "We conduct ground surveys and risk assessments to identify underprivileged communities experiencing critical resource shortages, prioritizing emergency aid and long-term sustainability."
+      },
+      {
+        "question": "How can my business partner with you?",
+        "answer": "We offer Corporate Social Responsibility (CSR) partnerships, joint fundraising events, cause marketing campaigns, and employee volunteering programs."
+      },
+      {
+        "question": "How can I stay updated on your activities?",
+        "answer": "You can subscribe to our newsletter, follow us on our social media platforms, or visit our News & Blog section for field reports and project updates."
+      }
+    ],
+    "supportSection": {
+      "title": "We're here to support you",
+      "description": "If you have any other questions or need more information, feel free to contact us.",
+      "contact": {
+        "phone": "+91 12345 67890",
+        "email": "info@yourngo.org",
+        "website": "www.yourngo.org"
+      }
+    },
+    "quote": "Transparency builds trust. Your questions help us grow stronger in our mission."
+  },
+  "privacyPolicy": {
+    "banner": {
+      "title": "Privacy Policy",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Privacy Policy",
+      "bgImageUrl": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg"
+    },
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "text": "We collect personal information that you voluntarily provide to us when registering on the platform, making a donation, or expressing interest in obtaining information about us or our campaigns.",
+        "items": [
+          "Personal identifiers (Name, Email address, Phone number).",
+          "Payment details necessary to process donations securely.",
+          "Communication preferences and feedback submissions."
+        ]
+      },
+      {
+        "title": "2. How We Use Your Information",
+        "text": "We process your personal information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent.",
+        "items": [
+          "To facilitate donation processing and tax receipt issuance.",
+          "To send campaign updates, newsletters, and operational alerts.",
+          "To protect our platform against fraud and security breaches."
+        ]
+      },
+      {
+        "title": "3. Data Security & Storage",
+        "text": "We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, please also remember that we cannot guarantee that the internet itself is 100% secure."
+      },
+      {
+        "title": "4. Cookies and Tracking Technologies",
+        "text": "We may use cookies and similar tracking technologies to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice."
+      },
+      {
+        "title": "5. Contact Us",
+        "text": "If you have questions or comments about this policy, you may email us at privacy@Helping Hearts.org or by post to our central office."
+      }
+    ]
+  },
+  "refundPolicy": {
+    "banner": {
+      "title": "Refund Policy",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Refund Policy",
+      "bgImageUrl": "/NGO_Images/group-indian-children-running.jpg"
+    },
+    "sections": [
+      {
+        "title": "1. Donation Refund Requests",
+        "text": "We understand that circumstances may change after a donation has been made. If you believe a donation was made in error or you need to request a refund, please contact our support team as soon as possible with the relevant transaction details.",
+        "items": [
+          "Refund requests should be submitted using our official contact channels.",
+          "Please provide the donor name, donation amount, transaction date, and transaction reference where available.",
+          "Submitting a refund request does not automatically guarantee that the donation will be refunded."
+        ]
+      },
+      {
+        "title": "2. Eligible Refunds",
+        "text": "Refunds may be considered in situations such as duplicate transactions, incorrect donation amounts, or unauthorized transactions. Each request will be reviewed individually based on the circumstances and available transaction information.",
+        "items": [
+          "Duplicate donations may be eligible for a refund after verification.",
+          "Incorrectly entered donation amounts may be reviewed for correction or refund.",
+          "Unauthorized transactions should be reported promptly so that they can be investigated."
+        ]
+      },
+      {
+        "title": "3. Non-Refundable Donations",
+        "text": "Donations that have already been allocated or used for approved charitable activities may not be eligible for a refund. We encourage donors to carefully review their donation details before completing a transaction.",
+        "items": [
+          "Completed donations may not be refundable once funds have been allocated to a program.",
+          "Processing fees charged by payment providers may not be recoverable.",
+          "Refund eligibility may depend on the circumstances of the individual transaction."
+        ]
+      },
+      {
+        "title": "4. Refund Processing",
+        "text": "Once a refund request has been reviewed and approved, the refund will generally be processed through the original payment method used for the donation. The time required for the refund to appear may vary depending on the payment provider or financial institution.",
+        "items": [
+          "Refunds are normally returned to the original payment method.",
+          "Processing times may vary depending on the payment provider.",
+          "We may contact you for additional information before processing a refund."
+        ]
+      },
+      {
+        "title": "5. Contact Us",
+        "text": "If you have questions about a donation, refund request, or transaction, please contact our support team through our official communication channels or email us at support@helpinghearts.org."
+      }
+    ]
+  },
+  "cookiePolicy": {
+    "banner": {
+      "title": "Cookie Policy",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Cookie Policy",
+      "bgImageUrl": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg"
+    },
+    "sections": [
+      {
+        "title": "1. What Are Cookies?",
+        "text": "Cookies are small text files that are stored on your device when you visit a website. They help websites remember information about your visit and allow certain features and functionality to work properly.",
+        "items": [
+          "Cookies may be stored on computers, tablets, and mobile devices.",
+          "They can help improve website performance and usability.",
+          "Cookies may remember preferences and settings from previous visits."
+        ]
+      },
+      {
+        "title": "2. How We Use Cookies",
+        "text": "Helping Hearts may use cookies and similar technologies to improve your browsing experience, understand how visitors use our website, and maintain the security and functionality of our services.",
+        "items": [
+          "To remember your preferences and settings.",
+          "To understand website traffic and visitor behavior.",
+          "To improve website performance and user experience.",
+          "To help detect and prevent security issues."
+        ]
+      },
+      {
+        "title": "3. Types of Cookies We Use",
+        "text": "Different types of cookies may be used on our website depending on their purpose. Some cookies are essential for the website to function, while others help us understand website usage and improve our services.",
+        "items": [
+          "Essential cookies required for basic website functionality.",
+          "Preference cookies used to remember user settings.",
+          "Analytics cookies used to understand website traffic and usage.",
+          "Security cookies used to help protect our website and users."
+        ]
+      },
+      {
+        "title": "4. Managing Cookies",
+        "text": "You can control or manage cookies through your browser settings. Most browsers allow you to view, delete, block, or restrict cookies. Please note that disabling certain cookies may affect the functionality or availability of some parts of our website.",
+        "items": [
+          "You can delete existing cookies through your browser settings.",
+          "You can configure your browser to block certain cookies.",
+          "Some website features may not function properly if essential cookies are disabled."
+        ]
+      },
+      {
+        "title": "5. Third-Party Cookies",
+        "text": "Some services or content provided by third parties may use their own cookies or similar technologies. These may include analytics, payment, embedded content, or other services integrated into our website.",
+        "items": [
+          "Third-party providers may collect information according to their own policies.",
+          "We recommend reviewing the privacy and cookie policies of relevant third-party services.",
+          "We do not control the cookie practices of external websites or services."
+        ]
+      },
+      {
+        "title": "6. Contact Us",
+        "text": "If you have questions or concerns about our use of cookies or this Cookie Policy, you may contact us through our official communication channels or email us at privacy@helpinghearts.org."
+      }
+    ]
+  },
+  "disclaimer": {
+    "banner": {
+      "title": "Disclaimer",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Disclaimer",
+      "bgImageUrl": "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg"
+    },
+    "sections": [
+      {
+        "title": "1. General Information",
+        "text": "The information provided on the Helping Hearts website is intended for general informational and educational purposes only. While we make reasonable efforts to ensure that the information presented is accurate and up to date, we do not guarantee that all content is complete, current, or free from errors.",
+        "items": [
+          "Our website provides information about our organization, programs, campaigns, events, and community initiatives.",
+          "Information may be updated, modified, or removed without prior notice.",
+          "The content should not be considered professional, legal, financial, medical, or other specialized advice."
+        ]
+      },
+      {
+        "title": "2. Donations and Contributions",
+        "text": "Helping Hearts makes reasonable efforts to ensure that information relating to donations and fundraising campaigns is accurate and transparent. However, donors should carefully review the information provided before making a contribution.",
+        "items": [
+          "Donations are voluntary and should only be made through our authorized donation channels.",
+          "Donation amounts and campaign information may change based on organizational requirements.",
+          "We cannot guarantee that every donation will be used for a specific individual purpose unless explicitly stated in the applicable campaign."
+        ]
+      },
+      {
+        "title": "3. Program Results and Impact",
+        "text": "Any statistics, success stories, testimonials, photographs, or impact figures published on our website are provided to demonstrate the nature and progress of our work. Actual results may vary depending on circumstances, communities, available resources, and other factors.",
+        "items": [
+          "Impact figures may be based on internal records, estimates, or reports from our programs.",
+          "Past results do not guarantee future outcomes.",
+          "Program activities and outcomes may change according to community needs and available resources."
+        ]
+      },
+      {
+        "title": "4. External Links and Third-Party Content",
+        "text": "Our website may contain links to external websites, resources, or services operated by third parties. These links are provided for convenience and informational purposes, and Helping Hearts does not control or endorse the content, policies, or practices of external websites.",
+        "items": [
+          "We are not responsible for the accuracy or availability of third-party websites.",
+          "Visiting external websites is done at your own discretion and risk.",
+          "Third-party websites may have their own privacy policies, terms, and conditions."
+        ]
+      },
+      {
+        "title": "5. Contact Us",
+        "text": "If you have questions, concerns, or require clarification regarding this Disclaimer or any information published on our website, you may contact Helping Hearts through our official communication channels or email us at info@helpinghearts.org."
+      }
+    ]
+  },
+  "termsConditions": {
+    "banner": {
+      "title": "Terms & Conditions",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Terms & Conditions",
+      "bgImageUrl": "/NGO_Images/hand-holding-group-people-holding-hands-with-green-background-with-green-background.jpg"
+    },
+    "sections": [
+      {
+        "title": "1. Agreement to Terms",
+        "text": "These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity, and Helping Hearts regarding your access to and use of our website and services."
+      },
+      {
+        "title": "2. User Obligations",
+        "text": "By using the platform, you represent and warrant that all registration information you submit will be truthful and accurate, and that you will maintain the accuracy of such information."
+      },
+      {
+        "title": "3. Donation Policy & Refunds",
+        "text": "All donations made through our platform are final and non-refundable unless a transaction error occurs due to system fault. Refunds requested due to unauthorized card activity will be evaluated on a case-by-case basis within 14 days of donation."
+      },
+      {
+        "title": "4. Intellectual Property Rights",
+        "text": "Unless otherwise indicated, the platform is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the site are owned or controlled by us."
+      },
+      {
+        "title": "5. Governing Law",
+        "text": "These Terms shall be governed by and defined following the laws of the jurisdiction in which our organization is registered, without regard to its conflict of law principles."
+      }
+    ]
+  },
+  "events": {
+    "pretitle": "Get involved",
+    "title": "Upcoming events you can be part of",
+    "banner": {
+      "title": "Events",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Events",
+      "bgImageUrl": "/NGO_Images/hands-children-many-friends-games-selective-focus.jpg"
+    },
+    "button": {
+      "joinEvent": "Join Event",
+      "viewAll": "View All Events",
+      "href": "/event"
+    },
+    "items": [
+      {
+        "id": 1,
+        "slug": "/event-details",
+        "desc": "An unforgettable evening bringing leaders together to raise awareness and support for local youth development programs.",
+        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
+        "day": "12",
+        "month": "Feb",
+        "title": "Community fun run for clean water",
+        "time": "8:00am - 11:00am",
+        "location": "Melbourne, Australia"
+      },
+      {
+        "id": 2,
+        "slug": "/event-details",
+        "desc": "Free health screenings, wellness consultations, and mental health workshops hosted by healthcare experts.",
+        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
+        "day": "18",
+        "month": "Feb",
+        "title": "Annual charity gala night",
+        "time": "6:00pm - 10:00pm",
+        "location": "Toronto, Canada"
+      },
+      {
+        "id": 3,
+        "slug": "/event-details",
+        "desc": "Empowering young minds through interactive leadership tracks, technology seminars, and mentorship sessions.",
+        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
+        "day": "22",
+        "month": "Feb",
+        "title": "Volunteer training workshop",
+        "time": "9:00am - 1:00pm",
+        "location": "Austin, USA"
+      }
+    ]
+  },
+  "career": {
+    "banner": {
+      "title": "Career",
+      "breadcrumbCurrent": "Career",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg"
+    },
+    "about": {
+      "pretitle": "Why Work With Us",
+      "title": "Make Your Work Meaningful Every Day",
+      "desc": "We're more than an organization—we're a global community working together to fight poverty, improve healthcare, provide education, and respond to emergencies. Every employee helps create lasting change."
+    },
+    "benefits": {
+      "title": "Employee Benefits",
+      "items": [
+        {
+          "id": 1,
+          "title": "Flexible Working",
+          "desc": "Hybrid and remote opportunities with flexible schedules.",
+          "icon": "FiHome"
+        },
+        {
+          "id": 2,
+          "title": "Health & Wellness",
+          "desc": "Medical coverage and wellness support for employees.",
+          "icon": "FiHeart"
+        },
+        {
+          "id": 3,
+          "title": "Learning & Growth",
+          "desc": "Training, workshops and career development programs.",
+          "icon": "FiBookOpen"
+        },
+        {
+          "id": 4,
+          "title": "Purpose Driven Work",
+          "desc": "Contribute directly to projects improving lives worldwide.",
+          "icon": "FiGlobe"
+        },
+        {
+          "id": 5,
+          "title": "Inclusive Culture",
+          "desc": "A diverse workplace where every voice matters.",
+          "icon": "FiUsers"
+        },
+        {
+          "id": 6,
+          "title": "Paid Leave",
+          "desc": "Generous annual leave and volunteer leave programs.",
+          "icon": "FiCalendar"
+        }
+      ]
+    },
+    "jobs": {
+      "title": "Current Opportunities",
+      "desc": "Explore our latest openings and become part of our growing team.",
+      "positions": [
+        {
+          "id": 1,
+          "title": "Fundraising Coordinator",
+          "location": "Remote",
+          "type": "Full Time",
+          "department": "Fundraising",
+          "experience": "2+ Years",
+          "desc": "Develop fundraising campaigns and strengthen donor relationships.",
+          "applyLink": "/job-details"
+        },
+        {
+          "id": 2,
+          "title": "Community Outreach Officer",
+          "location": "New Delhi, India",
+          "type": "Full Time",
+          "department": "Community Programs",
+          "experience": "1+ Years",
+          "desc": "Coordinate local initiatives and engage community partners.",
+          "applyLink": "/job-details"
+        },
+        {
+          "id": 3,
+          "title": "Digital Marketing Executive",
+          "location": "Hybrid",
+          "type": "Full Time",
+          "department": "Marketing",
+          "experience": "2+ Years",
+          "desc": "Create campaigns that increase awareness and donor engagement.",
+          "applyLink": "/job-details"
+        },
+        {
+          "id": 4,
+          "title": "Volunteer Program Manager",
+          "location": "Remote",
+          "type": "Full Time",
+          "department": "Operations",
+          "experience": "3+ Years",
+          "desc": "Lead volunteer recruitment, training and engagement.",
+          "applyLink": "/job-details"
+        }
+      ]
+    },
+    "process": {
+      "title": "Our Hiring Process",
+      "steps": [
+        {
+          "id": 1,
+          "title": "Apply Online",
+          "desc": "Submit your application with your resume."
+        },
+        {
+          "id": 2,
+          "title": "Initial Review",
+          "desc": "Our hiring team carefully reviews every application."
+        },
+        {
+          "id": 3,
+          "title": "Interview",
+          "desc": "Meet our team and discuss your experience and passion."
+        },
+        {
+          "id": 4,
+          "title": "Join Helping Hearts",
+          "desc": "Start making a positive impact from your very first day."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready To Make A Difference?",
+      "desc": "Join a passionate team committed to creating lasting impact around the world.",
+      "button": {
+        "label": "Apply Today",
+        "href": "/job-details"
+      }
+    }
+  },
+  "jobDetailsData": {
+    "banner": {
+      "bgImageUrl": "/NGO_Images/happy-diverse-kinds-park.jpg",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Job Details",
+      "title": "Job Details"
+    },
+    "sectionLabels": {
+      "overviewTitle": "Role Overview",
+      "responsibilitiesTitle": "Key Responsibilities",
+      "requirementsTitle": "Qualifications & Skills",
+      "benefitsTitle": "Why Join Our Mission",
+      "applyTitle": "Apply for this Opportunity",
+      "applypretitle": "Become part of our mission to create lasting change in communities around the world.",
+      "successTitle": "Application Submitted!",
+      "successMessage": "Thank you for your interest in joining our organization. Our recruitment team will carefully review your application and contact shortlisted candidates."
+    },
+    "form": {
+      "fullNameLabel": "Full Name *",
+      "fullNamePlaceholder": "Enter your full name",
+      "emailLabel": "Email Address *",
+      "emailPlaceholder": "yourname@example.com",
+      "phoneLabel": "Phone Number *",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "portfolioLabel": "LinkedIn / Portfolio (Optional)",
+      "portfolioPlaceholder": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
+      "resumeLabel": "Upload Resume (PDF/DOC)",
+      "resumeButtonText": "Attach Resume",
+      "coverLetterLabel": "Why Do You Want to Join Us?",
+      "coverLetterPlaceholder": "Share your passion for social impact and why you'd like to contribute to our mission.",
+      "submitButtonText": "Submit Application"
+    },
+    "jobs": [
+      {
+        "id": "program-coordinator",
+        "title": "Program Coordinator",
+        "department": "Programs",
+        "location": "Remote / Field Based",
+        "type": "Full-Time",
+        "experience": "3+ Years",
+        "salaryRange": "$50,000 - $65,000",
+        "overview": "We are looking for a dedicated Program Coordinator to help plan, manage, and monitor community development initiatives. You will work closely with volunteers, local partners, and project teams to ensure our programs create meaningful and lasting impact.",
+        "responsibilities": [
+          "Coordinate community outreach and development programs.",
+          "Work with local partners, volunteers, and stakeholders to ensure successful project delivery.",
+          "Track program progress and prepare impact reports.",
+          "Organize workshops, awareness campaigns, and community events.",
+          "Support monitoring, evaluation, and continuous improvement of projects."
+        ],
+        "requirements": [
+          "3+ years of experience in NGO, nonprofit, community development, or social impact programs.",
+          "Excellent organizational and communication skills.",
+          "Experience coordinating multiple projects simultaneously.",
+          "Ability to build strong relationships with diverse communities.",
+          "Passion for humanitarian work and sustainable development."
+        ],
+        "benefits": [
+          "Meaningful work that creates real social impact.",
+          "Flexible work environment with hybrid or remote opportunities.",
+          "Professional development and training programs.",
+          "Supportive and collaborative international team.",
+          "Paid leave, wellness initiatives, and volunteer engagement opportunities."
+        ]
+      },
+      {
+        "id": "community-outreach-officer",
+        "title": "Community Outreach Officer",
+        "department": "Community Engagement",
+        "location": "Regional Offices",
+        "type": "Full-Time",
+        "experience": "2+ Years",
+        "salaryRange": "$40,000 - $55,000",
+        "overview": "As a Community Outreach Officer, you will strengthen relationships with local communities, promote awareness programs, and encourage public participation in our humanitarian initiatives.",
+        "responsibilities": [
+          "Build strong partnerships with community leaders and local organizations.",
+          "Plan and conduct awareness campaigns and educational sessions.",
+          "Recruit and coordinate volunteers for outreach activities.",
+          "Collect community feedback to improve project effectiveness.",
+          "Represent the organization during local events and campaigns."
+        ],
+        "requirements": [
+          "Experience in community engagement, public relations, or nonprofit work.",
+          "Strong interpersonal and presentation skills.",
+          "Ability to travel within assigned regions.",
+          "Excellent problem-solving and teamwork abilities.",
+          "Commitment to serving diverse communities with empathy and respect."
+        ],
+        "benefits": [
+          "Opportunity to directly improve people's lives.",
+          "Career growth through leadership and training programs.",
+          "Supportive work culture focused on collaboration.",
+          "Flexible working arrangements.",
+          "Comprehensive employee wellness initiatives."
+        ]
+      },
+      {
+        "id": "fundraising-manager",
+        "title": "Fundraising Manager",
+        "department": "Fundraising & Partnerships",
+        "location": "Hybrid",
+        "type": "Full-Time",
+        "experience": "4+ Years",
+        "salaryRange": "$60,000 - $80,000",
+        "overview": "We are seeking a passionate Fundraising Manager to develop sustainable fundraising strategies, build donor relationships, and secure resources that support our humanitarian programs worldwide.",
+        "responsibilities": [
+          "Develop and execute fundraising campaigns and donor engagement strategies.",
+          "Build long-term relationships with individual and corporate donors.",
+          "Prepare grant proposals and funding applications.",
+          "Organize fundraising events and awareness initiatives.",
+          "Monitor fundraising performance and prepare regular reports."
+        ],
+        "requirements": [
+          "4+ years of fundraising, nonprofit development, or partnership experience.",
+          "Excellent communication and relationship-building skills.",
+          "Experience writing successful grant proposals.",
+          "Strong organizational and analytical abilities.",
+          "Passion for nonprofit and humanitarian work."
+        ],
+        "benefits": [
+          "Be part of projects that transform communities.",
+          "Professional learning and leadership opportunities.",
+          "Flexible hybrid working model.",
+          "Supportive and mission-driven workplace.",
+          "Competitive salary with generous leave benefits."
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "pretitle": "We couldn't find the page you're looking for.",
+    "buttonLabel": "Back to Home",
+    "buttonHref": "/",
+    "bgImageUrl": "/NGO_Images/multiethnic-adventurer-girls-casual-clothes-crouching-wild-nature-looking-piece-acorn-environment-nature-lovers-concept.jpg"
+  },
+  "Team": {
+    "banner": {
+      "title": "Our Team",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Team",
+      "bgImageUrl": "/NGO_Images/nature-friends-group-volunteers-with-boxes-help-goals-donation-charity-event-non-profit-food-drive-ngo-people-outdoor-field-community-service-project-collaboration.jpg"
+    },
+    "heading": {
+      "pretitle": "Meet Our Passionate Team",
+      "title": "The People Behind The Mission"
+    },
+    "members": [
+      {
+        "id": 1,
+        "image": "/NGO_Images/origami-chain-people-with-globe.jpg",
+        "name": "Alex Morgan",
+        "href": "/team-details",
+        "role": "Founder & CEO",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "/NGO_Images/people-hands-diversity-with-humanity-unity-inclusion-community-together-banner-closeup-group-social-gathering-with-teamwork-share-charity-poor-civilization-poverty.jpg",
+        "name": "Sarah Jenkins",
+        "href": "/team-details",
+        "role": "Operations Director",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "image": "/NGO_Images/planet-earth-boy-s-hands-saves-protects-world-environmental-concept-earth-day.jpg",
+        "name": "David Ross",
+        "href": "/team-details",
+        "role": "Head of Outreach",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "image": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
+        "name": "Emily Vance",
+        "href": "/team-details",
+        "role": "Volunteer Coordinator",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "image": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
+        "name": "Michael Chang",
+        "href": "/team-details",
+        "role": "Financial Manager",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "image": "/NGO_Images/professional-working-person.jpg",
+        "name": "Lisa Ray",
+        "href": "/team-details",
+        "role": "Community Manager",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "image": "/NGO_Images/small-plant-symbolizing-importance-working-together-nurture-grow-something.jpg",
+        "name": "James Wilson",
+        "href": "/team-details",
+        "role": "Field Program Lead",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "image": "/NGO_Images/smiley-young-african-boy-standing-field.jpg",
+        "name": "Rachel Green",
+        "href": "/team-details",
+        "role": "Communications Head",
+        "socials": [
+          {
+            "label": "facebook",
+            "href": "#"
+          },
+          {
+            "label": "twitter",
+            "href": "#"
+          },
+          {
+            "label": "linkedin",
+            "href": "#"
+          },
+          {
+            "label": "instagram",
+            "href": "#"
+          }
+        ]
+      }
+    ]
+  },
+  "teamDetails": {
+    "id": "rohit-sharma",
+    "name": "Rohit Sharma",
+    "role": "FOUNDER & DIRECTOR",
+    "bio": "Visionary leader with 15+ years of experience in social development and community building.",
+    "image": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg",
+    "banner": {
+      "breadcrumbCurrent": "Team Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg",
+      "title": "Team Details"
+    },
+    "stats": [
+      {
+        "value": "15+",
+        "label": "Years Experience"
+      },
+      {
+        "value": "250+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": "98%",
+        "label": "Success Rate"
+      }
+    ],
+    "contactInfo": {
+      "email": "rohit.sharma@ngo.org",
+      "phone": "+1 987-0986-0987",
+      "location": "New York, Canada",
+      "qualification": "Master in Social Work (MSW)",
+      "languages": [
+        "English",
+        "Hindi"
+      ]
+    },
+    "socialLinks": {
+      "facebook": "https://facebook.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com"
+    },
+    "about": [
+      "Rohit Sharma is the Founder & Director of our organization. He is a passionate changemaker dedicated to building stronger, healthier, and more equitable communities.",
+      "With over 15 years of experience in the social sector, Rohit has led numerous initiatives in education, healthcare, women empowerment, and poverty alleviation. His strategic vision and compassionate leadership continue to inspire our team and the communities we serve."
+    ],
+    "skills": [
+      {
+        "skill": "Community Development",
+        "percentage": 95
+      },
+      {
+        "skill": "Strategic Planning",
+        "percentage": 90
+      },
+      {
+        "skill": "Team Leadership",
+        "percentage": 92
+      },
+      {
+        "skill": "Public Speaking",
+        "percentage": 88
+      },
+      {
+        "skill": "Project Management",
+        "percentage": 90
+      }
+    ],
+    "experience": [
+      {
+        "period": "2008 - 2010",
+        "role": "Program Coordinator",
+        "organization": "Help Foundation, Canada",
+        "description": "Managed community outreach programs and built strong partnerships with local organizations."
+      },
+      {
+        "period": "2011 - 2014",
+        "role": "Project Manager",
+        "organization": "Social Impact Group, Canada",
+        "description": "Led multiple social projects focused on education and healthcare for underprivileged communities."
+      },
+      {
+        "period": "2015 - 2018",
+        "role": "Senior Manager",
+        "organization": "Change Makers Org, Canada",
+        "description": "Oversaw large-scale initiatives and managed cross-functional teams to achieve organizational goals."
+      },
+      {
+        "period": "2019 - Present",
+        "role": "Founder & Director",
+        "organization": "Our Organization",
+        "description": "Leading the organization with a vision to create sustainable change and empower communities."
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Award Winner",
+        "description": "Received the Community Leadership Award for outstanding contribution to social development."
+      },
+      {
+        "title": "500+ Communities",
+        "description": "Worked closely with 500+ communities to create sustainable and long-lasting impact."
+      },
+      {
+        "title": "Fundraising Expert",
+        "description": "Successfully raised over $5M+ to support health, education, and livelihood programs."
+      },
+      {
+        "title": "Global Partnerships",
+        "description": "Built strong partnerships with global organizations and donors to expand our reach."
+      }
+    ]
+  },
+  "featuredProjects": {
+    "sectionBadge": "Our Impactful Work",
+    "sectionTitle": "Featured Humanitarian Projects",
+    "sectionpretitle": "Explore how your contributions drive real, sustainable change across communities in need worldwide.",
+    "viewAllText": "View All Projects",
+    "viewAllLink": "/projects",
+    "projects": [
+      {
+        "id": "proj-1",
+        "title": "Clean Water Well Infrastructure",
+        "category": "Water & Sanitation",
+        "location": "Sub-Saharan Africa",
+        "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
+        "goalAmount": 50000,
+        "raisedAmount": 38500,
+        "percent": 77,
+        "description": "Constructing solar-powered water wells to bring safe, potable water to over 15 rural villages.",
+        "slug": "clean-water-well-infrastructure"
+      },
+      {
+        "id": "proj-2",
+        "title": "Digital Learning Hubs for Youth",
+        "category": "Education",
+        "location": "Southeast Asia",
+        "image": "/NGO_Images/woman-with-child-her-shoulder.jpg",
+        "goalAmount": 30000,
+        "raisedAmount": 27000,
+        "percent": 90,
+        "description": "Equipping rural primary schools with computers, high-speed internet, and digital literacy tools.",
+        "slug": "digital-learning-hubs"
+      },
+      {
+        "id": "proj-3",
+        "title": "Nutrition & Food Security",
+        "category": "Disaster Relief",
+        "location": "Central America",
+        "image": "/NGO_Images/youth-cleaning-forest-from-trash.jpg",
+        "goalAmount": 45000,
+        "raisedAmount": 21000,
+        "percent": 46,
+        "description": "Providing nutritious meal packs and sustainable agriculture starter kits to flood-affected families.",
+        "slug": "emergency-nutrition-food-security"
+      }
+    ]
+  },
+  "successStories": {
+    "banner": {
+      "title": "Impact & Voices",
+      "breadcrumbCurrent": "Stories",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg"
+    },
+    "sectionBadge": "Our Success stories",
+    "sectionTitle": "Stories of Hope & Transformation",
+    "sectionpretitle": "Real stories from people whose lives were transformed thanks to your generosity and support.",
+    "stories": [
+      {
+        "id": "story-1",
+        "name": "Amara Diallo",
+        "role": "Community Health Worker",
+        "location": "Senegal",
+        "image": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+        "quote": "Having safe water in our village didn't just prevent illnesses—it enabled young girls like my daughter to go to school instead of trekking hours every morning.",
+        "impact": "Clean water delivered to 1,200 villagers"
+      },
+      {
+        "id": "story-2",
+        "name": "David Morales",
+        "role": "Small Business Owner",
+        "location": "Guatemala",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "quote": "The micro-grant and vocational training gave me the tools to build a sustainable carpentry business. Now I employ three young adults from my town.",
+        "impact": "Created 4 local jobs with micro-funding"
+      },
+      {
+        "id": "story-3",
+        "name": "Amina Khatun",
+        "role": "Student & Tech Aspirant",
+        "location": "Bangladesh",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "quote": "The digital lab installed at our school changed everything. I learned coding basics and am now pursuing a degree in computer engineering.",
+        "impact": "First in family to attend university"
+      },
+      {
+        "id": "story-4",
+        "name": "Amina Khatun",
+        "role": "Student & Tech Aspirant",
+        "location": "Bangladesh",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "quote": "The digital lab installed at our school changed everything. I learned coding basics and am now pursuing a degree in computer engineering.",
+        "impact": "First in family to attend university"
+      },
+      {
+        "id": "story-5",
+        "name": "Rahim Uddin",
+        "role": "Youth Volunteer",
+        "location": "India",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "quote": "Joining the youth leadership program inspired me to organize community clean-up drives and mentor children in my neighborhood. Together, we've built a stronger community.",
+        "impact": "Led 25+ community service initiatives"
+      },
+      {
+        "id": "story-6",
+        "name": "Isabella Santos",
+        "role": "Teacher",
+        "location": "Brazil",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "quote": "The education support program transformed our classroom with books, computers, and teacher training. Our students are now achieving higher results than ever before.",
+        "impact": "Improved learning for 500+ students"
+      }
+    ]
+  },
+  "partnersSponsors": {
+    "sectionBadge": "Our Allies",
+    "banner": {
+      "bgImageUrl": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+      "title": "Trusted Partners & Global Sponsors",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Partners"
+    },
+    "sectionTitle": "Trusted Partners & Global Sponsors",
+    "sectionpretitle": "We collaborate with industry leaders and non-profit organizations to scale our global humanitarian footprint.",
+    "partners": [
+      {
+        "id": 1,
+        "name": "Microsoft",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+      },
+      {
+        "id": 2,
+        "name": "Google",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+      },
+      {
+        "id": 3,
+        "name": "IBM",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+      },
+      {
+        "id": 4,
+        "name": "NVIDIA",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg"
+      },
+      {
+        "id": 5,
+        "name": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+      },
+      {
+        "id": 6,
+        "name": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+      },
+      {
+        "id": 7,
+        "name": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+      },
+      {
+        "id": 8,
+        "name": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+      },
+      {
+        "id": 9,
+        "name": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+      },
+      {
+        "id": 10,
+        "name": "Oracle",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+      }
+    ]
+  },
+  "contactSection": {
+    "sectionBadge": "Get In Touch",
+    "sectionTitle": "Have Questions? We Are Here to Help",
+    "banner": {
+      "bgImageUrl": "/NGO_Images/communication-feedback-chos-role.jpg"
+    },
+    "sectionpretitle": "Whether you want to partner, volunteer, or learn more about our mission, feel free to reach out.",
+    "officeInfo": {
+      "address": "742 Evergreen Terrace, Suite 100, New York, NY 10001",
+      "phone": "+1 (800) 555-0199",
+      "email": "contact@helpinghearts.org",
+      "hours": "Mon - Fri: 9:00 AM - 6:00 PM EST"
+    },
+    "formLabels": {
+      "namePlaceholder": "Your Full Name",
+      "emailPlaceholder": "Your Email Address",
+      "subjectPlaceholder": "Subject / Inquiry Type",
+      "messagePlaceholder": "How can we help you?",
+      "buttonText": "Send Message"
+    }
+  },
+  "taxBenefits": {
+    "title": "Get Tax Benefits While Making a Difference",
+    "items": [
+      {
+        "id": 1,
+        "title": "80G Tax Exemption",
+        "icon": "exemption"
+      },
+      {
+        "id": 2,
+        "title": "Official Donation Receipt",
+        "icon": "receipt"
+      },
+      {
+        "id": 3,
+        "title": "Transparent Utilization",
+        "icon": "transparency"
+      },
+      {
+        "id": 4,
+        "title": "Contribution Acknowledgement",
+        "icon": "acknowledgement"
+      },
+      {
+        "id": 5,
+        "title": "Emotional Satisfaction",
+        "icon": "satisfaction"
+      }
+    ]
+  },
+  "eventDetails": {
+    "banner": {
+      "title": "Community Health Camp",
+      "breadcrumbCurrent": "Event Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg"
+    },
+    "content": {
+      "featuredImage": "/NGO_Images/cropped-hands-women.jpg",
+      "date": "12 March, 2026",
+      "author": "Helping Hearts Team",
+      "location": "New Delhi, India",
+      "category": "Healthcare",
+      "title": "Providing Free Medical Care to Rural Communities",
+      "intro": "Our healthcare outreach camp brought together volunteer doctors, nurses, and community leaders to provide free consultations, medicines, and health awareness sessions for underserved families.",
+      "paragraphs": [
+        "More than 800 villagers received health checkups during the one-day medical camp.",
+        "Children were vaccinated while women received maternal healthcare consultations.",
+        "Local volunteers also organized awareness sessions on nutrition, hygiene, and preventive healthcare."
+      ],
+      "quote": "Healthcare should never be a privilege—it is a basic human right.",
+      "gallery": [
+        "/NGO_Images/cute-sisters-having-snacks-home.jpg",
+        "/NGO_Images/diverse-community-with-hands-circle.jpg",
+        "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg"
+      ],
+      "conclusion": "With the continued support of our donors and volunteers, we aim to organize similar healthcare initiatives across more rural regions in the coming months.",
+      "button": {
+        "label": "Become a Volunteer",
+        "href": "/team"
+      }
+    }
+  },
+  "blogDetails": {
+    "banner": {
+      "title": "How Your Donations Changed Lives",
+      "breadcrumbCurrent": "Blog Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/group-children-with-their-hands-up-air.jpg"
+    },
+    "content": {
+      "featuredImage": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children.jpg",
+      "date": "15 February, 2026",
+      "author": "Maria Chen",
+      "category": "Impact Story",
+      "title": "How Your Donations Fed Thousands of Families",
+      "intro": "Every donation made by our supporters helped provide nutritious meals, clean water, and emergency supplies to families affected by poverty and natural disasters.",
+      "paragraphs": [
+        "Over 3,000 food kits were distributed across multiple villages.",
+        "More than 500 volunteers worked tirelessly to deliver relief materials.",
+        "Local communities also received hygiene kits and educational support for children."
+      ],
+      "quote": "Small acts of kindness create lasting change.",
+      "gallery": [
+        "/NGO_Images/group-best-friends-making-toast.jpg",
+        "/NGO_Images/group-children-with-their-hands-up-air.jpg",
+        "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg"
+      ],
+      "conclusion": "Together, we continue creating hope and brighter futures for families who need it most.",
+      "button": {
+        "label": "Donate Today",
+        "href": "/donate"
+      }
+    }
+  },
+  "sitemap": {
+    "pageHeader": {
+      "badge": "Navigation Overview",
+      "title": "Sitemap",
+      "banner": {
+        "bgImageUrl": "/NGO_Images/group-environmental-conservation-people-hands-planting-aerial-view.jpg",
+        "breadcrumbCurrent": "Site Map",
+        "breadcrumbHome": "Home"
+      },
+      "description": "Explore all available pages, impact programs, and legal resources across our website."
+    },
+    "sitemapCategories": [
+      {
+        "id": 1,
+        "category": "Main Navigation",
+        "links": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "About Us",
+            "href": "/about-us"
+          },
+          {
+            "label": "Career",
+            "href": "/career"
+          },
+          {
+            "label": "Contact Us",
+            "href": "/contact-us"
+          },
+          {
+            "label": "Events",
+            "href": "/event"
+          },
+          {
+            "label": "Blogs",
+            "href": "/blog"
+          },
+          {
+            "label": "Gallery",
+            "href": "/gallery"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "About us",
+        "links": [
+          {
+            "label": "Team",
+            "href": "/team"
+          },
+          {
+            "label": "Mission & Vision",
+            "href": "/mission"
+          },
+          {
+            "label": "Stories",
+            "href": "/stories"
+          },
+          {
+            "label": "Testimonial",
+            "href": "/testimonial"
+          },
+          {
+            "label": "Partners",
+            "href": "/partners"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "category": "Our Works",
+        "links": [
+          {
+            "label": "Education",
+            "href": "/education"
+          },
+          {
+            "label": "HealthCare",
+            "href": "/health"
+          },
+          {
+            "label": "Women Empowerment",
+            "href": "/women-empowerment"
+          },
+          {
+            "label": "Environment",
+            "href": "/environment"
+          },
+          {
+            "label": "Child Welfare",
+            "href": "/child-welfare"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "category": "Legal & Governance",
+        "links": [
+          {
+            "label": "Privacy Policy",
+            "href": "/privacy-policy"
+          },
+          {
+            "label": "Terms of Service",
+            "href": "/terms-conditions"
+          }
+        ]
+      }
+    ]
+  },
+  "vision": {
+    "banner": {
+      "breadcrumbCurrent": "Our Vision",
+      "title": "Our Vision",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg"
+    },
+    "introduction": {
+      "icon": "eye",
+      "heading": {
+        "line1": "Our",
+        "highlight": "Vision"
+      },
+      "underline": true,
+      "highlightColor": "#C99524",
+      "headingColor": "#102A43",
+      "mainStatement": "We envision a better tomorrow, built on purpose, innovation, and positive impact.",
+      "description": "Our vision is to be a catalyst for meaningful change—empowering communities, inspiring progress, and creating lasting value for generations to come."
+    },
+    "visionCards": [
+      {
+        "id": "future-focused",
+        "icon": "telescope",
+        "title": "A Future-Focused Mindset",
+        "description": "We look ahead with clarity and confidence, anticipating change and embracing opportunities.",
+        "image": {
+          "src": "/NGO_Images/group-indian-children-running.jpg",
+          "alt": "Modern city representing a future-focused mindset"
+        }
+      },
+      {
+        "id": "lasting-impact",
+        "icon": "flag",
+        "title": "Creating Lasting Impact",
+        "description": "We are committed to building solutions that create real value and leave a positive legacy.",
+        "image": {
+          "src": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg",
+          "alt": "Hands planting a seed representing lasting impact"
+        }
+      },
+      {
+        "id": "empowering-communities",
+        "icon": "users",
+        "title": "Empowering Communities",
+        "description": "We believe in people, potential, and partnerships that uplift and empower communities.",
+        "image": {
+          "src": "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg",
+          "alt": "Community members standing together at sunset"
+        }
+      }
+    ],
+    "quote": {
+      "icon": "quote",
+      "text": "To be a trusted leader in driving innovation, fostering sustainability, and shaping a brighter, better world.",
+      "showWorldMap": true
+    }
+  },
+  "service": {
+    "banner": {
+      "breadcrumbCurrent": "Our Services",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/happy-diverse-kinds-park.jpg",
+      "title": "Our Services"
+    },
+    "introduction": {
+      "badge": "OUR SERVICES",
+      "title": "Empowering Lives. Building Better Communities.",
+      "description": "We offer a range of impactful services focused on education, health, livelihood, and social development—working together for a just and inclusive society."
+    },
+    "stats": [
+      {
+        "id": "communities",
+        "iconName": "users",
+        "value": "25+",
+        "label": "Communities Served"
+      },
+      {
+        "id": "projects",
+        "iconName": "hand-heart",
+        "value": "50+",
+        "label": "Projects Completed"
+      },
+      {
+        "id": "lives",
+        "iconName": "graduation-cap",
+        "value": "15,000+",
+        "label": "Lives Impacted"
+      },
+      {
+        "id": "partners",
+        "iconName": "handshake",
+        "value": "100+",
+        "label": "Dedicated Partners"
+      }
+    ],
+    "services": [
+      {
+        "id": "education",
+        "iconName": "book-open",
+        "title": "Education",
+        "label": "Details",
+        "href": "/education",
+        "description": "Promoting quality education and creating opportunities for a brighter, more equal tomorrow.",
+        "image": {
+          "src": "/NGO_Images/happy-diverse-kinds-park.jpg",
+          "alt": "Children learning in a classroom"
+        }
+      },
+      {
+        "id": "health",
+        "iconName": "heart-pulse",
+        "title": "Health & Wellness",
+        "label": "Details",
+        "href": "/health",
+        "description": "Improving community health through awareness, access to care, and preventive health programs.",
+        "image": {
+          "src": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
+          "alt": "Healthcare worker helping a woman"
+        }
+      },
+      {
+        "id": "livelihood",
+        "iconName": "briefcase",
+        "title": "Environment",
+        "label": "Details",
+        "href": "/environment",
+        "description": "Empowering individuals with skills, resources, and opportunities for dignified and sustainable livelihoods.",
+        "image": {
+          "src": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
+          "alt": "Women working together on livelihood activities"
+        }
+      },
+      {
+        "id": "environment",
+        "iconName": "leaf",
+        "label": "Details",
+        "href": "/environment",
+        "title": "Environment & Sustainability",
+        "description": "Promoting sustainable practices and protecting our environment for future generations.",
+        "image": {
+          "src": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
+          "alt": "Hands holding a growing plant"
+        }
+      },
+      {
+        "id": "child-welfare",
+        "iconName": "users",
+        "label": "Details",
+        "href": "/child-welfare",
+        "title": "Child Welfare",
+        "description": "Strengthening communities through participation, leadership, and inclusive development initiatives.",
+        "image": {
+          "src": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
+          "alt": "People joining hands together"
+        }
+      },
+      {
+        "id": "women-empowerment",
+        "iconName": "shield",
+        "label": "Details",
+        "href": "/women-empowerment",
+        "title": "Women Empowerment",
+        "description": "Supporting vulnerable groups and ensuring dignity, rights, and a safe, supportive environment.",
+        "image": {
+          "src": "/NGO_Images/happy-diverse-kinds-park.jpg",
+          "alt": "Child with an elderly family member"
+        }
+      }
+    ],
+    "bottomBanner": {
+      "title": "Together, we can create lasting change.",
+      "iconName": "hands-heart",
+      "description": "Our services are driven by compassion, transparency, and a commitment to creating a better, more equitable world for all."
+    }
+  },
+  "award": {
+    "banner": {
+      "breadcrumbCurrent": "Awards & Certificate",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
+      "title": "Awards & Certificate"
+    },
+    "heading": {
+      "pretitle": "AWARDS & RECOGNITION",
+      "title": "Honored for",
+      "titleHighlight": "Our Impact.",
+      "description": "These awards reflect our commitment, the trust of our partners, and the impact we create together."
+    },
+    "awardsList": {
+      "sectionTitle": "Our Recent Awards",
+      "viewAllText": "View All Awards",
+      "viewAllUrl": "/awards",
+      "items": [
+        {
+          "id": "1",
+          "title": "Best NGO of the Year",
+          "description": "Recognized for outstanding contribution to community development and social impact.",
+          "year": "2024",
+          "imageUrl": "/NGO_Images/multiethnic-adventurer-girls-casual-clothes-crouching-wild-nature-looking-piece-acorn-environment-nature-lovers-concept.jpg"
+        },
+        {
+          "id": "2",
+          "title": "Excellence in Social Impact",
+          "description": "Honored for innovative programs creating sustainable and measurable change in communities.",
+          "year": "2023",
+          "imageUrl": "/NGO_Images/nature-friends-group-volunteers-with-boxes-help-goals-donation-charity-event-non-profit-food-drive-ngo-people-outdoor-field-community-service-project-collaboration.jpg"
+        },
+        {
+          "id": "3",
+          "title": "Community Leadership Award",
+          "description": "Acknowledged for strong leadership and dedication to building inclusive communities.",
+          "year": "2022",
+          "imageUrl": "/NGO_Images/origami-chain-people-with-globe.jpg"
+        },
+        {
+          "id": "4",
+          "title": "Sustainability Champion",
+          "description": "Awarded for promoting sustainable practices and driving long-term environmental impact.",
+          "year": "2021",
+          "imageUrl": "/NGO_Images/people-hands-diversity-with-humanity-unity-inclusion-community-together-banner-closeup-group-social-gathering-with-teamwork-share-charity-poor-civilization-poverty.jpg"
+        },
+        {
+          "id": "5",
+          "title": "Partner Appreciation Award",
+          "description": "In recognition of strong partnerships and collaborative efforts towards shared goals.",
+          "year": "2020",
+          "imageUrl": "/NGO_Images/planet-earth-boy-s-hands-saves-protects-world-environmental-concept-earth-day.jpg"
+        },
+        {
+          "id": "6",
+          "title": "Outstanding Service Award",
+          "description": "Honored for exceptional service and unwavering commitment to the cause.",
+          "year": "2019",
+          "imageUrl": "/NGO_Images/portrait-cute-girl-with-kitten.jpg"
+        }
+      ]
+    },
+    "quote": "These recognitions inspire us to do more, reach more, and create a better tomorrow for all."
+  },
+  "csr": {
+    "banner": {
+      "breadcrumbCurrent": "CSR",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/professional-working-person (1).jpg",
+      "title": "CSR"
+    },
+    "focusAreas": {
+      "title": "Our Focus Areas",
+      "items": [
+        {
+          "id": "1",
+          "title": "Education",
+          "description": "Promoting quality education and skill development to build a strong foundation for the future.",
+          "linkText": "Explore Initiatives",
+          "linkUrl": "/education",
+          "imageUrl": "/NGO_Images/professional-working-person.jpg",
+          "iconName": "education"
+        },
+        {
+          "id": "2",
+          "title": "Healthcare",
+          "description": "Improving access to healthcare and supporting well-being for healthier communities.",
+          "linkText": "Explore Initiatives",
+          "linkUrl": "/health",
+          "imageUrl": "/NGO_Images/small-plant-symbolizing-importance-working-together-nurture-grow-something.jpg",
+          "iconName": "healthcare"
+        },
+        {
+          "id": "3",
+          "title": "Livelihoods",
+          "description": "Empowering communities through skill development and sustainable livelihood programs.",
+          "linkText": "Explore Initiatives",
+          "linkUrl": "/child-welfare",
+          "imageUrl": "/NGO_Images/smiley-young-african-boy-standing-field.jpg",
+          "iconName": "livelihoods"
+        },
+        {
+          "id": "4",
+          "title": "Environment",
+          "description": "Driving environmental sustainability through conservation, resource management and green initiatives.",
+          "linkText": "Explore Initiatives",
+          "linkUrl": "/environment",
+          "imageUrl": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg",
+          "iconName": "environment"
+        }
+      ]
+    },
+    "approach": {
+      "title": "Our Approach",
+      "centerTitle": "Our Executive Impact",
+      "steps": [
+        {
+          "title": "Understand Community Needs",
+          "description": "We listen and collaborate to gain trust",
+          "iconName": "user"
+        },
+        {
+          "title": "Design Relevant Solutions",
+          "description": "We create real insights and sustainable programs",
+          "iconName": "bulb"
+        },
+        {
+          "title": "Implement Together",
+          "description": "We co-lead with agility, accountability, and care",
+          "iconName": "gear"
+        },
+        {
+          "title": "Measure & Create Impact",
+          "description": "We track, evaluate and communicate progress",
+          "iconName": "chart"
+        }
+      ],
+      "commitments": {
+        "title": "Our Commitments",
+        "description": "We are accountable to the people and locations where we live and work. We bring our skills, experience, and resources to create real, and lasting community value and environmental well-being.",
+        "points": [
+          {
+            "text": "Embed AI, Transparency & Partnerships"
+          },
+          {
+            "text": "Catalyze Jobs & Inclusive Growth"
+          },
+          {
+            "text": "Advance Health & Equity for All"
+          }
+        ]
+      }
+    },
+    "impact": {
+      "title": "Our Impact at a Glance",
+      "pretitle": "Every number represents real lives touched and meaningful change created through our initiatives and the support of our partners.",
+      "stats": [
+        {
+          "value": "3,200+",
+          "label": "Lives Touched",
+          "description": "Improved quality of life for individuals and families",
+          "iconName": "people"
+        },
+        {
+          "value": "85+",
+          "label": "Projects Supported",
+          "description": "Across key focus areas and geographies",
+          "iconName": "education"
+        },
+        {
+          "value": "125+",
+          "label": "Communities",
+          "description": "Partnered for inclusive and holistic development",
+          "iconName": "home"
+        },
+        {
+          "value": "5,000+",
+          "label": "Volunteer Hours",
+          "description": "Contributed by employees and partners",
+          "iconName": "heart"
+        },
+        {
+          "value": "25+",
+          "label": "Green Initiatives",
+          "description": "Driving sustainability and protecting our planet",
+          "iconName": "globe"
+        }
+      ]
+    }
+  },
+  "enquiry": {
+    "banner": {
+      "breadcrumbCurrent": "Enquiry Now",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg",
+      "title": "Enquiry Now"
+    },
+    "header": {
+      "pretitle": "ENQUIRY NOW",
+      "title": "We’d Love to Hear From You",
+      "description": "Have a question, collaboration idea, or want to learn more about our work?\nFill out the form and our team will get back to you as soon as possible."
+    },
+    "getInTouch": {
+      "bgImageUrl": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
+      "quoteText": "Together, we can create lasting change.",
+      "title": "Get in Touch",
+      "contactItems": [
+        {
+          "icon": "location",
+          "title": "Our Office",
+          "value": "123 Hope Street, New Delhi – 110001, India"
+        },
+        {
+          "icon": "phone",
+          "title": "Call Us",
+          "value": "+91 12345 67890"
+        },
+        {
+          "icon": "email",
+          "title": "Email Us",
+          "value": "info@yourngo.org"
+        },
+        {
+          "icon": "globe",
+          "title": "Visit Our Website",
+          "value": "www.yourngo.org"
+        },
+        {
+          "icon": "clock",
+          "title": "Office Hours",
+          "value": "Mon – Sat: 9:30 AM – 6:30 PM"
+        }
+      ]
+    },
+    "form": {
+      "title": "Send Us an Enquiry",
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "phonePlaceholder": "Phone Number",
+      "subjectOptions": [
+        {
+          "label": "Subject",
+          "value": ""
+        },
+        {
+          "label": "General Inquiry",
+          "value": "general"
+        },
+        {
+          "label": "Donation & Support",
+          "value": "donation"
+        },
+        {
+          "label": "Volunteering",
+          "value": "volunteering"
+        }
+      ],
+      "categoryOptions": [
+        {
+          "label": "I am enquiring about",
+          "value": ""
+        },
+        {
+          "label": "Partnership",
+          "value": "partnership"
+        },
+        {
+          "label": "Education Programs",
+          "value": "education"
+        },
+        {
+          "label": "Healthcare Programs",
+          "value": "healthcare"
+        }
+      ],
+      "messagePlaceholder": "Your Message",
+      "consentText": "I agree to the",
+      "privacyLinkText": "Privacy Policy",
+      "termsLinkText": "Terms of Use",
+      "submitButtonText": "SEND ENQUIRY"
+    }
+  },
+  "casestudy": {
+    "banner": {
+      "breadcrumbCurrent": "Case Study",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/woman-with-child-her-shoulder.jpg",
+      "title": "Case Study"
+    },
+    "content": {
+      "itemsPerPage": 6,
+      "studies": [
+        {
+          "id": "1",
+          "category": "EDUCATION",
+          "title": "Building Futures Through Quality Education",
+          "description": "How our education programs are opening doors to brighter futures for underprivileged children.",
+          "date": "May 15, 2024",
+          "imageUrl": "/NGO_Images/youth-cleaning-forest-from-trash.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "2",
+          "category": "HEALTH",
+          "title": "Better Health, Stronger Communities",
+          "description": "Improving access to healthcare and promoting well-being in rural communities.",
+          "date": "April 28, 2024",
+          "imageUrl": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "3",
+          "category": "LIVELIHOOD",
+          "title": "Empowering Livelihoods, Enriching Lives",
+          "description": "Creating sustainable livelihood opportunities and fostering economic independence.",
+          "date": "April 10, 2024",
+          "imageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "4",
+          "category": "WOMEN EMPOWERMENT",
+          "title": "Empowered Women, Empowered Communities",
+          "description": "Promoting gender equality and enabling women to lead change in their communities.",
+          "date": "March 22, 2024",
+          "imageUrl": "/NGO_Images/children-holding-hand-group.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "5",
+          "category": "ENVIRONMENT",
+          "title": "Sustainable Today, Better Tomorrow",
+          "description": "Our efforts to protect the environment and promote a greener, sustainable future.",
+          "date": "March 05, 2024",
+          "imageUrl": "/NGO_Images/children-plant-plants-garden.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "6",
+          "category": "COMMUNITY DEVELOPMENT",
+          "title": "Stronger Together: Building Better Communities",
+          "description": "Strengthening community participation and building pathways for holistic development.",
+          "date": "Feb 18, 2024",
+          "imageUrl": "/NGO_Images/children-speaking-holding-book.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "7",
+          "category": "EDUCATION",
+          "title": "Digital Classrooms for Rural Schools",
+          "description": "Introducing modern digital learning tools to bridge the urban-rural education divide.",
+          "date": "Feb 02, 2024",
+          "imageUrl": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "8",
+          "category": "HEALTH",
+          "title": "Mobile Health Clinics in Remote Regions",
+          "description": "Bringing door-to-door diagnostic and medical treatment services to isolated villages.",
+          "date": "Jan 20, 2024",
+          "imageUrl": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "9",
+          "category": "LIVELIHOOD",
+          "title": "Skill Training for Youth Employment",
+          "description": "Equipping young adults with market-ready vocational skills for self-reliance.",
+          "date": "Jan 12, 2024",
+          "imageUrl": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "10",
+          "category": "WOMEN EMPOWERMENT",
+          "title": "Micro-finance for Women Entrepreneurs",
+          "description": "Funding small enterprises owned by rural women to foster community leadership.",
+          "date": "Dec 28, 2023",
+          "imageUrl": "/NGO_Images/communication-feedback-chos-role.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "11",
+          "category": "ENVIRONMENT",
+          "title": "Clean Water Harvesting Systems",
+          "description": "Constructing sustainable rainwater harvesting infrastructure in drought-prone areas.",
+          "date": "Dec 15, 2023",
+          "imageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "12",
+          "category": "COMMUNITY DEVELOPMENT",
+          "title": "Solar Energy Solutions for Villages",
+          "description": "Powering off-grid homes and public centers using renewable solar micro-grids.",
+          "date": "Nov 30, 2023",
+          "imageUrl": "/NGO_Images/cropped-hands-women.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "13",
+          "category": "EDUCATION",
+          "title": "Scholarships for Higher Studies",
+          "description": "Supporting bright students from impoverished backgrounds to pursue university degrees.",
+          "date": "Nov 14, 2023",
+          "imageUrl": "/NGO_Images/cute-sisters-having-snacks-home.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "14",
+          "category": "HEALTH",
+          "title": "Maternal and Child Health Support",
+          "description": "Ensuring safe deliveries and nutritional support for expectant mothers.",
+          "date": "Oct 22, 2023",
+          "imageUrl": "/NGO_Images/diverse-community-with-hands-circle.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "15",
+          "category": "LIVELIHOOD",
+          "title": "Organic Farming Revival Project",
+          "description": "Helping farmers transition to sustainable organic cultivation practices for better yield.",
+          "date": "Oct 05, 2023",
+          "imageUrl": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+          "readMoreUrl": "/case-details"
+        },
+        {
+          "id": "16",
+          "category": "WOMEN EMPOWERMENT",
+          "title": "Adult Literacy & Rights Awareness",
+          "description": "Teaching basic reading, writing, and legal rights to adult women in rural districts.",
+          "date": "Sep 18, 2023",
+          "imageUrl": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children (1).jpg",
+          "readMoreUrl": "#"
+        },
+        {
+          "id": "17",
+          "category": "ENVIRONMENT",
+          "title": "Community Afforestation Drive",
+          "description": "Planting thousands of native trees to restore degraded forest ecosystems.",
+          "date": "Sep 01, 2023",
+          "imageUrl": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children.jpg",
+          "readMoreUrl": "#"
+        },
+        {
+          "id": "18",
+          "category": "COMMUNITY DEVELOPMENT",
+          "title": "Sanitation and Hygiene Infrastructure",
+          "description": "Building public sanitation facilities and raising hygiene awareness in schools.",
+          "date": "Aug 19, 2023",
+          "imageUrl": "/NGO_Images/group-best-friends-making-toast.jpg",
+          "readMoreUrl": "#"
+        }
+      ]
+    }
+  },
+  "casestudydetail": {
+    "banner": {
+      "breadcrumbCurrent": "Case Study Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/group-children-with-their-hands-up-air.jpg",
+      "title": "Case Study Details"
+    },
+    "content": {
+      "overview": {
+        "title": "Overview",
+        "paragraphs": [
+          "Education is the foundation of a better future. In many rural communities of Rajasthan, lack of access to quality education has been a major barrier for children—especially girls.",
+          "Our initiative focuses on improving access to education, strengthening learning outcomes, and creating a supportive environment for holistic development."
+        ],
+        "whatWeDidTitle": "What We Did",
+        "whatWeDidPoints": [
+          "Established and upgraded 25+ learning centers",
+          "Provided school kits and learning materials",
+          "Trained teachers and community volunteers",
+          "Conducted life skills and digital literacy sessions",
+          "Engaged parents and communities in the learning journey"
+        ]
+      },
+      "impact": {
+        "title": "Impact at a Glance",
+        "stat": [
+          {
+            "number": "3,200+",
+            "label": "Children Enrolled",
+            "description": "Access to quality education improved",
+            "icon": "users"
+          },
+          {
+            "number": "85%",
+            "label": "Improved Learning Outcomes",
+            "description": "Students showed significant academic progress",
+            "icon": "academic-cap"
+          },
+          {
+            "number": "60%",
+            "label": "Girls Enrolment Increase",
+            "description": "More girls are staying in school",
+            "icon": "user-group"
+          },
+          {
+            "number": "25+",
+            "label": "Learning Centers",
+            "description": "Established and upgraded across villages",
+            "icon": "school"
+          }
+        ]
+      },
+      "additionalOverview": {
+        "title": "Overview",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum."
+      }
+    }
+  },
+  "support": {
+    "banner": {
+      "breadcrumbCurrent": "Support",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg",
+      "title": "Support"
+    },
+    "content": {
+      "supportChannels": [
+        {
+          "title": "Live Support",
+          "description": "Chat with our support team in real-time.",
+          "actionText": "Chat Now",
+          "actionUrl": "#",
+          "type": "button"
+        },
+        {
+          "title": "Email Support",
+          "description": "Send us an email and we'll get back to you soon.",
+          "actionText": "support@yourngo.org",
+          "actionUrl": "mailto:support@yourngo.org",
+          "type": "text"
+        },
+        {
+          "title": "Call Us",
+          "description": "Speak directly with our support team.",
+          "actionText": "+91 12345 67890",
+          "actionUrl": "tel:+911234567890",
+          "type": "text"
+        },
+        {
+          "title": "FAQs",
+          "description": "Find answers to common questions quickly.",
+          "actionText": "View FAQs",
+          "actionUrl": "#",
+          "type": "button"
+        }
+      ],
+      "helpSection": {
+        "title": "How We Can Help You",
+        "description": "We're here to help with any questions or concerns you may have.",
+        "imageUrl": "/NGO_Images/group-environmental-conservation-people-hands-planting-aerial-view.jpg",
+        "quoteText": "Your support helps us create lasting change and build stronger communities.",
+        "accordions": [
+          {
+            "title": "General Inquiries",
+            "content": "Get general information about our NGO, mission, and ongoing projects."
+          },
+          {
+            "title": "Donations & Contributions",
+            "content": "Learn how your monetary or material contributions directly impact lives."
+          },
+          {
+            "title": "Volunteering",
+            "content": "Explore opportunities to offer your time and skills for our causes."
+          },
+          {
+            "title": "Partnerships & Collaborations",
+            "content": "Discover how corporate, academic, or social entities can partner with us."
+          },
+          {
+            "title": "Other Support",
+            "content": "Reach out for any other assistance, queries, or custom support requests."
+          }
+        ]
+      },
+      "helpfulResources": {
+        "title": "Helpful Resources",
+        "description": "Explore resources that might help you find the information you need.",
+        "resources": [
+          {
+            "title": "Help Center",
+            "description": "Browse articles and guides on common topics.",
+            "linkUrl": "#"
+          },
+          {
+            "title": "Policies & Terms",
+            "description": "Read our policies, terms and important information.",
+            "linkUrl": "#"
+          },
+          {
+            "title": "Guides & Downloads",
+            "description": "Access helpful guides and downloadable resources.",
+            "linkUrl": "#"
+          },
+          {
+            "title": "Community",
+            "description": "Connect with our community and learn from others.",
+            "linkUrl": "#"
+          }
+        ]
+      },
+      "ctaBanner": {
+        "title": "Still need help?",
+        "pretitle": "We're just a message or call away.",
+        "callTitle": "Call Us Now",
+        "phoneNumber": "+91 12345 67890",
+        "subText": "Mon – Sat | 9:30 AM – 6:30 PM",
+        "actionUrl": "tel:+911234567890"
+      }
+    }
+  },
+  "branches": {
+    "banner": {
+      "breadcrumbCurrent": "Branches",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
+      "title": "Branches"
+    },
+    "content": {
+      "tagline": "BRANCHES",
+      "mainTitle": "Stronger Together,",
+      "highlightTitle": "Closer to Communities",
+      "description": "Our branches help us reach more lives, build local partnerships, and create a greater impact across different regions.",
+      "sectionTitle": "Our Branch Locations",
+      "sectionDescription": "Find your nearest branch office to connect with us, collaborate, or learn more about our initiatives.",
+      "filterPlaceholder": "All States",
+      "locations": [
+        {
+          "name": "New Delhi Branch",
+          "state": "Delhi",
+          "description": "Working towards education, health, and community development in the region.",
+          "phone": "+91 11 1234 5678",
+          "email": "delhi@yourngo.org",
+          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+        },
+        {
+          "name": "Mumbai Branch",
+          "state": "Maharashtra",
+          "description": "Empowering communities through sustainable development programs.",
+          "phone": "+91 22 2345 6789",
+          "email": "mumbai@yourngo.org",
+          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+        },
+        {
+          "name": "Bengaluru Branch",
+          "state": "Karnataka",
+          "description": "Focused on youth empowerment, skill development, and environmental sustainability.",
+          "phone": "+91 80 3456 7890",
+          "email": "bangalore@yourngo.org",
+          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+        },
+        {
+          "name": "Kolkata Branch",
+          "state": "West Bengal",
+          "description": "Working for child welfare, education, and women empowerment.",
+          "phone": "+91 33 4567 8901",
+          "email": "kolkata@yourngo.org",
+          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+        },
+        {
+          "name": "Hyderabad Branch",
+          "state": "Telangana",
+          "description": "Creating opportunities for communities through health, education, and awareness.",
+          "phone": "+91 40 5678 9012",
+          "email": "hyderabad@yourngo.org",
+          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+        },
+        {
+          "name": "Ahmedabad Branch",
+          "state": "Gujarat",
+          "description": "Building stronger communities through social support and livelihood programs.",
+          "phone": "+91 79 6789 0123",
+          "email": "ahmedabad@yourngo.org",
+          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+        }
+      ]
+    }
+  },
+  "brochure": {
+    "banner": {
+      "breadcrumbCurrent": "Brochure",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/group-indian-children-running.jpg",
+      "title": "Brochure"
+    },
+    "content": {
+      "tagline": "OUR RESOURCES",
+      "mainTitle": "Download Our Brochures",
+      "description": "Explore our initiatives, programs and impact through our brochures. Download and share to spread hope and create change.",
+      "brochures": [
+        {
+          "title": "Our Journey",
+          "description": "Know about our mission, vision and journey so far.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Annual Report 2023-24",
+          "description": "Highlights of our work and impact in the last year.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Education for All",
+          "description": "Empowering children through quality education.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Healthcare for All",
+          "description": "Improving access to healthcare and well-being.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Livelihood Programs",
+          "description": "Creating sustainable livelihoods and skill development.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Women Empowerment",
+          "description": "Enabling women to lead independent and dignified lives.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Child Protection",
+          "description": "Ensuring safety, protection and rights of every child.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Environment & Sustainability",
+          "description": "Working for a cleaner, greener and sustainable future.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Volunteer With Us",
+          "description": "Be a part of our change and make a difference.",
+          "fileUrl": "#"
+        },
+        {
+          "title": "Ways to Support",
+          "description": "Different ways you can support our cause.",
+          "fileUrl": "#"
+        }
+      ]
+    }
+  },
+  "media": {
+    "banner": {
+      "breadcrumbCurrent": "Media",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg",
+      "title": "Media"
+    },
+    "content": {
+      "sectionTitle": "Latest Media Articles",
+      "viewAllText": "View All News",
+      "viewAllUrl": "/",
+      "mediaCards": [
+        {
+          "title": "Zee News",
+          "logoUrl": "https://i.pinimg.com/1200x/1f/e6/17/1fe617fe71d1dda9cabb5a42e67cd955.jpg",
+          "articleUrl": "https://zeenews.india.com/india/father-cremated-by-ngo-as-three-daughters-skip-funeral-one-joins-on-video-call-3065194.html"
+        },
+        {
+          "title": "NDTV",
+          "logoUrl": "https://i.pinimg.com/1200x/1f/e6/17/1fe617fe71d1dda9cabb5a42e67cd955.jpg",
+          "articleUrl": "https://zeenews.india.com/india/father-cremated-by-ngo-as-three-daughters-skip-funeral-one-joins-on-video-call-3065194.html"
+        },
+        {
+          "title": "Sky News",
+          "logoUrl": "https://i.pinimg.com/1200x/b2/46/e3/b246e3bfb944872b0e7459e105043617.jpg",
+          "articleUrl": "https://news.sky.com/"
+        },
+        {
+          "title": "IK Media News",
+          "logoUrl": "https://i.pinimg.com/1200x/31/a1/dc/31a1dc1f0254e1bdfff3867a48fe818c.jpg",
+          "articleUrl": "https://www.ikmultimedia.com/news/"
+        },
+        {
+          "title": "News Time",
+          "logoUrl": "https://i.pinimg.com/736x/f5/17/e5/f517e55e02164cfa7237169372acfa70.jpg",
+          "articleUrl": "https://www.timesnownews.com/"
+        },
+        {
+          "title": "ND News Digital",
+          "logoUrl": "https://i.pinimg.com/736x/67/97/8b/67978bfd621fb4c4cbd1623175a2cf28.jpg",
+          "articleUrl": "https://nddnews.in/"
+        },
+        {
+          "title": "BNews",
+          "logoUrl": "https://i.pinimg.com/736x/d6/f2/51/d6f25164940233697854c1e5f028d168.jpg",
+          "articleUrl": "https://www.bbc.com/news"
+        },
+        {
+          "title": "DN News",
+          "logoUrl": "https://i.pinimg.com/1200x/f2/51/c8/f251c86a4a866264bc0d8102184bc125.jpg",
+          "articleUrl": "https://www.dnaindia.com/"
+        }
+      ]
+    }
+  },
+  "donate": {
+    "banner": {
+      "breadcrumbCurrent": "Donate Now",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+      "title": "Donate Now"
+    },
+    "content": {
+      "pretitle": "MAKE AN IMPACT",
+      "title": "Donate Now",
+      "description": "Your support can bring real change in people's lives. Together, we can build a better, healthier and more empowered tomorrow.",
+      "amounts": [
+        {
+          "amount": "₹500",
+          "description": "Support a child's education"
+        },
+        {
+          "amount": "₹1,000",
+          "description": "Provide learning materials",
+          "isPopular": true
+        },
+        {
+          "amount": "₹2,500",
+          "description": "Support healthcare access"
+        },
+        {
+          "amount": "₹5,000",
+          "description": "Empower a community"
+        }
+      ],
+      "quoteText": "Every act of generosity creates a ripple of hope. Together, we can build a stronger, kinder world.",
+      "gridImages": [
+        "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg",
+        "/NGO_Images/hand-holding-group-people-holding-hands-with-green-background-with-green-background.jpg",
+        "/NGO_Images/hands-children-many-friends-games-selective-focus.jpg",
+        "/NGO_Images/hands-holding-soil-with-plant-sprout.jpg",
+        "/NGO_Images/hands-people-group-with-soil-plants-growth-environment-earth-day-support-teamwork-nature-volunteer-leaf-help-with-ngo-investing-sustainable-fertilizer-project-future.jpg"
+      ],
+      "impactFeatures": [
+        {
+          "title": "Education",
+          "description": "Better learning opportunities",
+          "icon": "education"
+        },
+        {
+          "title": "Healthcare",
+          "description": "Access to quality care",
+          "icon": "healthcare"
+        },
+        {
+          "title": "Livelihood",
+          "description": "Empowering communities",
+          "icon": "livelihood"
+        },
+        {
+          "title": "Environment",
+          "description": "Building a sustainable future",
+          "icon": "environment"
+        }
+      ],
+      "guarantees": [
+        {
+          "title": "100% Secure",
+          "description": "Your donation is safe and encrypted",
+          "icon": "shield"
+        },
+        {
+          "title": "Transparent",
+          "description": "We ensure transparency in every step",
+          "icon": "user"
+        },
+        {
+          "title": "Tax Benefits",
+          "description": "Eligible for tax exemption u/s 80G",
+          "icon": "document"
+        }
+      ],
+      "thankYouText": "Thank you for being the reason for someone's better tomorrow. 🧡"
+    }
+  }
+}
