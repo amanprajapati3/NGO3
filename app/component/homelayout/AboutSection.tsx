@@ -146,7 +146,7 @@ export default function AboutSection({ data }: AboutPageProps) {
                         <h3 className="font-bold text-[#0B2545] text-sm sm:text-base mb-0.5 sm:mb-1">
                           {feature.title}
                         </h3>
-                        <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                        <p className="text-sm sm:text-sm text-gray-600 leading-relaxed">
                           {feature.desc}
                         </p>
                       </div>
@@ -177,11 +177,11 @@ export default function AboutSection({ data }: AboutPageProps) {
               {data.button && (
                 <Link
                   href={data.button.href || "/about-us"}
-                  className="inline-flex items-center justify-between gap-2 sm:gap-4 bg-[#FF8A00] hover:bg-[#e07900] text-white font-semibold pl-3 sm:pl-6 pr-1.5 sm:pr-2 py-2 sm:py-2.5 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 text-xs sm:text-base whitespace-nowrap"
+                  className="inline-flex items-center justify-between gap-2 sm:gap-4 bg-[#FF8A00] hover:bg-[#e07900] text-white font-semibold pl-3 sm:pl-6 pr-1.5 sm:pr-2 py-2 sm:py-2.5 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 text-sm sm:text-base whitespace-nowrap"
                 >
                   <span>{data.button.label}</span>
                   <span className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-white flex items-center justify-center flex-shrink-0">
-                    <FiArrowRight className="text-xs sm:text-base text-[#FF8A00]" />
+                    <FiArrowRight className="text-sm sm:text-base text-[#FF8A00]" />
                   </span>
                 </Link>
               )}
@@ -192,14 +192,14 @@ export default function AboutSection({ data }: AboutPageProps) {
                   className="inline-flex items-center gap-2 sm:gap-3 bg-[#DDE7F5] hover:bg-[#cfdcf0] text-[#0B2545] px-3 sm:px-5 py-2 sm:py-2.5 rounded-2xl shadow-sm transition-all duration-300 whitespace-nowrap"
                 >
                   <div className="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-[#0B2545] flex items-center justify-center text-white flex-shrink-0">
-                    <FiPhoneCall className="text-xs sm:text-base" />
+                    <FiPhoneCall className="text-sm sm:text-base" />
                   </div>
 
                   <div className="flex flex-col text-left">
                     <span className="text-[9px] sm:text-[11px] text-gray-600 font-medium leading-tight">
                       Phone
                     </span>
-                    <span className="text-xs sm:text-sm font-bold text-[#0B2545] tracking-wide">
+                    <span className="text-sm sm:text-sm font-bold text-[#0B2545] tracking-wide">
                       {data.phone}
                     </span>
                   </div>

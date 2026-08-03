@@ -71,7 +71,7 @@ export default function Team({ data }: TeamProps) {
                   <h3 className="text-lg font-bold text-[#08121e] group-hover:text-[#005c36] transition-colors">
                     <Link href={member.href}>{member.name}</Link>
                   </h3>
-                  <p className="text-xs font-medium text-gray-500 mt-0.5">
+                  <p className="text-sm font-medium text-gray-500 mt-0.5">
                     {member.role}
                   </p>
                 </div>

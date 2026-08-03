@@ -87,7 +87,7 @@ export default function Vision({ data }: VisionProps) {
                       <h3 className="text-base font-bold text-[#08121e] mb-1">
                         {item.title}
                       </h3>
-                      <p className="text-xs sm:text-sm text-gray-500 leading-relaxed max-w-md">
+                      <p className="text-sm sm:text-sm text-gray-500 leading-relaxed max-w-md">
                         {item.description}
                       </p>
                     </div>

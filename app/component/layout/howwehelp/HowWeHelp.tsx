@@ -36,7 +36,7 @@ export default function HowWeHelp({ data }: HowWeHelpProps) {
         <div className="bg-[#08121e] rounded-t-3xl pt-12 pb-28 px-6 sm:px-10 lg:px-12 text-white">
           <div className="flex items-center gap-2 mb-4">
             <span className="text-[#ff5500] font-bold text-sm">🤲</span>
-            <span className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-gray-300">
+            <span className="text-sm sm:text-sm font-semibold uppercase tracking-wider text-gray-300">
               {data.badge}
             </span>
           </div>

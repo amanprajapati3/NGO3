@@ -87,9 +87,8 @@ export default function Choose({ data }: WhyChooseUsProps) {
               const isOrange = feature.themeColor === "orange";
 
               return (
-                <Link
+                <div
                   key={feature.id}
-                  href={feature.href || "#"}
                   className={`group relative flex items-center justify-between bg-white rounded-2xl p-4 sm:p-5 shadow-sm hover:shadow-md transition-all duration-300 border-l-[4px] text-left ${
                     isOrange ? "border-l-[#F15A24]" : "border-l-[#24422D]"
                   }`}
@@ -125,7 +124,7 @@ export default function Choose({ data }: WhyChooseUsProps) {
                   >
                     <FiChevronRight className="w-5 h-5" />
                   </div>
-                </Link>
+                </div>
               );
             })}
           </div>

@@ -40,13 +40,13 @@ export default function Footer() {
             <h3 className="text-xl sm:text-2xl font-bold whitespace-nowrap text-white">
               {data.newsletterTitle}
             </h3>
-            <div className="flex w-full bg-[#2a2a2a] rounded-full p-1 h-fit border border-gray-700 focus-within:border-orange-500 transition">
+            <div className="flex w-fit bg-[#2a2a2a] rounded-full p-1 h-fit border border-gray-700 focus-within:border-orange-500 transition">
               <input
                 type="email"
                 placeholder="Enter Your Email"
                 className="bg-transparent flex-1 px-4 py-2 outline-none text-sm text-gray-300 placeholder-gray-500"
               />
-              <button className="bg-[#f9570c] px-3 md:px-6 py-2.5 rounded-full text-sm font-semibold text-white hover:bg-[#e04a05] transition-colors">
+              <button className="bg-[#f9570c] px-2 md:px-6 py-2.5 rounded-full text-sm font-semibold text-white hover:bg-[#e04a05] transition-colors">
                 Subscribe
               </button>
             </div>

@@ -272,11 +272,11 @@
         },
         {
           "label": "Enquiery Now",
-          "href": "/enquiry-now"
+          "href": "/enquiry"
         },
         {
           "label": "Branches",
-          "href": "/branche"
+          "href": "/branches"
         },
         {
           "label": "Support",
@@ -1587,7 +1587,7 @@
       },
       {
         "label": "Partners",
-        "href": "/partners"
+        "href": "/partner"
       },
       {
         "label": "CSR",
@@ -1612,7 +1612,7 @@
         "email": "madrid@helpinghearts.org"
       }
     ],
-    "copyright": "© 2026 NGO. All rights reserved.",
+    "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow.",
     "legalLinks": [
       {
         "label": "Privacy Policy",
@@ -1628,7 +1628,7 @@
       },
       {
         "label": "Cookie Policy",
-        "href": "/cookie"
+        "href": "/cookie-policy"
       },
       {
         "label": "Disclaimer",
@@ -1884,105 +1884,184 @@
       }
     ]
   },
-  "contact": {
+"contact": {
     "banner": {
       "title": "Contact Us",
       "breadcrumbHome": "Home",
-      "breadcrumbCurrent": "Contact",
+      "breadcrumbCurrent": "Contact Us",
       "bgImageUrl": "/NGO_Images/group-children-with-their-hands-up-air.jpg"
     },
     "heading": {
       "pretitle": "Get In Touch",
-      "title": "Talk to our team",
-      "desc": "Whether you want to volunteer, collaborate on a local community initiative, or ask a question regarding your donation, we're always here to listen and help."
+      "title": "Contact Us",
+      "desc": "We'd love to hear from you! Whether you have a question, want to volunteer, or want to partner with us — we're here to help."
     },
     "officeInfo": [
       {
-        "iconTitle": "Address",
-        "value": "3268 North Street, Virginia, USA, Main HQ - Floor 4"
+        "iconTitle": "Location",
+        "values": ["55 Main Street, 2nd Block, Melbourne, Australia"]
       },
       {
         "iconTitle": "Phone",
-        "value": "+1 (555) 234-5678, +1 (555) 876-5432"
+        "values": ["+1 (368) 567 89 54", "+236 (456) 896 22"]
       },
       {
         "iconTitle": "Email",
-        "value": "hello@helpingheartscharity.org, support@helpingheartscharity.org"
+        "values": ["example@email.com", "charifund@email.com"]
+      },
+      {
+        "iconTitle": "Social",
+        "socialLinks": [
+          { "platform": "facebook", "url": "https://facebook.com" },
+          { "platform": "vimeo", "url": "https://vimeo.com" },
+          { "platform": "twitter", "url": "https://twitter.com" },
+          { "platform": "linkedin", "url": "https://linkedin.com" }
+        ]
       }
     ],
     "formLabels": {
-      "namePlaceholder": "Your Name *",
-      "emailPlaceholder": "Email Address *",
-      "subjectPlaceholder": "Subject *",
-      "messagePlaceholder": "Message *",
-      "buttonText": "Send Message"
+      "title": "Fill Up The Form",
+      "subtitle": "Your email address will not be published.",
+      "note": "Required fields are marked *",
+      "namePlaceholder": "Enter Name",
+      "emailPlaceholder": "Enter Email",
+      "phonePlaceholder": "Phone Number",
+      "messagePlaceholder": "Your Message...",
+      "buttonText": "Get A Quote"
     },
     "successMessage": {
       "title": "Message Sent"
     },
     "map": {
       "title": "Find Us",
-      "address": "3268 North Street, Virginia, USA",
-      "embedUrl": "https://www.google.com/maps?q=3268+North+Street,+Virginia,+USA&output=embed"
+      "address": "55 Main Street, 2nd Block, Melbourne, Australia",
+      "directionsText": "Get Directions",
+      "directionsUrl": "https://maps.google.com/?q=55+Main+Street,+2nd+Block,+Melbourne,+Australia",
+      "embedUrl": "https://www.google.com/maps?q=55+Main+Street,+2nd+Block,+Melbourne,+Australia&output=embed"
     }
   },
-  "faq": {
+"faq": {
     "banner": {
-      "title": "FAQ",
+      "title": "Frequently asked questions",
       "breadcrumbHome": "Home",
-      "breadcrumbCurrent": "FAQ",
+      "breadcrumbCurrent": "Frequently asked questions",
       "bgImageUrl": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg"
     },
-    "heading": {
-      "pretitle": "Find answers to common questions about our work, services, and how you can get involved with our mission.",
-      "title": "Frequently Asked Questions"
-    },
-    "sidebarCallout": {
-      "title": "Still have a question?",
-      "description": "We're here to help.\nReach out to our team anytime.",
-      "imageUrl": "/NGO_Images/group-environmental-conservation-people-hands-planting-aerial-view.jpg",
-      "imageTagText": "NGO"
-    },
-    "items": [
+    "sidebarCategories": [
       {
-        "question": "What is an NGO?",
-        "answer": "An NGO (Non-Governmental Organization) is a non-profit entity that works independently of government to address social, environmental, and community challenges and drive positive change."
+        "id": "general",
+        "title": "General FAQs",
+        "icon": "help-circle"
       },
       {
-        "question": "How do you use donations?",
-        "answer": "Your donations directly fund our ground operations including food distribution, medical assistance, education, and community development projects. We maintain full transparency through regular financial audits."
+        "id": "donation",
+        "title": "Donation FAQs",
+        "icon": "heart"
       },
       {
-        "question": "Can I volunteer with your organization?",
-        "answer": "Yes! We welcome volunteers from all backgrounds for field distribution, educational drives, event management, and administrative support."
+        "id": "volunteer",
+        "title": "Volunteer FAQs",
+        "icon": "users"
       },
       {
-        "question": "Are donations tax-deductible?",
-        "answer": "Yes, all donations made to our organization are tax-deductible under applicable tax regulations. Official tax receipts are issued for every contribution."
-      },
-      {
-        "question": "How do you select the communities you work with?",
-        "answer": "We conduct ground surveys and risk assessments to identify underprivileged communities experiencing critical resource shortages, prioritizing emergency aid and long-term sustainability."
-      },
-      {
-        "question": "How can my business partner with you?",
-        "answer": "We offer Corporate Social Responsibility (CSR) partnerships, joint fundraising events, cause marketing campaigns, and employee volunteering programs."
-      },
-      {
-        "question": "How can I stay updated on your activities?",
-        "answer": "You can subscribe to our newsletter, follow us on our social media platforms, or visit our News & Blog section for field reports and project updates."
+        "id": "program",
+        "title": "Program FAQs",
+        "icon": "file-text"
       }
     ],
-    "supportSection": {
-      "title": "We're here to support you",
-      "description": "If you have any other questions or need more information, feel free to contact us.",
-      "contact": {
-        "phone": "+91 12345 67890",
-        "email": "info@yourngo.org",
-        "website": "www.yourngo.org"
-      }
+    "sidebarBanner": {
+      "tagline": "Small Gifts, Big Changes",
+      "title": "Empowering Every Child Through Education",
+      "buttonText": "Get A Quote",
+      "buttonUrl": "/contact-us",
+      "imageUrl": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg"
     },
-    "quote": "Transparency builds trust. Your questions help us grow stronger in our mission."
+    "faqSections": [
+      {
+        "id": "general",
+        "categoryTitle": "General FAQs",
+        "colorScheme": "orange",
+        "items": [
+          {
+            "question": "What is the mission of your organization?",
+            "answer": "You can volunteer, donate, or partner with us to support our initiatives. Visit our Get Involved page for more details."
+          },
+          {
+            "question": "How can I get involved?",
+            "answer": "You can volunteer, donate, or partner with us to support our initiatives. Visit our Get Involved page for more details."
+          },
+          {
+            "question": "Where do your donations go?",
+            "answer": "Your contributions directly support our community outreach programs, child education projects, and emergency aid supplies."
+          },
+          {
+            "question": "Are my donations tax-deductible?",
+            "answer": "Yes, all donations are tax-deductible. You will receive an official tax receipt via email immediately after donating."
+          },
+          {
+            "question": "How can I volunteer with your organization?",
+            "answer": "Sign up through our volunteer portal, choose your area of interest, and our coordinator will connect with you."
+          }
+        ]
+      },
+      {
+        "id": "donation",
+        "categoryTitle": "Donation FAQs",
+        "colorScheme": "emerald",
+        "items": [
+          {
+            "question": "What is the mission of your organization?",
+            "answer": "You can volunteer, donate, or partner with us to support our initiatives. Visit our Get Involved page for more details."
+          },
+          {
+            "question": "Where do your donations go?",
+            "answer": "Your contributions directly support our community outreach programs, child education projects, and emergency aid supplies."
+          },
+          {
+            "question": "Are my donations tax-deductible?",
+            "answer": "Yes, all donations are tax-deductible. You will receive an official tax receipt via email immediately after donating."
+          },
+          {
+            "question": "How can I volunteer with your organization?",
+            "answer": "Sign up through our volunteer portal, choose your area of interest, and our coordinator will connect with you."
+          }
+        ]
+      },
+      {
+        "id": "volunteer",
+        "categoryTitle": "Volunteer FAQs",
+        "colorScheme": "sky",
+        "items": [
+          {
+            "question": "What is the mission of your organization?",
+            "answer": "You can volunteer, donate, or partner with us to support our initiatives. Visit our Get Involved page for more details."
+          },
+          {
+            "question": "Where do your donations go?",
+            "answer": "Your contributions directly support our community outreach programs, child education projects, and emergency aid supplies."
+          }
+        ]
+      },
+      {
+        "id": "program",
+        "categoryTitle": "Program FAQs",
+        "colorScheme": "purple",
+        "items": [
+          {
+            "question": "What is the mission of your organization?",
+            "answer": "You can volunteer, donate, or partner with us to support our initiatives. Visit our Get Involved page for more details."
+          },
+          {
+            "question": "Where do your donations go?",
+            "answer": "Your contributions directly support our community outreach programs, child education projects, and emergency aid supplies."
+          },
+          {
+            "question": "Are my donations tax-deductible?",
+            "answer": "Yes, all donations are tax-deductible. You will receive an official tax receipt via email immediately after donating."
+          }
+        ]
+      }
+    ]
   },
   "privacyPolicy": {
     "banner": {
@@ -2022,7 +2101,13 @@
         "title": "5. Contact Us",
         "text": "If you have questions or comments about this policy, you may email us at privacy@Helping Hearts.org or by post to our central office."
       }
-    ]
+    ],
+    "ctaBanner": {
+      "title": "Together, we can create a better tomorrow.",
+      "subtitle": "Thank you for being a part of our mission.",
+      "buttonText": "I Agree to the Terms",
+      "buttonHref": "/"
+    }
   },
   "refundPolicy": {
     "banner": {
@@ -2072,7 +2157,13 @@
         "title": "5. Contact Us",
         "text": "If you have questions about a donation, refund request, or transaction, please contact our support team through our official communication channels or email us at support@helpinghearts.org."
       }
-    ]
+    ],
+    "ctaBanner": {
+      "title": "Together, we can create a better tomorrow.",
+      "subtitle": "Thank you for being a part of our mission.",
+      "buttonText": "I Agree to the Terms",
+      "buttonHref": "/"
+    }
   },
   "cookiePolicy": {
     "banner": {
@@ -2133,7 +2224,13 @@
         "title": "6. Contact Us",
         "text": "If you have questions or concerns about our use of cookies or this Cookie Policy, you may contact us through our official communication channels or email us at privacy@helpinghearts.org."
       }
-    ]
+    ],
+    "ctaBanner": {
+      "title": "Together, we can create a better tomorrow.",
+      "subtitle": "Thank you for being a part of our mission.",
+      "buttonText": "I Agree to the Terms",
+      "buttonHref": "/"
+    }
   },
   "disclaimer": {
     "banner": {
@@ -2183,14 +2280,20 @@
         "title": "5. Contact Us",
         "text": "If you have questions, concerns, or require clarification regarding this Disclaimer or any information published on our website, you may contact Helping Hearts through our official communication channels or email us at info@helpinghearts.org."
       }
-    ]
+    ],
+    "ctaBanner": {
+      "title": "Together, we can create a better tomorrow.",
+      "subtitle": "Thank you for being a part of our mission.",
+      "buttonText": "I Agree to the Terms",
+      "buttonHref": "/"
+    }
   },
   "termsConditions": {
     "banner": {
       "title": "Terms & Conditions",
       "breadcrumbHome": "Home",
       "breadcrumbCurrent": "Terms & Conditions",
-      "bgImageUrl": "/NGO_Images/hand-holding-group-people-holding-hands-with-green-background-with-green-background.jpg"
+      "bgImageUrl": "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg"
     },
     "sections": [
       {
@@ -2213,7 +2316,13 @@
         "title": "5. Governing Law",
         "text": "These Terms shall be governed by and defined following the laws of the jurisdiction in which our organization is registered, without regard to its conflict of law principles."
       }
-    ]
+    ],
+    "ctaBanner": {
+      "title": "Together, we can create a better tomorrow.",
+      "subtitle": "Thank you for being a part of our mission.",
+      "buttonText": "I Agree to the Terms",
+      "buttonHref": "/"
+    }
   },
   "events": {
     "pretitle": "Start Donating Poor People",
@@ -2959,66 +3068,67 @@
       }
     ]
   },
-  "partnersSponsors": {
-    "sectionBadge": "Our Allies",
+"partnersSponsors": {
+    "sectionBadge": "OUR PARTNERS",
+    "sectionTitle": "Stronger Together",
+    "sectionpretitle": "We collaborate with like-minded organizations and institutions who share our vision of creating a better and more equitable world.",
     "banner": {
-      "bgImageUrl": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
-      "title": "Trusted Partners & Global Sponsors",
+      "bgImageUrl": "/NGO_Images/communication-feedback-chos-role.jpg",
+      "title": "Our Partners",
       "breadcrumbHome": "Home",
-      "breadcrumbCurrent": "Partners"
+      "breadcrumbCurrent": "Our Partners",
+      "homeHref": "/"
     },
-    "sectionTitle": "Trusted Partners & Global Sponsors",
-    "sectionpretitle": "We collaborate with industry leaders and non-profit organizations to scale our global humanitarian footprint.",
     "partners": [
       {
         "id": 1,
-        "name": "Microsoft",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"
+        "name": "Tata Foundation",
+        "logo": "https://i.pinimg.com/1200x/a1/d5/af/a1d5afdace642c517d0cff0962a68679.jpg"
       },
       {
         "id": 2,
-        "name": "Google",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
+        "name": "Desai Foundation",
+        "logo": "https://i.pinimg.com/736x/e3/62/55/e36255a93896664d4f7f9c439e311721.jpg"
       },
       {
         "id": 3,
-        "name": "IBM",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+        "name": "HCL Foundation",
+        "logo": "https://i.pinimg.com/1200x/67/e2/dd/67e2dd94b12142ee75be33ac93924c8f.jpg"
       },
       {
         "id": 4,
-        "name": "NVIDIA",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg"
+        "name": "Microsoft Philanthropies",
+        "logo": "https://i.pinimg.com/1200x/66/27/e9/6627e99db38db77bd153ac5a958aa680.jpg"
       },
       {
         "id": 5,
-        "name": "Oracle",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+        "name": "Bill & Melinda Gates Foundation",
+        "logo": "https://i.pinimg.com/736x/0f/38/8f/0f388f392d1208890aa2681a2bf47170.jpg"
       },
       {
         "id": 6,
-        "name": "Oracle",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+        "name": "NASSCOM Foundation",
+        "logo": "https://i.pinimg.com/736x/02/d7/7c/02d77cc195e1145508aad91f2254b076.jpg"
       },
       {
         "id": 7,
-        "name": "Oracle",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+        "name": "PRADAN",
+        "logo": "https://i.pinimg.com/736x/04/36/cd/0436cdd79fe9af656db5447c181106d9.jpg"
       },
       {
         "id": 8,
-        "name": "Oracle",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+        "name": "UN Women India",
+        "logo": "https://i.pinimg.com/1200x/7a/a0/45/7aa045990161a2008fe3ee4882a12dde.jpg"
       },
       {
         "id": 9,
-        "name": "Oracle",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+        "name": "Accenture",
+        "logo": "https://i.pinimg.com/1200x/9e/55/8b/9e558b481e6f3e5ad323f1c30585ff84.jpg"
       },
       {
         "id": 10,
-        "name": "Oracle",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg"
+        "name": "SAP India",
+        "logo": "https://i.pinimg.com/1200x/90/fd/aa/90fdaa183b285d6ea5716576dfee1313.jpg"
       }
     ]
   },
@@ -3134,7 +3244,7 @@
         "tagline": "Small Donations Bigger Impact",
         "title": "Education Health For Every Child",
         "buttonLabel": "Get A Quote",
-        "buttonHref": "/contact"
+        "buttonHref": "/contact-us"
       }
     }
   },
@@ -3474,42 +3584,42 @@
     "title": "NGO Excellence Award 2024",
     "description": "For outstanding contribution to community development.",
     "issuedBy": "National NGO Forum",
-    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+    "imageUrl": "https://i.pinimg.com/736x/09/57/1e/09571e3e4cc1eb290cb5d3d783b55f3b.jpg"
   },
   {
     "id": "2",
     "title": "Social Impact Award 2023",
     "description": "In recognition of impactful initiatives in education.",
     "issuedBy": "Bharat Social Impact Awards",
-    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+    "imageUrl": "https://i.pinimg.com/736x/d7/8a/2d/d78a2ded501b893cf7399b586af49af2.jpg"
   },
   {
     "id": "3",
     "title": "Community Service Award 2022",
     "description": "In appreciation of continuous efforts towards society.",
     "issuedBy": "Rural Development Council",
-    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+    "imageUrl": "https://i.pinimg.com/736x/d6/6b/bf/d66bbfcac26fc21756d2733dc5a93fad.jpg"
   },
   {
     "id": "4",
     "title": "Excellence in Social Impact 2022",
     "description": "Recognized for meaningful community initiatives.",
     "issuedBy": "Social Impact Forum",
-    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+    "imageUrl": "https://i.pinimg.com/736x/d6/6b/bf/d66bbfcac26fc21756d2733dc5a93fad.jpg"
   },
   {
     "id": "5",
     "title": "Innovation for Change 2021",
     "description": "For innovative programs creating lasting social impact.",
     "issuedBy": "Development Innovators Network",
-    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+    "imageUrl": "https://i.pinimg.com/736x/cb/24/d2/cb24d2618598b0fd48faca3006e07c93.jpg"
   },
   {
     "id": "6",
     "title": "Community Leadership Award 2021",
     "description": "For continued leadership and contribution to community welfare.",
     "issuedBy": "Community Development Council",
-    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+    "imageUrl": "https://i.pinimg.com/736x/4a/51/0b/4a510bf6c89e71704e9e3807311522f6.jpg"
   }
     ],
     "certificatesHeading": {
@@ -3520,31 +3630,31 @@
     "id": "c1",
     "title": "Certificate of Appreciation 2024",
     "issuedBy": "Community Development Organization",
-    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+    "imageUrl": "https://i.pinimg.com/1200x/68/a1/c0/68a1c0ce46484dfe6185b29dfb8a534e.jpg"
   },
   {
     "id": "c2",
     "title": "Certificate of Excellence 2023",
     "issuedBy": "Social Impact Foundation",
-    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+    "imageUrl": "https://i.pinimg.com/736x/22/37/19/2237199bdf8e5f3702a85273de3cf5c8.jpg"
   },
   {
     "id": "c3",
     "title": "Certificate of Recognition 2022",
     "issuedBy": "Community Welfare Organization",
-    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+    "imageUrl": "https://i.pinimg.com/736x/06/2f/f4/062ff4c59040548a0b49b3b5bc32c275.jpg"
   },
   {
     "id": "c4",
     "title": "Certificate of Achievement 2020",
     "issuedBy": "Green Earth Foundation",
-    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+    "imageUrl": "https://i.pinimg.com/1200x/0e/60/96/0e6096abfdf224dcfb2d62c50e0691d4.jpg"
   },
   {
     "id": "c5",
     "title": "Certificate of Honor 2019",
     "issuedBy": "National Community Forum",
-    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+    "imageUrl": "https://i.pinimg.com/736x/40/6a/32/406a3263175a918dc9ce9d22a57637e3.jpg"
   }
     ],
     "stats": [
@@ -3710,7 +3820,7 @@
       ]
     }
   },
-  "enquiry": {
+"enquiry": {
     "banner": {
       "breadcrumbCurrent": "Enquiry Now",
       "breadcrumbHome": "Home",
@@ -3719,87 +3829,102 @@
     },
     "header": {
       "pretitle": "ENQUIRY NOW",
-      "title": "We’d Love to Hear From You",
-      "description": "Have a question, collaboration idea, or want to learn more about our work?\nFill out the form and our team will get back to you as soon as possible."
+      "title": "Send Us Your Enquiry",
+      "description": "Please fill in the details below and we will get back to you."
     },
     "getInTouch": {
       "bgImageUrl": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
-      "quoteText": "Together, we can create lasting change.",
+      "quoteText": "We'd love to hear from you!",
       "title": "Get in Touch",
       "contactItems": [
         {
           "icon": "location",
           "title": "Our Office",
-          "value": "123 Hope Street, New Delhi – 110001, India"
+          "value": "123 Charity Street, Green Park, New Delhi - 110016, India"
         },
         {
           "icon": "phone",
-          "title": "Call Us",
-          "value": "+91 12345 67890"
+          "title": "Phone",
+          "value": "+91 98765 43210 (Mon - Sat | 10:00 AM - 6:00 PM)"
         },
         {
           "icon": "email",
-          "title": "Email Us",
-          "value": "info@yourngo.org"
+          "title": "Email",
+          "value": "info@hopeforall.org"
         },
         {
           "icon": "globe",
-          "title": "Visit Our Website",
-          "value": "www.yourngo.org"
-        },
-        {
-          "icon": "clock",
-          "title": "Office Hours",
-          "value": "Mon – Sat: 9:30 AM – 6:30 PM"
+          "title": "Website",
+          "value": "www.hopeforall.org"
         }
       ]
     },
+    "quickResponse": {
+      "title": "Quick Response",
+      "subtitle": "We usually respond within",
+      "timeframe": "24 - 48 Hours",
+      "thankYouText": "Your enquiry matters to us. Thank you!"
+    },
+    "connectWithUs": {
+      "title": "Connect With Us",
+      "description": "Follow us on social media for updates and inspiring stories.",
+      "socialLinks": [
+        { "platform": "facebook", "url": "https://facebook.com" },
+        { "platform": "instagram", "url": "https://instagram.com" },
+        { "platform": "linkedin", "url": "https://linkedin.com" },
+        { "platform": "youtube", "url": "https://youtube.com" }
+      ]
+    },
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "description": "Find quick answers to common questions in our FAQ section.",
+      "buttonText": "View FAQs",
+      "buttonUrl": "/faq"
+    },
     "form": {
-      "title": "Send Us an Enquiry",
-      "namePlaceholder": "Your Name",
-      "emailPlaceholder": "Your Email",
-      "phonePlaceholder": "Phone Number",
-      "subjectOptions": [
-        {
-          "label": "Subject",
-          "value": ""
-        },
-        {
-          "label": "General Inquiry",
-          "value": "general"
-        },
-        {
-          "label": "Donation & Support",
-          "value": "donation"
-        },
-        {
-          "label": "Volunteering",
-          "value": "volunteering"
-        }
+      "formHeaderTitle": "Send Us Your Enquiry",
+      "formHeaderSubtitle": "Please fill in the details below and we will get back to you.",
+      "fullNameLabel": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "mobileLabel": "Mobile Number",
+      "mobilePlaceholder": "Enter your mobile number",
+      "orgNameLabel": "Organization Name",
+      "orgNameOptionalTag": "(Optional)",
+      "orgNamePlaceholder": "Enter organization name",
+      "cityStateLabel": "City / State",
+      "cityStatePlaceholder": "Enter your city / state",
+      "enquiryTypeLabel": "Enquiry Type",
+      "enquiryTypeOptions": [
+        { "label": "Select enquiry type", "value": "" },
+        { "label": "General Inquiry", "value": "general" },
+        { "label": "Donation & Support", "value": "donation" },
+        { "label": "Volunteering", "value": "volunteering" },
+        { "label": "Partnership", "value": "partnership" }
       ],
-      "categoryOptions": [
-        {
-          "label": "I am enquiring about",
-          "value": ""
-        },
-        {
-          "label": "Partnership",
-          "value": "partnership"
-        },
-        {
-          "label": "Education Programs",
-          "value": "education"
-        },
-        {
-          "label": "Healthcare Programs",
-          "value": "healthcare"
-        }
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "Enter subject of your enquiry",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "fileUpload": {
+        "label": "Upload File",
+        "optionalTag": "(Optional)",
+        "chooseText": "Choose file",
+        "dragText": "or drag & drop",
+        "supportedFormatsText": "PDF, DOC, JPG, PNG (Max. 5MB)"
+      },
+      "preferredContactLabel": "Preferred Contact Method",
+      "preferredContactOptions": [
+        { "label": "Email", "value": "email", "defaultChecked": true },
+        { "label": "Phone", "value": "phone", "defaultChecked": false },
+        { "label": "WhatsApp", "value": "whatsapp", "defaultChecked": false }
       ],
-      "messagePlaceholder": "Your Message",
       "consentText": "I agree to the",
       "privacyLinkText": "Privacy Policy",
-      "termsLinkText": "Terms of Use",
-      "submitButtonText": "SEND ENQUIRY"
+      "href": "/privacy-policy",
+      "termsLinkText": "and consent to being contacted regarding my enquiry.",
+      "submitButtonText": "Send Enquiry"
     }
   },
   "casestudy": {
@@ -4035,12 +4160,76 @@
       }
     }
   },
-  "support": {
+"support": {
     "banner": {
       "breadcrumbCurrent": "Support",
       "breadcrumbHome": "Home",
       "bgImageUrl": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg",
       "title": "Support"
+    },
+    "waysToSupport": {
+      "sectionTitle": "Ways You Can Support",
+      "items": [
+        {
+          "icon": "donate",
+          "title": "Donate",
+          "description": "Your donation fuels our programs and helps us reach more people in need.",
+          "buttonText": "Donate Now",
+          "buttonUrl": "/donate"
+        },
+        {
+          "icon": "volunteer",
+          "title": "Volunteer",
+          "description": "Give your time and skills to make a real difference in communities.",
+          "buttonText": "Join as Volunteer",
+          "buttonUrl": "/team"
+        },
+        {
+          "icon": "partner",
+          "title": "Partner With Us",
+          "description": "Collaborate with us as a corporate, institution or organization.",
+          "buttonText": "Partner With Us",
+          "buttonUrl": "/contact-us"
+        },
+        {
+          "icon": "fundraise",
+          "title": "Fundraise",
+          "description": "Start a fundraiser for a cause close to your heart and inspire others.",
+          "buttonText": "Start Fundraising",
+          "buttonUrl": "/donate"
+        },
+        {
+          "icon": "spread",
+          "title": "Spread the Word",
+          "description": "Share our mission with your network and help us reach more people.",
+          "buttonText": "Learn More",
+          "buttonUrl": "/about-us"
+        }
+      ]
+    },
+    "helpSection": {
+      "subTitle": "Start Donating Poor People",
+      "title": "Frequently <span class='text-amber-500'>Asked</span> Questions",
+      "mainImage": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
+      "secondaryImage": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg",
+      "accordions": [
+        {
+          "title": "What kind of recipes can I find on your website?",
+          "content": "It Is A Long Established Fact That A Reader Will Be Distracted By The Readable The A Content Of A Page When Looking At Its Layout. Many Desktop Publishing Packages And Web Page Editors."
+        },
+        {
+          "title": "Are the recipes suitable for beginners?",
+          "content": "Yes, our programs and resources are structured to cater to individuals at all experience levels."
+        },
+        {
+          "title": "Do you offer cooking tips and techniques?",
+          "content": "We offer comprehensive guides, workshops, and community mentorship opportunities."
+        },
+        {
+          "title": "How frequently do you update your recipe collection?",
+          "content": "We update our initiatives and educational resources on a weekly basis."
+        }
+      ]
     },
     "content": {
       "supportChannels": [
@@ -4073,34 +4262,6 @@
           "type": "button"
         }
       ],
-      "helpSection": {
-        "title": "How We Can Help You",
-        "description": "We're here to help with any questions or concerns you may have.",
-        "imageUrl": "/NGO_Images/group-environmental-conservation-people-hands-planting-aerial-view.jpg",
-        "quoteText": "Your support helps us create lasting change and build stronger communities.",
-        "accordions": [
-          {
-            "title": "General Inquiries",
-            "content": "Get general information about our NGO, mission, and ongoing projects."
-          },
-          {
-            "title": "Donations & Contributions",
-            "content": "Learn how your monetary or material contributions directly impact lives."
-          },
-          {
-            "title": "Volunteering",
-            "content": "Explore opportunities to offer your time and skills for our causes."
-          },
-          {
-            "title": "Partnerships & Collaborations",
-            "content": "Discover how corporate, academic, or social entities can partner with us."
-          },
-          {
-            "title": "Other Support",
-            "content": "Reach out for any other assistance, queries, or custom support requests."
-          }
-        ]
-      },
       "helpfulResources": {
         "title": "Helpful Resources",
         "description": "Explore resources that might help you find the information you need.",
@@ -4137,71 +4298,111 @@
       }
     }
   },
-  "branches": {
+"branches": {
     "banner": {
-      "breadcrumbCurrent": "Branches",
+      "breadcrumbCurrent": "Our Branches",
       "breadcrumbHome": "Home",
       "bgImageUrl": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
-      "title": "Branches"
+      "title": "Our Branches"
     },
     "content": {
-      "tagline": "BRANCHES",
-      "mainTitle": "Stronger Together,",
-      "highlightTitle": "Closer to Communities",
-      "description": "Our branches help us reach more lives, build local partnerships, and create a greater impact across different regions.",
-      "sectionTitle": "Our Branch Locations",
-      "sectionDescription": "Find your nearest branch office to connect with us, collaborate, or learn more about our initiatives.",
-      "filterPlaceholder": "All States",
+      "tagline": "OUR NETWORK",
+      "mainTitle": "We Are Where ",
+      "highlightTitle": "You Are",
+      "description": "Our branches work at the grassroots level to bring real change in communities.",
       "locations": [
         {
-          "name": "New Delhi Branch",
-          "state": "Delhi",
-          "description": "Working towards education, health, and community development in the region.",
-          "phone": "+91 11 1234 5678",
-          "email": "delhi@yourngo.org",
-          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+          "name": "Head Office – New Delhi",
+          "isHeadOffice": true,
+          "address": "123, Hope Foundation Road, Green Park, New Delhi – 110016",
+          "phone": "+91 98765 43210",
+          "email": "delhi@hopeforall.org",
+          "image": "https://i.pinimg.com/1200x/f8/08/ef/f808efa7f4c37d483e02de4d031db780.jpg",
+          "buttonText": "View Details"
         },
         {
           "name": "Mumbai Branch",
-          "state": "Maharashtra",
-          "description": "Empowering communities through sustainable development programs.",
-          "phone": "+91 22 2345 6789",
-          "email": "mumbai@yourngo.org",
-          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+          "isHeadOffice": false,
+          "address": "45, Seva Marg, Bandra West, Mumbai, Maharashtra – 400050",
+          "phone": "+91 98765 43211",
+          "email": "mumbai@hopeforall.org",
+          "image": "https://i.pinimg.com/1200x/47/50/7f/47507f0ef22eceeb60804d3692a6c76e.jpg",
+          "buttonText": "View Details"
         },
         {
-          "name": "Bengaluru Branch",
-          "state": "Karnataka",
-          "description": "Focused on youth empowerment, skill development, and environmental sustainability.",
-          "phone": "+91 80 3456 7890",
-          "email": "bangalore@yourngo.org",
-          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+          "name": "Bangalore Branch",
+          "isHeadOffice": false,
+          "address": "12, Compassion Street, Koramangala, Bengaluru, Karnataka – 560034",
+          "phone": "+91 98765 43212",
+          "email": "bangalore@hopeforall.org",
+          "image": "https://i.pinimg.com/736x/69/91/a0/6991a06d2c0dfea1f6efa46286d65a81.jpg",
+          "buttonText": "View Details"
         },
         {
           "name": "Kolkata Branch",
-          "state": "West Bengal",
-          "description": "Working for child welfare, education, and women empowerment.",
-          "phone": "+91 33 4567 8901",
-          "email": "kolkata@yourngo.org",
-          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+          "isHeadOffice": false,
+          "address": "88, Helping Hands Lane, Salt Lake, Kolkata, West Bengal – 700091",
+          "phone": "+91 98765 43213",
+          "email": "kolkata@hopeforall.org",
+          "image": "https://i.pinimg.com/736x/d8/1b/bc/d81bbc54e0bd682c6c5e51e55b7fac10.jpg",
+          "buttonText": "View Details"
         },
         {
-          "name": "Hyderabad Branch",
-          "state": "Telangana",
-          "description": "Creating opportunities for communities through health, education, and awareness.",
-          "phone": "+91 40 5678 9012",
-          "email": "hyderabad@yourngo.org",
-          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+          "name": "Chennai Branch",
+          "isHeadOffice": false,
+          "address": "67, Anna Salai, T. Nagar, Chennai, Tamil Nadu – 600017",
+          "phone": "+91 98765 43214",
+          "email": "chennai@hopeforall.org",
+          "image": "https://i.pinimg.com/1200x/c0/38/af/c038af52d38d20e9422ffaa8a4981c42.jpg",
+          "buttonText": "View Details"
         },
         {
-          "name": "Ahmedabad Branch",
-          "state": "Gujarat",
-          "description": "Building stronger communities through social support and livelihood programs.",
-          "phone": "+91 79 6789 0123",
-          "email": "ahmedabad@yourngo.org",
-          "timing": "Mon - Sat\n9:30 AM – 6:30 PM"
+          "name": "Guwahati Branch",
+          "isHeadOffice": false,
+          "address": "House No. 12, RG Baruah Road, Guwahati, Assam – 781005",
+          "phone": "+91 98765 43215",
+          "email": "guwahati@hopeforall.org",
+          "image": "https://i.pinimg.com/1200x/a2/11/37/a21137f6614239a36dbcaaefaeb8efef.jpg",
+          "buttonText": "View Details"
         }
-      ]
+      ],
+      "viewAllButtonText": "View All Branches",
+      "features": [
+        {
+          "icon": "users",
+          "title": "Local Presence",
+          "description": "Our branches are located where the need is the greatest."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Community Focused",
+          "description": "We work closely with local communities to create lasting impact."
+        },
+        {
+          "icon": "handshake",
+          "title": "Stronger Together",
+          "description": "Each branch is a step towards a stronger, kinder society."
+        },
+        {
+          "icon": "sprout",
+          "title": "Growing Impact",
+          "description": "More branches mean more lives touched and transformed."
+        }
+      ],
+      "partnerCta": {
+        "title": "Want to start a new chapter of change?",
+        "description": "Partner with us and help us bring hope and create opportunities in more communities.",
+        "buttonText": "Partner With Us",
+        "getInTouchTitle": "Get in Touch",
+        "phone": "+91 98765 43210",
+        "email": "info@hopeforall.org",
+        "website": "www.hopeforall.org"
+      },
+      "bottomCta": {
+        "text": "Every branch is a step towards a stronger, kinder and more empowered society.",
+        "subtext": "Join us in making a difference today!",
+        "buttonText": "Donate Now"
+      }
     }
   },
 "brochure": {
@@ -4393,84 +4594,83 @@
       ]
     }
   },
-  "donate": {
+"donate": {
     "banner": {
-      "breadcrumbCurrent": "Donate Now",
+      "breadcrumbCurrent": "Donation",
       "breadcrumbHome": "Home",
       "bgImageUrl": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
-      "title": "Donate Now"
+      "title": "Donate"
     },
     "content": {
-      "pretitle": "MAKE AN IMPACT",
-      "title": "Donate Now",
-      "description": "Your support can bring real change in people's lives. Together, we can build a better, healthier and more empowered tomorrow.",
+      "heroCard": {
+        "badgeText": "TOGETHER, WE CAN",
+        "subtext": "Create a better future",
+        "imageUrl": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg"
+      },
+      "sectionBadge": "DONATE NOW",
+      "title": "Your donation creates",
+      "highlightedTitleWord": "real change",
+      "description": "Your donation is more than just financial support; it is a powerful act of kindness that drives meaningful change. Every contribution helps provide essential resources, support impactful programs, and empower communities in need.",
+      "amountSectionTitle": "Choose your donation amount",
+      "customAmountPlaceholder": "Enter custom amount",
       "amounts": [
+        { "amount": "$ 100", "isSelected": true },
+        { "amount": "$ 200", "isSelected": false },
+        { "amount": "$ 300", "isSelected": false },
+        { "amount": "$ 400", "isSelected": false },
+        { "amount": "$ 500", "isSelected": false },
+        { "amount": "$ 600", "isSelected": false }
+      ],
+      "paymentSectionTitle": "Select payment method",
+      "paymentMethods": [
+        { "id": "test_donation", "label": "Test Donation", "value": "test", "isDefault": true },
+        { "id": "offline_donation", "label": "Offline Donation", "value": "offline", "isDefault": false }
+      ],
+      "personalInfoTitle": "Personal information",
+      "formFields": {
+        "firstNamePlaceholder": "First name",
+        "lastNamePlaceholder": "Last name",
+        "emailPlaceholder": "Enter your e-mail",
+        "phonePlaceholder": "Enter your phone no.",
+        "messagePlaceholder": "Write a message (optional)",
+        "submitButtonText": "Donate Now",
+        "securityNotice": "Your donation is secure and encrypted"
+      }
+    },
+    "sidebar": {
+      "searchPlaceholder": "Search causes, events...",
+      "recentCausesTitle": "Recent Causes",
+      "viewAllLinkText": "View all causes",
+      "viewAllLinkUrl": "/blog",
+      "recentCauses": [
         {
-          "amount": "₹500",
-          "description": "Support a child's education"
+          "id": 1,
+          "title": "Where Innovation Meets Foundation",
+          "date": "November 19, 2024",
+          "imageUrl": "/NGO_Images/communication-feedback-chos-role.jpg",
+          "slug": "/blog-details"
         },
         {
-          "amount": "₹1,000",
-          "description": "Provide learning materials",
-          "isPopular": true
+          "id": 2,
+          "title": "Where Innovation Meets Foundation",
+          "date": "November 19, 2024",
+          "imageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+          "slug": "/blog-details"
         },
         {
-          "amount": "₹2,500",
-          "description": "Support healthcare access"
-        },
-        {
-          "amount": "₹5,000",
-          "description": "Empower a community"
+          "id": 3,
+          "title": "Structures That Stand, Dreams That Soar",
+          "date": "November 22, 2024",
+          "imageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+          "slug": "/blog-details"
         }
       ],
-      "quoteText": "Every act of generosity creates a ripple of hope. Together, we can build a stronger, kinder world.",
-      "gridImages": [
-        "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg",
-        "/NGO_Images/hand-holding-group-people-holding-hands-with-green-background-with-green-background.jpg",
-        "/NGO_Images/hands-children-many-friends-games-selective-focus.jpg",
-        "/NGO_Images/hands-holding-soil-with-plant-sprout.jpg",
-        "/NGO_Images/hands-people-group-with-soil-plants-growth-environment-earth-day-support-teamwork-nature-volunteer-leaf-help-with-ngo-investing-sustainable-fertilizer-project-future.jpg"
-      ],
-      "impactFeatures": [
-        {
-          "title": "Education",
-          "description": "Better learning opportunities",
-          "icon": "education"
-        },
-        {
-          "title": "Healthcare",
-          "description": "Access to quality care",
-          "icon": "healthcare"
-        },
-        {
-          "title": "Livelihood",
-          "description": "Empowering communities",
-          "icon": "livelihood"
-        },
-        {
-          "title": "Environment",
-          "description": "Building a sustainable future",
-          "icon": "environment"
-        }
-      ],
-      "guarantees": [
-        {
-          "title": "100% Secure",
-          "description": "Your donation is safe and encrypted",
-          "icon": "shield"
-        },
-        {
-          "title": "Transparent",
-          "description": "We ensure transparency in every step",
-          "icon": "user"
-        },
-        {
-          "title": "Tax Benefits",
-          "description": "Eligible for tax exemption u/s 80G",
-          "icon": "document"
-        }
-      ],
-      "thankYouText": "Thank you for being the reason for someone's better tomorrow. 🧡"
+      "promoBanner": {
+        "tagline": "Small Donations Bigger Impact",
+        "title": "Education Health For Every Child",
+        "buttonText": "Get A Quote",
+        "buttonUrl": "/contact-us"
+      }
     }
   },
   "CtaBanner": {
@@ -4479,7 +4679,7 @@
       "title": "Become A Volunteer?",
       "bgImageUrl": "/NGO_Images/communication-feedback-chos-role.jpg",
       "buttonText": "Contact Now",
-      "buttonHref": "/contact",
+      "buttonHref": "/contact-us",
       "buttonBgColor": "bg-[#007A5E]",
       "buttonTextColor": "text-white",
       "overlayColor": "bg-[#031B33]/90"

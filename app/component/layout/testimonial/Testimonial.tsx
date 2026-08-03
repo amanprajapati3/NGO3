@@ -54,7 +54,7 @@ export default function Testimonial({ data }: TestimonialProps) {
               {banner.breadcrumbCurrent}
             </h2>
 
-            <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
+            <p className="text-sm sm:text-sm text-gray-500 leading-relaxed">
               {description}
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function Testimonial({ data }: TestimonialProps) {
                         <h3 className="text-sm font-bold text-[#08121e]">
                           {item.name}
                         </h3>
-                        <p className="text-xs text-gray-400 mt-0.5">
+                        <p className="text-sm text-gray-400 mt-0.5">
                           {item.role}
                         </p>
                       </div>
@@ -101,7 +101,7 @@ export default function Testimonial({ data }: TestimonialProps) {
                     <div className="w-7 h-7 rounded-full bg-[#fff2ea] flex items-center justify-center shrink-0 mt-0.5">
                       <FaQuoteLeft className="w-3 h-3 text-[#ff5500]" />
                     </div>
-                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed italic">
+                    <p className="text-sm sm:text-sm text-gray-600 leading-relaxed italic">
                       "{item.quote}"
                     </p>
                   </div>
@@ -127,7 +127,7 @@ export default function Testimonial({ data }: TestimonialProps) {
                 <button
                   key={pageNum}
                   onClick={() => handlePageChange(pageNum)}
-                  className={`w-9 h-9 rounded-md cursor-pointer text-xs font-bold transition-colors ${
+                  className={`w-9 h-9 rounded-md cursor-pointer text-sm font-bold transition-colors ${
                     isActive
                       ? "bg-[#ff5500] text-white"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"

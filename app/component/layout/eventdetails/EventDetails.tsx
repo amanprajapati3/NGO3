@@ -33,7 +33,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
             </div>
 
             {/* Meta Information Bar */}
-            <div className="flex flex-wrap items-center gap-6 text-xs sm:text-sm text-gray-500 mb-6 border-b border-gray-100 pb-4">
+            <div className="flex flex-wrap items-center gap-6 text-sm sm:text-sm text-gray-500 mb-6 border-b border-gray-100 pb-4">
               <div className="flex items-center gap-2">
                 <Calendar className="w-4 h-4 text-[#ff5500]" />
                 <span>{content.date}</span>
@@ -49,7 +49,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
               {content.title}
             </h1>
 
-            <p className="text-gray-500 text-xs sm:text-sm md:text-base leading-relaxed mb-8">
+            <p className="text-gray-500 text-sm sm:text-sm md:text-base leading-relaxed mb-8">
               {content.intro}
             </p>
 
@@ -58,7 +58,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
               {content.summaryTitle}
             </h2>
 
-            <p className="text-gray-500 text-xs sm:text-sm md:text-base leading-relaxed mb-8">
+            <p className="text-gray-500 text-sm sm:text-sm md:text-base leading-relaxed mb-8">
               {content.summaryDesc}
             </p>
 
@@ -67,7 +67,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
               {content.checklists.map((item, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <CheckCircle2 className="w-5 h-5 text-[#ff5500] shrink-0" />
-                  <span className="text-xs sm:text-sm font-bold text-[#08121e]">
+                  <span className="text-sm sm:text-sm font-bold text-[#08121e]">
                     {item}
                   </span>
                 </div>
@@ -136,7 +136,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
                           <Calendar className="w-3 h-3 text-[#ff5500]" />
                           <span>{post.date}</span>
                         </div>
-                        <h4 className="text-xs font-bold text-[#08121e] group-hover:text-[#ff5500] transition-colors line-clamp-2">
+                        <h4 className="text-sm font-bold text-[#08121e] group-hover:text-[#ff5500] transition-colors line-clamp-2">
                           <Link href={post.slug}>{post.title}</Link>
                         </h4>
                       </div>
@@ -153,7 +153,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
                 <div className="absolute top-0 right-0 w-32 h-32 bg-[#ff5500]/10 rounded-full filter blur-2xl" />
 
                 <div className="mb-4">
-                  <span className="text-xs font-bold text-[#ff5500] uppercase tracking-wider">
+                  <span className="text-sm font-bold text-[#ff5500] uppercase tracking-wider">
                     {sidebar.promoWidget.tagline}
                   </span>
                 </div>
@@ -164,7 +164,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
 
                 <Link
                   href={sidebar.promoWidget.buttonHref}
-                  className="inline-flex items-center gap-2 bg-[#ff5500] text-white text-xs font-bold px-6 py-3 rounded-full hover:bg-[#e04b00] transition-colors shadow-md"
+                  className="inline-flex items-center gap-2 bg-[#ff5500] text-white text-sm font-bold px-6 py-3 rounded-full hover:bg-[#e04b00] transition-colors shadow-md"
                 >
                   <span>{sidebar.promoWidget.buttonLabel}</span>
                   <ArrowRight className="w-4 h-4" />

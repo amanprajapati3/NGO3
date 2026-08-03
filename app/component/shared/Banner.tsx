@@ -18,7 +18,7 @@ export default function Banner({
   image,
 }: BannerProps) {
   return (
-    <section className="relative w-full h-[70vh] md:h-[70vh] lg:h-[70vh] min-h-[420px] md:min-h-[380px] overflow-hidden">
+    <section className="relative w-full h-[70vh] min-h-[420px] md:min-h-[380px] overflow-hidden">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -31,17 +31,20 @@ export default function Banner({
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 h-full flex items-center justify-center md:items-end md:justify-start">
-        <div className="w-full max-w-7xl mx-auto px-5 sm:px-8 md:px-10 lg:px-16 xl:px-20 pb-10 md:pb-14 lg:pb-16 xl:pb-20 text-center md:text-left">
-          {/* Vertical Stack Wrapper */}
-          <div className="flex flex-col items-start justify-center text-left w-full">
+      <div className="relative z-10 h-full flex items-end justify-center md:justify-start">
+        {/* Adjusted bottom padding (pb-14 sm:pb-16) to lift content slightly on mobile & tab */}
+        <div className="w-full max-w-7xl mx-auto px-5 sm:px-8 md:px-10 lg:px-16 xl:px-20 pb-32 sm:pb-16 md:pb-14 lg:pb-16 xl:pb-20">
+          
+          {/* Vertical Stack: Centered on Mobile/Tab, Left-aligned on Desktop */}
+          <div className="flex flex-col items-center md:items-start justify-center text-center md:text-left w-full">
+            
             {/* Title */}
-            <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight tracking-tight text-orange-500 text-left -ml-0.5 sm:-ml-1">
+            <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-tight tracking-tight text-orange-500">
               {title}
             </h1>
 
-            {/* Breadcrumb */}
-            <div className="mt-5 flex items-center justify-start gap-2 text-sm sm:text-base text-left">
+            {/* Breadcrumb Navigation */}
+            <div className="mt-4 sm:mt-5 flex items-center justify-center md:justify-start gap-2 text-sm sm:text-base">
               <Link
                 href="/"
                 className="text-white/80 font-bold hover:text-orange-500 transition-colors"
@@ -55,6 +58,7 @@ export default function Banner({
                 {breadcrumbCurrent}
               </span>
             </div>
+
           </div>
         </div>
       </div>

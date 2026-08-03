@@ -119,7 +119,7 @@ export default function Brochure({ data }: BrochureProps) {
                     </div>
 
                     {/* Meta info */}
-                    <p className="text-gray-400 text-xs font-medium mt-1.5 truncate">
+                    <p className="text-gray-400 text-sm font-medium mt-1.5 truncate">
                       {item.fileType || "PDF"} • {item.fileSize}
                     </p>
                   </div>
@@ -128,7 +128,7 @@ export default function Brochure({ data }: BrochureProps) {
                   <Link
                     href={item.fileUrl}
                     download
-                    className="mt-2 inline-flex items-center justify-center gap-1 border border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white transition-colors duration-200 text-xs font-semibold py-1.5 px-2 rounded-md w-full"
+                    className="mt-2 inline-flex items-center justify-center gap-1 border border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white transition-colors duration-200 text-sm font-semibold py-1.5 px-2 rounded-md w-full"
                   >
                     <Download className="w-3.5 h-3.5 flex-shrink-0" />
                     <span className="truncate">Download</span>

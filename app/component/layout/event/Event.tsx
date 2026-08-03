@@ -75,7 +75,7 @@ export default function Event({ data }: EventsProps) {
                 <div className="relative z-10 bg-gradient-to-t from-[#08121e] via-[#08121e]/90 to-transparent p-6 pt-20 flex flex-col justify-end w-full">
                   {/* Date Badge (Above Title) */}
                   <div className="mb-2.5">
-                    <span className="bg-[#ff5500] text-white text-xs sm:text-sm font-extrabold px-3.5 py-1.5 rounded-md shadow-md inline-flex items-center gap-2 uppercase tracking-wide">
+                    <span className="bg-[#ff5500] text-white text-sm sm:text-sm font-extrabold px-3.5 py-1.5 rounded-md shadow-md inline-flex items-center gap-2 uppercase tracking-wide">
                       <Calendar className="w-4 h-4 text-white" />
                       {item.date}
                     </span>
@@ -87,7 +87,7 @@ export default function Event({ data }: EventsProps) {
                   </h3>
 
                   {/* Location (Highlighted & Larger Font) */}
-                  <div className="flex items-center gap-2 text-xs sm:text-sm font-bold text-gray-200">
+                  <div className="flex items-center gap-2 text-sm sm:text-sm font-bold text-gray-200">
                     <MapPin className="w-4 h-4 text-[#ff5500] shrink-0" />
                     <span className="truncate">{item.location}</span>
                   </div>
@@ -113,7 +113,7 @@ export default function Event({ data }: EventsProps) {
                   <button
                     key={page}
                     onClick={() => handlePageChange(page)}
-                    className={`w-10 h-10 rounded-full font-bold text-xs transition-all ${
+                    className={`w-10 h-10 rounded-full font-bold text-sm transition-all ${
                       currentPage === page
                         ? "bg-[#ff5500] text-white shadow-md scale-105"
                         : "border border-gray-200 cursor-pointer text-gray-700 hover:border-[#ff5500] hover:text-[#ff5500]"

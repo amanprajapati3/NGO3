@@ -119,7 +119,7 @@ export default function Award({ data }: AwardProps) {
                         {item.description}
                       </p>
                     </div>
-                    <span className="text-xs font-black text-[#047857] tracking-wide uppercase">
+                    <span className="text-sm font-black text-[#047857] tracking-wide uppercase">
                       {item.issuedBy}
                     </span>
                   </div>
@@ -172,10 +172,10 @@ export default function Award({ data }: AwardProps) {
                         />
                       </div>
 
-                      <h4 className="text-xs sm:text-sm font-extrabold text-[#0a192f]">
+                      <h4 className="text-sm sm:text-sm font-extrabold text-[#0a192f]">
                         {cert.title}
                       </h4>
-                      <p className="text-[11px] sm:text-xs font-bold text-[#047857] mt-0.5">
+                      <p className="text-[11px] sm:text-sm font-bold text-[#047857] mt-0.5">
                         {cert.issuedBy}
                       </p>
                     </div>
@@ -212,7 +212,7 @@ export default function Award({ data }: AwardProps) {
                     <h5 className="text-sm font-extrabold text-[#0a192f] mt-1">
                       {stat.label}
                     </h5>
-                    <p className="text-xs sm:text-sm text-gray-700 font-semibold">
+                    <p className="text-sm sm:text-sm text-gray-700 font-semibold">
                       {stat.sublabel}
                     </p>
                   </div>

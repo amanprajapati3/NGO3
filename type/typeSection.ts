@@ -254,15 +254,24 @@ export interface ContactHeading {
   desc: string;
 }
 
+export interface SocialLink {
+  platform: string;
+  url: string;
+}
+
 export interface ContactInfoItem {
   iconTitle: string;
-  value: string;
+  values?: string[];
+  socialLinks?: SocialLink[];
 }
 
 export interface ContactFormLabels {
+  title: string;
+  subtitle: string;
+  note: string;
   namePlaceholder: string;
   emailPlaceholder: string;
-  subjectPlaceholder: string;
+  phonePlaceholder: string;
   messagePlaceholder: string;
   buttonText: string;
 }
@@ -271,9 +280,11 @@ export interface ContactSuccessMessage {
   title: string;
 }
 
-export interface contactMap {
+export interface ContactMap {
   title: string;
   address: string;
+  directionsText: string;
+  directionsUrl: string;
   embedUrl: string;
 }
 
@@ -283,7 +294,7 @@ export interface ContactSectionData {
   officeInfo: ContactInfoItem[];
   formLabels: ContactFormLabels;
   successMessage: ContactSuccessMessage;
-  map: contactMap;
+  map: ContactMap;
 }
 
 export interface ContactSectionProps {
@@ -297,9 +308,18 @@ export interface FaqBanner {
   bgImageUrl: string;
 }
 
-export interface FaqHeading {
-  pretitle: string;
+export interface FaqCategoryTab {
+  id: string;
   title: string;
+  icon?: string;
+}
+
+export interface FaqSidebarBanner {
+  tagline: string;
+  title: string;
+  buttonText: string;
+  buttonUrl: string;
+  imageUrl: string;
 }
 
 export interface FaqItem {
@@ -307,32 +327,18 @@ export interface FaqItem {
   answer: string;
 }
 
-export interface FaqSidebarCallout {
-  title: string;
-  description: string;
-  imageUrl: string;
-  imageTagText: string;
-}
-
-export interface FaqSupportContact {
-  phone: string;
-  email: string;
-  website: string;
-}
-
-export interface FaqSupportSection {
-  title: string;
-  description: string;
-  contact: FaqSupportContact;
+export interface FaqGroupSection {
+  id: string;
+  categoryTitle: string;
+  colorScheme?: "orange" | "emerald" | "sky" | "purple" | string;
+  items: FaqItem[];
 }
 
 export interface FaqData {
   banner: FaqBanner;
-  heading: FaqHeading;
-  items: FaqItem[];
-  sidebarCallout?: FaqSidebarCallout;
-  supportSection?: FaqSupportSection;
-  quote?: string;
+  sidebarCategories?: FaqCategoryTab[];
+  sidebarBanner?: FaqSidebarBanner;
+  faqSections: FaqGroupSection[];
 }
 
 export interface FaqProps {
@@ -496,17 +502,19 @@ export interface NewsletterdataProps {
   data: NewsletterData;
 }
 
+// @/type/typeSection.ts
+
 export interface Partner {
   id: number | string;
   name: string;
   logo: string;
 }
 
-export interface PartersBanner {
+export interface PartnersBanner {
   bgImageUrl: string;
-  title?: string;
+  title: string;
   breadcrumbHome?: string;
-  breadcrumbCurrent?: string;
+  breadcrumbCurrent: string;
   homeHref?: string;
 }
 
@@ -514,7 +522,7 @@ export interface PartnersData {
   sectionBadge: string;
   sectionTitle: string;
   sectionpretitle: string;
-  banner: PartersBanner;
+  banner: PartnersBanner;
   partners: Partner[];
 }
 
@@ -643,14 +651,23 @@ export interface LegalBannerData {
 }
 
 export interface LegalSection {
+  number?: string;
   title: string;
   text: string;
   items?: string[];
 }
 
+export interface LegalCtaData {
+  title: string;
+  subtitle: string;
+  buttonText: string;
+  buttonHref?: string;
+}
+
 export interface LegalPageData {
   banner: LegalBannerData;
   sections: LegalSection[];
+  ctaBanner?: LegalCtaData;
 }
 
 export interface TeamSocialLink {
@@ -1362,10 +1379,21 @@ export interface EnquiryBanner {
   title: string;
 }
 
+export interface EnquiryHeader {
+  pretitle: string;
+  title: string;
+  description: string;
+}
+
 export interface ContactDetailItem {
-  icon: string; // Icon identifier (e.g., 'location', 'phone', 'email', 'globe', 'clock')
+  icon: string;
   title: string;
   value: string;
+}
+
+export interface SocialLink {
+  platform: string;
+  url: string;
 }
 
 export interface GetInTouchSection {
@@ -1375,35 +1403,82 @@ export interface GetInTouchSection {
   contactItems: ContactDetailItem[];
 }
 
-export interface SubjectOption {
+export interface QuickResponseSection {
+  title: string;
+  subtitle: string;
+  timeframe: string;
+  thankYouText: string;
+}
+
+export interface ConnectWithUsSection {
+  title: string;
+  description: string;
+  socialLinks: SocialLink[];
+}
+
+export interface FaqSection {
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonUrl: string;
+}
+
+export interface FormOption {
   label: string;
   value: string;
 }
 
+export interface PreferredContactOption {
+  label: string;
+  value: string;
+  defaultChecked?: boolean;
+}
+
+export interface FileUploadConfig {
+  label: string;
+  optionalTag: string;
+  chooseText: string;
+  dragText: string;
+  supportedFormatsText: string;
+}
+
 export interface EnquiryFormSection {
-  title: string;
-  namePlaceholder: string;
+  formHeaderTitle: string;
+  formHeaderSubtitle: string;
+  fullNameLabel: string;
+  fullNamePlaceholder: string;
+  emailLabel: string;
   emailPlaceholder: string;
-  phonePlaceholder: string;
-  subjectOptions: SubjectOption[];
-  categoryOptions: SubjectOption[];
+  mobileLabel: string;
+  mobilePlaceholder: string;
+  orgNameLabel: string;
+  orgNameOptionalTag: string;
+  orgNamePlaceholder: string;
+  cityStateLabel: string;
+  cityStatePlaceholder: string;
+  enquiryTypeLabel: string;
+  enquiryTypeOptions: FormOption[];
+  subjectLabel: string;
+  subjectPlaceholder: string;
+  messageLabel: string;
   messagePlaceholder: string;
+  fileUpload: FileUploadConfig;
+  preferredContactLabel: string;
+  preferredContactOptions: PreferredContactOption[];
   consentText: string;
   privacyLinkText: string;
   termsLinkText: string;
+  href:string;
   submitButtonText: string;
-}
-
-export interface EnquirySectionHeader {
-  pretitle: string;
-  title: string;
-  description: string;
 }
 
 export interface EnquiryData {
   banner: EnquiryBanner;
-  header: EnquirySectionHeader;
+  header: EnquiryHeader;
   getInTouch: GetInTouchSection;
+  quickResponse: QuickResponseSection;
+  connectWithUs: ConnectWithUsSection;
+  faqSection: FaqSection;
   form: EnquiryFormSection;
 }
 
@@ -1503,16 +1578,32 @@ export interface SupportChannelItem {
   actionUrl: string;
 }
 
+export interface WayToSupportItem {
+  icon: string;
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonUrl: string;
+}
+
+export interface WaysToSupportData {
+  sectionTitle: string;
+  items: WayToSupportItem[];
+}
+
 export interface AccordionItem {
   title: string;
   content: string;
 }
 
 export interface HelpSectionData {
+  subTitle?: string;
   title: string;
-  description: string;
-  imageUrl: string;
-  quoteText: string;
+  description?: string;
+  imageUrl?: string;
+  mainImage?: string;
+  secondaryImage?: string;
+  quoteText?: string;
   accordions: AccordionItem[];
 }
 
@@ -1539,13 +1630,15 @@ export interface CtaBannerData {
 
 export interface SupportContent {
   supportChannels: SupportChannelItem[];
-  helpSection: HelpSectionData;
+  helpSection?: HelpSectionData;
   helpfulResources: HelpfulResourcesData;
   ctaBanner: CtaBannerData;
 }
 
 export interface SupportData {
   banner: SupportBanner;
+  waysToSupport?: WaysToSupportData;
+  helpSection?: HelpSectionData;
   content?: SupportContent;
 }
 
@@ -1562,11 +1655,34 @@ export interface BranchesBanner {
 
 export interface BranchLocation {
   name: string;
-  state: string;
-  description: string;
+  isHeadOffice?: boolean;
+  address: string;
   phone: string;
   email: string;
-  timing: string;
+  image: string;
+  buttonText: string;
+}
+
+export interface ImpactFeature {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface PartnerCta {
+  title: string;
+  description: string;
+  buttonText: string;
+  getInTouchTitle: string;
+  phone: string;
+  email: string;
+  website: string;
+}
+
+export interface BottomBannerCta {
+  text: string;
+  subtext: string;
+  buttonText: string;
 }
 
 export interface BranchesContent {
@@ -1574,15 +1690,19 @@ export interface BranchesContent {
   mainTitle: string;
   highlightTitle: string;
   description: string;
-  sectionTitle: string;
-  sectionDescription: string;
-  filterPlaceholder: string;
+  sectionTitle?: string;
+  sectionDescription?: string;
+  filterPlaceholder?: string;
   locations: BranchLocation[];
+  viewAllButtonText: string;
+  features: ImpactFeature[];
+  partnerCta: PartnerCta;
+  bottomCta: BottomBannerCta;
 }
 
 export interface BranchesData {
   banner: BranchesBanner;
-  content?: BranchesContent;
+  content: BranchesContent;
 }
 
 export interface BranchesProps {
@@ -1664,44 +1784,72 @@ export interface DonateBanner {
 
 export interface AmountOption {
   amount: string;
-  description: string;
-  isPopular?: boolean;
+  isSelected?: boolean;
 }
 
 export interface PaymentMethod {
   id: string;
-  title: string;
-  pretitle: string;
+  label: string;
+  value: string;
+  isDefault?: boolean;
 }
 
-export interface ImpactFeature {
-  title: string;
-  description: string;
-  icon: string;
+export interface FormFieldsConfig {
+  firstNamePlaceholder: string;
+  lastNamePlaceholder: string;
+  emailPlaceholder: string;
+  phonePlaceholder: string;
+  messagePlaceholder: string;
+  submitButtonText: string;
+  securityNotice: string;
 }
 
-export interface GuaranteeItem {
+export interface RecentCauseItem {
+  id: number | string;
   title: string;
-  description: string;
-  icon?: string;
+  date: string;
+  imageUrl: string;
+  slug?: string;
 }
 
-export interface DonateContent {
-  pretitle: string;
+export interface SidebarContent {
+  searchPlaceholder: string;
+  recentCausesTitle: string;
+  viewAllLinkText: string;
+  viewAllLinkUrl: string;
+  recentCauses: RecentCauseItem[];
+  promoBanner: {
+    tagline: string;
+    title: string;
+    buttonText: string;
+    buttonUrl: string;
+    bgImageUrl?: string;
+  };
+}
+
+export interface DonateMainContent {
+  heroCard: {
+    badgeText: string;
+    subtext: string;
+    imageUrl: string;
+  };
+  sectionBadge: string;
   title: string;
+  highlightedTitleWord: string;
   description: string;
+  amountSectionTitle: string;
+  customAmountPlaceholder: string;
   amounts: AmountOption[];
-  quoteText: string;
-  quoteAuthor?: string;
-  gridImages: string[];
-  impactFeatures: ImpactFeature[];
-  guarantees?: GuaranteeItem[];
-  thankYouText?: string;
+  paymentSectionTitle: string;
+  paymentMethods: PaymentMethod[];
+  personalInfoTitle: string;
+  formFields: FormFieldsConfig;
 }
 
 export interface DonateData {
   banner: DonateBanner;
-  content?: DonateContent;
+  content: DonateMainContent;
+  sidebar: SidebarContent;
 }
 
 export interface DonateProps {
