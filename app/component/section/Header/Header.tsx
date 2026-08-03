@@ -40,7 +40,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full">
+    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 w-full border-b-white/50 border-b-[0.5px]">
       {/* ================= MAIN NAVBAR ================= */}
       <nav
         className={`w-full transition-all duration-300 ${

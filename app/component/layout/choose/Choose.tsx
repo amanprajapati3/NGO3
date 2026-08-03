@@ -41,7 +41,7 @@ export default function Choose({ data }: WhyChooseUsProps) {
   const { introduction, features, sideImage, overlayCard } = data;
 
   return (
-    <section className="w-full bg-[#FAF7F2] pt-10 md:pt-16 px-4 sm:px-6 lg:px-8 font-sans">
+    <section className="w-full bg-white  pt-10 md:pt-16 px-4 sm:px-6 lg:px-8 font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* =========================================================
             LEFT COLUMN - HEADER & FEATURE CARDS

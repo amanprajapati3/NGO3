@@ -50,6 +50,7 @@ export interface HeroData {
   desc: string;
   buttons: ButtonItem[];
   bgImageUrl: string;
+  videoUrl:string;
 }
 
 export interface HeroSectionData {
@@ -376,7 +377,8 @@ export interface GalleryItem {
   id: number;
   image: string;
   alt: string;
-  category?: string; // Optional property for filtering support
+  category?: string;
+  videoUrl?: string; // Present for video items
 }
 
 export interface GallerySectionData {
@@ -384,16 +386,15 @@ export interface GallerySectionData {
   title: string;
   desc: string;
   items: GalleryItem[];
+  videoItems?: GalleryItem[];
 }
 
-// Complete Page Data structure including banner
 export interface GalleryPagedata extends GallerySectionData {
   banner?: PageBanner;
 }
 
-// Component Props interface
 export interface GalleryProps {
-  data: GallerySectionData;
+  data: GalleryPagedata;
 }
 
 export interface MissionItem {
@@ -561,14 +562,15 @@ export interface TestimonialItem {
 
 export interface TestimonialBanner {
   bgImageUrl: string;
-  title?: string;
+  title: string;
   breadcrumbHome?: string;
-  breadcrumbCurrent?: string;
+  breadcrumbCurrent: string;
   homeHref?: string;
 }
 
 export interface TestimonialData {
   pretitle: string;
+  subtitle:string
   title: string;
   description?: string; // "Real stories. Real impact..."
   banner: TestimonialBanner;
@@ -674,20 +676,7 @@ export interface TeamData {
   members: TeamMember[];
 }
 
-// team details
-export interface TeamDetailStat {
-  value: string;
-  label: string;
-}
-
-export interface TeamDetailContactInfo {
-  email: string;
-  phone: string;
-  location: string;
-  qualification: string;
-  languages: string[];
-}
-
+// Team Details
 export interface TeamDetailsBanner {
   breadcrumbHome: string;
   breadcrumbCurrent: string;
@@ -695,43 +684,46 @@ export interface TeamDetailsBanner {
   title: string;
 }
 
-export interface TeamDetailSocialLinks {
-  facebook: string;
-  linkedin: string;
-  twitter: string;
-}
-
 export interface TeamDetailSkill {
   skill: string;
   percentage: number;
 }
 
-export interface TeamDetailExperience {
-  period: string;
-  role: string;
-  organization: string;
-  description: string;
-}
-
-export interface TeamDetailAchievement {
+export interface TeamDetailTab {
+  id: string;
   title: string;
   description: string;
+  skills: TeamDetailSkill[];
+}
+
+export interface TeamDetailPersonalExperience {
+  title: string;
+  description: string;
+  highlights: string[];
 }
 
 export interface TeamDetailsData {
   id: string;
   name: string;
   role: string;
-  bio: string;
   image: string;
-  banner: TeamDetailsBanner;
-  stats: TeamDetailStat[];
-  contactInfo: TeamDetailContactInfo;
-  socialLinks: TeamDetailSocialLinks;
-  about: string[];
-  skills: TeamDetailSkill[];
-  experience: TeamDetailExperience[];
-  achievements: TeamDetailAchievement[];
+  banner: {
+    breadcrumbHome: string;
+    breadcrumbCurrent: string;
+    bgImageUrl: string;
+    title: string;
+  };
+  contactInfo: {
+    phone: string;
+    email: string;
+  };
+  socialLinks: {
+    facebook: string;
+    twitter: string;
+    instagram: string;
+  };
+  tabs: TeamDetailTab[];
+  personalExperience: TeamDetailPersonalExperience;
 }
 
 export interface TeamDetailsProps {
@@ -743,49 +735,24 @@ export interface TeamDetailsProps {
 export interface BlogDetailsBanner {
   title: string;
   breadcrumbHome: string;
-  breadcrumbParent: string;
   breadcrumbCurrent: string;
   bgImageUrl: string;
 }
 
-export interface BlogAuthorBox {
-  name: string;
-  role: string;
-  description: string;
-  image: string;
-}
-
-export interface BlogNavigation {
-  title: string;
-  href: string;
-}
-
-export interface BlogArticle {
-  title: string;
-  image: string;
-  date: string;
-  author: string;
-  commentsCount: number;
-  paragraphs: string[];
+export interface BlogArticleDetails {
+  featuredImage: string;
+  introParagraphs: string[];
   quote: string;
-  tags: string[];
-  authorBox: BlogAuthorBox;
-  previous: BlogNavigation;
-  next: BlogNavigation;
-}
-
-export interface BlogComment {
-  id: number;
-  name: string;
-  date: string;
-  avatar: string;
-  text: string;
+  midParagraph: string;
+  sectionTitle: string;
+  sectionDescription: string;
+  bulletPoints: string[];
+  concludingParagraph: string;
 }
 
 export interface BlogDetailsData {
   banner: BlogDetailsBanner;
-  article: BlogArticle;
-  comments: BlogComment[];
+  article: BlogArticleDetails;
 }
 
 // ================= CAREER =================
@@ -947,7 +914,6 @@ export interface JobDetailsPageData {
 // ===============================
 // Events Section
 // ===============================
-
 export interface EventBanner {
   bgImageUrl: string;
   title: string;
@@ -961,16 +927,23 @@ export interface EventButton {
   href: string;
 }
 
+export interface EventPagination {
+  totalPages: number;
+  currentPage: number;
+  itemperpage:number
+}
+
 export interface EventItem {
   id: number;
   slug: string;
   title: string;
-  desc: string;
   image: string;
-  day: string;
-  month: string;
-  time: string;
+  date: string;
   location: string;
+  desc?: string;
+  day?: string;
+  month?: string;
+  time?: string;
 }
 
 export interface EventsData {
@@ -978,52 +951,63 @@ export interface EventsData {
   title: string;
   banner: EventBanner;
   button: EventButton;
+  pagination?: EventPagination;
   items: EventItem[];
 }
 
-// Props for reusable Event component
 export interface EventsProps {
   data: EventsData;
 }
 
-export interface DetailsBanner {
-  title: string;
-  breadcrumbHome: string;
-  breadcrumbCurrent: string;
-  bgImageUrl: string;
+/* Event Details Interfaces */
+
+export interface EventDetailsMap {
+  address: string;
+  iframeUrl: string;
 }
 
-export interface DetailsButton {
-  label: string;
-  href: string;
-}
-
-export interface DetailsContent {
+export interface EventDetailsContent {
   featuredImage: string;
   date: string;
-  author: string;
-  location?: string;
-  category: string;
+  location: string;
   title: string;
   intro: string;
-  paragraphs: string[];
-  quote: string;
+  summaryTitle: string;
+  summaryDesc: string;
+  checklists: string[];
   gallery: string[];
-  conclusion: string;
-  button: DetailsButton;
+  mapLocation: EventDetailsMap;
 }
 
-export interface DetailsData {
-  banner: DetailsBanner;
-  content: DetailsContent;
+export interface RecentPostItem {
+  id: number;
+  title: string;
+  date: string;
+  image: string;
+  slug: string;
+}
+
+export interface PromoWidget {
+  tagline: string;
+  title: string;
+  buttonLabel: string;
+  buttonHref: string;
+}
+
+export interface EventDetailsSidebar {
+  recentPostsTitle: string;
+  recentPosts: RecentPostItem[];
+  promoWidget: PromoWidget;
+}
+
+export interface EventDetailsData {
+  banner: EventBanner;
+  content: EventDetailsContent;
+  sidebar: EventDetailsSidebar;
 }
 
 export interface EventDetailsProps {
-  data: DetailsData;
-}
-
-export interface BlogDetailsProps {
-  data: DetailsData;
+  data: EventDetailsData;
 }
 
 export interface Sitemapbanner {
@@ -1061,80 +1045,24 @@ export interface SitemapProps {
 }
 
 export interface MissionHighlight {
+  id: string;
   title: string;
   description: string;
-}
-
-export interface MissionStat {
-  value: string;
-  label: string;
-}
-
-export interface MissionButton {
-  label: string;
-  href: string;
-}
-
-export interface MissionValue {
-  title: string;
-  description: string;
-}
-
-export interface MissionApproach {
-  title: string;
-  description: string;
-}
-
-export interface MissionImpact {
-  title: string;
-  description: string;
-  points: string[];
-}
-
-export interface MissionGoal {
-  title: string;
-  description: string;
-}
-
-export interface MissionDetails {
-  title: string;
-  description: string;
-  mission: string;
-  vision: string;
-  values: MissionValue[];
-  approach: MissionApproach[];
-  activities: string[];
-  impact: MissionImpact;
-  goals: MissionGoal[];
-}
-
-export interface MissionCta {
-  title: string;
-  description: string;
-  buttonLabel: string;
-  buttonHref: string;
-  image: string;
+  icon: string;
 }
 
 export interface MissionPageData {
   slug: string;
   eyebrow: string;
-  breadcrumbCurrent: string;
   breadcrumbHome: string;
-  bannerImage: string;
   title: string;
+  breadcrumbCurrent: string;
+  bannerImage: string;
   sectionTitle: string;
+  highlightedTitle: string;
   sectionText: string;
   sectionImage: string;
-
   highlights: MissionHighlight[];
-  stats: MissionStat[];
-  buttons: MissionButton[];
-
-  details: MissionDetails;
-
-  detailCta: MissionCta;
-  cta: MissionCta;
 }
 
 export interface MissionPageProps {
@@ -1143,19 +1071,17 @@ export interface MissionPageProps {
 
 export interface VisionBanner {
   breadcrumbCurrent: string;
+  title: string;
   breadcrumbHome: string;
   bgImageUrl: string;
-  title: string;
-}
-
-export interface VisionIntroductionHeading {
-  line1: string;
-  highlight: string;
 }
 
 export interface VisionIntroduction {
-  icon: string;
-  heading: VisionIntroductionHeading;
+  title: string;
+  heading: {
+    line1: string;
+    highlight: string;
+  };
   underline: boolean;
   highlightColor: string;
   headingColor: string;
@@ -1163,17 +1089,15 @@ export interface VisionIntroduction {
   description: string;
 }
 
-export interface VisionCardImage {
-  src: string;
-  alt: string;
-}
-
 export interface VisionCard {
   id: string;
   icon: string;
   title: string;
   description: string;
-  image: VisionCardImage;
+  image: {
+    src: string;
+    alt: string;
+  };
 }
 
 export interface VisionQuote {
@@ -1307,39 +1231,55 @@ export interface WhyChooseUsProps {
 }
 
 export interface AwardBanner {
-  breadcrumbCurrent: string;
-  breadcrumbHome: string;
-  bgImageUrl: string;
   title: string;
+  bgImageUrl: string;
+  breadcrumbHome: string;
+  breadcrumbCurrent: string;
 }
 
 export interface AwardHeading {
-  pretitle: string;
   title: string;
-  titleHighlight: string;
-  description: string;
+  subtitle: string;
 }
 
 export interface AwardItem {
-  id: string | number;
+  id: string;
   title: string;
   description: string;
-  year: string;
+  issuedBy: string;
   imageUrl: string;
 }
 
-export interface AwardSectionData {
-  sectionTitle: string;
-  viewAllText: string;
-  viewAllUrl: string;
-  items: AwardItem[];
+export interface CertificateItem {
+  id: string;
+  title: string;
+  issuedBy: string;
+  imageUrl: string;
+}
+
+export interface AwardStatItem {
+  id: string;
+  value: string;
+  label: string;
+  sublabel: string;
+  type: 'trophy' | 'certificate' | 'calendar' | 'users';
+}
+
+export interface BannerCTA {
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonUrl: string;
 }
 
 export interface AwardData {
   banner: AwardBanner;
   heading: AwardHeading;
-  awardsList: AwardSectionData;
-  quote: string;
+  awardsList: AwardItem[];
+  certificatesHeading: { title: string };
+  certificatesList: CertificateItem[];
+  stats: AwardStatItem[];
+  bannerCTA: BannerCTA;
 }
 
 export interface AwardProps {
@@ -1658,14 +1598,19 @@ export interface BrochureBanner {
 
 export interface BrochureItem {
   title: string;
-  description: string;
+  category: string;
+  fileSize: string;
+  fileType?: string;
+  imageUrl: string;
   fileUrl: string;
 }
 
 export interface BrochureContent {
-  tagline: string;
   mainTitle: string;
+  title:string;
   description: string;
+  searchPlaceholder?: string;
+  categories?: string[];
   brochures: BrochureItem[];
 }
 
@@ -1692,7 +1637,10 @@ export interface MediaCardItem {
 }
 
 export interface MediaContent {
+  tagline?: string;
   sectionTitle: string;
+  sectionDescription?: string;
+  bottomCaption?: string;
   viewAllText?: string;
   viewAllUrl?: string;
   mediaCards: MediaCardItem[];
@@ -1706,6 +1654,7 @@ export interface MediaData {
 export interface MediaProps {
   data: MediaData;
 }
+
 export interface DonateBanner {
   breadcrumbCurrent: string;
   breadcrumbHome: string;
@@ -1801,4 +1750,44 @@ export interface CtaBannerData {
 
 export interface CtaBannerProps {
   data: CtaBannerData;
+}
+
+export interface HowWeHelpCard {
+  id: number;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface HowWeHelpProps {
+  data: {
+    badge: string;
+    title: string;
+    description: string;
+    cards: HowWeHelpCard[];
+  };
+}
+
+export interface FactStat {
+  id: number;
+  value: string;
+  label: string;
+  icon: string;
+  variant: "light" | "dark";
+  accentColor: "green" | "orange";
+}
+
+export interface FactsData {
+  badge: string;
+  title: string;
+  highlightedTitle: string;
+  description: string;
+  mainImage: string;
+  secondaryImage: string;
+  footerText: string;
+  stats: FactStat[];
+}
+
+export interface FactsProps {
+  data: FactsData;
 }

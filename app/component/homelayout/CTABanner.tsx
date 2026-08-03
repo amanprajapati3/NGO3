@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Heart } from "../shared/Icons";
 import { FaPlay } from "react-icons/fa";
 import { CtaBannerProps } from "@/type/typeSection";
+import { X } from "lucide-react";
 
 // Custom SVG path for the realistic rough torn-paper edge
 const RoughTornEdge = ({ position }: { position: "left" | "right" }) => {
@@ -21,7 +22,8 @@ const RoughTornEdge = ({ position }: { position: "left" | "right" }) => {
         viewBox="0 0 50 500"
         preserveAspectRatio="none"
       >
-        <path d="M 0,0 
+        <path
+          d="M 0,0 
                  C 15,12 5,28 18,45 
                  C 32,60 12,78 25,95 
                  C 38,110 8,128 20,145 
@@ -32,11 +34,57 @@ const RoughTornEdge = ({ position }: { position: "left" | "right" }) => {
                  C 38,380 18,392 30,410 
                  C 40,428 15,445 25,465 
                  C 35,480 10,490 0,500 
-                 L 50,500 L 50,0 Z" 
+                 L 50,500 L 50,0 Z"
         />
       </svg>
     </div>
   );
+};
+
+const getYouTubeEmbedUrl = (url: string) => {
+  try {
+    const parsedUrl = new URL(url);
+
+    // https://www.youtube.com/watch?v=VIDEO_ID
+    if (parsedUrl.hostname.includes("youtube.com")) {
+      const videoId = parsedUrl.searchParams.get("v");
+
+      if (videoId) {
+        return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      }
+
+      // https://www.youtube.com/embed/VIDEO_ID
+      if (parsedUrl.pathname.startsWith("/embed/")) {
+        const videoId = parsedUrl.pathname.split("/embed/")[1];
+
+        if (videoId) {
+          return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+        }
+      }
+
+      // https://www.youtube.com/shorts/VIDEO_ID
+      if (parsedUrl.pathname.startsWith("/shorts/")) {
+        const videoId = parsedUrl.pathname.split("/shorts/")[1];
+
+        if (videoId) {
+          return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+        }
+      }
+    }
+
+    // https://youtu.be/VIDEO_ID
+    if (parsedUrl.hostname === "youtu.be") {
+      const videoId = parsedUrl.pathname.slice(1);
+
+      if (videoId) {
+        return `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      }
+    }
+
+    return null;
+  } catch {
+    return null;
+  }
 };
 
 export default function CtaBannerSection({ data }: CtaBannerProps) {
@@ -171,19 +219,58 @@ export default function CtaBannerSection({ data }: CtaBannerProps) {
       </div>
 
       {/* Video Modal Placeholder */}
-      {isVideoOpen && (
+      {isVideoOpen && centerVideo?.videoUrl && (
         <div
-          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
+          className="fixed inset-0 z-[9999] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 sm:p-6"
           onClick={() => setIsVideoOpen(false)}
         >
-          <div className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden">
-            <iframe
-              className="w-full h-full"
-              src={centerVideo?.videoUrl || "https://www.youtube.com/embed/dQw4w9WgXcQ"}
-              title="Video Modal"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+          <div
+            className="relative w-full max-w-3xl bg-black rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl border border-white/10"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
+            <button
+              type="button"
+              onClick={() => setIsVideoOpen(false)}
+              className="absolute top-2 right-2 sm:top-3 sm:right-3 z-20 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-black/70 hover:bg-[#f9570c] border border-white/20 text-white flex items-center justify-center transition-all duration-200 cursor-pointer"
+              aria-label="Close video"
+            >
+              <X className="w-5 h-5 sm:w-6 sm:h-6" />
+            </button>
+
+            {/* Video */}
+            <div className="w-full aspect-video">
+              {(() => {
+                const youtubeUrl = getYouTubeEmbedUrl(centerVideo.videoUrl);
+
+                if (youtubeUrl) {
+                  return (
+                    <iframe
+                      key={youtubeUrl}
+                      className="w-full h-full"
+                      src={youtubeUrl}
+                      title="Video Player"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  );
+                }
+
+                // Local / direct video
+                return (
+                  <video
+                    key={centerVideo.videoUrl}
+                    className="w-full h-full object-contain bg-black"
+                    src={centerVideo.videoUrl}
+                    controls
+                    autoPlay
+                    playsInline
+                  >
+                    Your browser does not support the video player.
+                  </video>
+                );
+              })()}
+            </div>
           </div>
         </div>
       )}

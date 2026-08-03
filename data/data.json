@@ -201,8 +201,8 @@
           "href": "/service"
         },
         {
-          "label": "Stories",
-          "href": "/stories"
+          "label": "Testimonial",
+          "href": "/testimonial"
         }
       ]
     },
@@ -312,7 +312,8 @@
           "icon": "play"
         }
       ],
-      "bgImageUrl": "/NGO_Images/children-speaking-holding-book.jpg"
+      "bgImageUrl": "/NGO_Images/children-speaking-holding-book.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "pretitle": "BE THE REASON SOMEONE SMILES",
@@ -332,7 +333,8 @@
           "icon": "play"
         }
       ],
-      "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
+      "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "pretitle": "EDUCATION FOR ALL",
@@ -352,7 +354,8 @@
           "icon": "play"
         }
       ],
-      "bgImageUrl": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg"
+      "bgImageUrl": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
       "pretitle": "HEALTH & NOURISHMENT",
@@ -372,7 +375,8 @@
           "icon": "play"
         }
       ],
-      "bgImageUrl": "/NGO_Images/children-speaking-holding-book.jpg"
+      "bgImageUrl": "/NGO_Images/children-speaking-holding-book.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     }
   ],
   "featureCards": [
@@ -930,168 +934,51 @@
     }
   },
   "missionPage": {
-    "slug": "/",
-    "eyebrow": "Our Goal",
+    "slug": "/mission",
+    "eyebrow": "OUR MISSION",
     "breadcrumbHome": "Home",
-    "title": "Our Goal",
-    "breadcrumbCurrent": "Mission",
-    "bannerImage": "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg",
-    "sectionTitle": "Turning our mission into meaningful action",
-    "sectionText": "We believe lasting change begins with dignity, compassion, and community participation. Our work focuses on creating practical opportunities while addressing the challenges that prevent individuals and families from building secure and hopeful futures.",
-    "sectionImage": "/NGO_Images/growing-greener-business-shot-group-hands-holding-plant-growing-out-soil.jpg",
+    "title": "Our Mission",
+    "breadcrumbCurrent": "Our Mission",
+    "bannerImage": "/NGO_Images/group-indian-children-running.jpg",
+    "sectionTitle": "Our Mission is",
+    "highlightedTitle": "Their Tomorrow.",
+    "sectionText": "To empower women and girls by providing access to education, skill development, financial independence, and a supportive community.",
+    "sectionImage": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg",
     "highlights": [
       {
-        "title": "Empowering communities",
-        "description": "We work alongside communities to strengthen their ability to identify challenges, develop solutions, and create lasting progress."
+        "id": "1",
+        "title": "Education",
+        "description": "Promoting quality education and awareness to build a strong foundation for the future.",
+        "icon": "education"
       },
       {
-        "title": "Protecting dignity",
-        "description": "Every person deserves safety, respect, opportunity, and the ability to participate meaningfully in their community."
+        "id": "2",
+        "title": "Skill Development",
+        "description": "Providing skill training and resources to enhance capabilities and confidence.",
+        "icon": "skill"
       },
       {
-        "title": "Creating lasting change",
-        "description": "We focus on sustainable solutions that continue creating benefits beyond individual campaigns and short-term interventions."
+        "id": "3",
+        "title": "Financial Independence",
+        "description": "Enabling access to opportunities that foster financial growth and self-reliance.",
+        "icon": "finance"
+      },
+      {
+        "id": "4",
+        "title": "Supportive Community",
+        "description": "Building a strong support system that encourages growth, leadership, and well-being.",
+        "icon": "community"
+      },
+      {
+        "id": "5",
+        "title": "Transforming Lives",
+        "description": "Creating lasting change in communities and inspiring future generations.",
+        "icon": "transform"
       }
-    ],
-    "stats": [
-      {
-        "value": "30+",
-        "label": "Community partners"
-      },
-      {
-        "value": "15k",
-        "label": "Families supported"
-      },
-      {
-        "value": "5",
-        "label": "Core program areas"
-      }
-    ],
-    "buttons": [
-      {
-        "label": "Join the Movement",
-        "href": "/contact-us"
-      },
-      {
-        "label": "View Our Mission",
-        "href": "/"
-      }
-    ],
-    "details": {
-      "title": "Our mission is to create opportunity where it is needed most",
-      "description": "We exist to support people and communities facing barriers to safety, education, healthcare, economic opportunity, and a healthy environment. By working with local communities and partners, we turn compassion into practical action and support people in building stronger futures.",
-      "mission": "Our mission is to empower individuals, strengthen families, and support communities through meaningful programs that improve access to education, healthcare, protection, economic opportunity, and environmental sustainability.",
-      "vision": "Our vision is a world where every person can live with dignity, access the opportunities they need to thrive, and participate in building a safer, healthier, more inclusive, and sustainable future.",
-      "values": [
-        {
-          "title": "Dignity",
-          "description": "We treat every individual with respect and recognize their right to safety, opportunity, and a meaningful voice."
-        },
-        {
-          "title": "Compassion",
-          "description": "We listen to people's experiences and respond with empathy, care, and practical support."
-        },
-        {
-          "title": "Inclusion",
-          "description": "We believe everyone should have the opportunity to participate, contribute, and benefit from a stronger community."
-        },
-        {
-          "title": "Integrity",
-          "description": "We are committed to responsible decisions, transparent communication, and accountable use of resources."
-        },
-        {
-          "title": "Sustainability",
-          "description": "We focus on solutions that create lasting benefits for people, communities, and the environment."
-        }
-      ],
-      "approach": [
-        {
-          "title": "Listen to communities",
-          "description": "We begin by understanding local needs, experiences, and priorities before developing programs and solutions."
-        },
-        {
-          "title": "Create practical opportunities",
-          "description": "We connect people with education, healthcare, skills, resources, and support that can improve their everyday lives."
-        },
-        {
-          "title": "Build local partnerships",
-          "description": "We collaborate with community organizations, volunteers, institutions, and local leaders to increase the reach and effectiveness of our work."
-        },
-        {
-          "title": "Measure meaningful impact",
-          "description": "We look beyond the number of people reached and focus on the positive changes our programs create in people's lives."
-        },
-        {
-          "title": "Build for the future",
-          "description": "We design initiatives with long-term sustainability in mind so communities can continue progressing beyond individual projects."
-        }
-      ],
-      "activities": [
-        "Child welfare and protection",
-        "Education and learning support",
-        "Healthcare and community wellness",
-        "Women empowerment and economic opportunity",
-        "Environmental protection and sustainability",
-        "Community development programs",
-        "Volunteer and mentorship initiatives",
-        "Awareness and advocacy campaigns",
-        "Local partnership development",
-        "Emergency and community support"
-      ],
-      "impact": {
-        "title": "The change we want to create",
-        "description": "Our long-term goal is to help communities become safer, healthier, more educated, economically stronger, and better equipped to create opportunities for future generations.",
-        "points": [
-          "Greater access to education and learning opportunities",
-          "Safer and more supportive environments for vulnerable people",
-          "Improved access to healthcare and essential services",
-          "Greater economic independence and opportunity",
-          "Stronger participation from women and young people",
-          "Healthier and more sustainable communities",
-          "Stronger local organizations and community networks",
-          "Greater confidence and leadership within communities"
-        ]
-      },
-      "goals": [
-        {
-          "title": "Expand access to opportunity",
-          "description": "Help more children, young people, women, and families access the resources and support they need to build better futures."
-        },
-        {
-          "title": "Strengthen community resilience",
-          "description": "Support communities in developing the knowledge, networks, and resources needed to respond to challenges and create sustainable solutions."
-        },
-        {
-          "title": "Protect vulnerable people",
-          "description": "Strengthen programs that provide safety, care, education, healthcare, and support to people facing difficult circumstances."
-        },
-        {
-          "title": "Promote equality and inclusion",
-          "description": "Create opportunities for people whose voices and needs are often overlooked, with particular attention to children, women, and underserved communities."
-        },
-        {
-          "title": "Build sustainable communities",
-          "description": "Support environmental responsibility, economic resilience, and community-led solutions that can create lasting positive change."
-        }
-      ]
-    },
-    "detailCta": {
-      "title": "Be part of the change we are building",
-      "description": "Your support helps us turn our mission into action by expanding programs that protect, empower, educate, and strengthen communities.",
-      "buttonLabel": "Get Involved",
-      "buttonHref": "/contact-us",
-      "image": "/NGO_Images/hands-children-many-friends-games-selective-focus.jpg"
-    },
-    "cta": {
-      "title": "Together, we can turn hope into action",
-      "description": "Whether you volunteer, donate, partner with us, or share our mission, your support can help create lasting opportunities for people and communities.",
-      "buttonLabel": "Join Our Mission",
-      "buttonHref": "/contact-us",
-      "image": "/NGO_Images/hands-holding-soil-with-plant-sprout.jpg"
-    }
+    ]
   },
   "AboutPage": {
-    "banner":{
+    "banner": {
       "breadcrumbCurrent": "About Us",
       "breadcrumbHome": "Home",
       "bgImageUrl": "/NGO_Images/communication-feedback-chos-role.jpg"
@@ -1245,6 +1132,37 @@
       "description": "Your support gives hope, strength and a brighter future."
     }
   },
+  "howWeHelp": {
+    "badge": "HOW WE HELP",
+    "title": "Bringing hope to every community",
+    "description": "We work tirelessly to uplift communities by providing resources, support, and sustainable solutions, fostering hope and creating brighter futures.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Healthcare Access",
+        "description": "Providing medical care, health education, and wellness resources.",
+        "icon": "healthcare"
+      },
+      {
+        "id": 2,
+        "title": "Hunger Relief",
+        "description": "Providing medical care, health education, and wellness resources.",
+        "icon": "hunger"
+      },
+      {
+        "id": 3,
+        "title": "Educational Support",
+        "description": "Providing medical care, health education, and wellness resources.",
+        "icon": "education"
+      },
+      {
+        "id": 4,
+        "title": "Awareness Campaigns",
+        "description": "Providing medical care, health education, and wellness resources.",
+        "icon": "awareness"
+      }
+    ]
+  },
   "statsData": {
     "bgImage": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
     "gradientStartColor": "#0F2916",
@@ -1370,10 +1288,10 @@
   },
   "gallery": {
     "banner": {
-      "title": "Photo Gallery",
+      "title": "Image Gallery",
       "bgImageUrl": "/NGO_Images/smiley-young-african-boy-standing-field.jpg",
       "breadcrumbHome": "Home",
-      "breadcrumbCurrent": "Gallery"
+      "breadcrumbCurrent": "Image Gallery"
     },
     "pretitle": "Stories in Motion",
     "title": "Moments of Our Global Work",
@@ -1381,43 +1299,126 @@
     "items": [
       {
         "id": 1,
-        "alt": "Medical Outreach in Rural Regions",
-        "category": "Medical",
+        "alt": "Sharing Food with Children",
+        "category": "Community",
         "image": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg"
       },
       {
         "id": 2,
-        "alt": "Community Infrastructure & Development",
-        "category": "Community",
+        "alt": "Mother and Child Support",
+        "category": "Medical",
         "image": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg"
       },
       {
         "id": 3,
-        "alt": "Youth Education & Empowerment Initiative",
-        "category": "Education",
-        "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg"
-      },
-      {
-        "id": 4,
-        "alt": "Emergency Response & Disaster Relief",
+        "alt": "Child Assistance Program",
         "category": "Relief",
         "image": "/NGO_Images/woman-with-child-her-shoulder.jpg"
       },
       {
-        "id": 5,
-        "alt": "Local Community Workshops",
+        "id": 4,
+        "alt": "Father and Child Warmth",
         "category": "Community",
         "image": "/NGO_Images/youth-cleaning-forest-from-trash.jpg"
       },
       {
-        "id": 6,
-        "alt": "Primary School Support Program",
+        "id": 5,
+        "alt": "Children Together in Village",
         "category": "Education",
         "image": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg"
+      },
+      {
+        "id": 6,
+        "alt": "Sisters Supporting Each Other",
+        "category": "Education",
+        "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg"
+      },
+      {
+        "id": 7,
+        "alt": "Women Kitchen Volunteers",
+        "category": "Community",
+        "image": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
+      },
+      {
+        "id": 8,
+        "alt": "Young Girl Daily Life",
+        "category": "Relief",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg"
+      },
+      {
+        "id": 9,
+        "alt": "Street Children Care",
+        "category": "Community",
+        "image": "/NGO_Images/children-holding-hand-group.jpg"
+      }
+    ],
+    "videoItems": [
+      {
+        "id": 101,
+        "alt": "Community Food Distribution Drive",
+        "category": "Community",
+        "image": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 102,
+        "alt": "Healthcare and Family Support Story",
+        "category": "Medical",
+        "image": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 103,
+        "alt": "Child Hope and Relief Documentary",
+        "category": "Relief",
+        "image": "/NGO_Images/woman-with-child-her-shoulder.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 104,
+        "alt": "Winter Warmth Volunteer Effort",
+        "category": "Community",
+        "image": "/NGO_Images/youth-cleaning-forest-from-trash.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 105,
+        "alt": "Educating Rural Children Movement",
+        "category": "Education",
+        "image": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 106,
+        "alt": "Sisters in Hope Field Story",
+        "category": "Education",
+        "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 107,
+        "alt": "Community Kitchen Preparation",
+        "category": "Community",
+        "image": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 108,
+        "alt": "Empowerment Program for Young Girls",
+        "category": "Relief",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
+      },
+      {
+        "id": 109,
+        "alt": "Street Youth Rehabilitation Life",
+        "category": "Community",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "videoUrl": "https://youtu.be/snErQUyqwCU?si=-02OBSu9t0U4gGkN"
       }
     ]
   },
-"blog": {
+  "blog": {
     "pretitle": "OUR BLOG",
     "title": "Latest from Our Blog",
     "desc": "Stay updated with inspiring stories, helpful insights, and the latest news about our work and the communities we serve.",
@@ -1725,8 +1726,9 @@
       }
     ]
   },
-"Testimonial": {
+  "Testimonial": {
     "pretitle": "Start Donating Poor People",
+    "subtitle": "Voice of Impacts",
     "title": "Our Valuable Customer Awesome Feedback",
     "description": "Real stories. Real impact. See what our generous supporters have to say about their experience with us.",
     "banner": {
@@ -1809,53 +1811,77 @@
         "rating": 5
       },
       {
-    "id": 10,
-    "name": "Alexander Wright",
-    "role": "Philanthropy Advisor",
-    "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
-    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
-    "rating": 5
-  },
-  {
-    "id": 11,
-    "name": "Elena Rostova",
-    "role": "Humanitarian Partner",
-    "image": "/NGO_Images/group-best-friends-making-toast.jpg",
-    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
-    "rating": 5
-  },
-  {
-    "id": 12,
-    "name": "Marcus Thorne",
-    "role": "CSR Manager",
-    "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
-    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
-    "rating": 5
-  },
-  {
-    "id": 13,
-    "name": "Amira Al-Mansoor",
-    "role": "Field Advocate",
-    "image": "/NGO_Images/group-best-friends-making-toast.jpg",
-    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
-    "rating": 5
-  },
-  {
-    "id": 14,
-    "name": "Oliver Bennett",
-    "role": "Sponsorship Lead",
-    "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
-    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
-    "rating": 5
-  },
-  {
-    "id": 15,
-    "name": "Maya Lin",
-    "role": "Community Leader",
-    "image": "/NGO_Images/group-best-friends-making-toast.jpg",
-    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
-    "rating": 5
-  }
+        "id": 10,
+        "name": "Alexander Wright",
+        "role": "Philanthropy Advisor",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 11,
+        "name": "Elena Rostova",
+        "role": "Humanitarian Partner",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 12,
+        "name": "Marcus Thorne",
+        "role": "CSR Manager",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 13,
+        "name": "Amira Al-Mansoor",
+        "role": "Field Advocate",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 14,
+        "name": "Oliver Bennett",
+        "role": "Sponsorship Lead",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 15,
+        "name": "Maya Lin",
+        "role": "Community Leader",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 16,
+        "name": "Daniel Kim",
+        "role": "Youth Ambassador",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 17,
+        "name": "Sarah Jenkins",
+        "role": "Regional Coordinator",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 18,
+        "name": "Robert Vance",
+        "role": "Strategic Director",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      }
     ]
   },
   "contact": {
@@ -2190,52 +2216,168 @@
     ]
   },
   "events": {
-    "pretitle": "Get involved",
-    "title": "Upcoming events you can be part of",
+    "pretitle": "Start Donating Poor People",
+    "title": "Checkout Our Upcoming Full Event List",
     "banner": {
       "title": "Events",
       "breadcrumbHome": "Home",
       "breadcrumbCurrent": "Events",
-      "bgImageUrl": "/NGO_Images/hands-children-many-friends-games-selective-focus.jpg"
+      "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
     },
     "button": {
       "joinEvent": "Join Event",
       "viewAll": "View All Events",
       "href": "/event"
     },
+    "pagination": {
+      "totalPages": 10,
+      "currentPage": 2,
+      "itemperpage": 6
+    },
     "items": [
       {
         "id": 1,
         "slug": "/event-details",
-        "desc": "An unforgettable evening bringing leaders together to raise awareness and support for local youth development programs.",
-        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
-        "day": "12",
-        "month": "Feb",
-        "title": "Community fun run for clean water",
-        "time": "8:00am - 11:00am",
-        "location": "Melbourne, Australia"
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "date": "Oct 19, 2025",
+        "title": "Transforming Lives Charity Golf Tournament",
+        "location": "135 W, 46nd Street, New York"
       },
       {
         "id": 2,
         "slug": "/event-details",
-        "desc": "Free health screenings, wellness consultations, and mental health workshops hosted by healthcare experts.",
-        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
-        "day": "18",
-        "month": "Feb",
-        "title": "Annual charity gala night",
-        "time": "6:00pm - 10:00pm",
-        "location": "Toronto, Canada"
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "date": "Oct 19, 2025",
+        "title": "Unity In Giving Community Charity Event",
+        "location": "135 W, 46nd Street, New York"
       },
       {
         "id": 3,
         "slug": "/event-details",
-        "desc": "Empowering young minds through interactive leadership tracks, technology seminars, and mentorship sessions.",
-        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
-        "day": "22",
-        "month": "Feb",
-        "title": "Volunteer training workshop",
-        "time": "9:00am - 1:00pm",
-        "location": "Austin, USA"
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "date": "Oct 19, 2025",
+        "title": "Children Education Support Event",
+        "location": "135 W, 46nd Street, New York"
+      },
+      {
+        "id": 4,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "date": "Oct 19, 2025",
+        "title": "Food For All Community Outreach",
+        "location": "135 W, 46nd Street, New York"
+      },
+      {
+        "id": 5,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "date": "Oct 19, 2025",
+        "title": "Empowering Future Scholarship Drive",
+        "location": "135 W, 46nd Street, New York"
+      },
+      {
+        "id": 6,
+        "slug": "/event-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "date": "Oct 19, 2025",
+        "title": "Clean Water For Life Initiative",
+        "location": "135 W, 46nd Street, New York"
+      },
+      {
+        "id": 7,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "date": "Oct 19, 2025",
+        "title": "Women Empowerment Workshop",
+        "location": "135 W, 46nd Street, New York"
+      },
+      {
+        "id": 8,
+        "slug": "/event-details",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "date": "Nov 02, 2025",
+        "title": "Annual Tree Plantation & Eco Green Drive",
+        "location": "72 Park Avenue, New York"
+      },
+      {
+        "id": 9,
+        "slug": "/event-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "date": "Nov 10, 2025",
+        "title": "Free Health Checkup & Dental Camp",
+        "location": "500 Grand Street, New York"
+      },
+      {
+        "id": 10,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "date": "Nov 18, 2025",
+        "title": "Winter Clothes & Blanket Distribution",
+        "location": "120 Broadway, New York"
+      },
+      {
+        "id": 11,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "date": "Nov 25, 2025",
+        "title": "Youth Leadership & Mentorship Summit",
+        "location": "250 Fifth Avenue, New York"
+      },
+      {
+        "id": 12,
+        "slug": "/event-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "date": "Dec 05, 2025",
+        "title": "Global Peace & Harmony Music Concert",
+        "location": "Madison Square, New York"
+      },
+      {
+        "id": 13,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "date": "Dec 12, 2025",
+        "title": "Rural Digital Literacy Training Camp",
+        "location": "88 Lexington Ave, New York"
+      },
+      {
+        "id": 14,
+        "slug": "/event-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "date": "Dec 20, 2025",
+        "title": "Holiday Food Relief & Essentials Drive",
+        "location": "135 W, 46nd Street, New York"
+      },
+      {
+        "id": 15,
+        "slug": "/event-details",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "date": "Jan 08, 2026",
+        "title": "Sustainable Agriculture Training Workshop",
+        "location": "45 River Road, New York"
+      },
+      {
+        "id": 16,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "date": "Jan 15, 2026",
+        "title": "Clean River & Local Beach Care Drive",
+        "location": "Hudson River Park, New York"
+      },
+      {
+        "id": 17,
+        "slug": "/event-details",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "date": "Jan 22, 2026",
+        "title": "Child Nutrition & Hygiene Awareness Day",
+        "location": "310 West Street, New York"
+      },
+      {
+        "id": 18,
+        "slug": "/event-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "date": "Feb 01, 2026",
+        "title": "Disaster Relief Preparedness Volunteer Camp",
+        "location": "135 W, 46nd Street, New York"
       }
     ]
   },
@@ -2511,324 +2653,199 @@
     "banner": {
       "title": "Our Team",
       "breadcrumbHome": "Home",
-      "breadcrumbCurrent": "Team",
-      "bgImageUrl": "/NGO_Images/nature-friends-group-volunteers-with-boxes-help-goals-donation-charity-event-non-profit-food-drive-ngo-people-outdoor-field-community-service-project-collaboration.jpg"
+      "breadcrumbCurrent": "Our Team",
+      "bgImageUrl": "/NGO_Images/happy-diverse-kinds-park.jpg"
     },
     "heading": {
-      "pretitle": "Meet Our Passionate Team",
-      "title": "The People Behind The Mission"
+      "pretitle": "Start Donating Poor People",
+      "title": "Meet Our Volunteer Team Members"
     },
     "members": [
       {
         "id": 1,
-        "image": "/NGO_Images/origami-chain-people-with-globe.jpg",
-        "name": "Alex Morgan",
+        "image": "/NGO_Images/happy-diverse-kinds-park.jpg",
+        "name": "Sophia Martinez",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Founder & CEO",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       },
       {
         "id": 2,
-        "image": "/NGO_Images/people-hands-diversity-with-humanity-unity-inclusion-community-together-banner-closeup-group-social-gathering-with-teamwork-share-charity-poor-civilization-poverty.jpg",
-        "name": "Sarah Jenkins",
+        "image": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+        "name": "Rohan Mehta",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Operations Director",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       },
       {
         "id": 3,
-        "image": "/NGO_Images/planet-earth-boy-s-hands-saves-protects-world-environmental-concept-earth-day.jpg",
-        "name": "David Ross",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "name": "Priya Sharma",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Head of Outreach",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       },
       {
         "id": 4,
-        "image": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
-        "name": "Emily Vance",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "name": "Liam Anderson",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Volunteer Coordinator",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       },
       {
         "id": 5,
-        "image": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
-        "name": "Michael Chang",
+        "image": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+        "name": "Sophia Martinez",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Financial Manager",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       },
       {
         "id": 6,
-        "image": "/NGO_Images/professional-working-person.jpg",
-        "name": "Lisa Ray",
+        "image": "/NGO_Images/communication-feedback-chos-role.jpg",
+        "name": "Rohan Mehta",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Community Manager",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       },
       {
         "id": 7,
-        "image": "/NGO_Images/small-plant-symbolizing-importance-working-together-nurture-grow-something.jpg",
-        "name": "James Wilson",
+        "image": "/NGO_Images/origami-chain-people-with-globe.jpg",
+        "name": "Priya Sharma",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Field Program Lead",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       },
       {
         "id": 8,
-        "image": "/NGO_Images/smiley-young-african-boy-standing-field.jpg",
-        "name": "Rachel Green",
+        "image": "/NGO_Images/origami-chain-people-with-globe.jpg",
+        "name": "Liam Anderson",
+        "role": "Volunteer",
         "href": "/team-details",
-        "role": "Communications Head",
         "socials": [
-          {
-            "label": "facebook",
-            "href": "#"
-          },
-          {
-            "label": "twitter",
-            "href": "#"
-          },
-          {
-            "label": "linkedin",
-            "href": "#"
-          },
-          {
-            "label": "instagram",
-            "href": "#"
-          }
+          { "label": "facebook", "href": "#" },
+          { "label": "twitter", "href": "#" },
+          { "label": "linkedin", "href": "#" },
+          { "label": "instagram", "href": "#" }
         ]
       }
     ]
   },
   "teamDetails": {
-    "id": "rohit-sharma",
-    "name": "Rohit Sharma",
-    "role": "FOUNDER & DIRECTOR",
-    "bio": "Visionary leader with 15+ years of experience in social development and community building.",
-    "image": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg",
+    "id": "sophia-martinez",
+    "name": "Sophia Martinez",
+    "role": "Communications Director",
+    "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
     "banner": {
-      "breadcrumbCurrent": "Team Details",
       "breadcrumbHome": "Home",
-      "bgImageUrl": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg",
+      "breadcrumbCurrent": "Team Details",
+      "bgImageUrl": "/NGO_Images/happy-diverse-kinds-park.jpg",
       "title": "Team Details"
     },
-    "stats": [
-      {
-        "value": "15+",
-        "label": "Years Experience"
-      },
-      {
-        "value": "250+",
-        "label": "Projects Completed"
-      },
-      {
-        "value": "98%",
-        "label": "Success Rate"
-      }
-    ],
     "contactInfo": {
-      "email": "rohit.sharma@ngo.org",
-      "phone": "+1 987-0986-0987",
-      "location": "New York, Canada",
-      "qualification": "Master in Social Work (MSW)",
-      "languages": ["English", "Hindi"]
+      "phone": "+91-123 456 789",
+      "email": "info@domain.com"
     },
     "socialLinks": {
       "facebook": "https://facebook.com",
-      "linkedin": "https://linkedin.com",
-      "twitter": "https://twitter.com"
+      "twitter": "https://twitter.com",
+      "instagram": "https://instagram.com"
     },
-    "about": [
-      "Rohit Sharma is the Founder & Director of our organization. He is a passionate changemaker dedicated to building stronger, healthier, and more equitable communities.",
-      "With over 15 years of experience in the social sector, Rohit has led numerous initiatives in education, healthcare, women empowerment, and poverty alleviation. His strategic vision and compassionate leadership continue to inspire our team and the communities we serve."
-    ],
-    "skills": [
+    "tabs": [
       {
-        "skill": "Community Development",
-        "percentage": 95
+        "id": "personal-info",
+        "title": "Personal Info",
+        "description": "Sophia is a key strategist with extensive expertise in community outreach, public relations, and strategic communication leadership across various social initiatives.",
+        "skills": [
+          {
+            "skill": "Communication",
+            "percentage": 95
+          },
+          {
+            "skill": "Public Speaking",
+            "percentage": 90
+          }
+        ]
       },
       {
-        "skill": "Strategic Planning",
-        "percentage": 90
+        "id": "professional-skills",
+        "title": "Professional Skills",
+        "description": "Each team member brings a unique set of professional skills, including expertise in project management, community outreach, fundraising, advocacy.",
+        "skills": [
+          {
+            "skill": "Leadership",
+            "percentage": 97
+          },
+          {
+            "skill": "Advocacy",
+            "percentage": 84
+          }
+        ]
       },
       {
-        "skill": "Team Leadership",
-        "percentage": 92
-      },
-      {
-        "skill": "Public Speaking",
-        "percentage": 88
-      },
-      {
-        "skill": "Project Management",
-        "percentage": 90
+        "id": "award-win",
+        "title": "Award Win",
+        "description": "Recognized with multiple awards for grassroots activism, social excellence, and innovative volunteer organization leadership over the past decade.",
+        "skills": [
+          {
+            "skill": "Grassroots Impact Award",
+            "percentage": 100
+          },
+          {
+            "skill": "Leadership Excellence",
+            "percentage": 92
+          }
+        ]
       }
     ],
-    "experience": [
-      {
-        "period": "2008 - 2010",
-        "role": "Program Coordinator",
-        "organization": "Help Foundation, Canada",
-        "description": "Managed community outreach programs and built strong partnerships with local organizations."
-      },
-      {
-        "period": "2011 - 2014",
-        "role": "Project Manager",
-        "organization": "Social Impact Group, Canada",
-        "description": "Led multiple social projects focused on education and healthcare for underprivileged communities."
-      },
-      {
-        "period": "2015 - 2018",
-        "role": "Senior Manager",
-        "organization": "Change Makers Org, Canada",
-        "description": "Oversaw large-scale initiatives and managed cross-functional teams to achieve organizational goals."
-      },
-      {
-        "period": "2019 - Present",
-        "role": "Founder & Director",
-        "organization": "Our Organization",
-        "description": "Leading the organization with a vision to create sustainable change and empower communities."
-      }
-    ],
-    "achievements": [
-      {
-        "title": "Award Winner",
-        "description": "Received the Community Leadership Award for outstanding contribution to social development."
-      },
-      {
-        "title": "500+ Communities",
-        "description": "Worked closely with 500+ communities to create sustainable and long-lasting impact."
-      },
-      {
-        "title": "Fundraising Expert",
-        "description": "Successfully raised over $5M+ to support health, education, and livelihood programs."
-      },
-      {
-        "title": "Global Partnerships",
-        "description": "Built strong partnerships with global organizations and donors to expand our reach."
-      }
-    ]
+    "personalExperience": {
+      "title": "Personal experience",
+      "description": "Each team member brings a wealth of personal experience that drives their passion for making a difference. From firsthand involvement in community initiatives to years of volunteering and advocacy, their diverse backgrounds enrich our mission. Their experiences have shaped their commitment to creating positive change, enabling them to connect deeply with the communities we serve. This personal insight fuels their dedication to developing impactful programs.",
+      "highlights": [
+        "Community Engagement",
+        "Volunteer Leadership",
+        "Grassroots Advocacy",
+        "Nonprofit Management",
+        "Program Development",
+        "Fundraising Campaigns"
+      ]
+    }
   },
   "featuredProjects": {
     "sectionBadge": "Our Impactful Work",
@@ -3058,67 +3075,94 @@
   },
   "eventDetails": {
     "banner": {
-      "title": "Community Health Camp",
-      "breadcrumbCurrent": "Event Details",
+      "title": "Event Details",
       "breadcrumbHome": "Home",
-      "bgImageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg"
+      "breadcrumbCurrent": "Event Details",
+      "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
     },
     "content": {
-      "featuredImage": "/NGO_Images/cropped-hands-women.jpg",
-      "date": "12 March, 2026",
-      "author": "Helping Hearts Team",
-      "location": "New Delhi, India",
-      "category": "Healthcare",
-      "title": "Providing Free Medical Care to Rural Communities",
-      "intro": "Our healthcare outreach camp brought together volunteer doctors, nurses, and community leaders to provide free consultations, medicines, and health awareness sessions for underserved families.",
-      "paragraphs": [
-        "More than 800 villagers received health checkups during the one-day medical camp.",
-        "Children were vaccinated while women received maternal healthcare consultations.",
-        "Local volunteers also organized awareness sessions on nutrition, hygiene, and preventive healthcare."
+      "featuredImage": "/NGO_Images/children-speaking-holding-book.jpg",
+      "date": "02 Apr 2021",
+      "location": "684 West College St. Sun City, USA",
+      "title": "Give African Childrens A Good Education",
+      "intro": "Charity And Donation Is A Categorys That Involves Giving Financial Category That Involves Giving Financial Or Material Support Various Causes Organizations. It Allows Individuals Towards The A Addressing Social Category That Involves Giving Financial Or Material Support Various Causes Of Organizations. It Allows Individuals Towards Addressing Social",
+      "summaryTitle": "Summary",
+      "summaryDesc": "Charity And Donation Is A Categorys That Involves Giving Financial Category That Involves Giving Financial Or Material Support Various Causes Organizations. It Allows Individuals Towards The A Addressing Social Category That Involves Giving Financial Or Material Support Various Causes Of Organizations. It Allows Individuals Towards Addressing Social",
+      "checklists": [
+        "Empower Through Charity",
+        "Healing Communities",
+        "Compassion In Action",
+        "Giving Hope, Changing Lives",
+        "Together We Can",
+        "Every Act Counts"
       ],
-      "quote": "Healthcare should never be a privilege—it is a basic human right.",
       "gallery": [
-        "/NGO_Images/cute-sisters-having-snacks-home.jpg",
-        "/NGO_Images/diverse-community-with-hands-circle.jpg",
-        "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg"
+        "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "/NGO_Images/children-holding-hand-group.jpg"
       ],
-      "conclusion": "With the continued support of our donors and volunteers, we aim to organize similar healthcare initiatives across more rural regions in the coming months.",
-      "button": {
-        "label": "Become a Volunteer",
-        "href": "/team"
+      "mapLocation": {
+        "address": "New York, NY, USA",
+        "iframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s"
+      }
+    },
+    "sidebar": {
+      "recentPostsTitle": "Recent Posts",
+      "recentPosts": [
+        {
+          "id": 1,
+          "title": "Where Innovation Meets Foundation",
+          "date": "November 19, 2024",
+          "image": "/NGO_Images/children-speaking-holding-book.jpg",
+          "slug": "/blog-details"
+        },
+        {
+          "id": 2,
+          "title": "Where Innovation Meets Foundation",
+          "date": "November 19, 2024",
+          "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+          "slug": "/blog-details"
+        },
+        {
+          "id": 3,
+          "title": "Structures That Stand, Dreams That Soar",
+          "date": "November 22, 2024",
+          "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+          "slug": "/blog-details"
+        }
+      ],
+      "promoWidget": {
+        "tagline": "Small Donations Bigger Impact",
+        "title": "Education Health For Every Child",
+        "buttonLabel": "Get A Quote",
+        "buttonHref": "/contact"
       }
     }
   },
   "blogDetails": {
     "banner": {
-      "title": "How Your Donations Changed Lives",
-      "breadcrumbCurrent": "Blog Details",
+      "title": "Blog Details",
       "breadcrumbHome": "Home",
-      "bgImageUrl": "/NGO_Images/group-children-with-their-hands-up-air.jpg"
+      "breadcrumbCurrent": "Blog Details",
+      "bgImageUrl": "/NGO_Images/children-speaking-holding-book.jpg"
     },
-    "content": {
-      "featuredImage": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children.jpg",
-      "date": "15 February, 2026",
-      "author": "Maria Chen",
-      "category": "Impact Story",
-      "title": "How Your Donations Fed Thousands of Families",
-      "intro": "Every donation made by our supporters helped provide nutritious meals, clean water, and emergency supplies to families affected by poverty and natural disasters.",
-      "paragraphs": [
-        "Over 3,000 food kits were distributed across multiple villages.",
-        "More than 500 volunteers worked tirelessly to deliver relief materials.",
-        "Local communities also received hygiene kits and educational support for children."
+    "article": {
+      "featuredImage": "/NGO_Images/cropped-hands-women.jpg",
+      "introParagraphs": [
+        "Protecting forests is at the heart of our environmental mission, as they are vital to the health of our planet and the well-being of future generations. Forests play a critical role in combating climate change by absorbing carbon dioxide, preserving biodiversity, and providing clean air and water. Our organization is dedicated to conserving and restoring forest ecosystems through reforestation projects, community-led initiatives, and sustainable land-use practices.",
+        "By working hand-in-hand with local communities, governments, and global partners, we aim to create a balanced relationship between humans and nature. Together, we can ensure that forests continue to thrive, supporting livelihoods, wildlife, and the planet for years to come."
       ],
-      "quote": "Small acts of kindness create lasting change.",
-      "gallery": [
-        "/NGO_Images/group-best-friends-making-toast.jpg",
-        "/NGO_Images/group-children-with-their-hands-up-air.jpg",
-        "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg"
+      "quote": "Safeguarding forests is essential for our planet's health and future generations. Through reforestation, sustainable practices, and community engagement, we aim to protect ecosystems, combat climate change, preserve biodiversity.",
+      "midParagraph": "Our mission focuses on protecting forests to preserve biodiversity, combat climate change, and support sustainable livelihoods. Through reforestation, conservation efforts, and community partnerships, we work to ensure a greener, healthier future for our planet.",
+      "sectionTitle": "Building a greener future together",
+      "sectionDescription": "Building a greener future together involves collaborative efforts to protect and restore our planet's vital ecosystems. Through reforestation, sustainable practices, and community involvement, we work collectively to ensure a healthier, more sustainable world for all.",
+      "bulletPoints": [
+        "Reforestation and Tree Planting Initiatives",
+        "Community-Based Conservation Programs",
+        "Sustainable Land Management Practices",
+        "Community Empowerment and Training",
+        "Support for Indigenous and Local Communities"
       ],
-      "conclusion": "Together, we continue creating hope and brighter futures for families who need it most.",
-      "button": {
-        "label": "Donate Today",
-        "href": "/donate"
-      }
+      "concludingParagraph": "Building a greener future together is about coming together as a global community to safeguard our planet's natural resources. Through reforestation, conservation efforts, and sustainable practices, we're addressing the challenges of climate change and environmental degradation head-on. By empowering individuals, engaging with communities, and forming strategic partnerships, we're creating a legacy."
     }
   },
   "sitemap": {
@@ -3243,7 +3287,7 @@
       "bgImageUrl": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg"
     },
     "introduction": {
-      "icon": "eye",
+      "title": "Our Vision",
       "heading": {
         "line1": "Our",
         "highlight": "Vision"
@@ -3302,9 +3346,9 @@
     "introduction": {
       "badge": "OUR SERVICES",
       "title": {
-    "normal": "Our",
-    "highlighted": "Comprehensive Services"
-  },
+        "normal": "Our",
+        "highlighted": "Comprehensive Services"
+      },
       "description": "Our services are focused on creating lasting change through community development, healthcare access, educational support, and emergency relief."
     },
     "stats": [
@@ -3415,67 +3459,130 @@
   },
   "award": {
     "banner": {
-      "breadcrumbCurrent": "Awards & Certificate",
+      "title": "Award & Certificate",
+      "bgImageUrl": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1600&auto=format&fit=crop",
       "breadcrumbHome": "Home",
-      "bgImageUrl": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
-      "title": "Awards & Certificate"
+      "breadcrumbCurrent": "Award & Certificate"
     },
     "heading": {
-      "pretitle": "AWARDS & RECOGNITION",
-      "title": "Honored for",
-      "titleHighlight": "Our Impact.",
-      "description": "These awards reflect our commitment, the trust of our partners, and the impact we create together."
+      "title": "Our Awards",
+      "subtitle": "Honored by reputed organizations for our dedication and impact."
     },
-    "awardsList": {
-      "sectionTitle": "Our Recent Awards",
-      "viewAllText": "View All Awards",
-      "viewAllUrl": "/awards",
-      "items": [
-        {
-          "id": "1",
-          "title": "Best NGO of the Year",
-          "description": "Recognized for outstanding contribution to community development and social impact.",
-          "year": "2024",
-          "imageUrl": "/NGO_Images/multiethnic-adventurer-girls-casual-clothes-crouching-wild-nature-looking-piece-acorn-environment-nature-lovers-concept.jpg"
-        },
-        {
-          "id": "2",
-          "title": "Excellence in Social Impact",
-          "description": "Honored for innovative programs creating sustainable and measurable change in communities.",
-          "year": "2023",
-          "imageUrl": "/NGO_Images/nature-friends-group-volunteers-with-boxes-help-goals-donation-charity-event-non-profit-food-drive-ngo-people-outdoor-field-community-service-project-collaboration.jpg"
-        },
-        {
-          "id": "3",
-          "title": "Community Leadership Award",
-          "description": "Acknowledged for strong leadership and dedication to building inclusive communities.",
-          "year": "2022",
-          "imageUrl": "/NGO_Images/origami-chain-people-with-globe.jpg"
-        },
-        {
-          "id": "4",
-          "title": "Sustainability Champion",
-          "description": "Awarded for promoting sustainable practices and driving long-term environmental impact.",
-          "year": "2021",
-          "imageUrl": "/NGO_Images/people-hands-diversity-with-humanity-unity-inclusion-community-together-banner-closeup-group-social-gathering-with-teamwork-share-charity-poor-civilization-poverty.jpg"
-        },
-        {
-          "id": "5",
-          "title": "Partner Appreciation Award",
-          "description": "In recognition of strong partnerships and collaborative efforts towards shared goals.",
-          "year": "2020",
-          "imageUrl": "/NGO_Images/planet-earth-boy-s-hands-saves-protects-world-environmental-concept-earth-day.jpg"
-        },
-        {
-          "id": "6",
-          "title": "Outstanding Service Award",
-          "description": "Honored for exceptional service and unwavering commitment to the cause.",
-          "year": "2019",
-          "imageUrl": "/NGO_Images/portrait-cute-girl-with-kitten.jpg"
-        }
-      ]
+    "awardsList": [
+{
+    "id": "1",
+    "title": "NGO Excellence Award 2024",
+    "description": "For outstanding contribution to community development.",
+    "issuedBy": "National NGO Forum",
+    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+  },
+  {
+    "id": "2",
+    "title": "Social Impact Award 2023",
+    "description": "In recognition of impactful initiatives in education.",
+    "issuedBy": "Bharat Social Impact Awards",
+    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+  },
+  {
+    "id": "3",
+    "title": "Community Service Award 2022",
+    "description": "In appreciation of continuous efforts towards society.",
+    "issuedBy": "Rural Development Council",
+    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+  },
+  {
+    "id": "4",
+    "title": "Excellence in Social Impact 2022",
+    "description": "Recognized for meaningful community initiatives.",
+    "issuedBy": "Social Impact Forum",
+    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+  },
+  {
+    "id": "5",
+    "title": "Innovation for Change 2021",
+    "description": "For innovative programs creating lasting social impact.",
+    "issuedBy": "Development Innovators Network",
+    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+  },
+  {
+    "id": "6",
+    "title": "Community Leadership Award 2021",
+    "description": "For continued leadership and contribution to community welfare.",
+    "issuedBy": "Community Development Council",
+    "imageUrl": "https://prodborn.s3.ap-south-1.amazonaws.com/wp-content/uploads/2025/08/award-of-excellence.webp"
+  }
+    ],
+    "certificatesHeading": {
+      "title": "Our Certificates"
     },
-    "quote": "These recognitions inspire us to do more, reach more, and create a better tomorrow for all."
+    "certificatesList": [
+{
+    "id": "c1",
+    "title": "Certificate of Appreciation 2024",
+    "issuedBy": "Community Development Organization",
+    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+  },
+  {
+    "id": "c2",
+    "title": "Certificate of Excellence 2023",
+    "issuedBy": "Social Impact Foundation",
+    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+  },
+  {
+    "id": "c3",
+    "title": "Certificate of Recognition 2022",
+    "issuedBy": "Community Welfare Organization",
+    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+  },
+  {
+    "id": "c4",
+    "title": "Certificate of Achievement 2020",
+    "issuedBy": "Green Earth Foundation",
+    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+  },
+  {
+    "id": "c5",
+    "title": "Certificate of Honor 2019",
+    "issuedBy": "National Community Forum",
+    "imageUrl": "https://media.s-bol.com/v1kYBpwVo1Z0/zmjZpA2/550x550.jpg"
+  }
+    ],
+    "stats": [
+      {
+        "id": "s1",
+        "value": "18+",
+        "label": "Awards Received",
+        "sublabel": "for our initiatives",
+        "type": "trophy"
+      },
+      {
+        "id": "s2",
+        "value": "25+",
+        "label": "Certificates",
+        "sublabel": "of Recognition",
+        "type": "certificate"
+      },
+      {
+        "id": "s3",
+        "value": "10+",
+        "label": "Years of",
+        "sublabel": "Meaningful Impact",
+        "type": "calendar"
+      },
+      {
+        "id": "s4",
+        "value": "50K+",
+        "label": "Lives",
+        "sublabel": "Positively Impacted",
+        "type": "users"
+      }
+    ],
+    "bannerCTA": {
+      "title": "Every award inspires us to do more.",
+      "description": "We dedicate these honors to our beneficiaries, volunteers, partners and supporters who make our journey possible.",
+      "buttonText": "Support Our Mission",
+      "buttonUrl": "/donate"
+    }
   },
   "csr": {
     "banner": {
@@ -4097,122 +4204,191 @@
       ]
     }
   },
-  "brochure": {
+"brochure": {
     "banner": {
-      "breadcrumbCurrent": "Brochure",
+      "title": "Brochure",
       "breadcrumbHome": "Home",
-      "bgImageUrl": "/NGO_Images/group-indian-children-running.jpg",
-      "title": "Brochure"
+      "breadcrumbCurrent": "Brochure",
+      "bgImageUrl": "/NGO_Images/group-indian-children-running.jpg"
     },
     "content": {
-      "tagline": "OUR RESOURCES",
-      "mainTitle": "Download Our Brochures",
-      "description": "Explore our initiatives, programs and impact through our brochures. Download and share to spread hope and create change.",
+      "mainTitle": "Our Brochures",
+      "title": "Brochures",
+      "description": "Explore our brochures to learn more about our initiatives, programs and impact.",
+      "searchPlaceholder": "Search brochures...",
+      "categories": [
+        "All Categories",
+        "About Us",
+        "Education",
+        "Women Empowerment",
+        "Healthcare",
+        "Environment",
+        "Disaster Relief",
+        "Reports",
+        "Get Involved"
+      ],
       "brochures": [
         {
-          "title": "Our Journey",
-          "description": "Know about our mission, vision and journey so far.",
-          "fileUrl": "#"
+          "title": "About Our NGO",
+          "category": "About Us",
+          "fileSize": "2.4 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/aboutngo.png",
+          "fileUrl": "/brochures/about-our-ngo.pdf"
         },
         {
-          "title": "Annual Report 2023-24",
-          "description": "Highlights of our work and impact in the last year.",
-          "fileUrl": "#"
+          "title": "Child Education Program",
+          "category": "Education",
+          "fileSize": "1.8 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/childeducation.png",
+          "fileUrl": "/brochures/child-education-program.pdf"
         },
         {
-          "title": "Education for All",
-          "description": "Empowering children through quality education.",
-          "fileUrl": "#"
+          "title": "Women Empowerment Initiative",
+          "category": "Women Empowerment",
+          "fileSize": "2.1 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/women.png",
+          "fileUrl": "/brochures/women-empowerment-initiative.pdf"
         },
         {
           "title": "Healthcare for All",
-          "description": "Improving access to healthcare and well-being.",
-          "fileUrl": "#"
+          "category": "Healthcare",
+          "fileSize": "1.9 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/health.png",
+          "fileUrl": "/brochures/healthcare-for-all.pdf"
         },
         {
-          "title": "Livelihood Programs",
-          "description": "Creating sustainable livelihoods and skill development.",
-          "fileUrl": "#"
+          "title": "Environment Protection Program",
+          "category": "Environment",
+          "fileSize": "2.2 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/nature.png",
+          "fileUrl": "/brochures/environment-protection-program.pdf"
         },
         {
-          "title": "Women Empowerment",
-          "description": "Enabling women to lead independent and dignified lives.",
-          "fileUrl": "#"
+          "title": "Disaster Relief & Response",
+          "category": "Disaster Relief",
+          "fileSize": "2.0 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/disaster.png",
+          "fileUrl": "/brochures/disaster-relief-and-response.pdf"
         },
         {
-          "title": "Child Protection",
-          "description": "Ensuring safety, protection and rights of every child.",
-          "fileUrl": "#"
+          "title": "Annual Report 2023-24",
+          "category": "Reports",
+          "fileSize": "3.1 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/annual.png",
+          "fileUrl": "/brochures/annual-report-2023-24.pdf"
         },
         {
-          "title": "Environment & Sustainability",
-          "description": "Working for a cleaner, greener and sustainable future.",
-          "fileUrl": "#"
-        },
-        {
-          "title": "Volunteer With Us",
-          "description": "Be a part of our change and make a difference.",
-          "fileUrl": "#"
-        },
-        {
-          "title": "Ways to Support",
-          "description": "Different ways you can support our cause.",
-          "fileUrl": "#"
+          "title": "How You Can Help",
+          "category": "Get Involved",
+          "fileSize": "1.3 MB",
+          "fileType": "PDF",
+          "imageUrl": "/brochure/help.png",
+          "fileUrl": "/brochures/how-you-can-help.pdf"
         }
       ]
     }
   },
-  "media": {
+"media": {
     "banner": {
-      "breadcrumbCurrent": "Media",
+      "title": "Media",
       "breadcrumbHome": "Home",
-      "bgImageUrl": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg",
-      "title": "Media"
+      "breadcrumbCurrent": "Media",
+      "bgImageUrl": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg"
     },
     "content": {
-      "sectionTitle": "Latest Media Articles",
+      "tagline": "MEDIA",
+      "sectionTitle": "As Seen In The News",
+      "sectionDescription": "Our work and initiatives have been recognized and featured by leading media houses and news platforms.",
+      "bottomCaption": "And many more leading news publications...",
       "viewAllText": "View All News",
       "viewAllUrl": "/",
       "mediaCards": [
         {
-          "title": "Zee News",
-          "logoUrl": "https://i.pinimg.com/1200x/1f/e6/17/1fe617fe71d1dda9cabb5a42e67cd955.jpg",
-          "articleUrl": "https://zeenews.india.com/india/father-cremated-by-ngo-as-three-daughters-skip-funeral-one-joins-on-video-call-3065194.html"
+          "title": "The Times of India",
+          "logoUrl": "https://i.pinimg.com/1200x/fa/33/46/fa33461ca7cb9714899688be61c9bccc.jpg",
+          "articleUrl": "https://timesofindia.indiatimes.com/"
+        },
+        {
+          "title": "Hindustan Times",
+          "logoUrl": "https://i.pinimg.com/736x/90/71/18/907118266529a81e215a9d674d1afdb4.jpg",
+          "articleUrl": "https://www.hindustantimes.com/"
+        },
+        {
+          "title": "The Indian Express",
+          "logoUrl": "https://i.pinimg.com/736x/25/fa/f5/25faf54fd6e0d1f488fbcbe60fc050c4.jpg",
+          "articleUrl": "https://indianexpress.com/"
         },
         {
           "title": "NDTV",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/NDTV_logo.svg",
+          "articleUrl": "https://www.ndtv.com/"
+        },
+        {
+          "title": "The Hindu",
+          "logoUrl": "https://i.pinimg.com/736x/9c/83/b2/9c83b2f02d2fa204db6dadb7d2095185.jpg",
+          "articleUrl": "https://www.thehindu.com/"
+        },
+        {
+          "title": "Zee News",
           "logoUrl": "https://i.pinimg.com/1200x/1f/e6/17/1fe617fe71d1dda9cabb5a42e67cd955.jpg",
-          "articleUrl": "https://zeenews.india.com/india/father-cremated-by-ngo-as-three-daughters-skip-funeral-one-joins-on-video-call-3065194.html"
+          "articleUrl": "https://zeenews.india.com/"
         },
         {
-          "title": "Sky News",
-          "logoUrl": "https://i.pinimg.com/1200x/b2/46/e3/b246e3bfb944872b0e7459e105043617.jpg",
-          "articleUrl": "https://news.sky.com/"
+          "title": "Aaj Tak",
+          "logoUrl": "https://i.pinimg.com/736x/9b/7d/64/9b7d64b9afdd8abf197e2abbf8b1cee5.jpg",
+          "articleUrl": "https://www.aajtak.in/"
         },
         {
-          "title": "IK Media News",
-          "logoUrl": "https://i.pinimg.com/1200x/31/a1/dc/31a1dc1f0254e1bdfff3867a48fe818c.jpg",
-          "articleUrl": "https://www.ikmultimedia.com/news/"
+          "title": "India TV",
+          "logoUrl": "https://i.pinimg.com/736x/ea/1e/b7/ea1eb7074749ab1e99790de26c691f52.jpg",
+          "articleUrl": "https://www.indiatvnews.com/"
         },
         {
-          "title": "News Time",
-          "logoUrl": "https://i.pinimg.com/736x/f5/17/e5/f517e55e02164cfa7237169372acfa70.jpg",
-          "articleUrl": "https://www.timesnownews.com/"
+          "title": "News18 India",
+          "logoUrl": "https://i.pinimg.com/1200x/b0/94/ca/b094ca076f017260946b76d2905eb232.jpg",
+          "articleUrl": "https://hindi.news18.com/"
         },
         {
-          "title": "ND News Digital",
-          "logoUrl": "https://i.pinimg.com/736x/67/97/8b/67978bfd621fb4c4cbd1623175a2cf28.jpg",
-          "articleUrl": "https://nddnews.in/"
+          "title": "Republic Bharat",
+          "logoUrl": "https://i.pinimg.com/1200x/52/52/df/5252df61d6f8c94be56722194272f99c.jpg",
+          "articleUrl": "https://www.republicworld.com/"
         },
         {
-          "title": "BNews",
-          "logoUrl": "https://i.pinimg.com/736x/d6/f2/51/d6f25164940233697854c1e5f028d168.jpg",
-          "articleUrl": "https://www.bbc.com/news"
+          "title": "Business Standard",
+          "logoUrl": "https://i.pinimg.com/736x/8b/c8/e8/8bc8e8bfa61a074d47b65bd97df4229e.jpg",
+          "articleUrl": "https://www.business-standard.com/"
         },
         {
-          "title": "DN News",
-          "logoUrl": "https://i.pinimg.com/1200x/f2/51/c8/f251c86a4a866264bc0d8102184bc125.jpg",
-          "articleUrl": "https://www.dnaindia.com/"
+          "title": "Livemint",
+          "logoUrl": "https://i.pinimg.com/736x/a5/7d/33/a57d3393b0669b5d742a96fcf41c4c52.jpg",
+          "articleUrl": "https://www.livemint.com/"
+        },
+        {
+          "title": "The Economic Times",
+          "logoUrl": "https://i.pinimg.com/736x/cc/77/dd/cc77ddc903a45685d15770ec976f836f.jpg",
+          "articleUrl": "https://economictimes.indiatimes.com/"
+        },
+        {
+          "title": "Forbes India",
+          "logoUrl": "https://i.pinimg.com/1200x/f2/86/ef/f286efd1c56ed2d58f69af489b92f9b9.jpg",
+          "articleUrl": "https://www.forbesindia.com/"
+        },
+        {
+          "title": "BW Businessworld",
+          "logoUrl": "https://i.pinimg.com/1200x/17/1a/12/171a1299b4c1503f5afd2176fa4e9e51.jpg",
+          "articleUrl": "https://www.businessworld.in/"
+        },
+        {
+          "title": "ANI News",
+          "logoUrl": "https://i.pinimg.com/736x/ec/5f/fa/ec5ffa9e043214612c7be8a67ee9a049.jpg",
+          "articleUrl": "https://www.aninews.in/"
         }
       ]
     }
@@ -4310,7 +4486,7 @@
     },
     "centerVideo": {
       "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
-      "videoUrl": "https://www.youtube.com/watch?v=sample"
+      "videoUrl": "https://www.youtube.com/watch?v=ScMzIvxBSi4"
     },
     "rightCard": {
       "subtitle": "We Give Child A Gift Of A Education",
@@ -4322,5 +4498,40 @@
       "buttonTextColor": "text-slate-900",
       "overlayColor": "bg-[#E65100]/85"
     }
+  },
+  "facts": {
+    "badge": "SOME FACT",
+    "title": "Impactful numbers that inspire",
+    "highlightedTitle": "change",
+    "description": "Discover the transformative impact of our initiatives through key figures that highlight the progress we've made together in empowering communities and changing lives.",
+    "mainImage": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+    "secondaryImage": "/NGO_Images/communication-feedback-chos-role.jpg",
+    "footerText": "Together, we can create a better tomorrow.",
+    "stats": [
+      {
+        "id": 1,
+        "value": "25+",
+        "label": "Years Of Experience",
+        "icon": "calendar",
+        "variant": "light",
+        "accentColor": "green"
+      },
+      {
+        "id": 2,
+        "value": "95%",
+        "label": "Food Support",
+        "icon": "food",
+        "variant": "light",
+        "accentColor": "orange"
+      },
+      {
+        "id": 3,
+        "value": "5000+",
+        "label": "Lives Impacted So Far",
+        "icon": "users",
+        "variant": "dark",
+        "accentColor": "green"
+      }
+    ]
   }
 }

@@ -34,7 +34,7 @@ export default function Footer() {
     <footer className="bg-[#1a1a1a] text-white pt-12 pb-6 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* ================= TOP NEWSLETTER & CONTACT BAR ================= */}
-        <div className="flex  flex-col lg:flex-row justify-between  border-gray-800 pb-10  gap-8">
+        <div className="flex  flex-col lg:flex-row justify-between  border-gray-800 pb-8 border-b-white/30 border-b-[1px] gap-8">
           {/* Newsletter Section */}
           <div className="w-full  lg:w-1/2 flex flex-col md:flex-row  gap-4 sm:gap-6">
             <h3 className="text-xl sm:text-2xl font-bold whitespace-nowrap text-white">
@@ -54,13 +54,14 @@ export default function Footer() {
 
           {/* Top Quick Contact Info */}
           {primaryContact && (
-            <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2 md:gap-6 sm:gap-8 w-full lg:w-auto">
-              <div className="flex  items-center gap-3 w-full">
+            <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-end gap-4 lg:gap-8 w-full lg:w-auto">
+              {/* Phone */}
+              <div className="flex items-center gap-3 w-full lg:w-auto">
                 <div className="shrink-0 bg-[#2a2a2a] p-3 rounded-full border border-gray-700">
                   <Phone className="w-5 h-5 text-[#f9570c]" />
                 </div>
 
-                <div className="min-w-0 text-sm sm:text-sm">
+                <div className="min-w-0 text-sm">
                   <p className="text-gray-400">Phone</p>
 
                   <a
@@ -72,17 +73,18 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div className="flex items-center  gap-3 min-w-0 w-full">
+              {/* Email */}
+              <div className="flex items-center gap-3 w-full lg:w-auto min-w-0">
                 <div className="shrink-0 bg-[#2a2a2a] p-3 rounded-full border border-gray-700">
                   <Mail className="w-5 h-5 text-[#f9570c]" />
                 </div>
 
-                <div className="min-w-0 flex-1 text-sm sm:text-sm">
+                <div className="min-w-0 lg:max-w-[240px] text-sm">
                   <p className="text-gray-400">Email Us</p>
 
                   <a
                     href={`mailto:${primaryContact.email}`}
-                    className="block font-bold text-white hover:text-[#f9570c] transition-colors break-all"
+                    className="block font-bold text-white hover:text-[#f9570c] transition-colors truncate"
                   >
                     {primaryContact.email}
                   </a>
@@ -93,7 +95,7 @@ export default function Footer() {
         </div>
 
         {/* ================= MAIN FOOTER CONTENT ================= */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12 my-7">
           {/* Column 1: Brand Logo, Description & Social Icons */}
           <div className="space-y-4 sm:space-y-6">
             <img
@@ -178,11 +180,14 @@ export default function Footer() {
         </div>
 
         {/* ================= BOTTOM BAR ================= */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-gray-800 text-sm sm:text-sm text-gray-400">
-          <p className="text-center md:text-left">{data.copyright}</p>
+        {/* ================= BOTTOM BAR ================= */}
+        <div className="relative pt-6 border-t border-gray-800 text-sm text-gray-400">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 pr-0 md:pr-20">
+            {/* Copyright */}
+            <p className="text-center md:text-left">{data.copyright}</p>
 
-          <div className="sm:flex sm:gap-3">
-            <div className="flex mt-2 flex-wrap justify-center gap-4 sm:gap-6">
+            {/* Legal Links */}
+            <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               {data.legalLinks.map((link, idx) => (
                 <Link
                   key={idx}
@@ -193,15 +198,28 @@ export default function Footer() {
                 </Link>
               ))}
             </div>
-
-            <button
-              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="bg-[#2a2a2a] h-fit cursor-pointer p-2.5 rounded-full hover:bg-[#f9570c] text-white border border-gray-700 transition-all duration-300"
-              aria-label="Scroll to Top"
-            >
-              <ArrowUp className="w-4 h-4" />
-            </button>
           </div>
+
+          {/* ================= FLOATING SCROLL TOP ================= */}
+          <button
+            type="button"
+            onClick={() =>
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+              })
+            }
+            aria-label="Scroll to top"
+            className="absolute right-0 -top-7 z-30 w-14 h-14  rounded-full bg-white border-2 border-blue-600 text-blue-600 flex items-center justify-center cursor-pointer shadow-[0_4px_20px_rgba(0,0,0,0.25)] transition-all duration-300 hover:bg-blue-600 hover:text-white hover:-translate-y-1 group"
+          >
+            {/* Inner concentric circle */}
+            <span className="absolute inset-[5px] rounded-full border border-blue-600 group-hover:border-white transition-colors duration-300 flex items-center justify-center">
+              <ArrowUp
+                className=" w-5 h-5 sm:w-6 sm:h-6 transition-transform duration-300 group-hover:-translate-y-0.5"
+                strokeWidth={2.5}
+              />
+            </span>
+          </button>
         </div>
       </div>
     </footer>

@@ -1,133 +1,98 @@
-"use client";
-
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import { BlogProps } from "@/type/typeSection";
-import { FaCalendarAlt, FaArrowRight } from "react-icons/fa";
+import Link from "next/link";
+import { BlogData } from "@/type/typeSection";
+import { Calendar, ArrowRight, BookOpen } from "lucide-react";
 import { HandHeart } from "../shared/Icons";
 
-export default function BlogSection({ data }: BlogProps) {
-  if (!data) return null;
+interface BlogSectionProps {
+  data: BlogData;
+  showAll?: boolean;
+}
 
-  const { pretitle, title, desc, button, posts } = data;
-
-  // Display only the first 3 posts for the homepage section
-  const featuredPosts = posts?.slice(0, 3) || [];
+export default function BlogSection({ data, showAll = false }: BlogSectionProps) {
+  const { pretitle, title, desc, posts, button } = data;
+  const displayPosts = showAll ? posts : posts.slice(0, 3);
 
   return (
-    <section className="w-full py-8 md:py-12 bg-slate-50/50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* =========================================================
-            SECTION HEADER
-        ========================================================== */}
-        <div className="text-center max-w-2xl mx-auto sm:mb-10">
-          {/* Pretitle with Heart Icon */}
-          
-            <div className="flex justify-center items-center gap-2 text-emerald-700 font-semibold text-base sm:text-lg ">
-              <HandHeart className="w-8 h-8 text-emerald-600" />
-              <span className="italic font-serif">{pretitle}</span>
-            </div>
+    <section className="py-8 md:py-12 px-4 sm:px-6 lg:px-8 bg-[#f8f9fa] font-sans">
+      <div className="max-w-7xl mx-auto">
+        {/* Section Header */}
+        <div className="text-center max-w-2xl mx-auto mb-9">
+          <div className="flex items-center justify-center gap-2 text-emerald-700 font-semibold text-base sm:text-lg ">
+            <HandHeart className="w-8 h-8 text-emerald-600" />
+            <span className="italic font-serif">{pretitle}</span>
+          </div>
 
-          {/* Main Title */}
-          <h2 className="text-3xl  sm:text-4xl lg:text-5xl font-extrabold text-[#081E38]">
-            {title ? (
-              <>
-                {title.replace(/Our Blog/i, "")}{" "}
-                <span className="text-[#E56A00] relative inline-block">
-                  Our Blog
-                </span>
-              </>
-            ) : (
-              "Latest from Our Blog"
-            )}
-          </h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-[#08121e] mb-2">
+           {title}
+          </h2> 
 
-          {/* Description */}
-          {desc && (
-            <p className="text-gray-600 text-sm sm:text-base leading-relaxed mt-2">
-              {desc}
-            </p>
-          )}
+          <p className="text-base sm:text-lg leading-relaxed text-gray-500 leading-relaxed">
+            {desc}
+          </p>
         </div>
 
-        {/* =========================================================
-            BLOG CARDS GRID (3 Columns)
-        ========================================================== */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-8 sm:mt-0">
-          {featuredPosts.map((post) => (
-            <article
+        {/* Blog Posts Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {displayPosts.map((post) => (
+            <div
               key={post.id}
-              className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-gray-100 group"
+              className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group"
             >
-              {/* Image Container with Category Badge */}
-              <div className="relative h-56 sm:h-64 w-full overflow-hidden">
+              {/* Image Container */}
+              <div className="relative h-56 w-full overflow-hidden">
                 <Image
                   src={post.image}
                   alt={post.title}
                   fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-
-                {/* Category Pill Badge */}
-                {post.category && (
-                  <div className="absolute top-4 left-4 z-10">
-                    <span className="px-3.5 py-1 rounded-full text-sm font-semibold text-white bg-[#E56A00]/90 shadow-md backdrop-blur-sm">
-                      {post.category}
-                    </span>
-                  </div>
-                )}
+                <span className="absolute top-4 left-4 bg-[#ff5500] text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                  {post.category}
+                </span>
               </div>
 
-              {/* Card Body Content */}
-              <div className="p-6 sm:p-8 flex-1 flex flex-col justify-between">
+              {/* Content */}
+              <div className="p-6 flex flex-col justify-between flex-1">
                 <div>
-                  {/* Date Badge */}
-                  <div className="flex items-center gap-2 text-sm text-[#E56A00] font-semibold mb-3">
-                    <FaCalendarAlt className="w-3.5 h-3.5" />
+                  <div className="flex items-center gap-2 text-sm text-gray-400 mb-3">
+                    <Calendar className="w-3.5 h-3.5 text-[#ff5500]" />
                     <span>{post.date}</span>
                   </div>
 
-                  {/* Blog Title */}
-                  <h3 className="text-lg sm:text-xl font-bold text-[#081E38] line-clamp-2 leading-snug mb-3 group-hover:text-[#E56A00] transition-colors duration-200">
-                    <Link href={post.slug || "/blog"}>{post.title}</Link>
+                  <h3 className="text-base md:text-lg font-bold text-[#08121e] group-hover:text-[#ff5500] transition-colors duration-200 line-clamp-2 mb-2">
+                    <Link href={post.slug}>{post.title}</Link>
                   </h3>
 
-                  {/* Excerpt */}
-                  <p className="text-gray-500 text-sm line-clamp-3 leading-relaxed mb-6">
+                  <p className="text-sm text-gray-500 leading-relaxed line-clamp-3 mb-6">
                     {post.excerpt}
                   </p>
                 </div>
 
-                {/* Read More Link */}
-                <div className="pt-2">
-                  <Link
-                    href={post.slug || "/blog"}
-                    className="inline-flex items-center gap-2 text-sm font-bold text-[#E56A00] hover:text-[#081E38] transition-colors duration-200 group/link"
-                  >
-                    <span>Read More</span>
-                    <span className="w-6 h-6 rounded-full bg-[#E56A00] text-white flex items-center justify-center text-sm transition-transform duration-300 group-hover/link:translate-x-1 group-hover/link:bg-[#081E38]">
-                      <FaArrowRight className="w-2.5 h-2.5" />
-                    </span>
-                  </Link>
-                </div>
+                <Link
+                  href={post.slug}
+                  className="inline-flex items-center gap-2 text-sm font-bold text-[#ff5500] hover:text-[#e04b00] transition-colors"
+                >
+                  <span>Read More</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
               </div>
-            </article>
+            </div>
           ))}
         </div>
 
-        {/* =========================================================
-            BOTTOM CTA BUTTON
-        ========================================================== */}
-        <div className="text-center">
-          <Link
-            href="/blog"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-full font-bold text-white bg-[#E56A00] hover:bg-[#c95b00] shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 text-sm sm:text-base"
-          >
-            <span>{button?.label || "View All Blogs"}</span>
-            <FaArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
+        {/* View All Button (Hidden on full blog page) */}
+        {!showAll && button && (
+          <div className="text-center mt-12">
+            <Link
+              href="/blog"
+              className="inline-flex items-center justify-center bg-[#ff5500] text-white text-sm font-bold px-7 py-3.5 rounded-full hover:bg-[#e04b00] transition-colors shadow-md"
+            >
+              {button.label}
+            </Link>
+          </div>
+        )}
       </div>
     </section>
   );

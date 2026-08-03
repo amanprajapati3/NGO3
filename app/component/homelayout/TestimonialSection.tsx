@@ -85,7 +85,7 @@ export default function TestimonialSection({ data }: TestimonialProps) {
 
           {/* Subtitle / Description */}
           {description && (
-            <p className="text-gray-600 mt-2 text-sm sm:text-base max-w-2xl leading-relaxed">
+            <p className="text-gray-600 mt-2 text-base sm:text-lg max-w-2xl leading-relaxed">
               {description}
             </p>
           )}
