@@ -34,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${plusJakarta.variable} h-full antialiased`}>
       <body className="min-h-full font-sans">   
+        <SmoothScroll/>
         <Header />
         <main className="relative ">{children}</main>
         <Footer />

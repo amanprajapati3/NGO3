@@ -1,6 +1,6 @@
 {
   "meta": {
-    "siteTitle": "Helping Hearts | Charity & Community Support",
+    "siteTitle": "NGO",
     "siteDescription": "Helping Hearts is a compassionate charitable organization dedicated to education, healthcare, child welfare, women empowerment, and community development.",
     "keywords": [
       "charity NGO",
@@ -293,7 +293,7 @@
       "href": "/faq"
     }
   ],
-"banner": [
+  "banner": [
     {
       "pretitle": "TOGETHER, WE CAN",
       "title": "Empower change, one act of kindness at a time.",
@@ -333,6 +333,46 @@
         }
       ],
       "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
+    },
+    {
+      "pretitle": "EDUCATION FOR ALL",
+      "title": "Unlocking bright futures through learning.",
+      "desc": "Every child deserves access to quality education, empowering them to break cycles of poverty and build a better tomorrow.",
+      "buttons": [
+        {
+          "label": "Donate Now",
+          "href": "/donate",
+          "variant": "primary",
+          "icon": "heart"
+        },
+        {
+          "label": "Watch Our Story",
+          "href": "#story",
+          "variant": "secondary",
+          "icon": "play"
+        }
+      ],
+      "bgImageUrl": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg"
+    },
+    {
+      "pretitle": "HEALTH & NOURISHMENT",
+      "title": "Nourishing lives and building healthier communities.",
+      "desc": "Providing essential meals, healthcare resources, and clean water to families struggling with daily hardship.",
+      "buttons": [
+        {
+          "label": "Donate Now",
+          "href": "/donate",
+          "variant": "primary",
+          "icon": "heart"
+        },
+        {
+          "label": "Watch Our Story",
+          "href": "#story",
+          "variant": "secondary",
+          "icon": "play"
+        }
+      ],
+      "bgImageUrl": "/NGO_Images/children-speaking-holding-book.jpg"
     }
   ],
   "featureCards": [
@@ -1051,128 +1091,42 @@
     }
   },
   "AboutPage": {
-    "sideImage": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
-    "pretitle": "Who we are",
-    "title": "A community-driven charity built on trust",
-    "philosophyDesc": "Helping Hearts partners with grassroots organizations, local volunteers, and generous donors to close the gap between hardship and hope.",
-    "desc": "What started as a small neighborhood relief effort has grown into a network spanning dozens of countries. We believe lasting change happens when communities lead their own recovery, and our role is to give them the tools, funding, and support to make that possible.",
-    "buttons": [
-      {
-        "label": "Start a Fundraiser",
-        "href": "/donate"
-      },
-      {
-        "label": "Read More",
-        "href": "/about-us"
-      }
-    ],
-    "cards": [
+    "banner":{
+      "breadcrumbCurrent": "About Us",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/communication-feedback-chos-role.jpg"
+    },
+    "pretitle": "Start Donating Poor People",
+    "donationBadge": "We give donation to the poor",
+    "title": "Helping Each Other Can Make World Better",
+    "desc": "Volunteering offers opportunities to develop new skills and gain valuable experience. This can include leadership, communication, project management, and teamwork skills.",
+    "sideImages": {
+      "topLeft": "/NGO_Images/happy-diverse-kinds-park.jpg",
+      "mainLeft": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
+      "bottomRight": "/NGO_Images/origami-chain-people-with-globe.jpg"
+    },
+    "features": [
       {
         "id": 1,
-        "title": "Become a volunteer",
-        "desc": "Give your time and skills where they matter most — from local outreach to on-the-ground disaster response.",
-        "buttonLabel": "Join Now",
-        "href": "/donate"
+        "title": "Start Helping Them",
+        "desc": "Raising awareness about the charity's mission and cause."
       },
       {
         "id": 2,
-        "title": "Make a donation",
-        "desc": "Your contribution goes directly toward food, shelter, medical care, and education for families in need.",
-        "buttonLabel": "Donate Now",
-        "href": "/donate"
-      },
-      {
-        "id": 3,
-        "title": "Spread the word",
-        "desc": "Share our campaigns with your network — awareness is often the first step toward real change.",
-        "buttonLabel": "Share Now",
-        "href": "/donate"
+        "title": "Make Donations",
+        "desc": "Raising awareness about the charity's mission and cause."
       }
     ],
-    "page": {
-      "banner": {
-        "title": "About Us",
-        "breadcrumbHome": "Home",
-        "breadcrumbCurrent": "About",
-        "image": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg"
-      },
-      "mission": {
-        "pretitle": "Our Mission",
-        "title": "Creating Lasting Change Through Compassion",
-        "desc": "Helping Hearts exists to support vulnerable communities by providing food, clean water, healthcare, education, disaster relief, and long-term development programs. Every campaign we launch is designed to create measurable, sustainable impact that empowers people rather than creating dependency.",
-        "points": [
-          "Transparent use of every donation received",
-          "Community-led sustainable development",
-          "Rapid emergency disaster response",
-          "Long-term education and healthcare initiatives"
-        ]
-      },
-      "story": {
-        "pretitle": "Our Story",
-        "title": "From A Small Local Initiative To A Global Movement",
-        "desc": "Helping Hearts began as a small volunteer-led effort supporting families in local communities. Today, with the support of donors, volunteers, and nonprofit partners, we operate across multiple countries delivering humanitarian aid and creating opportunities for thousands of people every year.",
-        "image": "/images/about/story.jpg"
-      },
-      "dreamSection": {
-        "pretitle": "Our Impact",
-        "title": "Together We Create Hope",
-        "items": [
-          {
-            "id": 1,
-            "number": "01",
-            "title": "Providing emergency food assistance to vulnerable families",
-            "desc": "We partner with local organizations to distribute nutritious meals during emergencies and throughout the year.",
-            "badge": "Food Relief"
-          },
-          {
-            "id": 2,
-            "number": "02",
-            "title": "Supporting education for children in underserved communities",
-            "desc": "Scholarships, school supplies and learning programs help children build brighter futures.",
-            "badge": "Education"
-          },
-          {
-            "id": 3,
-            "number": "03",
-            "title": "Delivering healthcare and clean water solutions",
-            "desc": "From medical camps to water wells, we improve health outcomes for families worldwide.",
-            "badge": "Healthcare"
-          }
-        ]
-      },
-      "values": {
-        "pretitle": "Our Values",
-        "title": "What Guides Everything We Do",
-        "items": [
-          {
-            "number": "01",
-            "title": "Transparency",
-            "desc": "We openly report how donations are used and the impact they create.",
-            "icon": "FiEye"
-          },
-          {
-            "number": "02",
-            "title": "Compassion",
-            "desc": "People always come first in every decision we make.",
-            "icon": "FiHeart"
-          },
-          {
-            "number": "03",
-            "title": "Integrity",
-            "desc": "We operate honestly, ethically and responsibly.",
-            "icon": "FiShield"
-          }
-        ]
-      },
-      "cta": {
-        "title": "Become Part Of Something Bigger",
-        "desc": "Whether you donate, volunteer or share our mission, you help create lasting change for people who need it most.",
-        "button": {
-          "label": "Join Our Mission",
-          "href": "/contact-us"
-        }
-      }
-    }
+    "checklist": [
+      "Helped fund 3,265 project powerful corporate poor.",
+      "We give child a gift of a education.",
+      "We help companies develop powerful corporate social responsibility."
+    ],
+    "button": {
+      "label": "More About Us",
+      "href": "/about-us"
+    },
+    "phone": "+236 (456) 896 22"
   },
   "causes": {
     "pretitle": "Active campaigns",
@@ -1232,6 +1186,96 @@
         "desc": "Drilling wells and distributing clean water to villages facing severe drought.",
         "label": "Donate Now",
         "href": "/donate"
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "introduction": {
+      "badge": "WHY CHOOSE US",
+      "title": {
+        "normal": "Making a",
+        "highlighted": "Real Difference"
+      },
+      "description": "We go beyond giving — we create lasting change for individuals and communities."
+    },
+    "features": [
+      {
+        "id": "real-impact",
+        "iconName": "hand-heart",
+        "title": "Real Impact",
+        "description": "Your support creates measurable, lasting change in the lives of those in need.",
+        "themeColor": "orange",
+        "href": "#"
+      },
+      {
+        "id": "transparent-work",
+        "iconName": "users-heart",
+        "title": "Transparent Work",
+        "description": "We keep everything clear and open, so you know how your support makes a difference.",
+        "themeColor": "green",
+        "href": "#"
+      },
+      {
+        "id": "trusted-by-communities",
+        "iconName": "graduation-cap",
+        "title": "Trusted by Communities",
+        "description": "Built on integrity and long-term partnerships for sustainable development.",
+        "themeColor": "orange",
+        "href": "#"
+      },
+      {
+        "id": "lasting-change",
+        "iconName": "plant-hand",
+        "title": "Lasting Change",
+        "description": "We support education, healthcare and a better future for generations to come.",
+        "themeColor": "green",
+        "href": "#"
+      }
+    ],
+    "sideImage": {
+      "src": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
+      "alt": "Two young smiling children hugging each other"
+    },
+    "overlayCard": {
+      "iconName": "hands-holding-heart",
+      "title": {
+        "normal": "Together for a",
+        "highlighted": "Better Tomorrow"
+      },
+      "description": "Your support gives hope, strength and a brighter future."
+    }
+  },
+  "statsData": {
+    "bgImage": "/NGO_Images/portrait-cute-girl-with-kitten.jpg",
+    "gradientStartColor": "#0F2916",
+    "stats": [
+      {
+        "id": 1,
+        "number": "400",
+        "suffix": "+",
+        "title": "Team Member",
+        "iconName": "team"
+      },
+      {
+        "id": 2,
+        "number": "80K",
+        "suffix": "+",
+        "title": "Client's Review",
+        "iconName": "review"
+      },
+      {
+        "id": 3,
+        "number": "100K",
+        "suffix": "+",
+        "title": "Completed Projects",
+        "iconName": "project"
+      },
+      {
+        "id": 4,
+        "number": "40K",
+        "suffix": "+",
+        "title": "Winning Award",
+        "iconName": "award"
       }
     ]
   },
@@ -1373,72 +1417,138 @@
       }
     ]
   },
-  "blog": {
-    "pretitle": "Blogs",
-    "title": "Updates From Our Community",
+"blog": {
+    "pretitle": "OUR BLOG",
+    "title": "Latest from Our Blog",
+    "desc": "Stay updated with inspiring stories, helpful insights, and the latest news about our work and the communities we serve.",
     "banner": {
       "breadcrumbCurrent": "blog",
       "breadcrumbHome": "Home",
       "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg"
     },
-    "desc": "Read the latest stories, campaign updates, and news from our teams working on the ground.",
     "button": {
-      "label": "View More"
+      "label": "View All Blogs"
     },
     "posts": [
       {
         "id": 1,
         "slug": "/blog-details",
-        "image": "/NGO_Images/children-holding-hand-group.jpg",
-        "date": "3 Feb, 2026",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "category": "Education",
+        "date": "May 20, 2026",
         "author": "Maria Chen",
-        "title": "How Your Donations Fed 3,000 Families Last Month",
-        "excerpt": "A behind-the-scenes look at our food distribution network and the volunteers who keep it running."
+        "title": "How Education Can Transform Communities and Break Poverty",
+        "excerpt": "Education is the key to breaking the cycle of poverty. Learn how our programs are creating brighter futures for children."
       },
       {
         "id": 2,
         "slug": "/blog-details",
-        "image": "/NGO_Images/children-plant-plants-garden.jpg",
-        "date": "9 Feb, 2026",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "category": "Healthcare",
+        "date": "May 15, 2026",
         "author": "David Osei",
-        "title": "Planning Our First Regional Partner Summit",
-        "excerpt": "Local partner organizations from twelve countries will meet to coordinate next year's relief programs."
+        "title": "Improving Healthcare Access in Underserved Areas",
+        "excerpt": "Discover how we are bringing essential healthcare services to remote communities and improving lives every day."
       },
       {
         "id": 3,
         "slug": "/blog-details",
-        "image": "/NGO_Images/children-speaking-holding-book.jpg",
-        "date": "15 Feb, 2026",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "category": "Community",
+        "date": "May 10, 2026",
         "author": "Priya Nair",
-        "title": "Meet The Volunteers Rebuilding Homes After The Storm",
-        "excerpt": "Six months after the flood, dozens of volunteers are still on-site helping families move back in."
+        "title": "Community Power: Small Actions Creating Big Impact",
+        "excerpt": "See how small actions and local involvement are driving sustainable change and building stronger communities."
       },
       {
         "id": 4,
         "slug": "/blog-details",
-        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
-        "date": "21 Feb, 2026",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "category": "Relief",
+        "date": "May 02, 2026",
         "author": "Sarah Johnson",
-        "title": "Providing School Supplies To Rural Children",
-        "excerpt": "Our education initiative delivered books, uniforms, and learning materials to over 500 students."
+        "title": "How Your Donations Fed 3,000 Families Last Month",
+        "excerpt": "A behind-the-scenes look at our food distribution network and the volunteers who keep it running seamlessly."
       },
       {
         "id": 5,
         "slug": "/blog-details",
-        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
-        "date": "28 Feb, 2026",
-        "author": "James Wilson",
-        "title": "Medical Camp Brings Free Healthcare To Villages",
-        "excerpt": "Volunteer doctors and nurses provided health checkups, medicines, and awareness sessions for local families."
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "category": "Environment",
+        "date": "Apr 25, 2026",
+        "author": "Aisha Khan",
+        "title": "Tree Plantation Drive Creates A Greener Future",
+        "excerpt": "Hundreds of local volunteers joined hands to plant native trees and promote environmental sustainability in rural areas."
       },
       {
         "id": 6,
         "slug": "/blog-details",
         "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
-        "date": "5 Mar, 2026",
+        "category": "Healthcare",
+        "date": "Apr 18, 2026",
+        "author": "James Wilson",
+        "title": "Medical Camp Brings Free Healthcare To Remote Villages",
+        "excerpt": "Volunteer doctors and nurses provided essential health checkups, medicines, and awareness sessions for families."
+      },
+      {
+        "id": 7,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "category": "Education",
+        "date": "Apr 10, 2026",
+        "author": "Maria Chen",
+        "title": "Providing Essential School Supplies To Rural Children",
+        "excerpt": "Our education initiative delivered textbooks, uniforms, and learning kits to over 500 eager students."
+      },
+      {
+        "id": 8,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "category": "Volunteer",
+        "date": "Apr 03, 2026",
+        "author": "Priya Nair",
+        "title": "Meet The Volunteers Rebuilding Homes After The Storm",
+        "excerpt": "Dozens of dedicated volunteers remain on-site helping displaced families rebuild safe and secure living spaces."
+      },
+      {
+        "id": 9,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "category": "Community",
+        "date": "Mar 27, 2026",
+        "author": "David Osei",
+        "title": "Empowering Women Through Local Skills Training Camps",
+        "excerpt": "How vocational workshops are giving women financial independence and practical tools to thrive in their local economy."
+      },
+      {
+        "id": 10,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "category": "Healthcare",
+        "date": "Mar 20, 2026",
+        "author": "Sarah Johnson",
+        "title": "Clean Water Projects Transform Village Health Outcomes",
+        "excerpt": "Installing clean water filtration systems in five drought-affected villages drastically reduces waterborne illnesses."
+      },
+      {
+        "id": 11,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "category": "Environment",
+        "date": "Mar 12, 2026",
         "author": "Aisha Khan",
-        "title": "Tree Plantation Drive Creates A Greener Future",
-        "excerpt": "Hundreds of volunteers joined hands to plant native trees and promote environmental sustainability."
+        "title": "Sustainable Farming Tech For Smallholder Farmers",
+        "excerpt": "Training local agriculturalists with eco-friendly farming practices to boost harvest yields and soil fertility."
+      },
+      {
+        "id": 12,
+        "slug": "/blog-details",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "category": "Relief",
+        "date": "Mar 05, 2026",
+        "author": "James Wilson",
+        "title": "Planning Our Annual Regional Relief & Partner Summit",
+        "excerpt": "Partner organizations from twelve countries gather to strategize relief operations and community development."
       }
     ]
   },
@@ -1615,44 +1725,137 @@
       }
     ]
   },
-  "Testimonial": {
-    "pretitle": "Testimonials",
+"Testimonial": {
+    "pretitle": "Start Donating Poor People",
+    "title": "Our Valuable Customer Awesome Feedback",
+    "description": "Real stories. Real impact. See what our generous supporters have to say about their experience with us.",
     "banner": {
       "bgImageUrl": "/NGO_Images/diverse-community-with-hands-circle.jpg",
       "title": "Stories From Our Supporters",
       "breadcrumbHome": "Home",
       "breadcrumbCurrent": "Testimonial"
     },
-    "title": "Stories From Our Supporters",
     "testimonialItems": [
       {
         "id": 1,
-        "name": "Rachel Kim",
-        "role": "Monthly Donor",
+        "name": "Ruby Klara",
+        "role": "Cloth Store Inc.",
         "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
-        "quote": "I've supported a lot of charities over the years, but Helping Hearts is the first one that actually shows me where my money goes, project by project."
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
       },
       {
         "id": 2,
-        "name": "James Alder",
-        "role": "Corporate Partner",
+        "name": "Bishu Kiev",
+        "role": "Cloth Store Inc.",
         "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
-        "quote": "Our company matched employee donations through Helping Hearts's platform and the reporting made it easy to show our team the real impact."
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
       },
       {
         "id": 3,
-        "name": "Fatima Noor",
-        "role": "Volunteer",
+        "name": "Michel Smith",
+        "role": "Cloth Store Inc.",
         "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
-        "quote": "Spending two weeks with the field team changed how I think about giving. Everything is organized, honest, and focused on the people being helped."
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
       },
       {
         "id": 4,
+        "name": "Rachel Kim",
+        "role": "Monthly Donor",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 5,
+        "name": "James Alder",
+        "role": "Corporate Partner",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 6,
         "name": "Fatima Noor",
         "role": "Volunteer",
         "image": "/NGO_Images/group-best-friends-making-toast.jpg",
-        "quote": "Spending two weeks with the field team changed how I think about giving. Everything is organized, honest, and focused on the people being helped."
-      }
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 7,
+        "name": "David Miller",
+        "role": "Community Sponsor",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 8,
+        "name": "Sophia Chen",
+        "role": "Impact Contributor",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+        "id": 9,
+        "name": "Lucas Vance",
+        "role": "Global Supporter",
+        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+        "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+        "rating": 5
+      },
+      {
+    "id": 10,
+    "name": "Alexander Wright",
+    "role": "Philanthropy Advisor",
+    "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+    "rating": 5
+  },
+  {
+    "id": 11,
+    "name": "Elena Rostova",
+    "role": "Humanitarian Partner",
+    "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "name": "Marcus Thorne",
+    "role": "CSR Manager",
+    "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+    "rating": 5
+  },
+  {
+    "id": 13,
+    "name": "Amira Al-Mansoor",
+    "role": "Field Advocate",
+    "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+    "rating": 5
+  },
+  {
+    "id": 14,
+    "name": "Oliver Bennett",
+    "role": "Sponsorship Lead",
+    "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg",
+    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+    "rating": 5
+  },
+  {
+    "id": 15,
+    "name": "Maya Lin",
+    "role": "Community Leader",
+    "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+    "quote": "Charity Is The Voluntary Act Of Giving Help, Typically In The Form Of Money, Time, Or Resources, To Those In Need. Charitable Organizations Aim To Solve Social, Environmental, And Economic Challenges By Addressing Issues Like Poverty",
+    "rating": 5
+  }
     ]
   },
   "contact": {
@@ -2549,10 +2752,7 @@
       "phone": "+1 987-0986-0987",
       "location": "New York, Canada",
       "qualification": "Master in Social Work (MSW)",
-      "languages": [
-        "English",
-        "Hindi"
-      ]
+      "languages": ["English", "Hindi"]
     },
     "socialLinks": {
       "facebook": "https://facebook.com",
@@ -3101,8 +3301,11 @@
     },
     "introduction": {
       "badge": "OUR SERVICES",
-      "title": "Empowering Lives. Building Better Communities.",
-      "description": "We offer a range of impactful services focused on education, health, livelihood, and social development—working together for a just and inclusive society."
+      "title": {
+    "normal": "Our",
+    "highlighted": "Comprehensive Services"
+  },
+      "description": "Our services are focused on creating lasting change through community development, healthcare access, educational support, and emergency relief."
     },
     "stats": [
       {
@@ -3135,7 +3338,7 @@
         "id": "education",
         "iconName": "book-open",
         "title": "Education",
-        "label": "Details",
+        "label": "Read More",
         "href": "/education",
         "description": "Promoting quality education and creating opportunities for a brighter, more equal tomorrow.",
         "image": {
@@ -3147,7 +3350,7 @@
         "id": "health",
         "iconName": "heart-pulse",
         "title": "Health & Wellness",
-        "label": "Details",
+        "label": "Read More",
         "href": "/health",
         "description": "Improving community health through awareness, access to care, and preventive health programs.",
         "image": {
@@ -3159,7 +3362,7 @@
         "id": "livelihood",
         "iconName": "briefcase",
         "title": "Environment",
-        "label": "Details",
+        "label": "Read More",
         "href": "/environment",
         "description": "Empowering individuals with skills, resources, and opportunities for dignified and sustainable livelihoods.",
         "image": {
@@ -3170,7 +3373,7 @@
       {
         "id": "environment",
         "iconName": "leaf",
-        "label": "Details",
+        "label": "Read More",
         "href": "/environment",
         "title": "Environment & Sustainability",
         "description": "Promoting sustainable practices and protecting our environment for future generations.",
@@ -3182,7 +3385,7 @@
       {
         "id": "child-welfare",
         "iconName": "users",
-        "label": "Details",
+        "label": "Read More",
         "href": "/child-welfare",
         "title": "Child Welfare",
         "description": "Strengthening communities through participation, leadership, and inclusive development initiatives.",
@@ -3194,7 +3397,7 @@
       {
         "id": "women-empowerment",
         "iconName": "shield",
-        "label": "Details",
+        "label": "Read More",
         "href": "/women-empowerment",
         "title": "Women Empowerment",
         "description": "Supporting vulnerable groups and ensuring dignity, rights, and a safe, supportive environment.",
@@ -4092,6 +4295,32 @@
         }
       ],
       "thankYouText": "Thank you for being the reason for someone's better tomorrow. 🧡"
+    }
+  },
+  "CtaBanner": {
+    "leftCard": {
+      "subtitle": "We Give Child A Gift Of A Education",
+      "title": "Become A Volunteer?",
+      "bgImageUrl": "/NGO_Images/communication-feedback-chos-role.jpg",
+      "buttonText": "Contact Now",
+      "buttonHref": "/contact",
+      "buttonBgColor": "bg-[#007A5E]",
+      "buttonTextColor": "text-white",
+      "overlayColor": "bg-[#031B33]/90"
+    },
+    "centerVideo": {
+      "bgImageUrl": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+      "videoUrl": "https://www.youtube.com/watch?v=sample"
+    },
+    "rightCard": {
+      "subtitle": "We Give Child A Gift Of A Education",
+      "title": "Make Donation To Us?",
+      "bgImageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+      "buttonText": "Donate Now",
+      "buttonHref": "/donate",
+      "buttonBgColor": "bg-amber-400",
+      "buttonTextColor": "text-slate-900",
+      "overlayColor": "bg-[#E65100]/85"
     }
   }
 }

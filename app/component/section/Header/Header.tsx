@@ -44,7 +44,7 @@ export default function Header() {
       {/* ================= MAIN NAVBAR ================= */}
       <nav
         className={`w-full transition-all duration-300 ${
-          isScrolled ? " backdrop-blur-md shadow-lg" : "bg-transparent "
+          isScrolled ? " bg-black/70 shadow-lg" : "bg-transparent "
         }`}
       >
         <div className=" mx-auto px-4 sm:px-6 flex items-center justify-between">
@@ -81,14 +81,14 @@ export default function Header() {
 
                     {/* Dropdown Menu */}
                     {item.children && (
-                      <div className="absolute top-full left-0 mt-1 w-48 bg-white text-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform group-hover:translate-y-0 translate-y-2 py-2 z-50 border border-gray-100">
+                      <div className="absolute top-full left-0 mt-0 w-48 bg-white text-gray-800 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform group-hover:translate-y-0 translate-y-2 py-0 z-50 border border-gray-100">
                         {item.children.map((sub, sIdx) => {
                           const isSubActive = pathname === sub.href;
                           return (
                             <Link
                               key={sIdx}
                               href={sub.href}
-                              className={`block px-4 py-2 text-sm hover:bg-orange-50 hover:text-[#f9570c] transition-colors ${
+                              className={`block px-4 py-2 text-sm hover:bg-orange-100 rounded-xl hover:text-[#f9570c] transition-colors ${
                                 isSubActive
                                   ? "text-[#f9570c] font-semibold bg-orange-50"
                                   : "text-gray-700"
@@ -109,7 +109,7 @@ export default function Header() {
               <div className="w-9 h-9 rounded-full border flex items-center justify-center font-bold text-white">
                 <Phone className="w-4 h-4 " />
               </div>
-              <div className="text-xs">
+              <div className="text-sm">
                 <p className="text-white">Need Help?</p>
                 <a
                   href={headerData.site.TopBar.phoneHref}
@@ -265,7 +265,7 @@ export default function Header() {
               <Phone className="w-5 h-5 text-[#f9570c]" />
             </div>
             <div>
-              <span className="text-gray-400 text-xs block font-medium">
+              <span className="text-gray-400 text-sm block font-medium">
                 Need Help?
               </span>
               <a

@@ -1,4 +1,3 @@
-
 export interface SeoMeta {
   siteTitle: string;
   siteDescription: string;
@@ -142,91 +141,44 @@ export interface FooterProps {
 }
 
 // ================= ABOUT PAGE =================
-
-export interface AboutMission {
-  pretitle: string;
+export interface FeatureItem {
+  id: number;
   title: string;
   desc: string;
-  points: string[];
 }
 
 export interface AboutBanner {
-  title: string;
-  breadcrumbHome: string;
   breadcrumbCurrent: string;
-  image: string;
+  breadcrumbHome: string;
+  bgImageUrl: string;
 }
 
-export interface AboutStory {
-  pretitle: string;
-  title: string;
-  desc: string;
-  image: string;
-}
-
-export interface AboutDreamItem {
-  id: number;
-  number: string;
-  title: string;
-  desc: string;
-  badge: string;
-}
-
-export interface AboutDreamSection {
-  pretitle: string;
-  title: string;
-  items: AboutDreamItem[];
-}
-
-export interface AboutValueItem {
-  number: string;
-  title: string;
-  desc: string;
-  icon: string;
-}
-
-export interface AboutValues {
-  pretitle: string;
-  title: string;
-  items: AboutValueItem[];
-}
-
-export interface AboutCTA {
-  title: string;
-  desc: string;
-  button: ButtonItem;
-}
-
-export interface AboutPageContent {
-  banner: AboutBanner;
-  mission: AboutMission;
-  story: AboutStory;
-  dreamSection: AboutDreamSection;
-  values: AboutValues;
-  cta: AboutCTA;
-}
-
-export interface AboutCard {
-  id: number;
-  title: string;
-  desc: string;
-  buttonLabel: string;
+export interface ButtonItem {
+  label: string;
   href: string;
 }
 
-export interface AboutPageData {
-  sideImage: string;
-  pretitle: string;
-  title: string;
-  philosophyDesc: string;
-  desc: string;
-  buttons: ButtonItem[];
-  cards: AboutCard[];
-  page: AboutPageContent;
+export interface AboutSideImages {
+  topLeft: string;
+  mainLeft: string;
+  bottomRight: string;
 }
 
-export interface AboutPageProps{
-  data: AboutPageData
+export interface AboutPageData {
+  pretitle: string;
+  title: string;
+  desc: string;
+  donationBadge: string;
+  sideImages: AboutSideImages;
+  features: FeatureItem[];
+  checklist: string[];
+  button: ButtonItem;
+  phone: string;
+  banner: AboutBanner;
+}
+
+export interface AboutPageProps {
+  data: AboutPageData;
 }
 
 // ================= BLOG =================
@@ -235,18 +187,18 @@ export interface BlogPost {
   id: number;
   slug: string;
   image: string;
+  category: string;
   date: string;
-  author: string;
   title: string;
   excerpt: string;
-  category?: string;
+  author?: string;
 }
 
 export interface BlogButton {
   label: string;
 }
 
-export interface banner {
+export interface Banner {
   bgImageUrl: string;
   breadcrumbCurrent: string;
   breadcrumbHome: string;
@@ -258,7 +210,7 @@ export interface BlogData {
   desc: string;
   button: BlogButton;
   posts: BlogPost[];
-  banner: banner;
+  banner: Banner;
 }
 
 export interface BlogProps {
@@ -318,10 +270,10 @@ export interface ContactSuccessMessage {
   title: string;
 }
 
-export interface contactMap{
-  title:string;
-  address:string;
-  embedUrl:string;
+export interface contactMap {
+  title: string;
+  address: string;
+  embedUrl: string;
 }
 
 export interface ContactSectionData {
@@ -540,7 +492,7 @@ export interface NewsletterData {
 }
 
 export interface NewsletterdataProps {
-  data: NewsletterData
+  data: NewsletterData;
 }
 
 export interface Partner {
@@ -549,7 +501,7 @@ export interface Partner {
   logo: string;
 }
 
-export interface PartersBanner{
+export interface PartersBanner {
   bgImageUrl: string;
   title?: string;
   breadcrumbHome?: string;
@@ -561,12 +513,12 @@ export interface PartnersData {
   sectionBadge: string;
   sectionTitle: string;
   sectionpretitle: string;
-  banner : PartersBanner;
+  banner: PartersBanner;
   partners: Partner[];
 }
 
 export interface PartnersDataprops {
-  data: PartnersData
+  data: PartnersData;
 }
 
 export interface Story {
@@ -604,9 +556,10 @@ export interface TestimonialItem {
   name: string;
   role: string;
   quote: string;
+  rating?: number; // Optional rating field (e.g., 5)
 }
 
-export interface TestimonialBanner{
+export interface TestimonialBanner {
   bgImageUrl: string;
   title?: string;
   breadcrumbHome?: string;
@@ -617,6 +570,7 @@ export interface TestimonialBanner{
 export interface TestimonialData {
   pretitle: string;
   title: string;
+  description?: string; // "Real stories. Real impact..."
   banner: TestimonialBanner;
   testimonialItems: TestimonialItem[];
 }
@@ -651,7 +605,7 @@ export interface WorkData {
   steps: Step[];
   Gallery: WorkGalleryItem[];
   stats: Stat[];
-  statstitle: string
+  statstitle: string;
 }
 
 export interface WorkProps {
@@ -707,7 +661,7 @@ export interface TeamMember {
   image: string;
   name: string;
   role: string;
-  href:string;
+  href: string;
   socials: TeamSocialLink[];
 }
 
@@ -734,11 +688,11 @@ export interface TeamDetailContactInfo {
   languages: string[];
 }
 
-export interface TeamDetailsBanner{
+export interface TeamDetailsBanner {
   breadcrumbHome: string;
   breadcrumbCurrent: string;
   bgImageUrl: string;
-  title:string;
+  title: string;
 }
 
 export interface TeamDetailSocialLinks {
@@ -770,7 +724,7 @@ export interface TeamDetailsData {
   role: string;
   bio: string;
   image: string;
-  banner:TeamDetailsBanner;
+  banner: TeamDetailsBanner;
   stats: TeamDetailStat[];
   contactInfo: TeamDetailContactInfo;
   socialLinks: TeamDetailSocialLinks;
@@ -909,7 +863,7 @@ export interface CareerData {
   cta: CareerCTA;
 }
 
-// 404 / NOT FOUND 
+// 404 / NOT FOUND
 export interface NotFoundData {
   title: string;
   pretitle: string;
@@ -918,7 +872,7 @@ export interface NotFoundData {
   bgImageUrl: string;
 }
 
-// tax benefits 
+// tax benefits
 export interface TaxBenefitItem {
   id: number;
   title: string;
@@ -934,7 +888,6 @@ export interface TaxBenefitsData {
 export interface TaxBenefitsProps {
   data: TaxBenefitsData;
 }
-
 
 export interface JobDetail {
   id: string;
@@ -954,7 +907,7 @@ export interface JobDetailsBanner {
   bgImageUrl: string;
   breadcrumbHome: string;
   breadcrumbCurrent: string;
-  title: string
+  title: string;
 }
 
 export interface JobDetailsSectionLabels {
@@ -1036,7 +989,7 @@ export interface EventsProps {
 export interface DetailsBanner {
   title: string;
   breadcrumbHome: string;
-  breadcrumbCurrent:string;
+  breadcrumbCurrent: string;
   bgImageUrl: string;
 }
 
@@ -1073,8 +1026,8 @@ export interface BlogDetailsProps {
   data: DetailsData;
 }
 
-export interface Sitemapbanner{
-  bgImageUrl:string;
+export interface Sitemapbanner {
+  bgImageUrl: string;
   breadcrumbCurrent: string;
   breadcrumbHome: string;
 }
@@ -1240,18 +1193,18 @@ export interface VisionProps {
   data: VisionData;
 }
 
-export interface FaqBanner{
+export interface FaqBanner {
   breadcrumbCurrent: string;
   breadcrumbHome: string;
   bgImageUrl: string;
   title: string;
 }
 
-export interface FaqData{
-  banner: FaqBanner
+export interface FaqData {
+  banner: FaqBanner;
 }
 
-export interface FaqProps{
+export interface FaqProps {
   data: FaqData;
 }
 
@@ -1264,7 +1217,10 @@ export interface ServiceBanner {
 
 export interface ServiceIntroduction {
   badge: string;
-  title: string;
+  title: {
+    normal: string;
+    highlighted: string;
+  };
   description: string;
 }
 
@@ -1286,7 +1242,7 @@ export interface ServiceItem {
   title: string;
   description: string;
   label: string;
-  href:string;
+  href: string;
   image: ServiceImage;
 }
 
@@ -1306,6 +1262,48 @@ export interface ServiceData {
 
 export interface ServiceProps {
   data: ServiceData;
+}
+
+export interface chooseheighlight {
+  normal: string;
+  highlighted: string;
+}
+
+export interface WhyChooseUsIntroduction {
+  badge: string;
+  title: chooseheighlight;
+  description: string;
+}
+
+export interface ChooseFeatureItem {
+  id: string;
+  iconName: string;
+  title: string;
+  description: string;
+  themeColor: "orange" | "green";
+  href?: string;
+}
+
+export interface WhyChooseUsSideImage {
+  src: string;
+  alt: string;
+}
+
+export interface WhyChooseUsOverlayCard {
+  iconName: string;
+  title: chooseheighlight;
+  description: string;
+}
+
+export interface WhyChooseUsData {
+  introduction: WhyChooseUsIntroduction;
+  features: ChooseFeatureItem[];
+  sideImage: WhyChooseUsSideImage;
+  overlayCard: WhyChooseUsOverlayCard;
+}
+
+export interface WhyChooseUsProps {
+  data: WhyChooseUsData;
 }
 
 export interface AwardBanner {
@@ -1759,4 +1757,48 @@ export interface DonateData {
 
 export interface DonateProps {
   data: DonateData;
+}
+
+export interface StatItem {
+  id?: string | number;
+  number: string | number;
+  suffix?: string; // e.g., "+", "%", "k"
+  title: string;
+  iconName: string;
+}
+
+export interface StatsData {
+  stats: StatItem[];
+  bgImage?: string;
+  gradientStartColor?: string; // Default: '#0F2916'
+}
+
+export interface StatsProps {
+  data: StatsData;
+}
+
+export interface CtaCard {
+  subtitle: string;
+  title: string;
+  bgImageUrl: string;
+  buttonText: string;
+  buttonHref: string;
+  buttonBgColor?: string;
+  buttonTextColor?: string;
+  overlayColor?: string;
+}
+
+export interface VideoCenterData {
+  bgImageUrl: string;
+  videoUrl?: string;
+}
+
+export interface CtaBannerData {
+  leftCard: CtaCard;
+  centerVideo: VideoCenterData;
+  rightCard: CtaCard;
+}
+
+export interface CtaBannerProps {
+  data: CtaBannerData;
 }

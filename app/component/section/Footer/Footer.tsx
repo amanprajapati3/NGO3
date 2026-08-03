@@ -2,18 +2,12 @@
 
 import React from "react";
 import Link from "next/link";
-import {
-  Mail,
-  Phone,
-  MapPin,
-  ArrowUp,
-} from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUp } from "lucide-react";
 import footerData from "@/data/data.json";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
 import { IoLogoYoutube } from "react-icons/io5";
 import { FaSquareInstagram } from "react-icons/fa6";
-
 
 export default function Footer() {
   const data = footerData.Footer;
@@ -39,21 +33,20 @@ export default function Footer() {
   return (
     <footer className="bg-[#1a1a1a] text-white pt-12 pb-6 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
         {/* ================= TOP NEWSLETTER & CONTACT BAR ================= */}
-        <div className="flex flex-col lg:flex-row items-center justify-between border-b border-gray-800 pb-10 mb-10 gap-8">
+        <div className="flex  flex-col lg:flex-row justify-between  border-gray-800 pb-10  gap-8">
           {/* Newsletter Section */}
-          <div className="w-full lg:w-1/2 flex flex-col md:flex-row md:items-center gap-4 sm:gap-6">
+          <div className="w-full  lg:w-1/2 flex flex-col md:flex-row  gap-4 sm:gap-6">
             <h3 className="text-xl sm:text-2xl font-bold whitespace-nowrap text-white">
               {data.newsletterTitle}
             </h3>
-            <div className="flex w-full bg-[#2a2a2a] rounded-full p-1 border border-gray-700 focus-within:border-orange-500 transition">
+            <div className="flex w-full bg-[#2a2a2a] rounded-full p-1 h-fit border border-gray-700 focus-within:border-orange-500 transition">
               <input
                 type="email"
                 placeholder="Enter Your Email"
                 className="bg-transparent flex-1 px-4 py-2 outline-none text-sm text-gray-300 placeholder-gray-500"
               />
-              <button className="bg-[#f9570c] px-6 py-2.5 rounded-full text-sm font-semibold text-white hover:bg-[#e04a05] transition-colors">
+              <button className="bg-[#f9570c] px-3 md:px-6 py-2.5 rounded-full text-sm font-semibold text-white hover:bg-[#e04a05] transition-colors">
                 Subscribe
               </button>
             </div>
@@ -61,31 +54,35 @@ export default function Footer() {
 
           {/* Top Quick Contact Info */}
           {primaryContact && (
-            <div className="flex flex-wrap items-center justify-center sm:justify-end gap-6 sm:gap-8 w-full lg:w-auto">
-              <div className="flex items-center gap-3">
-                <div className="bg-[#2a2a2a] p-3 rounded-full border border-gray-700">
+            <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2 md:gap-6 sm:gap-8 w-full lg:w-auto">
+              <div className="flex  items-center gap-3 w-full">
+                <div className="shrink-0 bg-[#2a2a2a] p-3 rounded-full border border-gray-700">
                   <Phone className="w-5 h-5 text-[#f9570c]" />
                 </div>
-                <div className="text-xs sm:text-sm">
+
+                <div className="min-w-0 text-sm sm:text-sm">
                   <p className="text-gray-400">Phone</p>
+
                   <a
                     href={primaryContact.phoneHref}
-                    className="font-bold text-white hover:text-[#f9570c] transition-colors"
+                    className="block font-bold text-white hover:text-[#f9570c] transition-colors truncate"
                   >
                     {primaryContact.phone}
                   </a>
                 </div>
               </div>
 
-              <div className="flex items-center gap-3">
-                <div className="bg-[#2a2a2a] p-3 rounded-full border border-gray-700">
+              <div className="flex items-center  gap-3 min-w-0 w-full">
+                <div className="shrink-0 bg-[#2a2a2a] p-3 rounded-full border border-gray-700">
                   <Mail className="w-5 h-5 text-[#f9570c]" />
                 </div>
-                <div className="text-xs sm:text-sm">
+
+                <div className="min-w-0 flex-1 text-sm sm:text-sm">
                   <p className="text-gray-400">Email Us</p>
+
                   <a
                     href={`mailto:${primaryContact.email}`}
-                    className="font-bold text-white hover:text-[#f9570c] transition-colors"
+                    className="block font-bold text-white hover:text-[#f9570c] transition-colors break-all"
                   >
                     {primaryContact.email}
                   </a>
@@ -97,7 +94,6 @@ export default function Footer() {
 
         {/* ================= MAIN FOOTER CONTENT ================= */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12 mb-12">
-          
           {/* Column 1: Brand Logo, Description & Social Icons */}
           <div className="space-y-4 sm:space-y-6">
             <img
@@ -105,9 +101,7 @@ export default function Footer() {
               alt="Logo"
               className="h-12 sm:h-16 w-auto object-contain"
             />
-            <p className="text-gray-400 text-sm leading-relaxed">
-              {data.desc}
-            </p>
+            <p className="text-gray-400 text-sm leading-relaxed">{data.desc}</p>
             <div className="flex gap-3 pt-2">
               {data.socialsLinks.map((social, idx) => (
                 <a
@@ -181,34 +175,34 @@ export default function Footer() {
               ))}
             </div>
           </div>
-
         </div>
 
         {/* ================= BOTTOM BAR ================= */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-gray-800 text-xs sm:text-sm text-gray-400">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-gray-800 text-sm sm:text-sm text-gray-400">
           <p className="text-center md:text-left">{data.copyright}</p>
-          
-          <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
-            {data.legalLinks.map((link, idx) => (
-              <Link
-                key={idx}
-                href={link.href}
-                className="hover:text-[#f9570c] transition-colors"
-              >
-                {link.label}
-              </Link>
-            ))}
+
+          <div className="sm:flex sm:gap-3">
+            <div className="flex mt-2 flex-wrap justify-center gap-4 sm:gap-6">
+              {data.legalLinks.map((link, idx) => (
+                <Link
+                  key={idx}
+                  href={link.href}
+                  className="hover:text-[#f9570c] transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="bg-[#2a2a2a] h-fit cursor-pointer p-2.5 rounded-full hover:bg-[#f9570c] text-white border border-gray-700 transition-all duration-300"
+              aria-label="Scroll to Top"
+            >
+              <ArrowUp className="w-4 h-4" />
+            </button>
           </div>
-
-          <button
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="bg-[#2a2a2a] p-2.5 rounded-full hover:bg-[#f9570c] text-white border border-gray-700 transition-all duration-300"
-            aria-label="Scroll to Top"
-          >
-            <ArrowUp className="w-4 h-4" />
-          </button>
         </div>
-
       </div>
     </footer>
   );

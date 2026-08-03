@@ -1,0 +1,192 @@
+"use client";
+
+import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { Heart } from "../shared/Icons";
+import { FaPlay } from "react-icons/fa";
+import { CtaBannerProps } from "@/type/typeSection";
+
+// Custom SVG path for the realistic rough torn-paper edge
+const RoughTornEdge = ({ position }: { position: "left" | "right" }) => {
+  const isRight = position === "right";
+  return (
+    <div
+      className={`hidden lg:block absolute ${
+        isRight ? "-right-3" : "-left-3"
+      } top-0 bottom-0 w-8 sm:w-10 z-20 pointer-events-none fill-[#FDB813]`}
+    >
+      <svg
+        className={`h-full w-full ${isRight ? "" : "scale-x-[-1]"}`}
+        viewBox="0 0 50 500"
+        preserveAspectRatio="none"
+      >
+        <path d="M 0,0 
+                 C 15,12 5,28 18,45 
+                 C 32,60 12,78 25,95 
+                 C 38,110 8,128 20,145 
+                 C 35,160 15,182 28,200 
+                 C 40,218 10,235 22,255 
+                 C 36,272 14,290 26,310 
+                 C 42,328 12,345 24,365 
+                 C 38,380 18,392 30,410 
+                 C 40,428 15,445 25,465 
+                 C 35,480 10,490 0,500 
+                 L 50,500 L 50,0 Z" 
+        />
+      </svg>
+    </div>
+  );
+};
+
+export default function CtaBannerSection({ data }: CtaBannerProps) {
+  const { leftCard, centerVideo, rightCard } = data;
+  const [isVideoOpen, setIsVideoOpen] = useState(false);
+
+  return (
+    <section className="w-full relative mt-8 md:mt-12 overflow-hidden bg-[#081E38]">
+      <div className="grid grid-cols-1 lg:grid-cols-3 min-h-[380px] sm:min-h-[440px]">
+        {/* =========================================================
+            LEFT CARD: BECOME A VOLUNTEER (Deep Navy Blue)
+        ========================================================== */}
+        <div className="relative flex flex-col items-center justify-center text-center p-8 lg:p-12 text-white overflow-hidden group">
+          {/* Background Image */}
+          {leftCard?.bgImageUrl && (
+            <Image
+              src={leftCard.bgImageUrl}
+              alt={leftCard.title || "Volunteer Background"}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          )}
+
+          {/* Color Overlay - #081E38 at 92% opacity to match dark blue in image */}
+          <div className="absolute inset-0 bg-[#081E38]/92" />
+
+          {/* Right Rough Torn Edge Divider */}
+          <RoughTornEdge position="right" />
+
+          {/* Content */}
+          <div className="relative z-10 flex flex-col items-center">
+            <div className="w-16 h-16 mb-2 flex items-center justify-center text-white">
+              <Heart />
+            </div>
+
+            <p className="text-sm sm:text-sm font-medium tracking-wide text-gray-200 mb-2">
+              {leftCard?.subtitle || "We Give Child A Gift Of A Education"}
+            </p>
+
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold mb-8 tracking-tight">
+              {leftCard?.title || "Become A Volunteer?"}
+            </h3>
+
+            <Link
+              href={leftCard?.buttonHref || "#"}
+              className="px-8 py-3.5 rounded-full font-bold text-sm sm:text-base transition-all duration-300 shadow-md hover:brightness-110 bg-[#00785B] text-white"
+            >
+              {leftCard?.buttonText || "Contact Now"}
+            </Link>
+          </div>
+        </div>
+
+        {/* =========================================================
+            CENTER SECTION: VIDEO PLAY (Grayscale Child Photo)
+        ========================================================== */}
+        <div className="relative flex items-center justify-center p-8 lg:p-12 min-h-[300px] lg:min-h-auto group overflow-hidden">
+          {/* Background Image */}
+          {centerVideo?.bgImageUrl && (
+            <Image
+              src={centerVideo.bgImageUrl}
+              alt="Video Center Thumbnail"
+              fill
+              className="object-cover grayscale transition-transform duration-700 group-hover:scale-105"
+            />
+          )}
+
+          {/* Center Dark Tint Overlay */}
+          <div className="absolute inset-0 bg-black/25" />
+
+          {/* Left & Right Rough Torn Edges */}
+          <RoughTornEdge position="left" />
+          <RoughTornEdge position="right" />
+
+          {/* Play Button */}
+          <button
+            onClick={() => setIsVideoOpen(true)}
+            aria-label="Play Video"
+            className="relative z-30 cursor-pointer group/btn flex items-center justify-center"
+          >
+            {/* Outer Dark Translucent Circle */}
+            <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-black/70 flex items-center justify-center transition-transform duration-300 group-hover/btn:scale-105">
+              {/* Inner Yellow Dashed Circle */}
+              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-[#FFC708] border-2 border-dashed border-slate-900 flex items-center justify-center text-slate-900 shadow-2xl">
+                <FaPlay className="w-5 h-5 ml-1 text-slate-900" />
+              </div>
+            </div>
+          </button>
+        </div>
+
+        {/* =========================================================
+            RIGHT CARD: MAKE DONATION (Warm Orange)
+        ========================================================== */}
+        <div className="relative flex flex-col items-center justify-center text-center p-8 lg:p-12 text-white overflow-hidden group">
+          {/* Background Image */}
+          {rightCard?.bgImageUrl && (
+            <Image
+              src={rightCard.bgImageUrl}
+              alt={rightCard.title || "Donation Background"}
+              fill
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          )}
+
+          {/* Color Overlay - #DD5C00 at 90% opacity */}
+          <div className="absolute inset-0 bg-[#DD5C00]/90" />
+
+          {/* Left Rough Torn Edge Divider */}
+          <RoughTornEdge position="left" />
+
+          {/* Content */}
+          <div className="relative z-10 flex flex-col items-center">
+            <div className="w-16 h-16 mb-2 flex items-center justify-center text-white">
+              <Heart />
+            </div>
+
+            <p className="text-sm sm:text-sm font-medium tracking-wide text-amber-100 mb-2">
+              {rightCard?.subtitle || "We Give Child A Gift Of A Education"}
+            </p>
+
+            <h3 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold mb-8 tracking-tight">
+              {rightCard?.title || "Make Donation To Us?"}
+            </h3>
+
+            <Link
+              href={rightCard?.buttonHref || "#"}
+              className="px-8 py-3.5 rounded-full font-bold text-sm sm:text-base transition-all duration-300 shadow-md hover:brightness-105 bg-[#FFC708] text-slate-900"
+            >
+              {rightCard?.buttonText || "Donate Now"}
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Video Modal Placeholder */}
+      {isVideoOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/80 flex items-center justify-center p-4"
+          onClick={() => setIsVideoOpen(false)}
+        >
+          <div className="relative w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden">
+            <iframe
+              className="w-full h-full"
+              src={centerVideo?.videoUrl || "https://www.youtube.com/embed/dQw4w9WgXcQ"}
+              title="Video Modal"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}
