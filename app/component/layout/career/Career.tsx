@@ -261,6 +261,16 @@ export default function Career({ data }: CareerProps) {
 
             <Link
               href={cta.button.href}
+              onClick={() => {
+                window.scrollTo({
+                  top: 0,
+                  behavior: "instant",
+                });
+
+                setTimeout(() => {
+                  window.location.reload();
+                }, 50);
+              }}
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#ff5a36] text-white font-bold text-sm shadow-md shadow-[#ff5a36]/20 hover:bg-[#1a0c2e] transition-all duration-300 shrink-0"
             >
               <span>{cta.button.label}</span>

@@ -345,7 +345,7 @@ export interface FaqProps {
   data: FaqData;
 }
 
-export interface FeaturedProjectItem {
+export interface ProjectItem {
   id: string;
   title: string;
   category: string;
@@ -358,17 +358,117 @@ export interface FeaturedProjectItem {
   slug: string;
 }
 
-export interface FeaturedProjectsData {
-  sectionBadge: string;
-  sectionTitle: string;
-  sectionpretitle: string;
-  viewAllText: string;
-  viewAllLink: string;
-  projects: FeaturedProjectItem[];
+export interface ProjectBanner{
+  breadcrumbHome:string;
+  breadcrumbCurrent:string;
+  bgImageUrl:string;
+  title:string;
 }
 
-export interface FeaturedProjectsProps {
-  data: FeaturedProjectsData;
+export interface CategoryTab {
+  id: string;
+  label: string;
+}
+
+export interface CTASection {
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonLink: string;
+}
+
+export interface ProjectsPageData {
+  sectionBadge: string;
+  sectionTitle: string;
+  sectionPretitle: string;
+  viewAllText: string;
+  viewAllLink: string;
+  banner:ProjectBanner;
+  categories: CategoryTab[];
+  ctaSection: CTASection;
+  projects: ProjectItem[];
+}
+
+export interface ProjectsProps {
+  data: ProjectsPageData;
+}
+
+// project details
+export interface BreadcrumbItem {
+  label: string;
+  link?: string;
+}
+
+export interface ProjectdetailsBanner{
+  breadcrumbHome:string;
+  breadcrumbCurrent:string;
+  bgImageUrl:string;
+  title:string;
+}
+
+export interface MetricCard {
+  id: string;
+  icon: string;
+  value: string;
+  label: string;
+}
+
+export interface GoalCard {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface VisionCard {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface SidebarCta {
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonLink: string;
+}
+
+export interface ProjectDetailData {
+  id: string;
+  categoryBadge: string;
+  title: string;
+  subtitle: string;
+  location: string;
+  startDate: string;
+  beneficiaries: string;
+  featuredImage: string;
+  breadcrumbs: BreadcrumbItem[];
+  banner:ProjectdetailsBanner;
+  metrics: MetricCard[];
+  aboutSection: {
+    title: string;
+    description: string;
+    vision: VisionCard;
+  };
+  goalsSection: {
+    title: string;
+    goals: GoalCard[];
+  };
+  keyActivitiesSection: {
+    title: string;
+    activities: string[];
+  };
+  sidebar: {
+    highlightsTitle: string;
+    highlights: string[];
+    ctaCard: SidebarCta;
+  };
+  supportButtonText: string;
+  shareButtonText: string;
+}
+
+export interface ProjectDetailProps {
+  data: ProjectDetailData;
 }
 
 // Gallery Section

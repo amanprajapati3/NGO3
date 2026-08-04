@@ -207,30 +207,8 @@
       ]
     },
     {
-      "label": "Our Works",
-      "href": "#",
-      "children": [
-        {
-          "label": "Education",
-          "href": "/education"
-        },
-        {
-          "label": "HealthCare",
-          "href": "/health"
-        },
-        {
-          "label": "Women Empowerment",
-          "href": "/women-empowerment"
-        },
-        {
-          "label": "Environment",
-          "href": "/environment"
-        },
-        {
-          "label": "Child Welfare",
-          "href": "/child-welfare"
-        }
-      ]
+      "label": "Our Projects",
+      "href": "/projects"
     },
     {
       "label": "Events",
@@ -2070,7 +2048,7 @@
       "desc": "Take the next step in your career and be a catalyst for change.",
       "button": {
         "label": "Explore Opportunities",
-        "href": "#open-positions"
+        "href": "/career"
       }
     }
   },
@@ -2500,50 +2478,574 @@
       ]
     }
   },
-  "featuredProjects": {
+"projectsPage": {
     "sectionBadge": "Our Impactful Work",
+    "banner": {
+      "breadcrumbCurrent": "Our Projects",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg",
+      "title": "Our Projects"
+    },
     "sectionTitle": "Featured Humanitarian Projects",
-    "sectionpretitle": "Explore how your contributions drive real, sustainable change across communities in need worldwide.",
+    "sectionPretitle": "Explore how your contributions drive real, sustainable change across communities in need worldwide.",
     "viewAllText": "View All Projects",
     "viewAllLink": "/projects",
+    "categories": [
+      { "id": "all", "label": "All Projects" },
+      { "id": "education", "label": "Education" },
+      { "id": "health", "label": "Health" },
+      { "id": "environment", "label": "Environment" },
+      { "id": "community", "label": "Community" },
+      { "id": "livelihood", "label": "Livelihood" },
+      { "id": "support", "label": "Support" }
+    ],
+    "ctaSection": {
+      "title": "Have an idea for a project?",
+      "description": "Partner with us to bring your vision to life and create a meaningful impact.",
+      "buttonText": "Partner With Us",
+      "buttonLink": "/contact"
+    },
     "projects": [
       {
-        "id": "proj-1",
+        "id": "proj-edu-1",
+        "title": "Digital Learning Hubs for Youth",
+        "category": "Education",
+        "location": "Southeast Asia",
+        "image":"/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "goalAmount": 30000,
+        "raisedAmount": 27000,
+        "percent": 90,
+        "description": "Equipping rural primary schools with computers, high-speed internet, and digital literacy tools.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-edu-2",
+        "title": "Primary School Infrastructure & Supplies",
+        "category": "Education",
+        "location": "Sub-Saharan Africa",
+        "image": "/NGO_Images/communication-feedback-chos-role.jpg",
+        "goalAmount": 40000,
+        "raisedAmount": 32000,
+        "percent": 80,
+        "description": "Building safe classrooms, providing books, and distributing essential school kits to rural children.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-edu-3",
+        "title": "Girl Child Education Access Initiative",
+        "category": "Education",
+        "location": "South Asia",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "goalAmount": 25000,
+        "raisedAmount": 21000,
+        "percent": 84,
+        "description": "Removing social and economic barriers to ensure young girls receive quality formal schooling.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-edu-4",
+        "title": "Teacher Training & Professional Development",
+        "category": "Education",
+        "location": "Central America",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "goalAmount": 35000,
+        "raisedAmount": 19000,
+        "percent": 54,
+        "description": "Training educators in modern pedagogical methods and child-centered learning techniques.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-edu-5",
+        "title": "Stem & Technical Education Outreach",
+        "category": "Education",
+        "location": "East Africa",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "goalAmount": 50000,
+        "raisedAmount": 38000,
+        "percent": 76,
+        "description": "Introducing science, coding, and engineering workshops to underfunded secondary schools.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-edu-6",
+        "title": "Adult Literacy & Higher Studies Fund",
+        "category": "Education",
+        "location": "Latin America",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "goalAmount": 20000,
+        "raisedAmount": 15000,
+        "percent": 75,
+        "description": "Offering night classes and higher education scholarship programs for underprivileged adults.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-health-1",
+        "title": "Mobile Medical Clinics for Remote Areas",
+        "category": "Health",
+        "location": "Rural India",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "goalAmount": 60000,
+        "raisedAmount": 48000,
+        "percent": 80,
+        "description": "Deploying fully equipped medical vans to deliver primary healthcare to isolated villages.",
+        "slug": "/project-detailss"
+      },
+      {
+        "id": "proj-health-2",
+        "title": "Maternal & Child Health Care Support",
+        "category": "Health",
+        "location": "East Africa",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "goalAmount": 45000,
+        "raisedAmount": 36000,
+        "percent": 80,
+        "description": "Providing prenatal care, nutritional supplements, and safe delivery kits to expectant mothers.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-health-3",
         "title": "Clean Water Well Infrastructure",
-        "category": "Water & Sanitation",
+        "category": "Health",
         "location": "Sub-Saharan Africa",
         "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
         "goalAmount": 50000,
         "raisedAmount": 38500,
         "percent": 77,
         "description": "Constructing solar-powered water wells to bring safe, potable water to over 15 rural villages.",
-        "slug": "clean-water-well-infrastructure"
+        "slug": "/project-details"
       },
       {
-        "id": "proj-2",
-        "title": "Digital Learning Hubs for Youth",
-        "category": "Education",
+        "id": "proj-health-4",
+        "title": "Malaria Prevention & Net Distribution",
+        "category": "Health",
+        "location": "West Africa",
+        "image": "/NGO_Images/children-speaking-holding-book.jpg",
+        "goalAmount": 20000,
+        "raisedAmount": 18000,
+        "percent": 90,
+        "description": "Distributing insecticide-treated mosquito nets to vulnerable families in high-risk zones.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-health-5",
+        "title": "Community Mental Health Counseling",
+        "category": "Health",
+        "location": "Eastern Europe",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "goalAmount": 30000,
+        "raisedAmount": 12000,
+        "percent": 40,
+        "description": "Offering accessible, trauma-informed psychological therapy and community counseling services.",
+        "slug": "community-mental-health-counseling"
+      },
+      {
+        "id": "proj-health-6",
+        "title": "Nutrition & Malnutrition Prevention",
+        "category": "Health",
+        "location": "Central America",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "goalAmount": 35000,
+        "raisedAmount": 28000,
+        "percent": 80,
+        "description": "Providing therapeutic food packages and growth monitoring for malnourished infants.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-env-1",
+        "title": "Reforestation & Ecosystem Restoration",
+        "category": "Environment",
+        "location": "South America",
+        "image": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
+        "goalAmount": 50000,
+        "raisedAmount": 42000,
+        "percent": 84,
+        "description": "Planting native tree species to restore degraded forest reserves and preserve biodiversity.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-env-2",
+        "title": "Youth Forest Clean-Up Drive",
+        "category": "Environment",
         "location": "Southeast Asia",
-        "image": "/NGO_Images/woman-with-child-her-shoulder.jpg",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "goalAmount": 15000,
+        "raisedAmount": 13500,
+        "percent": 90,
+        "description": "Organizing youth-led community clean-up operations in natural parks and coastal habitats.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-env-3",
+        "title": "Solar Energy for Off-Grid Communities",
+        "category": "Environment",
+        "location": "North Africa",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "goalAmount": 65000,
+        "raisedAmount": 40000,
+        "percent": 61,
+        "description": "Installing off-grid solar panels to supply clean, sustainable power to isolated rural villages.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-env-4",
+        "title": "Ocean Plastic & Waste Management",
+        "category": "Environment",
+        "location": "Pacific Islands",
+        "image": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg",
+        "goalAmount": 40000,
+        "raisedAmount": 31000,
+        "percent": 77,
+        "description": "Setting up recycling infrastructure and marine waste containment units in coastal towns.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-env-5",
+        "title": "Sustainable Agriculture Training",
+        "category": "Environment",
+        "location": "Central America",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "goalAmount": 30000,
+        "raisedAmount": 24000,
+        "percent": 80,
+        "description": "Teaching eco-friendly farming practices to conserve soil health and boost crop resilience.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-env-6",
+        "title": "Urban Greening & Community Gardens",
+        "category": "Environment",
+        "location": "North America",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "goalAmount": 22000,
+        "raisedAmount": 18000,
+        "percent": 81,
+        "description": "Transforming vacant urban plots into green public spaces and sustainable vegetable gardens.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-comm-1",
+        "title": "Housing Assistance Program",
+        "category": "Community",
+        "location": "South Asia",
+        "image": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
+        "goalAmount": 70000,
+        "raisedAmount": 52000,
+        "percent": 74,
+        "description": "Providing safe shelter and housing support to underprivileged families in need.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-comm-2",
+        "title": "Youth Leadership Program",
+        "category": "Community",
+        "location": "East Africa",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "goalAmount": 35000,
+        "raisedAmount": 29000,
+        "percent": 82,
+        "description": "Building leadership skills and confidence among young people to drive meaningful local change.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-comm-3",
+        "title": "Volunteer Engagement Network",
+        "category": "Community",
+        "location": "Global",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "goalAmount": 25000,
+        "raisedAmount": 21000,
+        "percent": 84,
+        "description": "Mobilizing passionate volunteers to support grassroots community efforts and create lasting impact.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-comm-4",
+        "title": "Rural Infrastructure & Bridge Building",
+        "category": "Community",
+        "location": "South America",
+        "image": "/NGO_Images/communication-feedback-chos-role.jpg",
+        "goalAmount": 80000,
+        "raisedAmount": 60000,
+        "percent": 75,
+        "description": "Building footbridges and access roads to connect remote mountain villages to market hubs.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-comm-5",
+        "title": "Community Resource Centers",
+        "category": "Community",
+        "location": "Southeast Asia",
+        "image": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+        "goalAmount": 45000,
+        "raisedAmount": 31000,
+        "percent": 68,
+        "description": "Establishing safe public spaces for civic meetings, workshops, and communal activities.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-comm-6",
+        "title": "Disaster Relief Preparedness Kits",
+        "category": "Community",
+        "location": "Caribbean",
+        "image": "/NGO_Images/housing-assistance.jpg",
+        "goalAmount": 50000,
+        "raisedAmount": 45000,
+        "percent": 90,
+        "description": "Equipping vulnerable coastal communities with emergency stockpiles and evacuation plans.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-live-1",
+        "title": "Development & Job Training",
+        "category": "Livelihood",
+        "location": "South Asia",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
+        "goalAmount": 45000,
+        "raisedAmount": 36000,
+        "percent": 80,
+        "description": "Creating opportunities through vocational training and skill development for a better tomorrow.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-live-2",
+        "title": "Women’s Empowerment & Microfinance",
+        "category": "Livelihood",
+        "location": "India",
+        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg",
+        "goalAmount": 50000,
+        "raisedAmount": 42000,
+        "percent": 84,
+        "description": "Empowering women through tailoring skills, entrepreneurship, and micro-loan support.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-live-3",
+        "title": "Farmer Co-Op & Supply Chain Support",
+        "category": "Livelihood",
+        "location": "East Africa",
+        "image": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg",
+        "goalAmount": 40000,
+        "raisedAmount": 28000,
+        "percent": 70,
+        "description": "Connecting smallholder farmers to direct market routes to improve crop income yields.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-live-4",
+        "title": "Artisan Craft & Global Marketplace",
+        "category": "Livelihood",
+        "location": "Central Asia",
+        "image": "/NGO_Images/group-best-friends-making-toast.jpg",
+        "goalAmount": 28000,
+        "raisedAmount": 22000,
+        "percent": 78,
+        "description": "Helping traditional textile artisans export handcrafts to international e-commerce markets.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-live-5",
+        "title": "Fisherfolk Gear & Equipment Modernization",
+        "category": "Livelihood",
+        "location": "Southeast Asia",
+        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg",
+        "goalAmount": 38000,
+        "raisedAmount": 29000,
+        "percent": 76,
+        "description": "Providing sustainable fishing equipment and safety gear to coastal fishing communities.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-live-6",
+        "title": "Micro-Enterprise Incubation Hub",
+        "category": "Livelihood",
+        "location": "West Africa",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "goalAmount": 32000,
+        "raisedAmount": 25000,
+        "percent": 78,
+        "description": "Offering seed grants and business mentorship to aspiring small business owners in urban slums.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-supp-1",
+        "title": "Disability Support Initiative",
+        "category": "Support",
+        "location": "Global",
+        "image": "/NGO_Images/communication-feedback-chos-role.jpg",
+        "goalAmount": 55000,
+        "raisedAmount": 44000,
+        "percent": 80,
+        "description": "Promoting inclusion and providing resources for a better and equal opportunity for all.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-supp-2",
+        "title": "Senior Citizens Care & Companionship",
+        "category": "Support",
+        "location": "Eastern Europe",
+        "image": "/NGO_Images/children-plant-plants-garden.jpg",
         "goalAmount": 30000,
         "raisedAmount": 27000,
         "percent": 90,
-        "description": "Equipping rural primary schools with computers, high-speed internet, and digital literacy tools.",
-        "slug": "digital-learning-hubs"
+        "description": "Providing home care, nutritional support, and recreational companionship for elderly individuals.",
+        "slug": "/project-details"
       },
       {
-        "id": "proj-3",
-        "title": "Nutrition & Food Security",
-        "category": "Disaster Relief",
-        "location": "Central America",
-        "image": "/NGO_Images/youth-cleaning-forest-from-trash.jpg",
-        "goalAmount": 45000,
-        "raisedAmount": 21000,
-        "percent": 46,
-        "description": "Providing nutritious meal packs and sustainable agriculture starter kits to flood-affected families.",
-        "slug": "emergency-nutrition-food-security"
+        "id": "proj-supp-3",
+        "title": "Refugee Legal & Resettlement Aid",
+        "category": "Support",
+        "location": "Middle East",
+        "image": "/NGO_Images/children-holding-hand-group.jpg",
+        "goalAmount": 65000,
+        "raisedAmount": 52000,
+        "percent": 80,
+        "description": "Offering legal counseling, language lessons, and integration help for displaced families.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-supp-4",
+        "title": "Orphan & Vulnerable Child Support",
+        "category": "Support",
+        "location": "Sub-Saharan Africa",
+        "image": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+        "goalAmount": 40000,
+        "raisedAmount": 34000,
+        "percent": 85,
+        "description": "Ensuring shelter, medical assistance, and foster care support for parentless children.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-supp-5",
+        "title": "Emergency Food Relief & Soup Kitchens",
+        "category": "Support",
+        "location": "North America",
+        "image": "/NGO_Images/charity-volunteer-giving-helping-hands.jpg",
+        "goalAmount": 25000,
+        "raisedAmount": 22500,
+        "percent": 90,
+        "description": "Operating daily hot meal centers and mobile food pantries for unhoused individuals.",
+        "slug": "/project-details"
+      },
+      {
+        "id": "proj-supp-6",
+        "title": "Veterans Reintegration & Mental Health",
+        "category": "Support",
+        "location": "Europe",
+        "image": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg",
+        "goalAmount": 35000,
+        "raisedAmount": 28000,
+        "percent": 80,
+        "description": "Assisting military veterans with career transition support, housing assistance, and therapy.",
+        "slug": "/project-details"
       }
     ]
+  },
+  "projectDetail": {
+    "banner": {
+      "title": "Impact & Voices",
+      "breadcrumbCurrent": "Project Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg"
+    },
+    "id": "proj-womens-empowerment",
+    "categoryBadge": "EMPOWERMENT",
+    "title": "Women's Empowerment",
+    "subtitle": "Empowering women through education, skill development, and financial independence initiatives to build confident leaders and stronger communities.",
+    "location": "Nationwide India",
+    "startDate": "Jan 2022",
+    "beneficiaries": "15,000+ Women",
+    "featuredImage": "/NGO_Images/woman-with-child-her-shoulder.jpg",
+    "supportButtonText": "Support This Project",
+    "shareButtonText": "Share Project",
+    "breadcrumbs": [
+      { "label": "Home", "link": "/" },
+      { "label": "Projects", "link": "/projects" },
+      { "label": "Women's Empowerment" }
+    ],
+    "metrics": [
+      {
+        "id": "m-1",
+        "icon": "FaUsers",
+        "value": "15,000+",
+        "label": "Women Empowered"
+      },
+      {
+        "id": "m-2",
+        "icon": "FaGraduationCap",
+        "value": "350+",
+        "label": "Training Programs"
+      },
+      {
+        "id": "m-3",
+        "icon": "FaHome",
+        "value": "120+",
+        "label": "Communities"
+      },
+      {
+        "id": "m-4",
+        "icon": "FaChartLine",
+        "value": "85%",
+        "label": "Success Rate"
+      }
+    ],
+    "aboutSection": {
+      "title": "About The Project",
+      "description": "Our Women's Empowerment Project focuses on creating opportunities for women to learn, grow, and become financially independent. We provide access to quality education, vocational training, mentorship, and resources that help women build better lives for themselves and their families.",
+      "vision": {
+        "icon": "FaEye",
+        "title": "Our Vision",
+        "description": "A society where every woman is empowered to make choices, lead with confidence, and contribute to a better tomorrow."
+      }
+    },
+    "goalsSection": {
+      "title": "Our Goals",
+      "goals": [
+        {
+          "id": "g-1",
+          "icon": "FaBookOpen",
+          "title": "Education for All",
+          "description": "Ensure access to quality education and digital literacy for women and girls."
+        },
+        {
+          "id": "g-2",
+          "icon": "FaHandsHelping",
+          "title": "Skill Development",
+          "description": "Provide vocational training and skills to help women become self-reliant."
+        },
+        {
+          "id": "g-3",
+          "icon": "FaRupeeSign",
+          "title": "Financial Independence",
+          "description": "Promote entrepreneurship and provide financial literacy and support."
+        }
+      ]
+    },
+    "keyActivitiesSection": {
+      "title": "Key Activities",
+      "activities": [
+        "Conducting skill development workshops in tailoring, computer literacy, and handicrafts.",
+        "Providing entrepreneurship training and startup support.",
+        "Offering mentorship programs and leadership training.",
+        "Creating awareness about health, legal rights, and financial literacy.",
+        "Building self-help groups and facilitating microfinance support."
+      ]
+    },
+    "sidebar": {
+      "highlightsTitle": "Project Highlights",
+      "highlights": [
+        "Women of all ages and backgrounds",
+        "Education and skill training",
+        "Financial and entrepreneurial support",
+        "Health and legal awareness",
+        "Building confidence and leadership"
+      ],
+      "ctaCard": {
+        "title": "You can help empower more women",
+        "description": "Your support can create real change in their lives.",
+        "buttonText": "Donate Now",
+        "buttonLink": "/donate"
+      }
+    }
   },
   "successStories": {
     "banner": {

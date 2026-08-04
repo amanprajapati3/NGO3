@@ -189,6 +189,7 @@ export default function CaseStudy({ data }: CaseStudyProps) {
                         src={item.imageUrl}
                         alt={item.title}
                         fill
+                        sizes="(max-width: 768px) 100vw, 100vw"
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>

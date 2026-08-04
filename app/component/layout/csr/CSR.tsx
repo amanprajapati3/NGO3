@@ -276,6 +276,7 @@ export default function CSR({ data, statsData }: CsrComponentProps) {
                           src={item.imageUrl}
                           alt={item.title}
                           fill
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                           className="object-cover"
                         />
                         <div
@@ -382,8 +383,9 @@ export default function CSR({ data, statsData }: CsrComponentProps) {
                   <div className="relative h-56 w-full">
                     <Image
                       src={card.imageUrl}
-                      alt={card.title}
+                      alt={card.title}  
                       fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className="object-cover"
                     />
                   </div>
