@@ -160,6 +160,7 @@ export default function TestimonialSection({ data }: TestimonialProps) {
                             src={item.image || "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg"}
                             alt={item.name}
                             fill
+                            sizes="48px"
                             className="object-cover"
                           />
                         </div>

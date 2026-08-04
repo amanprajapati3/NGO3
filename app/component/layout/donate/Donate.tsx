@@ -84,6 +84,7 @@ export default function Donate({ data,}: DonateProps) {
                   src={content.heroCard.imageUrl}
                   alt="Donation Hero"
                   fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-black/25" />
@@ -344,6 +345,7 @@ export default function Donate({ data,}: DonateProps) {
                           src={item.imageUrl}
                           alt={item.title}
                           fill
+                          sizes="64px"
                           className="object-cover group-hover:scale-105 transition-transform"
                         />
                       </div>

@@ -401,538 +401,6 @@
       "desc": "Providing essentials, restoring dignity."
     }
   ],
-  "programPages": {
-    "childWelfare": {
-      "slug": "/programs/child-welfare",
-      "eyebrow": "Child Welfare",
-      "title": "Child Welfare",
-      "intro": "We stand beside vulnerable children through shelter, education support, counseling, and family reintegration services that help them grow with safety and hope.",
-      "bannerImage": "/NGO_Images/children-plant-plants-garden.jpg",
-      "sectionTitle": "A safe childhood matters",
-      "sectionText": "Our child welfare programs focus on immediate support and long-term resilience by connecting children with mentors, nutrition support, and trauma-informed care.",
-      "sectionImage": "/NGO_Images/children-speaking-holding-book.jpg",
-      "highlights": [
-        {
-          "title": "Safe shelter",
-          "description": "Temporary housing and family care for children facing crisis."
-        },
-        {
-          "title": "Learning support",
-          "description": "School supplies, tutoring, and scholarships for brighter futures."
-        },
-        {
-          "title": "Emotional care",
-          "description": "Counseling and care circles that help children heal and thrive."
-        }
-      ],
-      "stats": [
-        {
-          "value": "2,400",
-          "label": "Children supported"
-        },
-        {
-          "value": "96%",
-          "label": "School retention"
-        },
-        {
-          "value": "18",
-          "label": "Partner shelters"
-        }
-      ],
-      "buttons": [
-        {
-          "label": "Sponsor a Child",
-          "href": "/contact-us"
-        },
-        {
-          "label": "View Details",
-          "href": "/programs/child-welfare"
-        }
-      ],
-      "details": {
-        "title": "Building safer futures for vulnerable children",
-        "description": "Every child deserves a safe place to grow, learn, and feel supported. Our child welfare initiatives work with families, schools, shelters, and community partners to provide practical support while creating pathways toward long-term stability.",
-        "mission": "To protect vulnerable children and create safe environments where they can learn, recover, develop confidence, and build hopeful futures.",
-        "approach": [
-          {
-            "title": "Protection first",
-            "description": "We connect children facing unsafe conditions with trusted protection networks, temporary shelter, and family support."
-          },
-          {
-            "title": "Education continuity",
-            "description": "We help children remain connected to school through learning materials, tutoring, scholarships, and mentorship."
-          },
-          {
-            "title": "Family reintegration",
-            "description": "Where appropriate and safe, we work with families and community partners to support stable reunification."
-          },
-          {
-            "title": "Long-term wellbeing",
-            "description": "Counseling, nutrition, mentoring, and community care help children develop resilience beyond immediate crisis."
-          }
-        ],
-        "activities": [
-          "Emergency shelter support",
-          "School supplies and scholarships",
-          "After-school tutoring",
-          "Child counseling and care circles",
-          "Nutrition assistance",
-          "Family reintegration support",
-          "Mentorship programs",
-          "Child protection awareness"
-        ],
-        "impact": {
-          "title": "Our impact",
-          "description": "Through coordinated child protection, education, and family support, we help vulnerable children move from crisis toward stability and opportunity.",
-          "points": [
-            "Improved access to education",
-            "Safer living environments",
-            "Stronger family support systems",
-            "Improved emotional wellbeing",
-            "Greater access to nutrition and basic care"
-          ]
-        }
-      },
-      "detailCta": {
-        "title": "Help create a safer childhood",
-        "description": "Your support can provide protection, education, counseling, and care to children who need it most.",
-        "buttonLabel": "Support Child Welfare",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/close-up-hand-holding-flowering-plant.jpg"
-      },
-      "cta": {
-        "title": "Join our child protection network",
-        "description": "Your support helps us expand counseling, schooling, and family reunification efforts.",
-        "buttonLabel": "Volunteer Today",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg"
-      }
-    },
-    "education": {
-      "slug": "/programs/education",
-      "eyebrow": "Education",
-      "title": "Education",
-      "intro": "We create vibrant learning spaces with scholarships, digital access, and teacher support so students can stay engaged and confident.",
-      "bannerImage": "/NGO_Images/colorful-letters-forming-word-donate.jpg",
-      "sectionTitle": "Learning that lasts beyond the classroom",
-      "sectionText": "From rural classrooms to community learning hubs, our education programs focus on literacy, digital skills, and mentorship.",
-      "sectionImage": "/NGO_Images/communication-feedback-chos-role.jpg",
-      "highlights": [
-        {
-          "title": "Scholarships",
-          "description": "Financial support for students who would otherwise lose access to school."
-        },
-        {
-          "title": "Teacher empowerment",
-          "description": "Training and teaching materials for stronger, more inclusive classrooms."
-        },
-        {
-          "title": "Digital learning",
-          "description": "Laptops, internet access, and skill-based programs for tomorrow’s workforce."
-        }
-      ],
-      "stats": [
-        {
-          "value": "8,500",
-          "label": "Students reached"
-        },
-        {
-          "value": "140",
-          "label": "Schools supported"
-        },
-        {
-          "value": "92%",
-          "label": "Attendance growth"
-        }
-      ],
-      "buttons": [
-        {
-          "label": "Fund a Classroom",
-          "href": "/contact-us"
-        },
-        {
-          "label": "View Details",
-          "href": "/programs/education"
-        }
-      ],
-      "details": {
-        "title": "Creating opportunities through education",
-        "description": "Education can transform a child's future when students have access to safe classrooms, skilled teachers, learning materials, technology, and consistent mentorship.",
-        "mission": "To make quality learning more accessible to children and young adults regardless of their economic or geographic circumstances.",
-        "approach": [
-          {
-            "title": "Keep children learning",
-            "description": "Scholarships and essential learning materials help students stay in school and continue their education."
-          },
-          {
-            "title": "Strengthen teachers",
-            "description": "Teachers receive training, resources, and practical support to create more inclusive learning environments."
-          },
-          {
-            "title": "Expand digital access",
-            "description": "Students gain access to computers, internet resources, and practical digital skills."
-          },
-          {
-            "title": "Build confidence",
-            "description": "Mentorship and leadership activities help students develop communication, problem-solving, and personal skills."
-          }
-        ],
-        "activities": [
-          "Student scholarships",
-          "School supply distribution",
-          "Teacher training",
-          "Digital learning centers",
-          "Computer and internet access",
-          "After-school tutoring",
-          "Career guidance",
-          "Youth mentorship"
-        ],
-        "impact": {
-          "title": "Our education impact",
-          "description": "Our programs help remove financial, technological, and educational barriers that prevent students from reaching their potential.",
-          "points": [
-            "Improved school attendance",
-            "Greater access to learning materials",
-            "Stronger teacher capacity",
-            "Improved digital literacy",
-            "More opportunities for higher education"
-          ]
-        }
-      },
-      "detailCta": {
-        "title": "Help a student keep learning",
-        "description": "Your support can provide scholarships, books, technology, and mentorship to students who need additional opportunities.",
-        "buttonLabel": "Support Education",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/community-concept-with-nature-close-up.jpg"
-      },
-      "cta": {
-        "title": "Help us keep learning accessible",
-        "description": "Your gift helps provide books, teacher support, and student scholarships for the next generation.",
-        "buttonLabel": "Support Education",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/cropped-hands-women.jpg"
-      }
-    },
-    "health": {
-      "slug": "/programs/health",
-      "eyebrow": "Health",
-      "title": "Health",
-      "intro": "We invest in clinics, mobile health camps, maternal support, and wellness outreach so families can receive care close to home.",
-      "bannerImage": "/NGO_Images/cute-sisters-having-snacks-home.jpg",
-      "sectionTitle": "Better health starts with access",
-      "sectionText": "Our health initiatives focus on preventive medicine, nutrition, awareness, and partnerships with local clinics to meet real community needs.",
-      "sectionImage": "/NGO_Images/diverse-community-with-hands-circle.jpg",
-      "highlights": [
-        {
-          "title": "Mobile clinics",
-          "description": "Regular outreach to remote neighborhoods for checkups and wellness guidance."
-        },
-        {
-          "title": "Maternal care",
-          "description": "Support for mothers before, during, and after childbirth."
-        },
-        {
-          "title": "Nutrition programs",
-          "description": "Balanced meals and health education for children and families."
-        }
-      ],
-      "stats": [
-        {
-          "value": "13k",
-          "label": "Health consultations"
-        },
-        {
-          "value": "67",
-          "label": "Mobile outreach visits"
-        },
-        {
-          "value": "4.9/5",
-          "label": "Community satisfaction"
-        }
-      ],
-      "buttons": [
-        {
-          "label": "Support Health Care",
-          "href": "/contact-us"
-        },
-        {
-          "label": "View Details",
-          "href": "/programs/health"
-        }
-      ],
-      "details": {
-        "title": "Making essential healthcare easier to reach",
-        "description": "Many families face barriers to healthcare because of distance, cost, limited information, or lack of local services. Our programs bring preventive and supportive care closer to communities.",
-        "mission": "To improve access to essential healthcare, preventive services, maternal support, nutrition, and health education for underserved families.",
-        "approach": [
-          {
-            "title": "Community outreach",
-            "description": "Mobile health teams visit communities where regular healthcare services are difficult to access."
-          },
-          {
-            "title": "Preventive care",
-            "description": "Screenings, wellness education, and early intervention help families identify health concerns sooner."
-          },
-          {
-            "title": "Maternal wellbeing",
-            "description": "Mothers receive guidance, referrals, and practical support throughout pregnancy and early motherhood."
-          },
-          {
-            "title": "Nutrition awareness",
-            "description": "Families receive nutrition education and support designed around local needs and available resources."
-          }
-        ],
-        "activities": [
-          "Mobile health camps",
-          "Community health screenings",
-          "Maternal health support",
-          "Nutrition programs",
-          "Health awareness workshops",
-          "Medicine assistance",
-          "Wellness consultations",
-          "Local clinic partnerships"
-        ],
-        "impact": {
-          "title": "Healthier communities",
-          "description": "By combining direct healthcare access with education and prevention, we help families make informed decisions about their wellbeing.",
-          "points": [
-            "Greater access to basic healthcare",
-            "Earlier identification of health concerns",
-            "Improved maternal support",
-            "Better nutrition awareness",
-            "Stronger community health knowledge"
-          ]
-        }
-      },
-      "detailCta": {
-        "title": "Help bring care closer to families",
-        "description": "Your support helps fund screenings, outreach visits, medicines, maternal care, and community health education.",
-        "buttonLabel": "Support Healthcare",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg"
-      },
-      "cta": {
-        "title": "Help us expand compassionate healthcare",
-        "description": "Your partnership helps us reach more families with screenings, medicines, and life-saving care.",
-        "buttonLabel": "Donate for Health",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children (1).jpg"
-      }
-    },
-    "environment": {
-      "slug": "/programs/environment",
-      "eyebrow": "Environment",
-      "title": "Environment",
-      "intro": "We support reforestation, waste management, clean water projects, and environmental education to create healthier neighborhoods.",
-      "bannerImage": "/NGO_Images/girl-with-smile-her-face-is-sitting-classroom-with-other-children.jpg",
-      "sectionTitle": "Every green action creates lasting change",
-      "sectionText": "From tree planting to community cleanups, our environmental programs help protect soil, water, and shared public spaces.",
-      "sectionImage": "/NGO_Images/group-best-friends-making-toast.jpg",
-      "highlights": [
-        {
-          "title": "Tree planting",
-          "description": "Greening vulnerable neighborhoods and restoring habitats."
-        },
-        {
-          "title": "Clean water",
-          "description": "Installing safe water systems and sanitation facilities."
-        },
-        {
-          "title": "Community awareness",
-          "description": "Workshops that teach families how to care for their environment."
-        }
-      ],
-      "stats": [
-        {
-          "value": "45k",
-          "label": "Trees planted"
-        },
-        {
-          "value": "120",
-          "label": "Water projects"
-        },
-        {
-          "value": "3.2k",
-          "label": "Volunteers engaged"
-        }
-      ],
-      "buttons": [
-        {
-          "label": "Join a Cleanup",
-          "href": "/contact-us"
-        },
-        {
-          "label": "View Details",
-          "href": "/programs/environment"
-        }
-      ],
-      "details": {
-        "title": "Protecting nature through community action",
-        "description": "Healthy communities depend on healthy ecosystems. Our environmental initiatives combine restoration, clean water, waste management, and practical education to create cleaner and more resilient neighborhoods.",
-        "mission": "To empower communities to protect natural resources, restore green spaces, improve access to clean water, and build sustainable habits.",
-        "approach": [
-          {
-            "title": "Restore green spaces",
-            "description": "Community tree planting and habitat restoration create healthier and more resilient local environments."
-          },
-          {
-            "title": "Improve water access",
-            "description": "Clean water and sanitation projects help reduce environmental and public health risks."
-          },
-          {
-            "title": "Reduce waste",
-            "description": "Community campaigns promote responsible waste management and cleaner public spaces."
-          },
-          {
-            "title": "Educate communities",
-            "description": "Environmental workshops give families and young people practical knowledge they can use every day."
-          }
-        ],
-        "activities": [
-          "Tree planting campaigns",
-          "Community cleanups",
-          "Water and sanitation projects",
-          "Waste management workshops",
-          "Environmental education",
-          "Habitat restoration",
-          "Youth green clubs",
-          "Community awareness campaigns"
-        ],
-        "impact": {
-          "title": "Creating greener communities",
-          "description": "Our environmental work helps communities take practical steps toward cleaner surroundings, healthier ecosystems, and more sustainable futures.",
-          "points": [
-            "More trees and restored green spaces",
-            "Improved access to clean water",
-            "Cleaner community areas",
-            "Greater environmental awareness",
-            "Stronger community participation"
-          ]
-        }
-      },
-      "detailCta": {
-        "title": "Be part of a greener future",
-        "description": "Your support helps communities plant trees, protect water sources, reduce waste, and restore shared environments.",
-        "buttonLabel": "Support Environment",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/group-children-with-their-hands-up-air.jpg"
-      },
-      "cta": {
-        "title": "Help us protect the planet together",
-        "description": "Your support keeps our green initiatives growing and brings cleaner, safer spaces to local communities.",
-        "buttonLabel": "Support Environment",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/group-doctors-putting-their-hands-together-closeup.jpg"
-      }
-    },
-    "womenEmpowerment": {
-      "slug": "/programs/women-empowerment",
-      "eyebrow": "Women Empowerment",
-      "title": "Women Empowerment",
-      "intro": "We equip women with skills, small business support, leadership training, and safe spaces to build confidence and long-term independence.",
-      "bannerImage": "/NGO_Images/group-environmental-conservation-people-hands-planting-aerial-view.jpg",
-      "sectionTitle": "When women thrive, families rise",
-      "sectionText": "Our empowerment programs combine livelihood support, education, and mentorship to help women lead change in their homes and communities.",
-      "sectionImage": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
-      "highlights": [
-        {
-          "title": "Skill training",
-          "description": "Vocational programs that open earning opportunities."
-        },
-        {
-          "title": "Microbusiness support",
-          "description": "Seed funding and coaching for women-led enterprises."
-        },
-        {
-          "title": "Leadership circles",
-          "description": "Safe spaces for mentorship, advocacy, and confidence-building."
-        }
-      ],
-      "stats": [
-        {
-          "value": "6,200",
-          "label": "Women trained"
-        },
-        {
-          "value": "1,100",
-          "label": "Small businesses supported"
-        },
-        {
-          "value": "87%",
-          "label": "Income growth"
-        }
-      ],
-      "buttons": [
-        {
-          "label": "Become a Mentor",
-          "href": "/contact-us"
-        },
-        {
-          "label": "View Details",
-          "href": "/programs/women-empowerment"
-        }
-      ],
-      "details": {
-        "title": "Creating pathways to independence",
-        "description": "Economic opportunity, confidence, and community support can help women build stronger futures for themselves and their families. Our programs combine practical skills with mentorship and livelihood support.",
-        "mission": "To expand economic opportunity, leadership, confidence, and community participation for women and girls.",
-        "approach": [
-          {
-            "title": "Build practical skills",
-            "description": "Vocational training helps women develop skills that can translate into employment or independent income."
-          },
-          {
-            "title": "Support small businesses",
-            "description": "Women entrepreneurs receive guidance, coaching, and support to develop sustainable income-generating activities."
-          },
-          {
-            "title": "Create mentorship networks",
-            "description": "Leadership circles connect women with mentors and peers who can share knowledge, encouragement, and opportunities."
-          },
-          {
-            "title": "Strengthen confidence",
-            "description": "Safe spaces and leadership activities help women develop confidence and participate more actively in their communities."
-          }
-        ],
-        "activities": [
-          "Vocational skills training",
-          "Entrepreneurship workshops",
-          "Small business coaching",
-          "Microenterprise support",
-          "Women mentorship circles",
-          "Leadership development",
-          "Financial literacy",
-          "Community advocacy"
-        ],
-        "impact": {
-          "title": "Supporting women to lead",
-          "description": "Our programs help women develop skills, strengthen livelihoods, and build networks that can support long-term independence.",
-          "points": [
-            "Greater access to vocational skills",
-            "More women-led businesses",
-            "Improved income opportunities",
-            "Stronger leadership confidence",
-            "Expanded mentorship networks"
-          ]
-        }
-      },
-      "detailCta": {
-        "title": "Stand with women building brighter futures",
-        "description": "Your contribution helps fund skills training, entrepreneurship support, mentorship, and women-led community initiatives.",
-        "buttonLabel": "Support Women",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/group-indian-children-running.jpg"
-      },
-      "cta": {
-        "title": "Stand with women building brighter futures",
-        "description": "Your contribution helps fund skills training, community support, and resilient women-led initiatives.",
-        "buttonLabel": "Support Women",
-        "buttonHref": "/contact-us",
-        "image": "/NGO_Images/group-people-making-good-team-while-volunteering.jpg"
-      }
-    }
-  },
   "missionPage": {
     "slug": "/mission",
     "eyebrow": "OUR MISSION",
@@ -1015,66 +483,54 @@
     },
     "phone": "+236 (456) 896 22"
   },
-  "causes": {
-    "pretitle": "Active campaigns",
-    "title": "Choose a hearted cause",
-    "desc": "Each campaign below is run in partnership with local teams who know their communities best.",
-    "items": [
-      {
-        "id": 1,
-        "image": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
-        "category": "Medical",
-        "title": "Emergency medical care fund",
-        "desc": "Covering urgent treatment costs for families who can't afford basic healthcare.",
-        "label": "Donate Now",
-        "href": "/donate"
-      },
-      {
-        "id": 2,
-        "image": "/NGO_Images/happy-diverse-kinds-park.jpg",
-        "category": "Education",
-        "title": "School supplies for rural children",
-        "desc": "Books, uniforms, and tuition support so no child has to miss another school year.",
-        "label": "Donate Now",
-        "href": "/donate"
-      },
-      {
-        "id": 3,
-        "image": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
-        "category": "Family",
-        "title": "Family financial support program",
-        "desc": "Short-term grants for families facing job loss, illness, or unexpected hardship.",
-        "label": "Donate Now",
-        "href": "/donate"
-      },
-      {
-        "id": 4,
-        "image": "/NGO_Images/multiethnic-adventurer-girls-casual-clothes-crouching-wild-nature-looking-piece-acorn-environment-nature-lovers-concept.jpg",
-        "category": "Funding",
-        "title": "Small business microgrants",
-        "desc": "Helping parents rebuild income through small trade and craft businesses.",
-        "label": "Donate Now",
-        "href": "/donate"
-      },
-      {
-        "id": 5,
-        "image": "/NGO_Images/nature-friends-group-volunteers-with-boxes-help-goals-donation-charity-event-non-profit-food-drive-ngo-people-outdoor-field-community-service-project-collaboration.jpg",
-        "category": "Relief",
-        "title": "Hurricane recovery relief",
-        "desc": "Rebuilding homes and restoring clean water access after storm damage.",
-        "label": "Donate Now",
-        "href": "/donate"
-      },
-      {
-        "id": 6,
-        "image": "/NGO_Images/origami-chain-people-with-globe.jpg",
-        "category": "Drought",
-        "title": "Drought response & water access",
-        "desc": "Drilling wells and distributing clean water to villages facing severe drought.",
-        "label": "Donate Now",
-        "href": "/donate"
+"caseStudyPage": {
+    "banner": {
+      "title": "Case Study",
+      "bgImageUrl": "/NGO_Images/smiley-young-african-boy-standing-field.jpg",
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Case Study"
+    },
+
+    "causes": {
+      "pretitle": "OUR CAUSES",
+      "title": "You can help the kids by donating",
+      "description": "Your small contribution can bring a big smile. Support our causes and help us create a better tomorrow for every child in need.",
+
+      "items": [
+        {
+          "id": 1,
+          "iconName": "water",
+          "title": "Water for All Children",
+          "description": "Provide clean and safe drinking water to children and their families in remote and rural areas.",
+          "imageUrl": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
+          "label": "DONATE NOW",
+          "href": "/service-details"
+        },
+        {
+          "id": 2,
+          "iconName": "treatment",
+          "title": "Help for Treatment",
+          "description": "Support children who are suffering from serious illnesses and need urgent medical care.",
+          "imageUrl": "/NGO_Images/happy-diverse-kinds-park.jpg",
+          "label": "DONATE NOW",
+          "href": "/service-details"
+        },
+        {
+          "id": 3,
+          "iconName": "food",
+          "title": "Provide Healthy Food",
+          "description": "Ensure nutritious meals for children so they can grow healthy, strong and full of energy.",
+          "imageUrl": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
+          "label": "DONATE NOW",
+          "href": "/service-details"
+        }
+      ],
+
+      "footerBanner": {
+        "text": "Together, we can make a lasting impact in the lives of children.",
+        "tagline": "Every donation counts!"
       }
-    ]
+    }
   },
   "whyChooseUs": {
     "introduction": {
@@ -2490,264 +1946,352 @@
       }
     ]
   },
-  "career": {
+"career": {
     "banner": {
       "title": "Career",
       "breadcrumbCurrent": "Career",
       "breadcrumbHome": "Home",
       "bgImageUrl": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg"
     },
-    "about": {
-      "pretitle": "Why Work With Us",
-      "title": "Make Your Work Meaningful Every Day",
-      "desc": "We're more than an organization—we're a global community working together to fight poverty, improve healthcare, provide education, and respond to emergencies. Every employee helps create lasting change."
-    },
-    "benefits": {
-      "title": "Employee Benefits",
+    "whyWorkWithUs": {
+      "title": "Why Work With Us?",
       "items": [
         {
           "id": 1,
-          "title": "Flexible Working",
-          "desc": "Hybrid and remote opportunities with flexible schedules.",
-          "icon": "FiHome"
+          "title": "Meaningful Impact",
+          "desc": "Your work will directly contribute to empowering women and strengthening communities.",
+          "icon": "FiTarget"
         },
         {
           "id": 2,
-          "title": "Health & Wellness",
-          "desc": "Medical coverage and wellness support for employees.",
-          "icon": "FiHeart"
+          "title": "Inclusive Culture",
+          "desc": "We value diversity, respect and equal opportunities for all.",
+          "icon": "FiUsers"
         },
         {
           "id": 3,
-          "title": "Learning & Growth",
-          "desc": "Training, workshops and career development programs.",
+          "title": "Growth & Learning",
+          "desc": "Continuous learning opportunities to help you grow and lead.",
           "icon": "FiBookOpen"
         },
         {
           "id": 4,
-          "title": "Purpose Driven Work",
-          "desc": "Contribute directly to projects improving lives worldwide.",
-          "icon": "FiGlobe"
+          "title": "Supportive Team",
+          "desc": "Collaborate with passionate and supportive colleagues.",
+          "icon": "FiHeartHandshake"
         },
         {
           "id": 5,
-          "title": "Inclusive Culture",
-          "desc": "A diverse workplace where every voice matters.",
-          "icon": "FiUsers"
-        },
-        {
-          "id": 6,
-          "title": "Paid Leave",
-          "desc": "Generous annual leave and volunteer leave programs.",
-          "icon": "FiCalendar"
+          "title": "Work-Life Balance",
+          "desc": "We believe in balance, well-being and a healthy work environment.",
+          "icon": "FiScale"
         }
       ]
     },
-    "jobs": {
-      "title": "Current Opportunities",
-      "desc": "Explore our latest openings and become part of our growing team.",
+    "openPositions": {
+      "title": "Open Positions",
       "positions": [
         {
           "id": 1,
-          "title": "Fundraising Coordinator",
-          "location": "Remote",
-          "type": "Full Time",
-          "department": "Fundraising",
-          "experience": "2+ Years",
-          "desc": "Develop fundraising campaigns and strengthen donor relationships.",
+          "title": "Program Officer",
+          "type": "Full-time",
+          "location": "Lucknow, UP",
+          "experience": "2–4 Years",
           "applyLink": "/job-details"
         },
         {
           "id": 2,
-          "title": "Community Outreach Officer",
-          "location": "New Delhi, India",
-          "type": "Full Time",
-          "department": "Community Programs",
-          "experience": "1+ Years",
-          "desc": "Coordinate local initiatives and engage community partners.",
+          "title": "Community Mobilizer",
+          "type": "Full-time",
+          "location": "Lucknow, UP",
+          "experience": "1–3 Years",
           "applyLink": "/job-details"
         },
         {
           "id": 3,
-          "title": "Digital Marketing Executive",
-          "location": "Hybrid",
-          "type": "Full Time",
-          "department": "Marketing",
-          "experience": "2+ Years",
-          "desc": "Create campaigns that increase awareness and donor engagement.",
+          "title": "Monitoring & Evaluation Associate",
+          "type": "Full-time",
+          "location": "Lucknow, UP",
+          "experience": "2–4 Years",
           "applyLink": "/job-details"
         },
         {
           "id": 4,
-          "title": "Volunteer Program Manager",
-          "location": "Remote",
-          "type": "Full Time",
-          "department": "Operations",
-          "experience": "3+ Years",
-          "desc": "Lead volunteer recruitment, training and engagement.",
+          "title": "Communications Executive",
+          "type": "Full-time",
+          "location": "Lucknow, UP",
+          "experience": "1–3 Years",
           "applyLink": "/job-details"
         }
-      ]
+      ],
+      "customApplication": {
+        "title": "Don't see the right role?",
+        "text": "Send us your resume at careers@narishakti.org",
+        "email": "careers@narishakti.org"
+      }
     },
-    "process": {
-      "title": "Our Hiring Process",
-      "steps": [
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "benefits": [
         {
           "id": 1,
-          "title": "Apply Online",
-          "desc": "Submit your application with your resume."
+          "title": "Competitive Compensation",
+          "desc": "We offer fair and competitive salary packages.",
+          "icon": "FiDollarSign"
         },
         {
           "id": 2,
-          "title": "Initial Review",
-          "desc": "Our hiring team carefully reviews every application."
+          "title": "Health & Wellness",
+          "desc": "Medical insurance and wellness programs for you and your family.",
+          "icon": "FiHeart"
         },
         {
           "id": 3,
-          "title": "Interview",
-          "desc": "Meet our team and discuss your experience and passion."
+          "title": "Capacity Building",
+          "desc": "Training and development opportunities to grow your skills.",
+          "icon": "FiAward"
         },
         {
           "id": 4,
-          "title": "Join Helping Hearts",
-          "desc": "Start making a positive impact from your very first day."
+          "title": "Time Off",
+          "desc": "Paid leaves and flexible policies that support your well-being.",
+          "icon": "FiCalendar"
+        },
+        {
+          "id": 5,
+          "title": "Purpose & Fulfillment",
+          "desc": "Be part of a mission that brings real change in society.",
+          "icon": "FiSmile"
         }
       ]
     },
     "cta": {
-      "title": "Ready To Make A Difference?",
-      "desc": "Join a passionate team committed to creating lasting impact around the world.",
+      "title": "Careers with Purpose. Impact for Generations.",
+      "desc": "Take the next step in your career and be a catalyst for change.",
       "button": {
-        "label": "Apply Today",
-        "href": "/job-details"
+        "label": "Explore Opportunities",
+        "href": "#open-positions"
       }
     }
   },
   "jobDetailsData": {
-    "banner": {
-      "bgImageUrl": "/NGO_Images/happy-diverse-kinds-park.jpg",
-      "breadcrumbHome": "Home",
-      "breadcrumbCurrent": "Job Details",
-      "title": "Job Details"
+    "title": "Program Officer – Women Empowerment Initiatives",
+    "meta": {
+      "type": "Fulltime",
+      "posted": "Posted 2 days ago"
     },
-    "sectionLabels": {
-      "overviewTitle": "Role Overview",
-      "responsibilitiesTitle": "Key Responsibilities",
-      "requirementsTitle": "Qualifications & Skills",
-      "benefitsTitle": "Why Join Our Mission",
-      "applyTitle": "Apply for this Opportunity",
-      "applypretitle": "Become part of our mission to create lasting change in communities around the world.",
-      "successTitle": "Application Submitted!",
-      "successMessage": "Thank you for your interest in joining our organization. Our recruitment team will carefully review your application and contact shortlisted candidates."
+    "banner": {
+      "title": "Job Details",
+      "breadcrumbCurrent": "Job Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg"
+    },
+    "employmentInfo": {
+      "industry": "Non Profit / NGO / Social Services",
+      "jobLevel": "Mid Level ( 2 - 4 years )",
+      "jobType": "Full Time",
+      "experience": "2 - 4 years",
+      "salary": "₹ 30,000 - ₹ 45,000 Monthly",
+      "location": "Lucknow, Uttar Pradesh (On-site)",
+      "deadline": "25/07/2026",
+      "postedOn": "10/06/2026"
+    },
+    "aboutRole": "We are looking for a passionate Program Officer to join our team and contribute to our women empowerment programs. You will be responsible for planning, implementing and monitoring programs that create a meaningful impact in the lives of women and girls.\n\nThe ideal candidate will have strong communication skills, a problem-solving mindset and a commitment to social change.",
+    "responsibilities": [
+      "Plan, implement and monitor programs focused on women empowerment.",
+      "Coordinate with community members, partners and stakeholders.",
+      "Conduct needs assessments and prepare program reports.",
+      "Facilitate training sessions, workshops and awareness campaigns.",
+      "Ensure documentation and data collection for monitoring and evaluation.",
+      "Support in resource mobilization and donor reporting."
+    ],
+    "requirements": [
+      "Bachelor's degree in Social Work, Development Studies, Sociology or related field.",
+      "2–4 years of experience in program implementation in NGOs (preferred).",
+      "Strong communication, interpersonal and coordination skills.",
+      "Proficiency in MS Office and documentation.",
+      "Fluent in Hindi and English (local language is a plus).",
+      "Passion for women empowerment and community development."
+    ],
+    "whyJoinUs": [
+      {
+        "title": "Make Real Impact",
+        "desc": "Be a part of meaningful change in communities.",
+        "icon": "FiUsers"
+      },
+      {
+        "title": "Grow Your Career",
+        "desc": "Opportunities to learn, lead and grow.",
+        "icon": "FiTrendingUp"
+      },
+      {
+        "title": "Supportive Culture",
+        "desc": "Work with a passionate and supportive team.",
+        "icon": "FiHeart"
+      },
+      {
+        "title": "Work-Life Balance",
+        "desc": "We value your time and well-being.",
+        "icon": "FiScale"
+      }
+    ],
+    "sidebar": {
+      "organization": {
+        "name": "Nari Shakti Foundation",
+        "image": "/jobdetails.png",
+        "tagline": "Empowering Women, Enriching Lives",
+        "viewAllJobsUrl": "/career",
+        "address": "123, Samaj Kalyan Marg, Hazratganj, Lucknow, Uttar Pradesh - 226001",
+        "phone": "+91 98765 43210",
+        "email": "hr@narishaktifoundation.org",
+        "website": "www.narishaktifoundation.org",
+        "mapLocation": {
+        "address": "New York, NY, USA",
+        "iframeUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1710000000000!5m2!1sen!2s"
+      }
+      },
+      "similarJobs": [
+        {
+          "id": 1,
+          "title": "Community Mobilizer",
+          "type": "Fulltime",
+          "posted": "3 days ago",
+          "salary": "₹ 20,000 - ₹ 30,000 /month",
+          "location": "Lucknow, UP",
+          "href": "/job-details"
+        },
+        {
+          "id": 2,
+          "title": "Project Coordinator",
+          "type": "Fulltime",
+          "posted": "5 days ago",
+          "salary": "₹ 28,000 - ₹ 40,000 /month",
+          "location": "Varanasi, UP",
+          "href": "/job-details"
+        },
+        {
+          "id": 3,
+          "title": "Field Outreach Executive",
+          "type": "Fulltime",
+          "posted": "1 week ago",
+          "salary": "₹ 18,000 - ₹ 25,000 /month",
+          "location": "Kanpur, UP",
+          "href": "/job-details"
+        },
+        {
+          "id": 4,
+          "title": "Monitoring & Evaluation Officer",
+          "type": "Fulltime",
+          "posted": "1 week ago",
+          "salary": "₹ 30,000 - ₹ 48,000 /month",
+          "location": "Lucknow, UP",
+          "href": "/job-details"
+        },
+        {
+          "id": 5,
+          "title": "Training Coordinator",
+          "type": "Fulltime",
+          "posted": "2 weeks ago",
+          "salary": "₹ 25,000 - ₹ 38,000 /month",
+          "location": "Allahabad, UP",
+          "href": "/job-details"
+        },
+        {
+          "id": 6,
+          "title": "Communications Executive",
+          "type": "Fulltime",
+          "posted": "2 weeks ago",
+          "salary": "₹ 22,000 - ₹ 35,000 /month",
+          "location": "Lucknow, UP",
+          "href": "/job-details"
+        }
+      ]
+    },
+    "ctaBox": {
+      "title": "Ready to make a difference?",
+      "text": "Send your resume and cover letter to hr@narishaktifoundation.org\nJoin us in empowering women and building a better tomorrow.",
+      "email": "hr@narishaktifoundation.org"
+    }
+  },
+  "jobApplyData": {
+    "title": "Apply now",
+    "header": {
+      "title": "Apply for this Role",
+      "subtitle": "We'd love to learn more about you. Please complete the form below."
+    },
+    "banner": {
+      "title": "Job Details",
+      "breadcrumbCurrent": "Job Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg"
     },
     "form": {
       "fullNameLabel": "Full Name *",
       "fullNamePlaceholder": "Enter your full name",
-      "emailLabel": "Email Address *",
-      "emailPlaceholder": "yourname@example.com",
-      "phoneLabel": "Phone Number *",
-      "phonePlaceholder": "+1 (555) 000-0000",
-      "portfolioLabel": "LinkedIn / Portfolio (Optional)",
-      "portfolioPlaceholder": "/NGO_Images/medium-shot-happy-kids-posing.jpg",
-      "resumeLabel": "Upload Resume (PDF/DOC)",
-      "resumeButtonText": "Attach Resume",
-      "coverLetterLabel": "Why Do You Want to Join Us?",
-      "coverLetterPlaceholder": "Share your passion for social impact and why you'd like to contribute to our mission.",
+      "emailLabel": "Email *",
+      "emailPlaceholder": "Enter your email address",
+      "contactNumberLabel": "Contact Number *",
+      "contactNumberPlaceholder": "Enter your contact number",
+      "defaultCountryCode": "+91",
+      "positionAppliedForLabel": "Position Applied For *",
+      "positionPlaceholder": "Select the position",
+      "currentLocationLabel": "Current Location",
+      "currentLocationPlaceholder": "City, State, Country",
+      "yearsOfExperienceLabel": "Years of Experience",
+      "yearsOfExperiencePlaceholder": "Select experience",
+      "preferredJoiningDateLabel": "Preferred Joining Date",
+      "linkedinPortfolioLabel": "LinkedIn / Portfolio (optional)",
+      "linkedinPortfolioPlaceholder": "https://linkedin.com/in/yourprofile",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "Tell us about yourself, your motivation for this role, and how you can contribute to our mission.",
+      "maxDescriptionLength": 1000,
+      "uploadResumeLabel": "Upload Resume *",
+      "uploadInstruction": "Click to upload or drag and drop",
+      "uploadFormat": "PDF, DOC, DOCX only (Max. 5MB)",
+      "termsLabel": "I confirm that the information provided is accurate. *",
       "submitButtonText": "Submit Application"
     },
-    "jobs": [
+    "sideCard": {
+      "quote": "Join us in making a difference.",
+      "subquote": "Be a part of a passionate team working towards a more equitable and compassionate world.",
+      "features": [
+        {
+          "title": "Empower Communities",
+          "desc": "We work alongside communities to create lasting change.",
+          "icon": "FiUsers"
+        },
+        {
+          "title": "Sustainable Impact",
+          "desc": "Our programs focus on sustainable solutions for long-term good.",
+          "icon": "FiGlobe"
+        },
+        {
+          "title": "People First",
+          "desc": "We believe in dignity, inclusion and equal opportunities for all.",
+          "icon": "FiHeart"
+        }
+      ]
+    },
+    "bottomTrustBadges": [
       {
-        "id": "program-coordinator",
-        "title": "Program Coordinator",
-        "department": "Programs",
-        "location": "Remote / Field Based",
-        "type": "Full-Time",
-        "experience": "3+ Years",
-        "salaryRange": "$50,000 - $65,000",
-        "overview": "We are looking for a dedicated Program Coordinator to help plan, manage, and monitor community development initiatives. You will work closely with volunteers, local partners, and project teams to ensure our programs create meaningful and lasting impact.",
-        "responsibilities": [
-          "Coordinate community outreach and development programs.",
-          "Work with local partners, volunteers, and stakeholders to ensure successful project delivery.",
-          "Track program progress and prepare impact reports.",
-          "Organize workshops, awareness campaigns, and community events.",
-          "Support monitoring, evaluation, and continuous improvement of projects."
-        ],
-        "requirements": [
-          "3+ years of experience in NGO, nonprofit, community development, or social impact programs.",
-          "Excellent organizational and communication skills.",
-          "Experience coordinating multiple projects simultaneously.",
-          "Ability to build strong relationships with diverse communities.",
-          "Passion for humanitarian work and sustainable development."
-        ],
-        "benefits": [
-          "Meaningful work that creates real social impact.",
-          "Flexible work environment with hybrid or remote opportunities.",
-          "Professional development and training programs.",
-          "Supportive and collaborative international team.",
-          "Paid leave, wellness initiatives, and volunteer engagement opportunities."
-        ]
+        "title": "Safe & Secure",
+        "desc": "Your data is protected with top-grade security.",
+        "icon": "FiShield"
       },
       {
-        "id": "community-outreach-officer",
-        "title": "Community Outreach Officer",
-        "department": "Community Engagement",
-        "location": "Regional Offices",
-        "type": "Full-Time",
-        "experience": "2+ Years",
-        "salaryRange": "$40,000 - $55,000",
-        "overview": "As a Community Outreach Officer, you will strengthen relationships with local communities, promote awareness programs, and encourage public participation in our humanitarian initiatives.",
-        "responsibilities": [
-          "Build strong partnerships with community leaders and local organizations.",
-          "Plan and conduct awareness campaigns and educational sessions.",
-          "Recruit and coordinate volunteers for outreach activities.",
-          "Collect community feedback to improve project effectiveness.",
-          "Represent the organization during local events and campaigns."
-        ],
-        "requirements": [
-          "Experience in community engagement, public relations, or nonprofit work.",
-          "Strong interpersonal and presentation skills.",
-          "Ability to travel within assigned regions.",
-          "Excellent problem-solving and teamwork abilities.",
-          "Commitment to serving diverse communities with empathy and respect."
-        ],
-        "benefits": [
-          "Opportunity to directly improve people's lives.",
-          "Career growth through leadership and training programs.",
-          "Supportive work culture focused on collaboration.",
-          "Flexible working arrangements.",
-          "Comprehensive employee wellness initiatives."
-        ]
+        "title": "Fair Process",
+        "desc": "We value diversity and ensure a fair hiring process.",
+        "icon": "FiRefreshCw"
       },
       {
-        "id": "fundraising-manager",
-        "title": "Fundraising Manager",
-        "department": "Fundraising & Partnerships",
-        "location": "Hybrid",
-        "type": "Full-Time",
-        "experience": "4+ Years",
-        "salaryRange": "$60,000 - $80,000",
-        "overview": "We are seeking a passionate Fundraising Manager to develop sustainable fundraising strategies, build donor relationships, and secure resources that support our humanitarian programs worldwide.",
-        "responsibilities": [
-          "Develop and execute fundraising campaigns and donor engagement strategies.",
-          "Build long-term relationships with individual and corporate donors.",
-          "Prepare grant proposals and funding applications.",
-          "Organize fundraising events and awareness initiatives.",
-          "Monitor fundraising performance and prepare regular reports."
-        ],
-        "requirements": [
-          "4+ years of fundraising, nonprofit development, or partnership experience.",
-          "Excellent communication and relationship-building skills.",
-          "Experience writing successful grant proposals.",
-          "Strong organizational and analytical abilities.",
-          "Passion for nonprofit and humanitarian work."
-        ],
-        "benefits": [
-          "Be part of projects that transform communities.",
-          "Professional learning and leadership opportunities.",
-          "Flexible hybrid working model.",
-          "Supportive and mission-driven workplace.",
-          "Competitive salary with generous leave benefits."
-        ]
+        "title": "Growth Opportunity",
+        "desc": "Learn, grow and create meaningful impact.",
+        "icon": "FiTrendingUp"
+      },
+      {
+        "title": "Purpose Driven",
+        "desc": "Join a team that's passionate about creating change.",
+        "icon": "FiHeart"
       }
     ]
   },
@@ -3493,7 +3037,7 @@
         "iconName": "book-open",
         "title": "Education",
         "label": "Read More",
-        "href": "/education",
+        "href": "/service-details",
         "description": "Promoting quality education and creating opportunities for a brighter, more equal tomorrow.",
         "image": {
           "src": "/NGO_Images/happy-diverse-kinds-park.jpg",
@@ -3505,7 +3049,7 @@
         "iconName": "heart-pulse",
         "title": "Health & Wellness",
         "label": "Read More",
-        "href": "/health",
+        "href": "/service-details",
         "description": "Improving community health through awareness, access to care, and preventive health programs.",
         "image": {
           "src": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
@@ -3517,7 +3061,7 @@
         "iconName": "briefcase",
         "title": "Environment",
         "label": "Read More",
-        "href": "/environment",
+        "href": "/service-details",
         "description": "Empowering individuals with skills, resources, and opportunities for dignified and sustainable livelihoods.",
         "image": {
           "src": "/NGO_Images/hands-people-with-diverse-ethnicity.jpg",
@@ -3528,7 +3072,7 @@
         "id": "environment",
         "iconName": "leaf",
         "label": "Read More",
-        "href": "/environment",
+        "href": "/service-details",
         "title": "Environment & Sustainability",
         "description": "Promoting sustainable practices and protecting our environment for future generations.",
         "image": {
@@ -3540,7 +3084,7 @@
         "id": "child-welfare",
         "iconName": "users",
         "label": "Read More",
-        "href": "/child-welfare",
+        "href": "/service-details",
         "title": "Child Welfare",
         "description": "Strengthening communities through participation, leadership, and inclusive development initiatives.",
         "image": {
@@ -3552,7 +3096,7 @@
         "id": "women-empowerment",
         "iconName": "shield",
         "label": "Read More",
-        "href": "/women-empowerment",
+        "href": "/service-details",
         "title": "Women Empowerment",
         "description": "Supporting vulnerable groups and ensuring dignity, rights, and a safe, supportive environment.",
         "image": {
@@ -3567,6 +3111,227 @@
       "description": "Our services are driven by compassion, transparency, and a commitment to creating a better, more equitable world for all."
     }
   },
+  "servicesdetailsPage": {
+   "banner": {
+      "breadcrumbCurrent": "Service Details",
+      "breadcrumbHome": "Home",
+      "bgImageUrl": "/NGO_Images/happy-diverse-kinds-park.jpg",
+      "title": "Service Detail"
+    },
+    "categories": [
+      {
+        "id": "1",
+        "name": "Food Security Initiatives",
+        "slug": "food-security-initiatives"
+      },
+      {
+        "id": "2",
+        "name": "Healthcare Access",
+        "slug": "healthcare-access"
+      },
+      {
+        "id": "3",
+        "name": "Educational Support",
+        "slug": "educational-support"
+      },
+      {
+        "id": "4",
+        "name": "Women Empowerment",
+        "slug": "women-empowerment"
+      },
+      {
+        "id": "5",
+        "name": "Youth Leadership Programs",
+        "slug": "youth-leadership-programs"
+      }
+    ],
+
+    "sidebarCta": {
+      "tagline": "Small Gifts, Big Changes",
+      "title": "Empowering Every Child Through Education",
+      "buttonText": "Get A Quote",
+      "buttonUrl": "/get-quote",
+      "bgImage": "/NGO_Images/happy-diverse-kinds-park.jpg"
+    },
+
+    "servicesDataMap": {
+      "food-security-initiatives": {
+        "mainImage": "/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg",
+        "descriptionParagraphs": [
+          "Food security is essential for community sustainability and growth. Our initiative addresses hunger and malnutrition by providing nutritious food, establishing community kitchens, and setting up long-term agricultural programs in vulnerable regions.",
+          "We focus on creating self-sustaining food production models, school meal drives, and emergency food relief systems to guarantee that no family goes to bed hungry."
+        ],
+        "heading": "Eradicating Hunger Across Communities",
+        "subHeading": "Delivering nourishing meals and sustainable food security solutions to vulnerable populations worldwide.",
+        "featureGrid": [
+          { "id": "f1", "text": "Emergency Food Relief" },
+          { "id": "f2", "text": "School Feeding Programs" },
+          { "id": "f3", "text": "Sustainable Agriculture" },
+          { "id": "f4", "text": "Nutritional Counseling" },
+          { "id": "f5", "text": "Community Kitchens" },
+          { "id": "f6", "text": "Food Waste Reduction" },
+          { "id": "f7", "text": "Maternal Nutrition" },
+          { "id": "f8", "text": "Clean Water Supply" },
+          { "id": "f9", "text": "Farming Kits Support" }
+        ],
+        "subServices": [
+          {
+            "id": "sub-1",
+            "title": "School Meal Distribution",
+            "description": "Providing nutritious daily lunches to young students to boost attendance, energy levels, and school performance.",
+            "image": "/NGO_Images/happy-diverse-kinds-park.jpg"
+          },
+          {
+            "id": "sub-2",
+            "title": "Sustainable Farming Workshops",
+            "description": "Equipping local farmers with climate-resilient agricultural techniques and seeds to ensure consistent yield.",
+            "image": "/NGO_Images/black-white-photo-girl-reading-book-with-words-word-bottom.jpg"
+          }
+        ]
+      },
+
+      "healthcare-access": {
+        "mainImage": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+        "descriptionParagraphs": [
+          "Healthcare access is fundamental to building strong and thriving communities. Our organization is dedicated to bridging the gap in medical care by providing essential services to underserved populations. From preventive care and medical check-ups to health education and wellness programs, we aim to improve overall health and reduce disparities. Through partnerships with local clinics, mobile health units, and trained professionals, we deliver impactful solutions tailored to the needs of each community.",
+          "Our goal is to ensure that every individual, regardless of their location or economic status, has the opportunity to lead a healthier, happier life. Ensuring everyone has access to essential healthcare services, we provide medical support, preventive care, and health education to improve community well-being."
+        ],
+        "heading": "Bringing Quality Care to All",
+        "subHeading": "Bringing quality healthcare to everyone, regardless of background, by providing accessible, compassionate, and comprehensive medical services for all individuals.",
+        "featureGrid": [
+          { "id": "f1", "text": "Primary Care Services" },
+          { "id": "f2", "text": "Mental Health Support" },
+          { "id": "f3", "text": "Dental Care And Hygiene" },
+          { "id": "f4", "text": "Telehealth Consultations" },
+          { "id": "f5", "text": "Mobile Health Units" },
+          { "id": "f6", "text": "Support Special Needs" },
+          { "id": "f7", "text": "Health Insurance" },
+          { "id": "f8", "text": "Prevention Workshops" },
+          { "id": "f9", "text": "Lifestyle Guidance" }
+        ],
+        "subServices": [
+          {
+            "id": "sub-1",
+            "title": "Emergency Care Services",
+            "description": "Emergency care services provide immediate medical attention to individuals facing urgent health crises. Our team ensures quick response times and access to life-saving treatments.",
+            "image": "/NGO_Images/colorful-letters-forming-word-charity.jpg"
+          },
+          {
+            "id": "sub-2",
+            "title": "Child Health Programs",
+            "description": "Our child health programs provide essential medical care, preventive support, health education, and regular wellness services to children in underserved communities.",
+            "image": "/NGO_Images/group-best-friends-making-toast.jpg"
+          }
+        ]
+      },
+
+      "educational-support": {
+        "mainImage": "/NGO_Images/community-concept-with-nature-close-up.jpg",
+        "descriptionParagraphs": [
+          "Education is the most powerful tool for breaking cycles of poverty. We provide educational materials, build classrooms, and offer scholarships to children in underprivileged regions.",
+          "By training teachers, supplying learning resources, and integrating digital literacy, we foster an environment where children can thrive academically and realize their potential."
+        ],
+        "heading": "Empowering Minds Through Education",
+        "subHeading": "Creating inclusive learning environments and educational resources for underprivileged children globally.",
+        "featureGrid": [
+          { "id": "f1", "text": "Scholarships & Grants" },
+          { "id": "f2", "text": "Classroom Construction" },
+          { "id": "f3", "text": "Digital Literacy Programs" },
+          { "id": "f4", "text": "Teacher Training Units" },
+          { "id": "f5", "text": "School Supply Kits" },
+          { "id": "f6", "text": "After-School Tutoring" },
+          { "id": "f7", "text": "Special Education Support" },
+          { "id": "f8", "text": "Library & Book Drives" },
+          { "id": "f9", "text": "Higher Education Prep" }
+        ],
+        "subServices": [
+          {
+            "id": "sub-1",
+            "title": "Digital Classrooms",
+            "description": "Equipping rural schools with computers, tablets, and internet access to bridge the digital education divide.",
+            "image": "/NGO_Images/woman-with-child-her-shoulder.jpg"
+          },
+          {
+            "id": "sub-2",
+            "title": "Girl Child Education Drive",
+            "description": "Providing targeted financial support and safety initiatives to ensure young girls remain enrolled in school.",
+            "image": "/NGO_Images/girl-is-reading-book-with-word-one-it.jpg"
+          }
+        ]
+      },
+
+      "women-empowerment": {
+        "mainImage": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
+        "descriptionParagraphs": [
+          "Empowering women creates stronger families and economically resilient communities. Our programs focus on vocational skill training, financial literacy, micro-loans, and leadership development.",
+          "We advocate for equal rights, gender equality, and safe community environments to allow women to lead, innovate, and achieve financial independence."
+        ],
+        "heading": "Building Equity & Female Independence",
+        "subHeading": "Fostering economic independence and leadership skills among women in marginalized communities.",
+        "featureGrid": [
+          { "id": "f1", "text": "Vocational Skill Training" },
+          { "id": "f2", "text": "Microfinance & Loans" },
+          { "id": "f3", "text": "Self-Help Groups" },
+          { "id": "f4", "text": "Financial Literacy" },
+          { "id": "f5", "text": "Legal Rights Workshops" },
+          { "id": "f6", "text": "Maternal Healthcare Support" },
+          { "id": "f7", "text": "Small Business Support" },
+          { "id": "f8", "text": "Safety & Self-Defense" },
+          { "id": "f9", "text": "Leadership Mentorship" }
+        ],
+        "subServices": [
+          {
+            "id": "sub-1",
+            "title": "Micro-Enterprise Incubation",
+            "description": "Providing women entrepreneurs with seed funding, business guidance, and market linkages to launch micro-businesses.",
+            "image": "/NGO_Images/small-plant-symbolizing-importance-working-together-nurture-grow-something.jpg"
+          },
+          {
+            "id": "sub-2",
+            "title": "Vocational Training Centers",
+            "description": "Offering practical courses in tailoring, handicrafts, digital skills, and culinary arts for sustainable income.",
+            "image": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg"
+          }
+        ]
+      },
+
+      "youth-leadership-programs": {
+        "mainImage": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
+        "descriptionParagraphs": [
+          "Youth are the driving force of future progress. Our leadership programs cultivate critical thinking, public service mindset, career skills, and civic responsibility among young adults.",
+          "Through community action projects, mentorship programs, and career placement support, we help youth transform into proactive leaders who positively influence their societies."
+        ],
+        "heading": "Inspiring Tomorrow's Community Leaders",
+        "subHeading": "Equipping youth with career opportunities, civic awareness, and leadership skills for positive change.",
+        "featureGrid": [
+          { "id": "f1", "text": "Career Mentorship" },
+          { "id": "f2", "text": "Civic Engagement Projects" },
+          { "id": "f3", "text": "Public Speaking Training" },
+          { "id": "f4", "text": "Internship Placements" },
+          { "id": "f5", "text": "Youth Innovation Grants" },
+          { "id": "f6", "text": "Environmental Action" },
+          { "id": "f7", "text": "Soft Skills Development" },
+          { "id": "f8", "text": "Community Service Days" },
+          { "id": "f9", "text": "Global Exchange Programs" }
+        ],
+        "subServices": [
+          {
+            "id": "sub-1",
+            "title": "Youth Civic Councils",
+            "description": "Enabling young advocates to organize local development drives, environmental campaigns, and policy dialogues.",
+            "image":"/NGO_Images/hands-soil-woman-with-plant-earth-day-future-eco-business-funding-support-closeup-recycle-sustainability-female-volunteer-with-leaf-growth-agriculture-climate-change-ngo.jpg"
+          },
+          {
+            "id": "sub-2",
+            "title": "Career Readiness Camps",
+            "description": "Conducting bootcamps focused on resume writing, job interviews, and workplace networking for high school graduates.",
+            "image": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg"
+          }
+        ]
+      }
+    }
+  }
+  ,
   "award": {
     "banner": {
       "title": "Award & Certificate",
@@ -3694,131 +3459,173 @@
       "buttonUrl": "/donate"
     }
   },
-  "csr": {
+"csr": {
     "banner": {
-      "breadcrumbCurrent": "CSR",
+      "title": "CSR",
       "breadcrumbHome": "Home",
-      "bgImageUrl": "/NGO_Images/professional-working-person (1).jpg",
-      "title": "CSR"
+      "breadcrumbCurrent": "CSR",
+      "bgImageUrl": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg"
+    },
+    "commitment": {
+      "subtitle": "OUR COMMITMENT",
+      "title": "Creating Lasting Impact Through CSR",
+      "description": "Our CSR initiatives are aligned with our vision of building an inclusive and sustainable world. We work closely with communities and partners to address real challenges and create opportunities for a better life for all.",
+      "buttonText": "Our Approach",
+      "buttonUrl": "/about-us",
+      "cards": [
+        {
+          "id": "1",
+          "title": "People First",
+          "description": "We focus on improving lives through education, healthcare, skills and empowerment.",
+          "iconName": "users"
+        },
+        {
+          "id": "2",
+          "title": "Planet Positive",
+          "description": "We are committed to protecting the environment and promoting sustainable practices.",
+          "iconName": "leaf"
+        },
+        {
+          "id": "3",
+          "title": "Partnership Driven",
+          "description": "We collaborate with like-minded partners to maximize our collective impact.",
+          "iconName": "handshake"
+        },
+        {
+          "id": "4",
+          "title": "Ethical & Transparent",
+          "description": "We uphold the highest standards of integrity, accountability and responsible governance.",
+          "iconName": "shield"
+        }
+      ]
     },
     "focusAreas": {
-      "title": "Our Focus Areas",
+      "title": "OUR FOCUS AREAS",
       "items": [
         {
           "id": "1",
-          "title": "Education",
-          "description": "Promoting quality education and skill development to build a strong foundation for the future.",
-          "linkText": "Explore Initiatives",
-          "linkUrl": "/education",
+          "title": "Education & Skills",
+          "description": "Promoting quality education and skill development to empower individuals for a better future.",
+          "linkText": "Learn More",
+          "linkUrl": "/service-details",
           "imageUrl": "/NGO_Images/professional-working-person.jpg",
           "iconName": "education"
         },
         {
           "id": "2",
-          "title": "Healthcare",
-          "description": "Improving access to healthcare and supporting well-being for healthier communities.",
-          "linkText": "Explore Initiatives",
-          "linkUrl": "/health",
+          "title": "Healthcare & Well-being",
+          "description": "Improving access to healthcare and supporting well-being initiatives in communities.",
+          "linkText": "Learn More",
+          "linkUrl": "/service-details",
           "imageUrl": "/NGO_Images/small-plant-symbolizing-importance-working-together-nurture-grow-something.jpg",
           "iconName": "healthcare"
         },
         {
           "id": "3",
-          "title": "Livelihoods",
-          "description": "Empowering communities through skill development and sustainable livelihood programs.",
-          "linkText": "Explore Initiatives",
-          "linkUrl": "/child-welfare",
+          "title": "Environment Sustainability",
+          "description": "Driving environmental conservation, reducing our footprint and ensuring a greener planet.",
+          "linkText": "Learn More",
+          "linkUrl": "/service-details",
           "imageUrl": "/NGO_Images/smiley-young-african-boy-standing-field.jpg",
-          "iconName": "livelihoods"
+          "iconName": "environment"
         },
         {
           "id": "4",
-          "title": "Environment",
-          "description": "Driving environmental sustainability through conservation, resource management and green initiatives.",
-          "linkText": "Explore Initiatives",
-          "linkUrl": "/environment",
+          "title": "Community Development",
+          "description": "Supporting local communities through livelihood programs, infrastructure and social welfare.",
+          "linkText": "Learn More",
+          "linkUrl": "/service-details",
           "imageUrl": "/NGO_Images/two-happy-boys-society-park-happy-asian-brothers-who-are-smiling-happily-together-brothers-play.jpg",
-          "iconName": "environment"
+          "iconName": "community"
         }
       ]
     },
-    "approach": {
-      "title": "Our Approach",
-      "centerTitle": "Our Executive Impact",
-      "steps": [
-        {
-          "title": "Understand Community Needs",
-          "description": "We listen and collaborate to gain trust",
-          "iconName": "user"
-        },
-        {
-          "title": "Design Relevant Solutions",
-          "description": "We create real insights and sustainable programs",
-          "iconName": "bulb"
-        },
-        {
-          "title": "Implement Together",
-          "description": "We co-lead with agility, accountability, and care",
-          "iconName": "gear"
-        },
-        {
-          "title": "Measure & Create Impact",
-          "description": "We track, evaluate and communicate progress",
-          "iconName": "chart"
-        }
-      ],
-      "commitments": {
-        "title": "Our Commitments",
-        "description": "We are accountable to the people and locations where we live and work. We bring our skills, experience, and resources to create real, and lasting community value and environmental well-being.",
-        "points": [
-          {
-            "text": "Embed AI, Transparency & Partnerships"
-          },
-          {
-            "text": "Catalyze Jobs & Inclusive Growth"
-          },
-          {
-            "text": "Advance Health & Equity for All"
-          }
-        ]
-      }
-    },
     "impact": {
-      "title": "Our Impact at a Glance",
-      "pretitle": "Every number represents real lives touched and meaningful change created through our initiatives and the support of our partners.",
+      "title": "OUR IMPACT",
       "stats": [
         {
-          "value": "3,200+",
-          "label": "Lives Touched",
-          "description": "Improved quality of life for individuals and families",
-          "iconName": "people"
-        },
-        {
-          "value": "85+",
-          "label": "Projects Supported",
-          "description": "Across key focus areas and geographies",
+          "value": "25,000+",
+          "label": "Students Educated",
           "iconName": "education"
         },
         {
-          "value": "125+",
-          "label": "Communities",
-          "description": "Partnered for inclusive and holistic development",
-          "iconName": "home"
+          "value": "15,000+",
+          "label": "Lives Impacted",
+          "iconName": "health"
         },
         {
-          "value": "5,000+",
-          "label": "Volunteer Hours",
-          "description": "Contributed by employees and partners",
-          "iconName": "heart"
+          "value": "1,200+",
+          "label": "Trees Planted",
+          "iconName": "tree"
         },
         {
-          "value": "25+",
-          "label": "Green Initiatives",
-          "description": "Driving sustainability and protecting our planet",
-          "iconName": "globe"
+          "value": "300+",
+          "label": "Communities Reached",
+          "iconName": "community"
+        },
+        {
+          "value": "50+",
+          "label": "CSR Partners",
+          "iconName": "handshake"
         }
       ]
-    }
+    },
+    "recentInitiatives": {
+      "subtitle": "RECENT INITIATIVES",
+      "viewAllText": "View All Initiatives",
+      "viewAllUrl": "/initiatives",
+      "cards": [
+        {
+          "id": "1",
+          "date": "May 10, 2025",
+          "title": "Education Support Program",
+          "description": "Provided learning materials and infrastructure support to underprivileged schools.",
+          "imageUrl": "/NGO_Images/group-friends-playing-together-wooden-tower-game.jpg",
+          "linkText": "Read More",
+          "linkUrl": "/service-details"
+        },
+        {
+          "id": "2",
+          "date": "April 22, 2025",
+          "title": "Green Earth Initiative",
+          "description": "Tree plantation drive across communities to promote a cleaner and greener environment.",
+          "imageUrl": "/NGO_Images/volunteers-planting-trees-forest-working-together-environmental-project-aimed-reforestation-ecosystem-restoration.jpg",
+          "linkText": "Read More",
+          "linkUrl": "/service-details"
+        },
+        {
+          "id": "3",
+          "date": "April 05, 2025",
+          "title": "Health Camp & Awareness",
+          "description": "Organized free health check-ups and awareness sessions for local communities.",
+          "imageUrl": "/NGO_Images/two-women-are-sitting-bench-one-has-sign-that-says-medical.jpg",
+          "linkText": "Read More",
+          "linkUrl": "/service-details"
+        }
+      ]
+    },
+    "counterStats": [
+      {
+        "value": "400 +",
+        "label": "Team Member",
+        "iconName": "team"
+      },
+      {
+        "value": "80K +",
+        "label": "Client's Review",
+        "iconName": "review"
+      },
+      {
+        "value": "100K +",
+        "label": "Completed Projects",
+        "iconName": "project"
+      },
+      {
+        "value": "40K +",
+        "label": "Winning Award",
+        "iconName": "award"
+      }
+    ]
   },
 "enquiry": {
     "banner": {

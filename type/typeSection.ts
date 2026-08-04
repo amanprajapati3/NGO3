@@ -421,75 +421,6 @@ export interface MissionProps {
   data: MissionData;
 }
 
-export interface ProgramHighlight {
-  title: string;
-  description: string;
-}
-
-export interface ProgramStat {
-  value: string;
-  label: string;
-}
-
-export interface ProgramApproach {
-  title: string;
-  description: string;
-}
-
-export interface ProgramImpact {
-  title: string;
-  description: string;
-  points: string[];
-}
-
-export interface ProgramDetails {
-  title: string;
-  description: string;
-  mission: string;
-  approach: ProgramApproach[];
-  activities: string[];
-  impact: ProgramImpact;
-}
-
-export interface ProgramDetailCTA {
-  title: string;
-  description: string;
-  buttonLabel: string;
-  buttonHref: string;
-  image: string;
-}
-
-export interface ProgramCTA {
-  title: string;
-  description: string;
-  buttonLabel: string;
-  buttonHref: string;
-  image: string;
-}
-
-export interface ProgramPageData {
-  slug?: string;
-  eyebrow: string;
-  title: string;
-  intro: string;
-  bannerImage: string;
-
-  sectionTitle: string;
-  sectionText: string;
-  sectionImage: string;
-
-  highlights: ProgramHighlight[];
-  stats: ProgramStat[];
-
-  buttons: ButtonItem[];
-
-  details?: ProgramDetails;
-
-  detailCta: ProgramDetailCTA;
-
-  cta: ProgramCTA;
-}
-
 export interface NewsletterData {
   title: string;
   pretitle: string;
@@ -501,8 +432,6 @@ export interface NewsletterData {
 export interface NewsletterdataProps {
   data: NewsletterData;
 }
-
-// @/type/typeSection.ts
 
 export interface Partner {
   id: number | string;
@@ -774,77 +703,79 @@ export interface BlogDetailsData {
 
 // ================= CAREER =================
 
-export interface CareerButton {
-  label: string;
-  href: string;
-}
-
 export interface CareerBanner {
-  breadcrumbHome: string;
+  title: string;
   breadcrumbCurrent: string;
+  breadcrumbHome: string;
   bgImageUrl: string;
-  title: string;
 }
 
-export interface CareerAbout {
-  pretitle: string;
-  title: string;
-  desc: string;
-}
-
-export interface CareerBenefitItem {
+export interface WhyWorkWithUsItem {
   id: number;
   title: string;
   desc: string;
   icon: string;
 }
 
-export interface CareerBenefits {
+export interface WhyWorkWithUsSection {
   title: string;
-  items: CareerBenefitItem[];
+  items: WhyWorkWithUsItem[];
 }
 
-export interface CareerJobPosition {
+export interface OpenPositionItem {
   id: number;
   title: string;
-  location: string;
   type: string;
-  department: string;
+  location: string;
   experience: string;
-  desc: string;
   applyLink: string;
 }
 
-export interface CareerJobs {
+export interface CustomApplicationInfo {
   title: string;
-  desc: string;
-  positions: CareerJobPosition[];
+  text: string;
+  email: string;
 }
 
-export interface CareerProcessStep {
+export interface OpenPositionsSection {
+  title: string;
+  positions: OpenPositionItem[];
+  customApplication: CustomApplicationInfo;
+}
+
+export interface BenefitOfferItem {
   id: number;
   title: string;
   desc: string;
+  icon: string;
 }
 
-export interface CareerProcess {
+export interface WhatWeOfferSection {
   title: string;
-  steps: CareerProcessStep[];
+  benefits: BenefitOfferItem[];
+}
+
+export interface CareerCTAButton {
+  label: string;
+  href: string;
 }
 
 export interface CareerCTA {
   title: string;
   desc: string;
-  button: CareerButton;
+  button: CareerCTAButton;
 }
 
 export interface CareerData {
   banner: CareerBanner;
-  about: CareerAbout;
-  benefits: CareerBenefits;
-  jobs: CareerJobs;
-  process: CareerProcess;
+  whyWorkWithUs: WhyWorkWithUsSection;
+  openPositions: OpenPositionsSection;
+  whatWeOffer: WhatWeOfferSection;
   cta: CareerCTA;
+}
+
+export interface Careerprops{
+  data: CareerData
 }
 
 // 404 / NOT FOUND
@@ -873,64 +804,154 @@ export interface TaxBenefitsProps {
   data: TaxBenefitsData;
 }
 
-export interface JobDetail {
-  id: string;
-  title: string;
-  department: string;
-  location: string;
-  type: string;
+export interface EmploymentInfo {
+  industry: string;
+  jobLevel: string;
+  jobType: string;
   experience: string;
-  salaryRange?: string;
-  overview: string;
-  responsibilities: string[];
-  requirements: string[];
-  benefits: string[];
+  salary: string;
+  location: string;
+  deadline: string;
+  postedOn: string;
+}
+
+export interface WhyJoinUsItem {
+  title: string;
+  desc: string;
+  icon: string;
+}
+
+export interface OrganizationInfo {
+  name: string;
+  image:string;
+  tagline: string;
+  viewAllJobsUrl: string;
+  address: string;
+  phone: string;
+  email: string;
+  website: string;
+  mapLocation: {
+    address:string;
+    iframeUrl:string;
+  }
+}
+
+export interface SimilarJobItem {
+  id: number;
+  title: string;
+  type: string;
+  posted: string;
+  salary: string;
+  location: string;
+  href:string;
+}
+
+export interface JobDetailsSidebar {
+  organization: OrganizationInfo;
+  similarJobs: SimilarJobItem[];
+}
+
+export interface CTABox {
+  title: string;
+  text: string;
+  email: string;
 }
 
 export interface JobDetailsBanner {
-  bgImageUrl: string;
-  breadcrumbHome: string;
-  breadcrumbCurrent: string;
   title: string;
+  breadcrumbCurrent: string;
+  breadcrumbHome: string;
+  bgImageUrl: string;
 }
 
-export interface JobDetailsSectionLabels {
-  overviewTitle: string;
-  responsibilitiesTitle: string;
-  requirementsTitle: string;
-  benefitsTitle: string;
-  applyTitle: string;
-  applypretitle: string;
-  successTitle: string;
-  successMessage: string;
+export interface JobDetailsData {
+  title: string;
+  meta: {
+    type: string;
+    posted: string;
+  };
+  employmentInfo: EmploymentInfo;
+  aboutRole: string;
+  responsibilities: string[];
+  requirements: string[];
+  whyJoinUs: WhyJoinUsItem[];
+  sidebar: JobDetailsSidebar;
+  ctaBox: CTABox;
+  banner:JobDetailsBanner;
 }
 
-export interface JobDetailsForm {
+export interface JobDetailsProps{
+  data:JobDetailsData
+}
+
+export interface ApplyFormFields {
   fullNameLabel: string;
   fullNamePlaceholder: string;
   emailLabel: string;
   emailPlaceholder: string;
-  phoneLabel: string;
-  phonePlaceholder: string;
-  portfolioLabel: string;
-  portfolioPlaceholder: string;
-  resumeLabel: string;
-  resumeButtonText: string;
-  coverLetterLabel: string;
-  coverLetterPlaceholder: string;
+  contactNumberLabel: string;
+  contactNumberPlaceholder: string;
+  defaultCountryCode: string;
+  positionAppliedForLabel: string;
+  positionPlaceholder: string;
+  currentLocationLabel: string;
+  currentLocationPlaceholder: string;
+  yearsOfExperienceLabel: string;
+  yearsOfExperiencePlaceholder: string;
+  preferredJoiningDateLabel: string;
+  linkedinPortfolioLabel: string;
+  linkedinPortfolioPlaceholder: string;
+  descriptionLabel: string;
+  descriptionPlaceholder: string;
+  maxDescriptionLength: number;
+  uploadResumeLabel: string;
+  uploadInstruction: string;
+  uploadFormat: string;
+  termsLabel: string;
   submitButtonText: string;
 }
 
-export interface JobDetailsPageData {
-  banner: JobDetailsBanner;
-  sectionLabels: JobDetailsSectionLabels;
-  form: JobDetailsForm;
-  jobs: JobDetail[];
+export interface SideCardFeature {
+  title: string;
+  desc: string;
+  icon: string;
 }
 
-// ===============================
-// Events Section
-// ===============================
+export interface SideCard {
+  quote: string;
+  subquote: string;
+  features: SideCardFeature[];
+}
+
+export interface BottomTrustBadge {
+  title: string;
+  desc: string;
+  icon: string;
+}
+
+export interface JobApplyBanner{
+  breadcrumbHome:string;
+  breadcrumbCurrent:string;
+  title:string;
+  bgImageUrl:string;
+}
+
+export interface JobApplyData {
+  title: string;
+  header: {
+    title: string;
+    subtitle: string;
+  };
+  form: ApplyFormFields;
+  sideCard: SideCard;
+  banner:JobApplyBanner;
+  bottomTrustBadges: BottomTrustBadge[];
+}
+
+export interface JobApplyprops{
+  data:JobApplyData
+}
+
 export interface EventBanner {
   bgImageUrl: string;
   title: string;
@@ -1205,6 +1226,60 @@ export interface ServiceProps {
   data: ServiceData;
 }
 
+// Service details
+export interface ServiceDetailsCategory {
+  id: string;
+  name: string;
+  slug: string;
+}
+
+export interface ServiceDetailsFeatureItem {
+  id: string;
+  text: string;
+}
+
+export interface SubService {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+}
+
+
+export interface ServiceDetailContent {
+  mainImage: string;
+  descriptionParagraphs: string[];
+  heading: string;
+  subHeading: string;
+  featureGrid: ServiceDetailsFeatureItem[];
+  subServices: SubService[];
+}
+
+export interface SidebarCta {
+  tagline: string;
+  title: string;
+  buttonText: string;
+  buttonUrl: string;
+  bgImage: string;
+}
+export interface ServiceDetailsBanner{
+  breadcrumbHome:string;
+  breadcrumbCurrent:string;
+  title:string;
+  bgImageUrl:string;
+}
+
+export interface ServicesDetailsPageData {
+  categories: ServiceDetailsCategory[];
+  sidebarCta: SidebarCta;
+  servicesDataMap: Record<string, ServiceDetailContent>;
+  banner:ServiceDetailsBanner
+}
+
+export interface ServiceDetailsProps{
+  data:ServicesDetailsPageData
+}
+
 export interface chooseheighlight {
   normal: string;
   highlighted: string;
@@ -1310,6 +1385,22 @@ export interface CsrBanner {
   title: string;
 }
 
+export interface CommitmentCard {
+  id: string;
+  title: string;
+  description: string;
+  iconName: string;
+}
+
+export interface CommitmentSection {
+  subtitle: string;
+  title: string;
+  description: string;
+  buttonText: string;
+  buttonUrl: string;
+  cards: CommitmentCard[];
+}
+
 export interface FocusAreaItem {
   id: string | number;
   title: string;
@@ -1317,7 +1408,7 @@ export interface FocusAreaItem {
   linkText: string;
   linkUrl: string;
   imageUrl: string;
-  iconName: string; // e.g., "education", "healthcare", "livelihoods", "environment"
+  iconName: string;
 }
 
 export interface FocusAreasSection {
@@ -1325,47 +1416,47 @@ export interface FocusAreasSection {
   items: FocusAreaItem[];
 }
 
-export interface ApproachStep {
-  title: string;
-  description: string;
-  iconName: string;
-}
-
-export interface CommitmentPoint {
-  text: string;
-}
-
-export interface CommitmentsCard {
-  title: string;
-  description: string;
-  points: CommitmentPoint[];
-}
-
-export interface ApproachSection {
-  title: string;
-  centerTitle: string;
-  steps: ApproachStep[];
-  commitments: CommitmentsCard;
-}
-
 export interface ImpactStatItem {
   value: string;
   label: string;
-  description: string;
   iconName: string;
 }
 
 export interface ImpactSection {
   title: string;
-  pretitle: string;
   stats: ImpactStatItem[];
+}
+
+export interface InitiativeCard {
+  id: string;
+  date: string;
+  title: string;
+  description: string;
+  imageUrl: string;
+  linkText: string;
+  linkUrl: string;
+}
+
+export interface RecentInitiativesSection {
+  subtitle: string;
+  viewAllText: string;
+  viewAllUrl: string;
+  cards: InitiativeCard[];
+}
+
+export interface CounterStatItem {
+  value: string;
+  label: string;
+  iconName: string;
 }
 
 export interface CsrData {
   banner: CsrBanner;
+  commitment: CommitmentSection;
   focusAreas: FocusAreasSection;
-  approach: ApproachSection;
   impact: ImpactSection;
+  recentInitiatives: RecentInitiativesSection;
+  counterStats: CounterStatItem[];
 }
 
 export interface CsrProps {
@@ -1493,24 +1584,30 @@ export interface CaseStudyBanner {
   title: string;
 }
 
-export interface CaseStudyItem {
-  id: string;
-  category: string;
+export interface CaseItem {
+  id: number | string;
+  iconName: string;
   title: string;
   description: string;
-  date: string;
   imageUrl: string;
-  readMoreUrl?: string;
+  label: string;
+  href: string;
 }
 
-export interface CaseStudyContent {
-  itemsPerPage?: number;
-  studies: CaseStudyItem[];
+export interface CausesSection {
+  pretitle: string;
+  title: string;
+  description: string;
+  items: CaseItem[];
+  footerBanner: {
+    text: string;
+    tagline: string;
+  };
 }
 
 export interface CaseStudyData {
   banner: CaseStudyBanner;
-  content?: CaseStudyContent;
+  causes: CausesSection;
 }
 
 export interface CaseStudyProps {

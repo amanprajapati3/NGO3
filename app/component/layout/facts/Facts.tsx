@@ -38,6 +38,7 @@ export default function Facts({ data }: FactsProps) {
               alt="Main impact illustration"
               width={600}
               height={700}
+              sizes="(min-width: 640px) 90vw, 100vw"
               className="w-full h-[380px] sm:h-[480px] object-cover"
             />
           </div>
@@ -49,6 +50,7 @@ export default function Facts({ data }: FactsProps) {
               alt="Sub impact illustration"
               width={350}
               height={300}
+              sizes="(min-width: 640px) 48vw, 52vw"
               className="w-full h-[180px] sm:h-[220px] object-cover"
             />
           </div>

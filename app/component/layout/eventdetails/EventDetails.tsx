@@ -27,6 +27,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
                 src={content.featuredImage}
                 alt={content.title}
                 fill
+                sizes="100vw"
                 className="object-cover"
                 priority
               />
@@ -86,6 +87,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
                       src={imgUrl}
                       alt={`Event detail image ${index + 1}`}
                       fill
+                      sizes="(min-width: 1024px) 33.33vw, (min-width: 640px) 50vw, 100vw"
                       className="object-cover"
                     />
                   </div>
@@ -127,6 +129,7 @@ export default function EventDetails({ data }: EventDetailsProps) {
                           src={post.image}
                           alt={post.title}
                           fill
+                          sizes="64px"
                           className="object-cover group-hover:scale-110 transition-transform duration-300"
                         />
                       </div>

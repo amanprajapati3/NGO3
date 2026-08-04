@@ -56,6 +56,7 @@ export default function Media({ data }: MediaProps) {
                     src={card.logoUrl}
                     alt={card.title}
                     fill
+                    sizes="100%"
                     className="object-contain filter  transition-all duration-300 "
                   />
                 </div>

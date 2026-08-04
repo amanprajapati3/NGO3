@@ -34,7 +34,7 @@ export default function BlogSection({ data, showAll = false }: BlogSectionProps)
         </div>
 
         {/* Blog Posts Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {displayPosts.map((post) => (
             <div
               key={post.id}
@@ -46,6 +46,7 @@ export default function BlogSection({ data, showAll = false }: BlogSectionProps)
                   src={post.image}
                   alt={post.title}
                   fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <span className="absolute top-4 left-4 bg-[#ff5500] text-white text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider">

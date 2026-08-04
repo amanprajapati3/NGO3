@@ -22,20 +22,23 @@ export default function HomeSection() {
   const servicedata = data.service as ServiceData;
   const choosedata = data.whyChooseUs as WhyChooseUsData;
   const statsdata = data.statsData as StatsData;
-  const testimonialdata = data.Testimonial as TestimonialData
-  const ctadata = data.CtaBanner as CtaBannerData
-  const blogdata = data.blog as BlogData
+  const testimonialdata = data.Testimonial as TestimonialData;
+  const ctadata = data.CtaBanner as CtaBannerData;
+  const blogdata = data.blog as BlogData;
 
   return (
     <>
       <Banner />
       <AboutSection data={aboutdata} />
-      <ServicesSection data={servicedata} />
+      <ServicesSection
+        data={servicedata}
+        limit={3}
+      />
       <Choose data={choosedata} />
       <Stats data={statsdata} />
-      <TestimonialSection data={testimonialdata}/>
-      <CTABannerSection data={ctadata}/>
-      <BlogSection data={blogdata}/>
+      <TestimonialSection data={testimonialdata} />
+      <CTABannerSection data={ctadata} />
+      <BlogSection data={blogdata} />
     </>
   );
 }

@@ -117,6 +117,7 @@ export default function Vision({ data }: VisionProps) {
                 alt={visionCards[0]?.image.alt || "Our Vision"}
                 width={700}
                 height={850}
+                sizes="(min-width: 1024px) 50vw, 512px"
                 className="w-full h-[480px] sm:h-[620px] object-cover rounded-[2.5rem]"
               />
             </div>

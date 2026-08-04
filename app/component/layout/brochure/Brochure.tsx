@@ -100,6 +100,7 @@ export default function Brochure({ data }: BrochureProps) {
                     src={item.imageUrl}
                     alt={item.title}
                     fill
+                    sizes="(min-width: 640px) 128px, 112px"
                     className="object-cover object-center"
                   />
                 </div>

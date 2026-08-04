@@ -262,6 +262,7 @@ export default function Support({ data, statsData }: SupportComponentProps) {
                     }
                     alt="FAQ Primary Community"
                     fill
+                    sizes="75%"
                     className="object-cover"
                   />
                 </div>
@@ -275,6 +276,7 @@ export default function Support({ data, statsData }: SupportComponentProps) {
                     }
                     alt="FAQ Secondary Detail"
                     fill
+                    sizes="55%"
                     className="object-cover"
                   />
                 </div>

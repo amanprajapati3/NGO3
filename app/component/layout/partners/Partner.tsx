@@ -70,6 +70,7 @@ export default function Partner({ data }: PartnersDataprops) {
                     src={partner.logo}
                     alt={partner.name}
                     fill
+                    sizes="100%"
                     className="object-center   transition-all duration-300"
                   />
                 </div>

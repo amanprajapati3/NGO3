@@ -26,11 +26,15 @@ const getServiceIcon = (iconName: string) => {
   }
 };
 
-export default function ServicesSection({ data }: ServiceProps) {
+interface ServicesSectionProps extends ServiceProps {
+  limit?: number;
+}
+
+export default function ServicesSection({ data, limit }: ServicesSectionProps) {
   const { introduction, services } = data;
 
   // Take only the top 3 services to match the reference UI layout
-  const displayedServices = services.slice(0, 3);
+  const displayedServices = services.slice(0, limit);
 
   return (
     <section className="w-full bg-[#FAF7F2] pt-8 md:pt-12 px-2 sm:px-6 lg:px-8 font-sans">

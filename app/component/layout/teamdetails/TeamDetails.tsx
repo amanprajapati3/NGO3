@@ -48,6 +48,7 @@ export default function teamdetails({ data }: TeamDetailsProps) {
                 src={image}
                 alt={name}
                 fill
+                sizes="(min-width: 1024px) 41.67vw, 100vw"
                 className="object-cover"
                 priority
               />

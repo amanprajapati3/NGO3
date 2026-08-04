@@ -34,7 +34,7 @@ export default function Footer() {
     <footer className="bg-[#1a1a1a] text-white pt-12 pb-6 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* ================= TOP NEWSLETTER & CONTACT BAR ================= */}
-        <div className="flex  flex-col lg:flex-row justify-between  border-gray-800 pb-8 border-b-white/30 border-b-[1px] gap-8">
+        <div className="flex  flex-col sm:flex-row justify-between  border-gray-800 pb-8 border-b-white/30 border-b-[1px] gap-8">
           {/* Newsletter Section */}
           <div className="w-full  lg:w-1/2 flex flex-col md:flex-row  gap-4 sm:gap-6">
             <h3 className="text-xl sm:text-2xl font-bold whitespace-nowrap text-white">
@@ -46,7 +46,7 @@ export default function Footer() {
                 placeholder="Enter Your Email"
                 className="bg-transparent flex-1 px-4 py-2 outline-none text-sm text-gray-300 placeholder-gray-500"
               />
-              <button className="bg-[#f9570c] px-2 md:px-6 py-2.5 rounded-full text-sm font-semibold text-white hover:bg-[#e04a05] transition-colors">
+              <button className="bg-[#f9570c] cursor-pointer px-2 md:px-6 py-2.5 rounded-full text-sm font-semibold text-white hover:bg-[#e04a05] transition-colors">
                 Subscribe
               </button>
             </div>

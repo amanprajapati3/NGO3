@@ -11,6 +11,7 @@ import { X } from "lucide-react";
 // Custom SVG path for the realistic rough torn-paper edge
 const RoughTornEdge = ({ position }: { position: "left" | "right" }) => {
   const isRight = position === "right";
+
   return (
     <div
       className={`hidden lg:block absolute ${
@@ -23,18 +24,7 @@ const RoughTornEdge = ({ position }: { position: "left" | "right" }) => {
         preserveAspectRatio="none"
       >
         <path
-          d="M 0,0 
-                 C 15,12 5,28 18,45 
-                 C 32,60 12,78 25,95 
-                 C 38,110 8,128 20,145 
-                 C 35,160 15,182 28,200 
-                 C 40,218 10,235 22,255 
-                 C 36,272 14,290 26,310 
-                 C 42,328 12,345 24,365 
-                 C 38,380 18,392 30,410 
-                 C 40,428 15,445 25,465 
-                 C 35,480 10,490 0,500 
-                 L 50,500 L 50,0 Z"
+          d="M 0,0 C 15,12 5,28 18,45 C 32,60 12,78 25,95 C 38,110 8,128 20,145 C 35,160 15,182 28,200 C 40,218 10,235 22,255 C 36,272 14,290 26,310 C 42,328 12,345 24,365 C 38,380 18,392 30,410 C 40,428 15,445 25,465 C 35,480 10,490 0,500 L 50,500 L 50,0 Z"
         />
       </svg>
     </div>
@@ -104,6 +94,7 @@ export default function CtaBannerSection({ data }: CtaBannerProps) {
               src={leftCard.bgImageUrl}
               alt={leftCard.title || "Volunteer Background"}
               fill
+              sizes="(min-width: 1024px) 33vw, 100vw"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           )}
@@ -147,6 +138,7 @@ export default function CtaBannerSection({ data }: CtaBannerProps) {
               src={centerVideo.bgImageUrl}
               alt="Video Center Thumbnail"
               fill
+              sizes="(min-width: 1024px) 33vw, 100vw"
               className="object-cover grayscale transition-transform duration-700 group-hover:scale-105"
             />
           )}
@@ -184,6 +176,7 @@ export default function CtaBannerSection({ data }: CtaBannerProps) {
               src={rightCard.bgImageUrl}
               alt={rightCard.title || "Donation Background"}
               fill
+              sizes="(min-width: 1024px) 50vw, 100vw"
               className="object-cover transition-transform duration-700 group-hover:scale-105"
             />
           )}

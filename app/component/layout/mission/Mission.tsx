@@ -100,6 +100,7 @@ export default function Mission({ data }: MissionPageProps) {
                 src={data.sectionImage}
                 alt={data.sectionTitle}
                 width={700}
+                sizes="(min-width: 1024px) 50vw, 512px"
                 height={850}
                 className="w-full h-[480px] sm:h-[620px] object-cover rounded-[2.5rem]"
               />

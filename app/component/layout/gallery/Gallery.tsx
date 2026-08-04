@@ -92,6 +92,7 @@ export default function Gallery({ data }: GalleryProps) {
                     src={item.image}
                     alt={item.alt}
                     fill
+                    sizes="(min-width: 768px) 33.33vw, (min-width: 640px) 50vw, 100vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300" />
@@ -120,6 +121,7 @@ export default function Gallery({ data }: GalleryProps) {
                     src={item.image}
                     alt={item.alt}
                     fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-300 flex items-center justify-center">
@@ -168,6 +170,7 @@ export default function Gallery({ data }: GalleryProps) {
               src={items[selectedImageIndex].image}
               alt={items[selectedImageIndex].alt}
               fill
+              sizes="(min-width: 896px) 896px, 100vw"
               className="object-contain"
             />
             <div className="absolute bottom-4 left-0 right-0 text-center text-white text-sm font-medium bg-black/60 py-2">

@@ -28,6 +28,7 @@ export default function BlogDetails({ data }: BlogDetailsSectionProps) {
               src={article.featuredImage}
               alt={banner.title}
               fill
+              sizes="100vw"
               className="object-cover"
               priority
             />
