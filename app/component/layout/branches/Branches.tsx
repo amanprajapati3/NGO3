@@ -103,7 +103,11 @@ export default function Branches({ data }: BranchesProps) {
                 {/* View Details Link */}
                 <div className="mt-5 pt-3 border-t border-slate-100">
                   <a
-                    href="#"
+                  href="/branches"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.reload();
+                    }}
                     className="inline-flex border-2 px-4 py-2 rounded-md items-center gap-1.5 text-sm font-bold text-emerald-700 hover:text-emerald-800 transition-colors"
                   >
                     {branch.buttonText || "View Details"}

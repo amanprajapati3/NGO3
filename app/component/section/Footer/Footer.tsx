@@ -95,7 +95,7 @@ export default function Footer() {
         </div>
 
         {/* ================= MAIN FOOTER CONTENT ================= */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-12 my-7">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 lg:gap-12 my-7">
           {/* Column 1: Brand Logo, Description & Social Icons */}
           <div className="space-y-4 sm:space-y-6">
             <img
@@ -132,6 +132,33 @@ export default function Footer() {
                 <li key={idx}>
                   <Link
                     href={link.href}
+                    className="hover:text-[#f9570c] transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="space-y-4">
+            <h4 className="text-lg font-bold text-white">Our Services</h4>
+            <div className="flex items-center space-x-1">
+              <span className="h-0.5 w-8 bg-[#f9570c] rounded-full"></span>
+              <span className="h-0.5 w-2 bg-[#f9570c] rounded-full"></span>
+            </div>
+            <ul className="space-y-2.5 text-sm text-gray-400 pt-2">
+              {data.link2.map((link, idx) => (
+                <li key={idx}>
+                  <Link
+                    href={link.href}
+                    onClick={(e) => {
+                      // Check if current route matches the clicked link target
+                      if (window.location.pathname === link.href) {
+                        e.preventDefault();
+                        window.location.href = link.href; // Triggers full browser refresh
+                      }
+                    }}
                     className="hover:text-[#f9570c] transition-colors"
                   >
                     {link.label}

@@ -113,7 +113,7 @@ export default function Career({ data }: CareerProps) {
       )}
 
       {/* ================= 2. OPEN POSITIONS & WHAT WE OFFER ================= */}
-      <section className="py-8 sm:py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+      <section className=" px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
           {/* Left Column: Open Positions */}
           <div className="lg:col-span-7">

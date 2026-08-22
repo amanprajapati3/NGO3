@@ -14,7 +14,15 @@ import {
 import { AboutPageProps } from "@/type/typeSection";
 import { HandHeart } from "../shared/Icons";
 
-export default function AboutSection({ data }: AboutPageProps) {
+interface AboutSectionProps {
+  data: AboutPageProps["data"];
+  showButton?: boolean;
+}
+
+export default function AboutSection({
+  data,
+  showButton = true,
+}: AboutSectionProps) {
   return (
     <section className="relative w-full bg-[#FAF8F5] pt-8 md:pt-12 font-sans text-[#111827] overflow-hidden">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -35,7 +43,6 @@ export default function AboutSection({ data }: AboutPageProps) {
                   priority
                 />
               </div>
-
               {/* LEFT VERTICAL DONATION BADGE */}
               <div className="absolute left-[2.5%] top-[31.5%] bottom-0 w-[16.5%] bg-[#0B2545] rounded-[18px] z-20 overflow-hidden shadow-[0_3px_12px_rgba(0,0,0,0.12)]">
                 <div className="absolute top-[8%] left-1/2 -translate-x-1/2 flex flex-col items-center gap-1">
@@ -46,9 +53,8 @@ export default function AboutSection({ data }: AboutPageProps) {
                   {data.donationBadge}
                 </div>
               </div>
-
               {/* MAIN CENTER IMAGE */}
-              <div className="absolute top-[8.5%] left-[20%] w-[79%] h-[76%] rounded-[18px] overflow-hidden border-[4px] border-white shadow-[0_5px_18px_rgba(0,0,0,0.14)] z-10 bg-[#243B5A]">
+              <div className="absolute top-[8.5%] left-[20%] w-[79%] h-[76%] rounded-[18px] overflow-hidden border-[4px] border-white shadow-[0_5px_18px_rgba(0,0,0,0.14)] z-20 bg-[#243B5A]">
                 <Image
                   src={data.sideImages?.mainLeft}
                   alt="Children"
@@ -62,13 +68,12 @@ export default function AboutSection({ data }: AboutPageProps) {
                 <button
                   type="button"
                   aria-label="Play video"
-                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[62px] h-[62px] sm:w-[70px] sm:h-[70px] rounded-full bg-[#FF8A00] flex items-center justify-center shadow-[0_5px_15px_rgba(0,0,0,0.25)] z-20 transition-transform duration-300 hover:scale-110"
+                  className="absolute cursor-pointer left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[62px] h-[62px] sm:w-[70px] sm:h-[70px] rounded-full bg-[#FF8A00] flex items-center justify-center shadow-[0_5px_15px_rgba(0,0,0,0.25)] z-20 transition-transform duration-300 hover:scale-110"
                 >
                   <span className="absolute inset-[7px] rounded-full border-[1.5px] border-dashed border-[#0B2545]" />
                   <FiPlay className="relative z-10 text-[#0B2545] text-[23px] fill-[#0B2545] ml-1" />
                 </button>
               </div>
-
               {/* BOTTOM RIGHT IMAGE */}
               <div className="absolute right-[0%] bottom-[0%] w-[46.5%] h-[30.5%] rounded-[18px] overflow-hidden border-[4px] border-white shadow-[0_5px_15px_rgba(0,0,0,0.14)] z-30">
                 <Image
@@ -79,9 +84,14 @@ export default function AboutSection({ data }: AboutPageProps) {
                   className="object-cover"
                 />
               </div>
-
               {/* ORANGE DECORATIVE LINE */}
-              <div className="absolute left-[28%] bottom-[-1px] w-[43%] h-[17%] border-l-[2px] border-b-[2px] border-[#FF8A00] rounded-bl-[24px] z-[5] pointer-events-none" />
+              <div className="absolute left-[34%] bottom-[1.5%] sm:bottom-[2%] w-[27%] sm:w-[18%] h-[20%] sm:h-[22%] pointer-events-none z-10">
+                {/* L-shaped curved border line */}
+                <div className="w-full h-full border-l-[2px] border-b-[2px] border-[#FF8A00] rounded-bl-[16px] sm:rounded-bl-[20px]" />
+
+                {/* Filled circle dot terminal point at the right end */}
+                <div className="absolute -right-1 -bottom-[4px] sm:-bottom-[5px] w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-[#FF8A00] shadow-xs" />
+              </div>
             </div>
           </div>
 
@@ -173,15 +183,15 @@ export default function AboutSection({ data }: AboutPageProps) {
             </div>
 
             {/* CTA Action Buttons - Centered & Compact on Mobile */}
-            <div className="flex items-center justify-center sm:justify-start gap-2 sm:gap-4 pt-2">
-              {data.button && (
+            <div className="flex flex-wrap sm:flex-nowrap items-center justify-start gap-3 sm:gap-4 pt-4 w-full px-1 sm:px-0">
+              {showButton && data.button && (
                 <Link
                   href={data.button.href || "/about-us"}
-                  className="inline-flex items-center justify-between gap-2 sm:gap-4 bg-[#FF8A00] hover:bg-[#e07900] text-white font-semibold pl-3 sm:pl-6 pr-1.5 sm:pr-2 py-2 sm:py-2.5 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 text-sm sm:text-base whitespace-nowrap"
+                  className="inline-flex items-center justify-between gap-2 sm:gap-4 bg-[#FF8A00] hover:bg-[#e07900] text-white font-semibold pl-3 sm:pl-6 pr-1.5 sm:pr-2 py-2 sm:py-2.5 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 text-xs sm:text-base shrink-0"
                 >
                   <span>{data.button.label}</span>
-                  <span className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-white flex items-center justify-center flex-shrink-0">
-                    <FiArrowRight className="text-sm sm:text-base text-[#FF8A00]" />
+                  <span className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-white flex items-center justify-center shrink-0">
+                    <FiArrowRight className="text-xs sm:text-base text-[#FF8A00]" />
                   </span>
                 </Link>
               )}
@@ -189,17 +199,17 @@ export default function AboutSection({ data }: AboutPageProps) {
               {data.phone && (
                 <a
                   href={`tel:${data.phone}`}
-                  className="inline-flex items-center gap-2 sm:gap-3 bg-[#DDE7F5] hover:bg-[#cfdcf0] text-[#0B2545] px-3 sm:px-5 py-2 sm:py-2.5 rounded-2xl shadow-sm transition-all duration-300 whitespace-nowrap"
+                  className="inline-flex items-center gap-2 sm:gap-3 bg-[#DDE7F5] hover:bg-[#cfdcf0] text-[#0B2545] px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl shadow-sm transition-all duration-300 shrink-0"
                 >
-                  <div className="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-[#0B2545] flex items-center justify-center text-white flex-shrink-0">
-                    <FiPhoneCall className="text-sm sm:text-base" />
+                  <div className="w-6 h-6 sm:w-9 sm:h-9 rounded-full bg-[#0B2545] flex items-center justify-center text-white shrink-0">
+                    <FiPhoneCall className="text-xs sm:text-base" />
                   </div>
 
                   <div className="flex flex-col text-left">
                     <span className="text-[9px] sm:text-[11px] text-gray-600 font-medium leading-tight">
                       Phone
                     </span>
-                    <span className="text-sm sm:text-sm font-bold text-[#0B2545] tracking-wide">
+                    <span className="text-xs sm:text-sm font-bold text-[#0B2545] tracking-wide">
                       {data.phone}
                     </span>
                   </div>

@@ -48,7 +48,7 @@ export default function Choose({ data }: WhyChooseUsProps) {
         ========================================================== */}
         <div className="lg:col-span-6 flex flex-col items-center text-center lg:items-start lg:text-left">
           {/* Badge with side lines */}
-          <div className="inline-flex items-center gap-1.5 sm:gap-3 md:mb-3 max-w-full px-2">
+          <div className="inline-flex items-center gap-1.5 sm:gap-3 max-w-full px-2">
             {/* LEFT DECORATIVE GRADIENT LINE */}
             {/* <div className="flex items-center shrink-0">
               <span className="w-6 sm:w-20 h-[2px] bg-gradient-to-l from-[#F15A24] to-transparent inline-block" />
@@ -115,7 +115,7 @@ export default function Choose({ data }: WhyChooseUsProps) {
                   </div>
 
                   {/* Arrow Action Badge */}
-                  <div
+                  {/* <div
                     className={`w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center flex-shrink-0 ml-2 transition-transform duration-300 group-hover:translate-x-1 ${
                       isOrange
                         ? "bg-[#FFF2EB] text-[#F15A24]"
@@ -123,7 +123,7 @@ export default function Choose({ data }: WhyChooseUsProps) {
                     }`}
                   >
                     <FiChevronRight className="w-5 h-5" />
-                  </div>
+                  </div> */}
                 </div>
               );
             })}
@@ -146,7 +146,7 @@ export default function Choose({ data }: WhyChooseUsProps) {
             />
 
             {/* OVERLAY CARD (GREEN BG WITH SEMI-TRANSPARENCY & LEAF DECORATION) */}
-            <div className="absolute bottom-6 left-6 right-6 sm:bottom-8 sm:left-8 sm:right-8 bg-[#0F2916]/90 backdrop-blur-sm rounded-[24px] p-6 sm:p-8 text-white z-10 overflow-hidden border border-white/10">
+            <div className="absolute bottom-6 left-6 right-6 sm:bottom-8 sm:left-8 sm:right-8 bg-[#0F2916]/90 backdrop-blur-sm rounded-[24px] p-3 sm:p-8 text-white z-10 overflow-hidden border border-white/10">
               {/* REALISTIC DECORATIVE LEAF ACCENT (RIGHT CORNER) */}
               <div className="absolute right-[-15px] bottom-[-10px] w-28 h-36 sm:w-32 sm:h-44 pointer-events-none z-20">
                 <svg
@@ -232,7 +232,7 @@ export default function Choose({ data }: WhyChooseUsProps) {
                   </h3>
 
                   {/* Overlay Card Description */}
-                  <p className="text-sm md:text-lg text-gray-200 leading-relaxed max-w-sm relative z-10">
+                  <p className="text-sm md:text-lg w-[80%] text-gray-200 leading-relaxed max-w-sm relative z-10">
                     {overlayCard?.description}
                   </p>
                 </div>

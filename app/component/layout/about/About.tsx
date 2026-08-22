@@ -35,7 +35,7 @@ export default function AboutUs({
       />
 
       {/* About Section */}
-      <AboutSection data={data} />
+      <AboutSection data={data} showButton={false}/>
 
       {/* How We Help Section */}
       <HowWeHelp data={howWeHelp} />

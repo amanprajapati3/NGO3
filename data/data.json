@@ -988,7 +988,7 @@
     ]
   },
   "Footer": {
-    "logoImage": "/logo.png",
+    "logoImage": "/logo2.png",
     "desc": "NGO connects generous donors with communities facing hardship, delivering food, shelter, medical care, and education where it's needed most.",
     "newsletterTitle": "Stay Connected",
     "newsletterDesc": "Join our newsletter to receive real-time updates on our projects and community impact.",
@@ -1031,6 +1031,28 @@
         "label": "Case Study",
         "href": "/case-study"
       }
+    ],
+    "link2":[
+        {
+          "label": "Our Causes",
+          "href": "/case-study"
+        },
+                {
+          "label": "Education Support",
+          "href": "/service-details"
+        },
+                {
+          "label": "Our Campaign",
+          "href": "/event"
+        },
+                {
+          "label": "Food Support",
+          "href": "/service-details"
+        },
+                {
+          "label": "Health Support",
+          "href": "/service-details"
+        }
     ],
     "footerContact": [
       {
@@ -2588,7 +2610,7 @@
         "raisedAmount": 48000,
         "percent": 80,
         "description": "Deploying fully equipped medical vans to deliver primary healthcare to isolated villages.",
-        "slug": "/project-detailss"
+        "slug": "/project-details"
       },
       {
         "id": "proj-health-2",
@@ -3364,32 +3386,40 @@
           {
             "label": "Gallery",
             "href": "/gallery"
+          },
+          {
+            "label": "FAQs",
+            "href": "/faq"
           }
         ]
       },
       {
         "id": 2,
-        "category": "About us",
+        "category": "About Us",
         "links": [
           {
-            "label": "Team",
+            "label": "Our Team",
             "href": "/team"
           },
           {
-            "label": "Mission & Vision",
+            "label": "Our Mission",
             "href": "/mission"
           },
           {
-            "label": "Stories",
-            "href": "/stories"
+            "label": "Our Vision",
+            "href": "/vision"
           },
           {
-            "label": "Testimonial",
+            "label": "Testimonials",
             "href": "/testimonial"
           },
           {
             "label": "Partners",
-            "href": "/partners"
+            "href": "/partner"
+          },
+          {
+            "label": "Branches",
+            "href": "/branches"
           }
         ]
       },
@@ -3398,29 +3428,65 @@
         "category": "Our Works",
         "links": [
           {
-            "label": "Education",
-            "href": "/education"
+            "label": "Our Programs",
+            "href": "/service"
           },
           {
-            "label": "HealthCare",
-            "href": "/health"
+            "label": "Projects",
+            "href": "/projects"
           },
           {
-            "label": "Women Empowerment",
-            "href": "/women-empowerment"
+            "label": "Case Studies",
+            "href": "/case-study"
           },
           {
-            "label": "Environment",
-            "href": "/environment"
-          },
-          {
-            "label": "Child Welfare",
-            "href": "/child-welfare"
+            "label": "CSR",
+            "href": "/csr"
           }
         ]
       },
       {
         "id": 4,
+        "category": "Media & Resources",
+        "links": [
+          {
+            "label": "Awards",
+            "href": "/award"
+          },
+          {
+            "label": "Media",
+            "href": "/media"
+          },
+          {
+            "label": "Brochures",
+            "href": "/brochure"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "category": "Get Involved",
+        "links": [
+          {
+            "label": "Donate Now",
+            "href": "/donate"
+          },
+          {
+            "label": "Enquiry Now",
+            "href": "/enquiry"
+          },
+          {
+            "label": "Jobs",
+            "href": "/career"
+          },
+          {
+            "label": "Support Us",
+            "href": "/support"
+          }
+        ]
+      },
+      {
+        "id": 6,
         "category": "Legal & Governance",
         "links": [
           {
@@ -3428,8 +3494,20 @@
             "href": "/privacy-policy"
           },
           {
-            "label": "Terms of Service",
+            "label": "Terms & Conditions",
             "href": "/terms-conditions"
+          },
+          {
+            "label": "Refund Policy",
+            "href": "/refund-policy"
+          },
+          {
+            "label": "Cookie Policy",
+            "href": "/cookie-policy"
+          },
+          {
+            "label": "Disclaimer",
+            "href": "/disclaimer"
           }
         ]
       }
@@ -3652,7 +3730,7 @@
       "tagline": "Small Gifts, Big Changes",
       "title": "Empowering Every Child Through Education",
       "buttonText": "Get A Quote",
-      "buttonUrl": "/get-quote",
+      "buttonUrl": "/contact-us",
       "bgImage": "/NGO_Images/happy-diverse-kinds-park.jpg"
     },
 
@@ -3958,7 +4036,7 @@
       "title": "Every award inspires us to do more.",
       "description": "We dedicate these honors to our beneficiaries, volunteers, partners and supporters who make our journey possible.",
       "buttonText": "Support Our Mission",
-      "buttonUrl": "/donate"
+      "buttonUrl": "/mission"
     }
   },
 "csr": {
@@ -4950,28 +5028,28 @@
       "searchPlaceholder": "Search causes, events...",
       "recentCausesTitle": "Recent Causes",
       "viewAllLinkText": "View all causes",
-      "viewAllLinkUrl": "/blog",
+      "viewAllLinkUrl": "/case-study",
       "recentCauses": [
         {
           "id": 1,
           "title": "Where Innovation Meets Foundation",
           "date": "November 19, 2024",
           "imageUrl": "/NGO_Images/communication-feedback-chos-role.jpg",
-          "slug": "/blog-details"
+          "slug": "/service-details"
         },
         {
           "id": 2,
           "title": "Where Innovation Meets Foundation",
           "date": "November 19, 2024",
           "imageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg",
-          "slug": "/blog-details"
+          "slug": "/service-details"
         },
         {
           "id": 3,
           "title": "Structures That Stand, Dreams That Soar",
           "date": "November 22, 2024",
           "imageUrl": "/NGO_Images/community-concept-with-nature-close-up.jpg",
-          "slug": "/blog-details"
+          "slug": "/service-details"
         }
       ],
       "promoBanner": {

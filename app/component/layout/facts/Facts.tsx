@@ -166,7 +166,7 @@ export default function Facts({ data }: FactsProps) {
             <span className="text-sm font-medium text-gray-700">
               {data.footerText}
             </span>
-            <ArrowRight className="w-4 h-4 text-[#005c36] ml-1" />
+            {/* <ArrowRight className="w-4 h-4 text-[#005c36] ml-1" /> */}
           </div>
         </div>
       </div>

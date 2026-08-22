@@ -422,7 +422,7 @@ export default function Apply({ data }: JobApplyprops) {
 
         {/* Bottom Trust Badges */}
         {bottomTrustBadges && bottomTrustBadges.length > 0 && (
-          <div className="mt-14 pt-10 border-t border-gray-200/80 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="mt-14 pt-10 border-t border-gray-200/80 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {bottomTrustBadges.map((badge, idx) => (
               <div
                 key={idx}

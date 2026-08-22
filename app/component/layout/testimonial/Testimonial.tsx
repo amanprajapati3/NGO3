@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Banner from "@/app/component/shared/Banner";
 import { TestimonialData } from "@/type/typeSection";
-import { ChevronLeft, ChevronRight, MessageSquareQuote } from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import { FaStar, FaQuoteLeft } from "react-icons/fa";
 import { HandHeart } from "../../shared/Icons";
 
@@ -13,12 +13,14 @@ interface TestimonialProps {
 }
 
 export default function Testimonial({ data }: TestimonialProps) {
-  const { subtitle, title, description, banner, testimonialItems } = data;
+  const { subtitle, description, banner, testimonialItems } = data;
 
+  // Set page state (Each page represents 3 cards shown on desktop)
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 3; // Displays 3 cards at once
   const totalPages = Math.ceil(testimonialItems.length / itemsPerPage);
 
+  // Calculate current batch of 3 cards to render
   const startIndex = (currentPage - 1) * itemsPerPage;
   const currentItems = testimonialItems.slice(
     startIndex,
@@ -44,23 +46,22 @@ export default function Testimonial({ data }: TestimonialProps) {
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center max-w-2xl mx-auto mb-10">
-               <div className="flex items-center justify-center  gap-2 text-emerald-700 font-semibold text-base sm:text-lg ">
-                 <HandHeart className="w-8 h-8 text-emerald-600" />
-                 <span className="italic font-serif">{subtitle}</span>
-               </div>
-  
+            <div className="flex items-center justify-center gap-2 text-emerald-700 font-semibold text-base sm:text-lg">
+              <HandHeart className="w-8 h-8 text-emerald-600" />
+              <span className="italic font-serif">{subtitle}</span>
+            </div>
 
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#08121e] mb-2">
               {banner.breadcrumbCurrent}
             </h2>
 
-            <p className="text-sm sm:text-sm text-gray-500 leading-relaxed">
+            <p className="text-sm text-gray-500 leading-relaxed">
               {description}
             </p>
           </div>
 
-          {/* Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Cards Grid - Renders 3 items at a time */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 min-h-[300px]">
             {currentItems.map((item) => (
               <div
                 key={item.id}
@@ -102,7 +103,7 @@ export default function Testimonial({ data }: TestimonialProps) {
                     <div className="w-7 h-7 rounded-full bg-[#fff2ea] flex items-center justify-center shrink-0 mt-0.5">
                       <FaQuoteLeft className="w-3 h-3 text-[#ff5500]" />
                     </div>
-                    <p className="text-sm sm:text-sm text-gray-600 leading-relaxed italic">
+                    <p className="text-sm text-gray-600 leading-relaxed italic">
                       "{item.quote}"
                     </p>
                   </div>
@@ -111,16 +112,19 @@ export default function Testimonial({ data }: TestimonialProps) {
             ))}
           </div>
 
-          {/* Pagination Component */}
-          <div className="flex items-center justify-center gap-2 mt-14">
+          {/* Pagination Controls */}
+          <div className="flex items-center justify-center gap-2 mt-12">
+            {/* Previous Button - Shifts back by 3 cards & updates active dot instantly */}
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
+              aria-label="Previous page"
               className="w-9 h-9 rounded-md cursor-pointer bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
 
+            {/* Pagination Dots/Numbers */}
             {[...Array(totalPages)].map((_, idx) => {
               const pageNum = idx + 1;
               const isActive = currentPage === pageNum;
@@ -128,9 +132,9 @@ export default function Testimonial({ data }: TestimonialProps) {
                 <button
                   key={pageNum}
                   onClick={() => handlePageChange(pageNum)}
-                  className={`w-9 h-9 rounded-md cursor-pointer text-sm font-bold transition-colors ${
+                  className={`w-9 h-9 rounded-md cursor-pointer text-sm font-bold transition-all duration-200 ${
                     isActive
-                      ? "bg-[#ff5500] text-white"
+                      ? "bg-[#ff5500] text-white shadow-xs"
                       : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                   }`}
                 >
@@ -139,9 +143,11 @@ export default function Testimonial({ data }: TestimonialProps) {
               );
             })}
 
+            {/* Next Button - Shifts forward by 3 cards & updates active dot instantly */}
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
+              aria-label="Next page"
               className="w-9 h-9 rounded-md cursor-pointer bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
             >
               <ChevronRight className="w-4 h-4" />

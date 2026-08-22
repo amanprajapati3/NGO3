@@ -51,7 +51,7 @@ export default function Header() {
           {/* 1. Logo (Original Desktop Preserved) */}
           <Link href="/" className="flex items-center space-x-3 group">
             <img
-              src="/logo.png"
+              src="/logo2.png"
               alt={headerData.site.siteName}
               className="h-24 w-24 md:h-32 md:w-44 object-contain"
             />
@@ -175,7 +175,7 @@ export default function Header() {
           {/* Mobile Drawer Header */}
           <div className="flex items-center justify-between pb-5 border-b border-gray-800">
             <img
-              src="/logo.png"
+              src="/logo2.png"
               alt={headerData.site.siteName}
               className="h-10 sm:h-12 w-auto object-contain"
             />

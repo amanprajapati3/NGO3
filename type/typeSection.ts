@@ -112,6 +112,10 @@ export interface QuickLinkItem {
   label: string;
   href: string;
 }
+export interface QuickLinkItem2 {
+  label: string;
+  href: string;
+}
 
 export interface FooterContactItem {
   location: string;
@@ -132,6 +136,7 @@ export interface FooterData {
   newsletterDesc?: string;
   socialsLinks: FooterSocialLink[];
   links: QuickLinkItem[];
+  links2:QuickLinkItem2[];
   footerContact: FooterContactItem[];
   copyright: string;
   legalLinks?: FooterLegalLink[];
