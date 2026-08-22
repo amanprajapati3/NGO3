@@ -1360,7 +1360,7 @@ export interface ServiceDetailContent {
   subServices: SubService[];
 }
 
-export interface SidebarCta {
+export interface ServiceSidebarCta {
   tagline: string;
   title: string;
   buttonText: string;
@@ -1376,7 +1376,7 @@ export interface ServiceDetailsBanner{
 
 export interface ServicesDetailsPageData {
   categories: ServiceDetailsCategory[];
-  sidebarCta: SidebarCta;
+  sidebarCta: ServiceSidebarCta;
   servicesDataMap: Record<string, ServiceDetailContent>;
   banner:ServiceDetailsBanner
 }
