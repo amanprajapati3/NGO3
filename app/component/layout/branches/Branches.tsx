@@ -107,6 +107,7 @@ export default function Branches({ data }: BranchesProps) {
                     onClick={(e) => {
                       e.preventDefault();
                       window.location.reload();
+                      window.scrollTo(0, 0);
                     }}
                     className="inline-flex border-2 px-4 py-2 rounded-md items-center gap-1.5 text-sm font-bold text-emerald-700 hover:text-emerald-800 transition-colors"
                   >

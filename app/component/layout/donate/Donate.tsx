@@ -15,22 +15,20 @@ import { DonateData, DonateProps, StatsData } from "@/type/typeSection";
 import Stats from "../../shared/Stats";
 import Banner from "../../shared/Banner";
 
-
-
-export default function Donate({ data,}: DonateProps) {
+export default function Donate({ data }: DonateProps) {
   if (!data) return null;
 
   const { banner, content, sidebar } = data;
 
   // Selected Amount State
   const [selectedAmount, setSelectedAmount] = useState<string>(
-    content?.amounts?.find((a) => a.isSelected)?.amount || "$ 100"
+    content?.amounts?.find((a) => a.isSelected)?.amount || "$ 100",
   );
   const [customAmount, setCustomAmount] = useState<string>("");
 
   // Selected Payment Method State
   const [paymentMethod, setPaymentMethod] = useState<string>(
-    content?.paymentMethods?.find((p) => p.isDefault)?.value || "test"
+    content?.paymentMethods?.find((p) => p.isDefault)?.value || "test",
   );
 
   // Form State
@@ -43,7 +41,7 @@ export default function Donate({ data,}: DonateProps) {
   });
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -73,10 +71,8 @@ export default function Donate({ data,}: DonateProps) {
       {/* 2. Main Container (Main Form + Right Sidebar) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
-          
           {/* LEFT COLUMN: Donation Form (8 Cols) */}
           <div className="lg:col-span-8 bg-white rounded-3xl border border-slate-100 shadow-sm overflow-hidden">
-            
             {/* Hero Image Card Header */}
             {content?.heroCard && (
               <div className="relative w-full h-[220px] sm:h-[300px] md:h-[340px]">
@@ -88,7 +84,7 @@ export default function Donate({ data,}: DonateProps) {
                   className="object-cover"
                 />
                 <div className="absolute inset-0 bg-black/25" />
-                
+
                 {/* Floating Overlay Badge */}
                 <div className="absolute top-6 left-6 bg-black/40 backdrop-blur-md rounded-2xl p-3 sm:p-4 border border-white/20 text-white flex items-center gap-3.5 max-w-[260px] sm:max-w-xs">
                   <div className="p-2.5 bg-orange-500/80 rounded-xl text-white shrink-0">
@@ -108,7 +104,6 @@ export default function Donate({ data,}: DonateProps) {
 
             {/* Donation Form Body */}
             <div className="p-6 sm:p-8 md:p-10 space-y-8">
-              
               {/* Heading & Subtitle */}
               <div className="space-y-3">
                 {content?.sectionBadge && (
@@ -134,12 +129,12 @@ export default function Donate({ data,}: DonateProps) {
 
               {/* SECTION: Choose Donation Amount */}
               {/* <div className="space-y-4 pt-2"> */}
-                {/* <h3 className="text-sm sm:text-base font-bold text-slate-900">
+              {/* <h3 className="text-sm sm:text-base font-bold text-slate-900">
                   {content?.amountSectionTitle || "Choose your donation amount"}
                 </h3> */}
 
-                {/* Custom Amount Input */}
-                {/* <div className="relative">
+              {/* Custom Amount Input */}
+              {/* <div className="relative">
                   <span className="absolute left-4 top-1/2 -translate-y-1/2 font-semibold text-slate-400">
                     $
                   </span>
@@ -154,8 +149,8 @@ export default function Donate({ data,}: DonateProps) {
                   />
                 </div> */}
 
-                {/* Preset Amount Grid */}
-                {/* {content?.amounts && (
+              {/* Preset Amount Grid */}
+              {/* {content?.amounts && (
                   <div className="grid grid-cols-3 sm:grid-cols-6 gap-2.5 sm:gap-3">
                     {content.amounts.map((amtObj, idx) => {
                       const isSelected = selectedAmount === amtObj.amount;
@@ -212,101 +207,132 @@ export default function Donate({ data,}: DonateProps) {
               )} */}
 
               {/* SECTION: Personal Information */}
-              <div className="space-y-4 pt-2">
-                <div className="flex items-center gap-2">
-                  <span className="w-5 h-5 rounded-full bg-orange-100 text-orange-600 text-sm flex items-center justify-center font-bold">
-                    👤
-                  </span>
-                  <h3 className="text-sm sm:text-base font-bold text-slate-900">
-                    {content?.personalInfoTitle || "Personal information"}
-                  </h3>
-                </div>
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  // Save submission to localStorage
+                  const existingSubmissions = JSON.parse(
+                    localStorage.getItem("formDataList") || "[]",
+                  );
+                  localStorage.setItem(
+                    "formDataList",
+                    JSON.stringify([...existingSubmissions, formData]),
+                  );
+
+                  // Reset form data state
+                  setFormData({
+                    firstName: "",
+                    lastName: "",
+                    email: "",
+                    phone: "",
+                    message: "",
+                  });
+                }}
+                className="space-y-6"
+              >
+                <div className="space-y-4 pt-2">
+                  <div className="flex items-center gap-2">
+                    <span className="w-5 h-5 rounded-full bg-orange-100 text-orange-600 text-sm flex items-center justify-center font-bold">
+                      👤
+                    </span>
+                    <h3 className="text-sm sm:text-base font-bold text-slate-900">
+                      {content?.personalInfoTitle || "Personal information"}
+                    </h3>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <input
+                      type="text"
+                      required
+                      name="firstName"
+                      placeholder={
+                        content?.formFields?.firstNamePlaceholder ||
+                        "First name"
+                      }
+                      value={formData.firstName}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all"
+                    />
+                    <input
+                      type="text"
+                      name="lastName"
+                      required
+                      placeholder={
+                        content?.formFields?.lastNamePlaceholder || "Last name"
+                      }
+                      value={formData.lastName}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all"
+                    />
+                  </div>
+
                   <input
-                    type="text"
-                    name="firstName"
+                    type="email"
+                    name="email"
+                    required
                     placeholder={
-                      content?.formFields?.firstNamePlaceholder || "First name"
+                      content?.formFields?.emailPlaceholder ||
+                      "Enter your e-mail"
                     }
-                    value={formData.firstName}
+                    value={formData.email}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all"
                   />
+
                   <input
-                    type="text"
-                    name="lastName"
+                    type="tel"
+                    name="phone"
+                    required
                     placeholder={
-                      content?.formFields?.lastNamePlaceholder || "Last name"
+                      content?.formFields?.phonePlaceholder ||
+                      "Enter your phone no."
                     }
-                    value={formData.lastName}
+                    value={formData.phone}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all"
                   />
+
+                  <textarea
+                    name="message"
+                    rows={4}
+                    required
+                    placeholder={
+                      content?.formFields?.messagePlaceholder ||
+                      "Write a message (optional)"
+                    }
+                    value={formData.message}
+                    onChange={handleInputChange}
+                    className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all resize-none"
+                  />
                 </div>
 
-                <input
-                  type="email"
-                  name="email"
-                  placeholder={
-                    content?.formFields?.emailPlaceholder || "Enter your e-mail"
-                  }
-                  value={formData.email}
-                  onChange={handleInputChange}
-                  className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all"
-                />
+                {/* Submit Button & Security Notice */}
+                <div className="flex flex-col sm:flex-row sm:items-center gap-4 pt-2">
+                  <button
+                    type="submit"
+                    className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold text-base px-8 py-4 rounded-2xl transition-all shadow-lg shadow-orange-500/25 group cursor-pointer"
+                  >
+                    <span>
+                      {content?.formFields?.submitButtonText || "Donate Now"}
+                    </span>
+                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                  </button>
 
-                <input
-                  type="tel"
-                  name="phone"
-                  placeholder={
-                    content?.formFields?.phonePlaceholder || "Enter your phone no."
-                  }
-                  value={formData.phone}
-                  onChange={handleInputChange}
-                  className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all"
-                />
-
-                <textarea
-                  name="message"
-                  rows={4}
-                  placeholder={
-                    content?.formFields?.messagePlaceholder ||
-                    "Write a message (optional)"
-                  }
-                  value={formData.message}
-                  onChange={handleInputChange}
-                  className="w-full px-4 py-3.5 bg-slate-50/60 border border-slate-200 rounded-xl text-sm font-medium focus:outline-none focus:border-orange-500 focus:bg-white transition-all resize-none"
-                />
-              </div>
-
-              {/* Submit Button & Security Notice */}
-              <div className="flex flex-col sm:flex-row sm:items-center gap-4 pt-2">
-                <button
-                  type="submit"
-                  className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold text-base px-8 py-4 rounded-2xl transition-all shadow-lg shadow-orange-500/25 group cursor-pointer"
-                >
-                  <span>
-                    {content?.formFields?.submitButtonText || "Donate Now"}
-                  </span>
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </button>
-
-                <div className="flex items-center gap-2 text-slate-500 text-sm font-semibold">
-                  <ShieldCheck className="w-5 h-5 text-slate-400 shrink-0" />
-                  <span>
-                    {content?.formFields?.securityNotice ||
-                      "Your donation is secure and encrypted"}
-                  </span>
+                  <div className="flex items-center gap-2 text-slate-500 text-sm font-semibold">
+                    <ShieldCheck className="w-5 h-5 text-slate-400 shrink-0" />
+                    <span>
+                      {content?.formFields?.securityNotice ||
+                        "Your donation is secure and encrypted"}
+                    </span>
+                  </div>
                 </div>
-              </div>
-
+              </form>
             </div>
           </div>
 
           {/* RIGHT COLUMN: Sidebar (4 Cols) */}
           <div className="lg:col-span-4 space-y-6">
-            
             {/* Sidebar Widget 1: Search Here */}
             {sidebar?.searchPlaceholder && (
               <div className="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm space-y-4">
@@ -402,12 +428,9 @@ export default function Donate({ data,}: DonateProps) {
                 </Link>
               </div>
             )}
-
           </div>
-
         </div>
       </section>
-
     </div>
   );
 }
